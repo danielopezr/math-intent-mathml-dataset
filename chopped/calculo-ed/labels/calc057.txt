@@ -1,0 +1,73 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="gamma-function($value)">
+        <mo>&#x1D6E4;</mo>
+        <mo>(</mo>
+        <mfrac arg="value">
+            <mn>1</mn>
+            <mn>2</mn>
+        </mfrac>
+        <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msubsup>
+        <mo>&#x222B;</mo>
+        <mrow>
+            <mn>0</mn>
+            <mo>+</mo>
+        </mrow>
+        <mi>&#x221E;</mi>
+    </msubsup>
+    <mrow intent="times($a, $b)">
+        <msup arg="a" intent="power($base, $exp)">
+            <mi arg="base">t</mi>
+            <mrow arg="exp">
+                <mo>-</mo>
+                <mn>&#x00BD;</mn>
+            </mrow>
+        </msup>
+        <msup arg="b" intent="power($base, $exp)">
+            <mi arg="base">e</mi>
+            <mrow arg="exp">
+                <mo>-</mo>
+                <mi>t</mi>
+            </mrow>
+        </msup>
+    </mrow>
+    <mrow>
+        <mi>d</mi>
+        <mi>t</mi>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="times($a, $b)">
+        <mn arg="a">2</mn>
+        <mrow arg="b">
+             <msubsup>
+                <mo>&#x222B;</mo>
+                <mn>0</mn>
+                <mi>&#x221E;</mi>
+            </msubsup>
+            <msup intent="power($base, $exp)">
+                <mi arg="base">e</mi>
+                <mrow arg="exp">
+                    <msup intent="power($ba, $e)">
+                        <mrow arg="ba">
+                            <mo>-</mo>
+                            <mi>u</mi>
+                        </mrow>
+                        <mn arg="e">2</mn>
+                    </msup>
+                </mrow>
+            </msup>
+            <mrow>
+                <mi>d</mi>
+                <mi>u</mi>
+            </mrow>
+        </mrow>
+    </mrow>
+    <mo>=</mo>
+    <msqrt>
+        <mi>&#x1D70B;</mi>
+    </msqrt>
+</mrow>
+</math>

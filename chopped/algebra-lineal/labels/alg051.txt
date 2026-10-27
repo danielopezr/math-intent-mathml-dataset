@@ -1,0 +1,14 @@
+<math display="block">
+    <mrow intent="$name($var)">
+        <mi arg="name">D</mi>
+        <mo>(</mo>
+        <mrow arg="var">
+            <mn>1</mn>
+            <mo>+</mo>
+            <mi>x</mi>
+        </mrow>
+        <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mn>1</mn>
+</math>

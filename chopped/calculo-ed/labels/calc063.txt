@@ -1,0 +1,58 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="$name($var)">
+        <msub arg="name">
+            <mi>u</mi>
+            <mn>2</mn>
+        </msub>
+        <mo>(</mo>
+        <mi arg="var">x</mi>
+        <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="times($a, $b)">
+        <mrow arg="a" intent="$name($var)">
+            <msub arg="name">
+                <mi>J</mi>
+                <mi>p</mi>
+            </msub>
+            <mo>(</mo>
+            <mi arg="var">x</mi>
+            <mo>)</mo>
+        </mrow>
+        <mrow arg="b">
+            <msubsup>
+                <mo>&#x222B;</mo>
+                <mn>0</mn>
+                <mi>x</mi>
+            </msubsup>
+            <mfrac>
+                <mn>1</mn>
+                <mrow intent="times($x, $y)">
+                    <mi arg="x">t</mi>
+                    <msup arg="y" intent="power($base, $exp)">
+                        <mrow arg="base">
+                            <mo>[</mo>
+                            <mrow intent="$name($var)">
+                                <msub arg="name">
+                                    <mi>J</mi>
+                                    <mi>p</mi>
+                                </msub>
+                                <mo>(</mo>
+                                <mi arg="var">t</mi>
+                                <mo>)</mo>
+                            </mrow>
+                            <mo>]</mo>
+                        </mrow>
+                        <mn arg="exp">2</mn>
+                    </msup>
+                </mrow>
+            </mfrac>
+            <mrow>
+                <mi>d</mi>
+                <mi>t</mi>
+            </mrow>
+        </mrow>
+    </mrow>
+</mrow>
+</math>

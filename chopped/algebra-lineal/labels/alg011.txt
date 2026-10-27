@@ -1,0 +1,92 @@
+<math display="block">
+	<mrow intent="$name($var)">
+	    <msub arg="name">
+		<mi>P</mi>
+		<mn>n</mn>
+	    </msub>
+	    <mo>(</mo>
+	    <mi arg="var">t</mi>
+	    <mo>)</mo>
+	</mrow>
+
+	<mo>=</mo>
+	<mrow intent="times($a, $b)">
+	    <mfrac arg="a">
+		<mrow intent="factorial($var)">
+		        <mo>(</mo>
+		        <mrow arg="var">
+		            <mn>2</mn>
+		            <mi>n</mi>
+		        </mrow>
+		        <mo>)</mo>
+		        <mo>!</mo>
+		</mrow>
+		<mrow intent="times($a, $b)" >
+		    <msup arg="a" intent="power($base, $exp)">
+		        <mn arg="base">2</mn>
+		        <mi arg="exp">n</mi>
+		    </msup>
+		    <msup arg="b" intent="power($base, $exp)">
+		        <mrow arg="base" intent="factorial($var)">
+		            <mo>(</mo>
+		            <mi arg="var">n</mi>
+		            <mo>!</mo>
+		            <mo>)</mo>
+		        </mrow>
+		        <mn arg="exp">2</mn>
+		    </msup>
+		</mrow>
+	    </mfrac>  
+	    <mrow arg="b" intent="$name($var)">
+		<mi arg="name">y</mi>
+		<mo>(</mo>
+		<mi arg="var">t</mi>
+		<mo>)</mo>
+	    </mrow>
+	</mrow>
+
+	<mo>=</mo>
+	<mrow intent="times($a, $b)">
+	    <mfrac arg="a">
+		<mn>1</mn>
+		<mrow intent="times($c, $d)">
+		    <msup arg="c" intent="power($base, $exp)">
+		        <mn arg="base">2</mn>
+		        <mi arg="exp">n</mi>
+		    </msup>
+		    <mrow arg="d" intent="factorial($var)">
+		        <mi>n</mi>
+		        <mo>!</mo>
+		    </mrow>
+		</mrow>
+	    </mfrac>
+	    <mrow arg="b" intent="derivative($expr, $var, $order)">
+		<mfrac>
+		    <msup>
+		        <mi>d</mi>
+		        <mi arg="order">n</mi>
+		    </msup>
+		    <mrow>
+		        <mi>d</mi>
+		        <msup>
+		            <mi arg="var">t</mi>
+		            <mi>n</mi>
+		        </msup>
+		    </mrow>
+		</mfrac>
+	    <msup arg="expr" intent="power($base, $exp)">
+	    <mrow arg="base" intent="minus($a, $b)">
+	    <mo>(</mo>
+	    <msup arg="a" intent="power($base, $exp)">
+		<mi arg="base">t</mi>
+		<mn arg="exp">2</mn>
+	    </msup>
+	    <mo>-</mo>
+	    <mn arg="b">1</mn>
+	    <mo>)</mo>
+	    </mrow>
+	    <mi arg="exp">n</mi>
+	    </msup>
+	    </mrow>
+	</mrow>
+</math>

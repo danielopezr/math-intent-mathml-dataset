@@ -1,0 +1,38 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <msub>
+        <mi>h</mi>
+        <mn>0</mn>
+    </msub>
+    <mo>=</mo>
+    <mn>0</mn>
+    <mspace width="0.5em" />
+    <mtext>y</mtext>
+    <mspace width="0.5em" />
+    <msub>
+        <mi>h</mi>
+        <mi>n</mi>
+    </msub>
+    <mo>=</mo>
+    <mn>1</mn>
+    <mo>+</mo>
+    <mfrac>
+        <mn>1</mn>
+        <mn>2</mn>
+    </mfrac>
+    <mo>+</mo>
+    <mo intent="ellipsis">&#x22EF;</mo>
+    <mo>+</mo>
+    <mrow intent="fraction($num, $den)">
+        <mn arg="num">1</mn>
+        <mo>/</mo>
+        <mi arg="den">n</mi>
+    </mrow>
+    <mspace width="0.5em" />
+    <mtext>para</mtext>
+    <mspace width="0.5em" />
+    <mi>n</mi>
+    <mo>&#x2265;</mo>
+    <mn>1</mn>
+</mrow>  
+</math>

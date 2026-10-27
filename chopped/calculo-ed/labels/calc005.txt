@@ -1,0 +1,47 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+   <mi>y</mi>
+   <mo>=</mo>
+   <mrow intent="times($a, $b)">
+        <msub arg="a">
+            <mi>c</mi>
+            <mn>1</mn>
+        </msub>
+        <msup arg="b" intent="power($base, $exp)">
+            <mi arg="base">e</mi>
+            <mrow arg="exp" intent="times($x, $y)">
+                <mn arg="x">2</mn>
+                <mi arg="y">x</mi>
+            </mrow>
+        </msup>
+   </mrow>
+   <mo>+</mo>
+   <mrow intent="times($a, $b)">
+        <msub arg="a">
+            <mi>c</mi>
+            <mn>2</mn>
+        </msub>
+        <mrow arg="b" intent="cosine($var)">
+            <mo>cos</mo>
+            <mrow arg="var">
+                <mn>2</mn>
+                <mi>x</mi>
+            </mrow>
+        </mrow>
+   </mrow>
+   <mo>+</mo>
+   <mrow intent="times($a, $b)">
+        <msub arg="a">
+            <mi>c</mi>
+            <mn>3</mn>
+        </msub>
+        <mrow arg="b" intent="sine($var)">
+            <mo>sen</mo>
+            <mrow arg="var">
+                <mn>2</mn>
+                <mi>x</mi>
+            </mrow>
+        </mrow>
+   </mrow>
+</mrow>    
+</math>

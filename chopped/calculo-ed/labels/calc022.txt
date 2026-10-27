@@ -1,0 +1,37 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="derivative($y, x, 3)">
+        <mi arg="y">y</mi>
+        <mo>&#x2034;</mo>
+    </mrow>
+    <mo>-</mo>
+    <mrow intent="times($a, $b)">
+        <mi arg="a">m</mi>
+        <mrow arg="b" intent="derivative($y, x, 2)">
+            <mi arg="y">y</mi>
+            <mo>&#x2033;</mo>
+        </mrow>
+    </mrow>
+    <mo>+</mo>
+    <mrow intent="times($a, $b)">
+        <msup arg="a" intent="power($base, $exp)">
+            <mi arg="base">m</mi>
+            <mn arg="exp">2</mn>
+        </msup>
+        <mrow arg="b" intent="derivativ($y, x, 1)">
+            <mi arg="y">y</mi>
+            <mo>&#x2032;</mo>
+        </mrow>
+    </mrow>
+    <mo>-</mo>
+    <mrow intent="times($a, $b)">
+        <msup arg="a" intent="power($base, $exp)">
+            <mi arg="base">m</mi>
+            <mn arg="exp">3</mn>
+        </msup>
+        <mi arg="b">y</mi>
+    </mrow>
+    <mo>=</mo>
+    <mn>0</mn>
+</mrow>    
+</math>

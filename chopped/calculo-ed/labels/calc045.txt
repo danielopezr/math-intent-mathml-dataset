@@ -1,0 +1,88 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="$name($var)">
+        <msub arg="name">
+            <mi>J</mi>
+            <mi>&#x1D6FC;</mi>
+        </msub>
+        <mo>(</mo>
+        <mi arg="var">x</mi>
+        <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="times($a, $b)">
+        <msup arg="a" intent="power($base, $exp)">
+            <mrow arg="base">
+                <mo>(</mo>
+                <mfrac>
+                    <mi>x</mi>
+                    <mn>2</mn>
+                </mfrac>
+                <mo>)</mo>
+            </mrow>
+            <mrow arg="exp">
+                <mo>-</mo>
+                <mi arg="exp">&#x1D6FC;</mi>
+            </mrow>
+        </msup>
+        <mrow arg="b">
+            <munderover>
+                <mo>&#x2211;</mo>
+                <mrow>
+                    <mi>n</mi>
+                    <mo>=</mo>
+                    <mn>0</mn>
+                </mrow>
+                <mn>&#x221E;</mn>
+            </munderover>
+            <mrow intent="times($x, $y)">
+                <mfrac arg="x">
+                    <msup intent="power($base, $exp)">
+                        <mrow>
+                            <mo>(</mo>
+                            <mrow arg="base">
+                                <mo>-</mo>
+                                <mn>1</mn>
+                            </mrow>
+                            <mo>)</mo>
+                        </mrow>
+                        <mi arg="exp">n</mi>
+                    </msup>
+                    <mrow intent="times($var1, $var2)">
+                        <mrow arg="var1" intent="factorial($n)">
+                            <mi arg="n">n</mi>
+                            <mo>!</mo>
+                        </mrow>
+                        <mrow arg="var2" intent="gamma-function($v)">
+                            <mo>&#x1D6E4;</mo>
+                            <mo>(</mo>
+                            <mrow arg="v">
+                                <mi>n</mi>
+                                <mo>+</mo>
+                                <mn>1</mn>
+                                <mo>+</mo>
+                                <mi>&#x1D6FC;</mi>
+                            </mrow>
+                            <mo>)</mo>
+                        </mrow>
+                    </mrow>
+                </mfrac>
+                <msup arg="y" intent="power($base, $exp)">
+                    <mrow arg="base">
+                        <mo>(</mo>
+                        <mfrac>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </mfrac>
+                        <mo>)</mo>
+                    </mrow>
+                    <mrow arg="exp">
+                        <mn>2</mn>
+                        <mi>n</mi>
+                    </mrow>
+                </msup>
+            </mrow>
+        </mrow>
+    </mrow>
+</mrow>    
+</math>

@@ -1,0 +1,59 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <msup intent="power($base, $exp)">
+      <mrow>
+        <mo>(</mo>
+        <msqrt arg="base">
+          <mrow>
+            <mo>−</mo>
+            <mn>1</mn>
+          </mrow>
+        </msqrt>
+        <mo>)</mo>
+      </mrow>
+      <mn arg="exp">4</mn>
+    </msup>
+    <mo>=</mo>
+    <msup intent="power($b, $e)">
+      <mrow>
+        <mo>(</mo>
+        <msqrt arg="b">
+          <mrow>
+            <mo>−</mo>
+            <mn>1</mn>
+          </mrow>
+        </msqrt>
+        <mo>)</mo>
+      </mrow>
+      <mn arg="e">2</mn>
+    </msup>
+    <mo>&#x00D7;</mo>
+    <msup intent="power($base, $exp)">
+      <mrow>
+        <mo>(</mo>
+        <msqrt arg="base">
+          <mrow>
+            <mo>−</mo>
+            <mn>1</mn>
+          </mrow>
+        </msqrt>
+        <mo>)</mo>
+      </mrow>
+      <mn arg="exp">2</mn>
+    </msup>
+    <mo>=</mo>
+    <mrow>
+      <mo>(</mo>
+      <mo>−</mo>
+      <mn>1</mn>
+      <mo>)</mo>
+    </mrow>
+    <mo>&#x00D7;</mo>
+    <mrow>
+      <mo>(</mo>
+      <mo>−</mo>
+      <mn>1</mn>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mn>1</mn>
+</math>

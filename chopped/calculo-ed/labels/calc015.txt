@@ -1,0 +1,19 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <msup intent="derivative($y, x, $n)">
+        <mi arg="y">y</mi>
+        <mrow>
+            <mo>(</mo>
+            <mn arg="n">4</mn>
+            <mo>)</mo>
+        </mrow>
+    </msup>
+    <mo>+</mo>
+    <mrow intent="times($a, $b)">
+        <mn arg="a">16</mn>
+        <mi arg="b">y</mi>
+    </mrow>
+    <mo>=</mo>
+    <mn>0</mn>
+</mrow>
+</math>

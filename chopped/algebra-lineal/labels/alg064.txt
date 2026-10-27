@@ -1,0 +1,38 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" >
+        <mrow>
+            <msup intent="power($base, $exp)">
+                <mi arg="base">e</mi>
+                <mi arg="exp">x</mi>
+            </msup>
+            <mo>=</mo>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mi>x</mi>
+            <mo>+</mo>
+            <mfrac>
+                <msup intent="power($base, $exp)">
+                    <mi arg="base">x</mi>
+                    <mn arg="exp">2</mn>
+                </msup>
+                <mrow intent="factorial($val)">
+                    <mn arg="val">2</mn>
+                    <mo>!</mo>
+                </mrow>
+            </mfrac>
+            <mo>+</mo>
+            <mo intent="ellipsis">&#x2026;</mo>
+            <mo>+</mo>
+            <mfrac>
+                <msup intent="power($base, $exp)">
+                    <mi arg="base">x</mi>
+                    <mi arg="exp">n</mi>
+                </msup>
+                <mrow intent="factorial($val)">
+                    <mi arg="val">n</mi>
+                    <mo>!</mo>
+                </mrow>
+            </mfrac>
+            <mo>+</mo>
+            <mo intent="ellipsis">&#x2026;</mo>
+        </mrow>
+</math>

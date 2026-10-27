@@ -1,0 +1,45 @@
+<math display="block">
+<mrow intent="set($members)">
+    <mo>(</mo>
+    <mrow arg="members">
+        <mn>1</mn>
+        <mo>,</mo>
+        <mspace width="0.5em" />
+        <mrow>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mi>x</mi>
+        </mrow>
+        <mo>,</mo>
+        <mspace width="0.5em" />
+        <mrow >
+            <mn>1</mn>
+            <mo>+</mo>
+            <mi>x</mi>
+            <mo>+</mo>
+            <msup intent="power($base, $exp)">
+                <mi>x</mi>
+                <mn>2</mn>
+            </msup>
+        </mrow>
+        <mo>,</mo>
+        <mspace width="0.5em" />
+        <mrow arg="v4">
+            <mn>1</mn>
+            <mo>+</mo>
+            <mi>x</mi>
+            <mo>+</mo>
+            <msup intent="power($base, $exp)">
+                <mi>x</mi>
+                <mn>2</mn>
+            </msup>
+            <mo>+</mo>
+            <msup intent="power($base, $exp)">
+                <mi>x</mi>
+                <mn>3</mn>
+            </msup>
+        </mrow>
+    </mrow>
+    <mo>)</mo>
+</mrow>
+</math>

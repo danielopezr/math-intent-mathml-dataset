@@ -1,0 +1,28 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="$name($var)">
+        <msub arg="name">
+            <mi>J</mi>
+            <mi>&#x1D6FC;</mi>
+        </msub>
+        <mo>(</mo>
+        <mi arg="var">x</mi>
+        <mo>)</mo>
+    </mrow>
+    <mspace width="0.5em" />
+    <mtext>y</mtext>
+    <mspace width="0.5em" />
+    <mrow intent="$name($var)">
+        <msub arg="name">
+            <mi>J</mi>
+            <mrow>
+                <mo>-</mo>
+                <mi>&#x1D6FC;</mi>
+            </mrow>
+        </msub>
+        <mo>(</mo>
+        <mi arg="var">x</mi>
+        <mo>)</mo>
+    </mrow>
+</mrow>
+</math>

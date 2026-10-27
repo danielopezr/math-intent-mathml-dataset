@@ -1,0 +1,13 @@
+<math>
+        <mrow intent="dimension($space)">
+            <mi>dim</mi>
+            <mrow arg="space" intent="image($v)">
+                <mi>T</mi>
+                <mo>(</mo>
+                <mi arg="v">V</mi>
+                <mo>)</mo>
+            </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mi>r</mi>
+</math>

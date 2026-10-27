@@ -1,0 +1,48 @@
+<math display="block">
+        <mrow>
+            <mrow intent="vector :prefix($name)">
+                <msub arg="name">
+                    <mi>e</mi>
+                    <mn>1</mn>
+                </msub>
+            </mrow>
+
+            <mo>,</mo>
+            <mo intent="ellipsis">&#x2026;</mo>
+            <mo>,</mo>
+
+            <mrow intent="vector :prefix($name)">
+                <msub arg="name">
+                    <mi>e</mi>
+                    <mi>k</mi>
+                </msub>
+            </mrow>
+            <mo>,</mo>
+
+            <mrow intent="vector :prefix($name)">
+                <msub arg="name">
+                    <mi>e</mi>
+                    <mrow>
+                        <mi>k</mi>
+                        <mo>+</mo>
+                        <mi>1</mi>
+                    </mrow>
+                </msub>
+            </mrow>
+
+            <mo>,</mo>
+            <mo intent="ellipsis">&#x2026;</mo>
+            <mo>,</mo>
+
+            <mrow intent="vector :prefix($name)">
+                <msub arg="name">
+                    <mi>e</mi>
+                    <mrow>
+                        <mi>k</mi>
+                        <mo>+</mo>
+                        <mi>r</mi>
+                    </mrow>
+                </msub>
+            </mrow>
+        </mrow>
+</math>

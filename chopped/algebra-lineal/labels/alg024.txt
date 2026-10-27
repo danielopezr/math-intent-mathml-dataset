@@ -1,0 +1,26 @@
+<math display="block">
+        <mrow intent="$name($var)">
+            <msub arg="name">
+                <mi>&#x1D711;</mi>
+                <mn>0</mn>
+            </msub>
+            <mo>(</mo>
+            <mi arg="var">x</mi>
+            <mo>)</mo>
+        </mrow>
+
+        <mo>=</mo>
+
+        <mfrac>
+            <mn>1</mn>
+            <mrow>
+                <mo></mo>
+                <msqrt>
+                    <mrow intent="times($a, $b)">
+                        <mn arg="a">2</mn>
+                        <mn arg="b">&#x1D70B;</mn>
+                    </mrow>
+                </msqrt>
+            </mrow>
+        </mfrac>
+</math>

@@ -1,0 +1,30 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <msub>
+        <mi>a</mi>
+        <mn>0</mn>
+    </msub>
+    <mo>=</mo>
+    <mrow intent="fraction($num, $den)">
+        <msup arg="num" intent="power($base, $exp)">
+            <mn arg="base">2</mn>
+            <mi arg="exp">&#x1D6FC;</mi>
+        </msup>
+        <mo>/</mo>
+        <mrow arg="dem" intent="gamma-function($var)">
+            <mo>&#x1D6E4;</mo>
+            <mrow arg="var">
+                <mo>(</mo>
+                <mn>1</mn>
+                <mo>-</mo>
+                <mi>&#x1D6FC;</mi>
+                <mo>)</mo>
+            </mrow>
+        </mrow>
+    </mrow>
+    <mo>,</mo>
+    <mi>x</mi>
+    <mo>&#x003E;</mo>
+    <mn>0</mn>
+</mrow>    
+</math>

@@ -1,0 +1,51 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow arg="var2" intent="gamma-function($v)">
+        <mo>&#x1D6E4;</mo>
+        <mo>(</mo>
+        <mrow arg="v">
+            <mi>n</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+            <mo>-</mo>
+            <mi>&#x1D6FC;</mi>
+        </mrow>
+        <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="times($a, $b, $c, $d)">
+        <mrow arg="a">
+            <mo>(</mo>
+            <mn>1</mn>
+            <mo>-</mo>
+            <mi>&#x1D6FC;</mi>
+            <mo>)</mo>
+        </mrow>
+        <mrow arg="b">
+            <mo>(</mo>
+            <mn>2</mn>
+            <mo>-</mo>
+            <mi>&#x1D6FC;</mi>
+            <mo>)</mo>
+        </mrow>
+        <mo intent="ellipsis">&#x22EF;</mo>
+        <mrow arg="c">
+            <mo>(</mo>
+            <mi>n</mi>
+            <mo>-</mo>
+            <mi>&#x1D6FC;</mi>
+            <mo>)</mo>
+        </mrow>
+        <mrow arg="d" intent="gamma-function($var)">
+            <mo>&#x1D6E4;</mo>
+            <mo>(</mo>
+            <mrow arg="v">
+                <mn>1</mn>
+                <mo>-</mo>
+                <mi>&#x1D6FC;</mi>
+            </mrow>
+            <mo>)</mo>
+        </mrow>
+    </mrow>
+</mrow>    
+</math>

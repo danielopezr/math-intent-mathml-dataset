@@ -1,0 +1,92 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mtable rowspacing="0.5em">
+    <mtr>
+        <mtd>
+            <mrow>
+                <msup intent="power($base, $exp)">
+                    <mrow arg="base">
+                        <mo>(</mo>
+                        <mrow intent="cosine($var)">
+                            <mo>cos</mo>
+                            <mi arg="var">&#x1D703;</mi>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow intent="times($a, $b)">
+                            <mi arg="a">i</mi>
+                            <mrow arg="b" intent="sine($var)">
+                                <mo>sen</mo>
+                                <mi arg="var">&#x1D703;</mi>
+                            </mrow>
+                        </mrow>
+                        <mo>)</mo>
+                    </mrow>
+                    <mn arg="exp">2</mn>
+                </msup>
+                <mo>=</mo>
+                <mrow intent="cosine($var)">
+                    <mo>cos</mo>
+                    <mrow arg="var">
+                        <mn>2</mn>
+                        <mi>&#x1D703;</mi>
+                    </mrow>
+                </mrow>
+                <mo>+</mo>
+                <mrow intent="times($a, $b)">
+                    <mi arg="a">i</mi>
+                    <mrow arg="b" intent="sine($var)">
+                        <mo>sen</mo>
+                        <mrow arg="var">
+                            <mn>2</mn>
+                            <mi>&#x1D703;</mi>
+                        </mrow>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </mtd>
+    </mtr>
+    <mtr>
+        <mtd>
+            <mrow>
+                <msup intent="power($base, $exp)">
+                    <mrow arg="base">
+                        <mo>(</mo>
+                        <mrow intent="cosine($var)">
+                            <mo>cos</mo>
+                            <mi arg="var">&#x1D703;</mi>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow intent="times($a, $b)">
+                            <mi arg="a">i</mi>
+                            <mrow arg="b" intent="sine($var)">
+                                <mo>sen</mo>
+                                <mi arg="var">&#x1D703;</mi>
+                            </mrow>
+                        </mrow>
+                        <mo>)</mo>
+                    </mrow>
+                    <mn arg="exp">3</mn>
+                </msup>
+                <mo>=</mo>
+                <mrow intent="cosine($var)">
+                    <mo>cos</mo>
+                    <mrow arg="var">
+                        <mn>3</mn>
+                        <mi>&#x1D703;</mi>
+                    </mrow>
+                </mrow>
+                <mo>+</mo>
+                <mrow intent="times($a, $b)">
+                    <mi arg="a">i</mi>
+                    <mrow arg="b" intent="sine($var)">
+                        <mo>sen</mo>
+                        <mrow arg="var">
+                            <mn>3</mn>
+                            <mi>&#x1D703;</mi>
+                        </mrow>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </mtd>
+    </mtr>
+</mtable>
+</math>

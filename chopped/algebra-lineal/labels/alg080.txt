@@ -1,0 +1,71 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="$name($var)">
+        <mi arg="name">T</mi>
+        <mo>(</mo>
+        <mrow arg="var" intent="vector($vect)">
+            <mo>[</mo>
+            <mtable arg="vect">
+                <mtr>
+                    <mtd>
+                        <msub>
+                            <mi>x</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </mtd>
+                </mtr>
+                <mtr>
+                    <mtd>
+                        <msub>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msub>
+                    </mtd>
+                </mtr>
+            </mtable>
+            <mo>]</mo>
+        </mrow>
+        <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="vector($vec)">
+        <mo>[</mo>
+        <mtable arg="vec">
+            <mtr>
+                <mtd>
+                    <msub>
+                        <mi>x</mi>
+                        <mn>1</mn>
+                    </msub>
+                    <mo>+</mo>
+                    <msub>
+                        <mi>x</mi>
+                        <mn>2</mn>
+                    </msub>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mo>-</mo>
+                        <mn>2</mn>
+                        <msub>
+                            <mi>x</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </mrow>
+                    <mo>+</mo>
+                    <mrow>
+                        <mn>4</mn>
+                        <msub>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msub>
+                    </mrow>    
+                </mtd>
+            </mtr>
+        </mtable>
+        <mo>]</mo>
+    </mrow>
+</mrow>
+</math>

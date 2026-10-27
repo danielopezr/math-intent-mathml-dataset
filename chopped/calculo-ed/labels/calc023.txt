@@ -1,0 +1,40 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="$name($val)">
+        <mi arg="name">f</mi>
+        <mrow>
+            <mo>(</mo>
+            <mn arg="val">0</mn>
+            <mo>)</mo>
+        </mrow>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="$name($val)">
+        <mrow arg="name" intent="derivative($y, x, 1)">
+            <mi arg="y">f</mi>
+            <mo>&#x2032;</mo>
+        </mrow>
+        <mrow>
+            <mo>(</mo>
+            <mn arg="val">0</mn>
+            <mo>)</mo>
+        </mrow>
+    </mrow>
+    <mo>=</mo>
+    <mn>0</mn>
+    <mo>,</mo>
+    <mrow intent="$name($val)">
+        <mrow arg="name" intent="derivative($y, x, 2)">
+            <mi arg="y">f</mi>
+            <mo>&#x2033;</mo>
+        </mrow>
+        <mrow>
+            <mo>(</mo>
+            <mn arg="val">0</mn>
+            <mo>)</mo>
+        </mrow>
+    </mrow>
+    <mo>=</mo>
+    <mn>1</mn>
+</mrow>    
+</math>

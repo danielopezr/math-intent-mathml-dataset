@@ -1,0 +1,29 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mn>10</mn>
+    <mo>−</mo>
+    <mfrac>
+      <mrow>
+        <mn>3</mn>
+        <mi>x</mi>
+        <mo>+</mo>
+        <mn>5</mn>
+      </mrow>
+      <mn>6</mn>
+    </mfrac>
+    <mo>=</mo>
+    <mrow intent="mixed-fraction($a, $b)">
+        <mn arg="a">3</mn>
+        <mfrac arg="b">
+           <mn>11</mn>
+           <mn>12</mn>
+        </mfrac>
+    </mrow>	    
+    <mo>−</mo>
+    <mfrac>
+      <mfrac>
+        <mi>x</mi>
+        <mn>2</mn>
+      </mfrac>
+      <mn>4</mn>
+    </mfrac>
+</math>

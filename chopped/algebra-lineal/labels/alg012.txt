@@ -1,0 +1,249 @@
+<math display="block">
+<mtable columnalign="center" intent="list($e0, $e1, $e2, $e3, $e4, $e5)">
+<mtr>
+    <mtd>
+        <mrow arg="e0">
+            <mrow intent="$name($var)">
+                <msub arg="name">
+                    <mi>&#x1D711;</mi>
+                    <mn>0</mn>
+                </msub>
+                <mo>(</mo>
+                <mi arg="var">t</mi>
+                <mo>)</mo>
+            </mrow>
+
+            <mo>=</mo>
+
+            <mfrac>
+                <mn>1</mn>
+                <mrow>
+                    <mo></mo>
+                    <msqrt><mn>2</mn></msqrt>
+                </mrow>
+            </mfrac>
+        </mrow>
+        <mo>,</mo>
+        <mspace width="1em" />
+        
+
+        <mrow arg="e1">
+            <mrow intent="$name($var)">
+                <msub arg="name">
+                    <mi>&#x1D711;</mi>
+                    <mn>1</mn>
+                </msub>
+                <mo>(</mo>
+                <mi arg="var">t</mi>
+                <mo>)</mo>
+            </mrow>
+
+            <mo>=</mo>
+
+            <mrow intent="times($a, $b)">
+                <msqrt arg="a">
+                    <mfrac>
+                        <mn>3</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                </msqrt>
+                <mi arg="b">t</mi>
+            </mrow>
+            
+        </mrow>
+        <mo>,</mo>
+        <mspace width="1em" />
+
+        <mrow arg="e2">
+            <mrow intent="$name($var)">
+                <msub arg="name">
+                    <mi>&#x1D711;</mi>
+                    <mn>2</mn>
+                </msub>
+                <mo>(</mo>
+                <mi arg="var">t</mi>
+                <mo>)</mo>
+            </mrow>
+
+            <mo>=</mo>
+
+            <mrow intent="times($a, $b, $c)">
+                <mfrac arg="a">
+                    <mn>1</mn>
+                    <mn>2</mn>
+                </mfrac>
+                <msqrt arg="b">
+                    <mfrac>
+                        <mn>5</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                </msqrt>
+                <mrow arg="c">
+                    <mo>(</mo>
+                    <mrow intent="times($x,$y)">
+                        <mn arg="x">3</mn>
+                        <msup arg="y" intent="power($base, $exp)">
+                            <mi arg="base">t</mi>
+                            <mn arg="exp">2</mn>
+                        </msup>
+                    </mrow>
+                    <mo>-</mo>
+                    <mn>1</mn>
+                    <mo>)</mo>
+                </mrow>
+            </mrow>
+        </mrow>
+        <mo>,</mo>
+        <mspace width="1em" />
+
+        <mrow arg="e3">
+            <mrow intent="$name($var)">
+                <msub arg="name">
+                    <mi>&#x1D711;</mi>
+                    <mn>3</mn>
+                </msub>
+                <mo>(</mo>
+                <mi arg="var">t</mi>
+                <mo>)</mo>
+            </mrow>
+
+            <mo>=</mo>
+
+            <mrow intent="times($a, $b, $c)">
+                <mfrac arg="a">
+                    <mn>1</mn>
+                    <mn>2</mn>
+                </mfrac>
+                <msqrt arg="b">
+                    <mfrac>
+                        <mn>7</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                </msqrt>
+                <mrow arg="c">
+                    <mo>(</mo>
+                    <mrow intent="times($x,$y)">
+                        <mn arg="x">5</mn>
+                        <msup arg="y" intent="power($base, $exp)">
+                            <mi arg="base">t</mi>
+                            <mn arg="exp">3</mn>
+                        </msup>
+                    </mrow>
+                    <mo>-</mo>
+                    <mrow intent="times($u, $v)">
+                        <mn arg="u">3</mn>
+                        <mi arg="v">t</mi>
+                    </mrow>
+                    <mo>)</mo>
+                </mrow>
+            </mrow>
+        </mrow>
+        <mo>,</mo>
+    </mtd>
+</mtr>
+<mtr>
+    <mtd>
+        <mrow arg="e4">
+            <mrow intent="$name($var)">
+                <msub arg="name">
+                    <mi>&#x1D711;</mi>
+                    <mn>4</mn>
+                </msub>
+                <mo>(</mo>
+                <mi arg="var">t</mi>
+                <mo>)</mo>
+            </mrow>
+
+            <mo>=</mo>
+
+            <mrow intent="times($a, $b, $c)">
+                <mfrac arg="a">
+                    <mn>1</mn>
+                    <mn>8</mn>
+                </mfrac>
+                <msqrt arg="b">
+                    <mfrac>
+                        <mn>9</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                </msqrt>
+                <mrow arg="c">
+                    <mo>(</mo>
+                    <mrow intent="times($x,$y)">
+                        <mn arg="x">35</mn>
+                        <msup arg="y" intent="power($base, $exp)">
+                            <mi arg="base">t</mi>
+                            <mn arg="exp">4</mn>
+                        </msup>
+                    </mrow>
+                    <mo>-</mo>
+                    <mrow intent="times($u, $v)">
+                        <mn arg="u">30</mn>
+                        <msup arg="v" intent="power($base, $exp)">
+                            <mi arg="base">t</mi>
+                            <mn arg="exp">2</mn>
+                        </msup>
+                    </mrow>
+                    <mo>+</mo>
+                    <mn>3</mn>
+                    <mo>)</mo>
+                </mrow>
+            </mrow>
+        </mrow>
+        <mo>,</mo>
+        <mspace width="1em" />
+
+        <mrow arg="e5">
+            <mrow intent="$name($var)">
+                <msub arg="name">
+                    <mi>&#x1D711;</mi>
+                    <mn>5</mn>
+                </msub>
+                <mo>(</mo>
+                <mi arg="var">t</mi>
+                <mo>)</mo>
+            </mrow>
+
+            <mo>=</mo>
+
+            <mrow intent="times($a, $b, $c)">
+                <mfrac arg="a">
+                    <mn>1</mn>
+                    <mn>8</mn>
+                </mfrac>
+                <msqrt arg="b">
+                    <mfrac>
+                        <mn>11</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                </msqrt>
+                <mrow arg="c">
+                    <mo>(</mo>
+                    <mrow intent="times($x,$y)">
+                        <mn arg="x">63</mn>
+                        <msup arg="y" intent="power($base, $exp)">
+                            <mi arg="base">t</mi>
+                            <mn arg="exp">5</mn>
+                        </msup>
+                    </mrow>
+                    <mo>-</mo>
+                    <mrow intent="times($u, $v)">
+                        <mn arg="u">70</mn>
+                        <msup arg="v" intent="power($base, $exp)">
+                            <mi arg="base">t</mi>
+                            <mn arg="exp">3</mn>
+                        </msup>
+                    </mrow>
+                    <mo>+</mo>
+                    <mrow intent="times($var1, $var2)">
+                        <mn arg="var1">15</mn>
+                        <mi arg="var2">t</mi>
+                    </mrow>
+                    <mo>)</mo>
+                </mrow>
+            </mrow>
+        </mrow>
+    </mtd>
+</mtr>
+</mtable>
+</math>

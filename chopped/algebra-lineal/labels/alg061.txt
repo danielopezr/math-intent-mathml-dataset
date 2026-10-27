@@ -1,0 +1,82 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" >
+       <mrow intent="inner-product($f, $g)">
+            <mo>&#x27E8;</mo>
+            <mi mathvariant="bold" arg="f">f</mi>
+            <mo>,</mo>
+            <mi mathvariant="bold" arg="g">g</mi>
+            <mo>&#x27E9;</mo>
+       </mrow>
+       <mo>=</mo>
+       <mrow>
+            <msubsup>
+                    <mo>&#x222B;</mo>
+                    <mi>a</mi>
+                    <mi>b</mi>
+            </msubsup>
+            <mrow intent="times($a, $b)">
+                <mrow arg="a">
+                    <mo>[</mo>
+                    <mrow intent="$name($var)">
+                        <msub arg="name">
+                            <mi>f</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <mrow>
+                            <mo>(</mo>
+                            <mi arg="var">x</mi>
+                            <mo>)</mo>
+                        </mrow>
+                    </mrow>
+                    <mo>+</mo>
+                    <mrow intent="times($x, $y)">
+                        <mi arg="x">i</mi>
+                        <mrow arg="y" intent="$name($var)">
+                            <msub arg="name">
+                                <mi>f</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <mrow>
+                                <mo>(</mo>
+                                <mi arg="var">x</mi>
+                                <mo>)</mo>
+                            </mrow>
+                        </mrow>
+                    </mrow>
+                    <mo>]</mo>
+                </mrow>
+                <mover arg="b" intent="complex-conjugate($complex)">
+                    <mrow arg="complex">
+                        <mo>[</mo>
+                        <mrow intent="$name($var)">
+                            <msub arg="name">
+                                <mi>g</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mo>(</mo>
+                            <mi arg="var">x</mi>
+                            <mo>)</mo>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow intent="times($x, $y)">
+                            <mi arg="x">i</mi>
+                            <mrow arg="y" intent="$name($var)">
+                                <msub arg="name">
+                                    <mi>g</mi>
+                                    <mn>2</mn>
+                                </msub>
+                                <mo>(</mo>
+                                <mi arg="var">x</mi>
+                                <mo>)</mo>
+                            </mrow>
+                        </mrow>
+                        <mo>]</mo>
+                    </mrow>
+                    <mo>&#x0305;</mo>
+                </mover>
+            </mrow>
+            <mrow>
+                <mi>d</mi>
+                <mi>x</mi>
+            </mrow>
+       </mrow>
+</math>

@@ -1,0 +1,17 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mi>d</mi>
+    <mo>=</mo>
+    <msqrt>
+      <mrow>
+        <msup intent="power($base, $exp)">
+          <mi arg="base">a</mi>
+          <mn arg="exp">2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup intent="power($base, $exp)">
+          <mi arg="base">b</mi>
+          <mn arg="exp">2</mn>
+        </msup>
+      </mrow>
+    </msqrt>
+</math>

@@ -1,0 +1,86 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="$name($var)">
+        <msub arg="name">
+            <mi>J</mi>
+            <mi>p</mi>
+        </msub>
+        <mo>(</mo>
+        <mi arg="var">x</mi>
+        <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow>
+        <munderover>
+            <mo>&#x2211;</mo>
+            <mrow>
+                <mi>n</mi>
+                <mo>=</mo>
+                <mn>0</mn>
+            </mrow>
+            <mn>&#x221E;</mn>
+        </munderover>
+        <mrow intent="times($x, $y)">
+            <mfrac arg="x">
+                <msup intent="power($base, $exp)">
+                    <mrow>
+                        <mo>(</mo>
+                        <mrow arg="base">
+                            <mo>-</mo>
+                            <mn>1</mn>
+                        </mrow>
+                        <mo>)</mo>
+                    </mrow>
+                    <mi arg="exp">n</mi>
+                </msup>
+                <mrow intent="times($var1, $var2)">
+                    <mrow arg="var1" intent="factorial($n)">
+                        <mi arg="n">n</mi>
+                        <mo>!</mo>
+                    </mrow>
+                    <mrow arg="var2" intent="factorial($v)">
+                        <mrow arg="v">
+                            <mo>(</mo>
+                            <mi>n</mi>
+                            <mo>+</mo>
+                            <mi>p</mi>
+                            <mo>)</mo>
+                        </mrow> 
+                        <mo>!</mo>  
+                    </mrow>
+                </mrow>
+            </mfrac>
+            <msup arg="y" intent="power($base, $exp)">
+                <mrow arg="base">
+                    <mo>(</mo>
+                    <mfrac>
+                        <mi>x</mi>
+                        <mn>2</mn>
+                    </mfrac>
+                    <mo>)</mo>
+                </mrow>
+                <mrow arg="exp">
+                    <mn>2</mn>
+                    <mi>n</mi>
+                    <mo>+</mo>
+                    <mi>p</mi>
+                </mrow>
+            </msup>
+        </mrow>
+        <mspace width="2em" />
+        <mrow intent="for-all($expr)">
+            <mo>(</mo>
+            <mrow arg="expr">
+                 <mi>p</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+            <mo>,</mo>
+            <mn>2</mn>
+            <mo>,</mo>
+            <mo intent="ellipsis">&#x2026;</mo>
+            </mrow>
+            <mo>)</mo>
+        </mrow>
+    </mrow>
+</mrow>  
+</math>

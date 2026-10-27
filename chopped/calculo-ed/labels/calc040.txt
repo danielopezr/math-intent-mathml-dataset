@@ -1,0 +1,15 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mi>s</mi>
+    <mo>+</mo>
+    <mn>1</mn>
+    <mo>&gt;</mo>
+    <mn>0</mn>
+    <mspace width="0.5em" />
+    <mtext>y</mtext>
+    <mspace width="0.5em" />
+    <mi>s</mi>
+    <mo>&#x2260;</mo>
+    <mn>0</mn>
+</mrow>    
+</math>

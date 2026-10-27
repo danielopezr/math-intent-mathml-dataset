@@ -1,0 +1,54 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mn>5</mn>
+    <mo>+</mo>
+    <mfrac>
+      <mi>x</mi>
+      <mn>4</mn>
+    </mfrac>
+    <mo>=</mo>
+    <mrow intent="times($a, $b)">
+	<mfrac arg="a">
+	   <mn>1</mn>
+	   <mn>3</mn>
+	</mfrac>
+	<mrow arg="b">
+	    <mo>(</mo>
+	    <mrow arg="b">
+	       <mn>2</mn>
+	       <mo>−</mo>
+	       <mfrac>
+	          <mi>x</mi>
+	          <mn>2</mn>
+	       </mfrac>
+	    </mrow>
+	    <mo>)</mo>
+	</mrow>
+    </mrow> 
+    <mo>−</mo>
+    <mfrac>
+      <mn>2</mn>
+      <mn>3</mn>
+    </mfrac>
+    <mo>+</mo>
+    <mrow intent="times($a, $b)">
+	<mfrac arg="a">
+	    <mn>1</mn>
+	    <mn>4</mn>
+	</mfrac>
+	<mrow arg="b">
+	   <mo>(</mo>
+	   <mrow>
+	      <mn>10</mn>
+	      <mo>−</mo>
+	      <mfrac>
+	          <mrow>
+	             <mn>5</mn>
+	             <mi>x</mi>
+	          </mrow>
+	          <mn>3</mn>
+	      </mfrac>
+	   </mrow>
+	   <mo>)</mo>
+	</mrow>
+    </mrow>
+</math>

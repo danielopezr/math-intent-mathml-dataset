@@ -1,0 +1,48 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="vector($v)">
+        <mi arg="v">&#x1D430;</mi>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="times($a, $b)">
+        <msub arg="a">
+            <mi>k</mi>
+            <mn>1</mn>
+        </msub>
+        <mrow arg="b" intent="vector($v)">
+            <msub arg="v">
+                <mi>&#x1D42F;</mi>
+                <mn>1</mn>
+            </msub>
+        </mrow>
+    </mrow>
+    <mo>+</mo>
+    <mrow intent="times($a, $b)">
+        <msub arg="a">
+            <mi>k</mi>
+            <mn>2</mn>
+        </msub>
+        <mrow arg="b" intent="vector($v)">
+            <msub arg="v" >
+                <mi>&#x1D42F;</mi>
+                <mn>2</mn>
+            </msub>
+        </mrow>
+    </mrow>
+    <mo>+</mo>
+    <mo intent="ellipsis">&#x2026;</mo>
+    <mo>+</mo>
+    <mrow intent="times($a, $b)">
+        <msub arg="a">
+            <mi>k</mi>
+            <mi>r</mi>
+        </msub>
+        <mrow arg="b" intent="vector($v)">
+            <msub arg="v">
+                <mi>&#x1D42F;</mi>
+                <mi>r</mi>
+            </msub>
+        </mrow>
+    </mrow>
+</mrow>
+</math>

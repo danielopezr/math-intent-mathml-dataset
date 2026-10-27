@@ -1,0 +1,21 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mi>y</mi>
+    <mo>=</mo>
+    <mrow intent="times($a, $b)">
+        <mi arg="a">A</mi>
+        <mrow  arg="b" intent="cosine($var)">
+            <mo>cos</mo>
+            <mi arg="var">x</mi>
+        </mrow>
+    </mrow>
+    <mo>+</mo>
+    <mrow intent="times($a, $b)">
+        <mi arg="a">B</mi>
+        <mrow arg="b" intent="sine($var)">
+            <mo>sen</mo>
+            <mi arg="var">x</mi>
+        </mrow>
+    </mrow>
+</mrow>
+</math>

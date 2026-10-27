@@ -1,0 +1,27 @@
+<math display="block">
+<msup intent="power($base, $exp)">
+    <mrow arg="base" intent="norm($vec)">
+        <mo>&#x2016;</mo>
+        <mrow arg="vec">
+            <mi>x</mi>
+            <mo>-</mo>
+            <mi>t</mi>
+        </mrow>
+        <mo>&#x2016;</mo>
+    </mrow>
+    <mn>2</mn>
+</msup>
+<mo>&#x2265;</mo>
+<msup intent="power($base, $exp)">
+    <mrow arg="base" intent="norm($vec)">
+        <mo>&#x2016;</mo>
+        <mrow arg="vec">
+            <mi>x</mi>
+            <mo>-</mo>
+            <mi>s</mi>
+        </mrow>
+        <mo>&#x2016;</mo>
+    </mrow>
+    <mn>2</mn>
+</msup>
+</math>

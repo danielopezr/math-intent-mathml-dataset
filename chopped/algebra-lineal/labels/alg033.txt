@@ -1,0 +1,26 @@
+<math display="block">
+        <mrow intent="dimension($space)">
+            <mi>dim</mi>
+            <mrow arg="space" intent="null-space($t)">
+                <mi>N</mi>
+                <mo>(</mo>
+                <mi arg="t">T</mi>
+                <mo>)</mo>
+            </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="dimension($space)">
+            <mi>dim</mi>
+            <mrow arg="space" intent="image($v)">
+                <mi>T</mi>
+                <mo>(</mo>
+                <mi arg="v">V</mi>
+                <mo>)</mo>
+            </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="dimension($space)">
+            <mi>dim</mi>
+            <mi arg="space">V</mi>
+        </mrow>
+</math>

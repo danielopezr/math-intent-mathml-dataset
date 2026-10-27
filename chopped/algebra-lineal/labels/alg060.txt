@@ -1,0 +1,106 @@
+<math display="block">
+        <mrow>
+            <msubsup>
+                <mo>&#x222B;</mo>
+                <mi>a</mi>
+                <mi>b</mi>
+            </msubsup>
+            <mrow intent="$name($var)">
+                <mi arg="name">f</mi>
+                <mo>(</mo>
+                <mi arg="var">x</mi>
+                <mo>)</mo>
+            </mrow>
+            <mrow>
+                <mi>d</mi>
+                <mi>x</mi>
+            </mrow>
+        </mrow>
+        
+        <mo>=</mo>
+        <mrow>
+            <msubsup>
+                <mo>&#x222B;</mo>
+                <mi>a</mi>
+                <mi>b</mi>
+            </msubsup>
+            <mrow intent="plus($a, $b)">
+                <mo>[</mo>
+                <mrow arg="a" intent="$name($var)">
+                    <msub arg="name">
+                        <mi>f</mi>
+                        <mn>1</mn>
+                    </msub>
+                    <mo>(</mo>
+                    <mi arg="var">x</mi>
+                    <mo>)</mo>
+                </mrow>
+                <mo>+</mo>
+                <mrow arg="b" intent="times($x, $y)">
+                    <mi arg="x">i</mi>
+                    <mrow arg="y" intent="$name($var)">
+                        <msub arg="name">
+                            <mi>f</mi>
+                            <mn>2</mn>
+                        </msub>
+                        <mo>(</mo>
+                        <mi arg="var">x</mi>
+                        <mo>)</mo>
+                    </mrow>
+                </mrow>
+                <mo>]</mo>
+            </mrow>
+            <mrow>
+                <mi>d</mi>
+                <mi>x</mi>
+            </mrow>
+        </mrow>
+        <mo>=</mo>
+
+        <mrow intent="plus($a, $b)">
+            <mrow arg="a">
+                <msubsup>
+                    <mo>&#x222B;</mo>
+                    <mi>a</mi>
+                    <mi>b</mi>
+                </msubsup>
+                <mrow intent="$name($var)">
+                    <msub arg="name">
+                        <mi>f</mi>
+                        <mn>1</mn>
+                    </msub>
+                    <mo>(</mo>
+                    <mi arg="var">x</mi>
+                    <mo>)</mo>
+                </mrow>
+                <mrow>
+                    <mi>d</mi>
+                    <mi>x</mi>
+                </mrow>
+            </mrow>
+            <mo>+</mo>
+            <mrow arg="b" intent="times($x, $y)">
+                <mi arg="x">i</mi>
+                <mrow arg="y">
+                    <msubsup>
+                        <mo>&#x222B;</mo>
+                        <mi>a</mi>
+                        <mi>b</mi>
+                    </msubsup>
+                    <mrow intent="$name($var)">
+                        <msub arg="name">
+                            <mi>f</mi>
+                            <mn>2</mn>
+                        </msub>
+                        <mo>(</mo>
+                        <mi arg="var">x</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mrow>
+                        <mi>d</mi>
+                        <mi>x</mi>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </mrow>
+</math>

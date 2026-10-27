@@ -1,0 +1,24 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow intent="logarithm($var)">
+            <mo>log</mo>
+            <mrow arg="var">
+                <mo>(</mo>
+	        <mrow intent="times($a, $b)">
+		    <mi arg="a">A</mi>
+		    <mo>&#x00D7;</mo>
+		    <mi arg="b">B</mi>
+	        </mrow>
+                <mo>)</mo>
+            </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="logarithm($var)">
+            <mo>log</mo>
+            <mi arg="var">A</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="logarithm($var)">
+            <mo>log</mo>
+            <mi arg="var">B</mi>
+        </mrow>
+</math>  

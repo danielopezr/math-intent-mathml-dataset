@@ -1,0 +1,25 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mrow>
+            <mi>x</mi>
+            <mo>&#x003E;</mo>
+            <mn>0</mn>
+            <mspace width="0.5em" />
+            <mtext>y</mtext>
+            <mspace width="0.5em" />
+            <mi>&#x1D6FC;</mi>
+            <mo>&#x003E;</mo>
+            <mn>0</mn>
+            <mo>,</mo>
+            <mspace width="0.5em" />
+            <mi>&#x1D6FC;</mi>
+            <mo>&#x2260;</mo>
+            <mn>1</mn>
+            <mo>,</mo>
+            <mn>2</mn>
+            <mo>,</mo>
+            <mn>3</mn>
+            <mo>,</mo>
+            <mo intent="ellipsis">&#x2026;</mo>
+            <mo>,</mo>
+        </mrow>    
+</math>

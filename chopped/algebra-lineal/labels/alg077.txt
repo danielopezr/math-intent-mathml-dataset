@@ -1,0 +1,53 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="$name($var)">
+        <mi arg="name">T</mi>
+        <mo>(</mo>
+        <mrow>
+            <mo>[</mo>
+            <mtable arg="var" intent=":matrix" columnspacing="2em">
+                <mtr>
+                    <mtd><mi>a</mi></mtd>
+                    <mtd><mi>b</mi></mtd>
+                </mtr>
+                <mtr>
+                    <mtd><mi>c</mi></mtd>
+                    <mtd><mi>d</mi></mtd>
+                </mtr>
+            </mtable>
+            <mo>]</mo>
+        </mrow>
+        <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow>
+        <mo>[</mo>
+        <mtable intent=":matrix" columnspacing="2em">
+            <mtr>
+                <mtd>
+                    <mn>2</mn>
+                    <mi>c</mi>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mi>a</mi>
+                        <mo>+</mo>
+                        <mi>c</mi>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mi>b</mi>
+                        <mo>-</mo>
+                        <mrow><mn>2</mn><mi>c</mi></mrow>
+                    </mrow>
+                </mtd>
+                <mtd><mi>d</mi></mtd>
+            </mtr>
+        </mtable>
+        <mo>]</mo>
+    </mrow>
+</mrow>
+</math>

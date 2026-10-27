@@ -1,0 +1,9 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mi>s</mi>
+    <mo>=</mo>
+    <mn>1</mn>
+    <mo>-</mo>
+    <mi>&#x1D6FC;</mi>
+</mrow>    
+</math>

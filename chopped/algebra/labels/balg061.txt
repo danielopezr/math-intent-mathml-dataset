@@ -1,0 +1,50 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow intent="times($a, $b)">
+    <mfrac arg="a">
+      <mn>3</mn>
+      <mn>5</mn>
+    </mfrac>
+    <msup arg="b" intent="power($base, $exp)">
+      <mi arg="base">m</mi>
+      <mn arg="exp">2</mn>
+    </msup>
+  </mrow>
+  <mo>-</mo>
+  <mn>2</mn>
+  <mi>m</mi>
+  <mi>n</mi>
+  <mo>+</mo>
+  <mrow intent="times($a, $b)">
+    <mfrac arg="a">
+      <mn>1</mn>
+      <mn>10</mn>
+    </mfrac>
+    <msup arg="b" intent="power($base, $exp)">
+      <mi arg="base">m</mi>
+      <mn arg="exp">2</mn>
+    </msup>
+  </mrow>
+  <mo>-</mo>
+  <mrow intent="times($a, $b)">
+    <mfrac arg="a">
+      <mn>1</mn>
+      <mn>3</mn>
+    </mfrac>
+    <mrow arg="b">
+       <mi>m</mi>
+       <mi>n</mi>
+    </mrow>
+  </mrow>
+  <mo>+</mo>
+  <mn>2</mn>
+  <mi>m</mi>
+  <mi>n</mi>
+  <mo>−</mo>
+  <mrow intent="times($a, $b)">
+    <mn arg="a">2</mn>
+    <msup arg="b" intent="power($base, $exp)">
+      <mi arg="base">m</mi>
+      <mn arg="exp">2</mn>
+    </msup>
+  </mrow>
+</math>

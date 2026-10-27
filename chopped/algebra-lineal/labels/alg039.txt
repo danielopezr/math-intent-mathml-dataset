@@ -1,0 +1,36 @@
+<math display="block">
+        <mrow>
+            <munderover>
+                <mo>&#x2211;</mo>
+                <mrow>
+                    <mi>i</mi>
+                    <mo>=</mo>
+                    <mi>k</mi>
+                    <mo>+</mo>
+                    <mn>1</mn>
+                </mrow>
+                <mrow>
+                    <mi>k</mi>
+                    <mo>+</mo>
+                    <mn>r</mn>
+                </mrow>
+            </munderover>
+            <mrow intent="times($a, $b)">
+                <msub arg="a">
+                    <mi>c</mi>
+                    <mi>i</mi>
+                </msub>
+                <mrow arg="b" intent="$name($var)">
+                    <mi arg="name">T</mi>
+                    <mo>(</mo>
+                    <msub arg="var">
+                        <mi>e</mi>
+                        <mi>i</mi>
+                    </msub>
+                    <mo>)</mo>
+                </mrow>
+            </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mn>0</mn>
+</math>

@@ -1,0 +1,12 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow intent="closed-open-interval($val1, $val2)">
+    <mo>[</mo>
+    <mn arg="val1">0</mn>
+    <mo>,</mo>
+    <mrow arg="val2">
+        <mo>+</mo>
+        <mn>&#x221E;</mn>
+    </mrow>
+    <mo>)</mo>
+</mrow>    
+</math>

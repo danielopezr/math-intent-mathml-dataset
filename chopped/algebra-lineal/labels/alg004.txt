@@ -1,0 +1,120 @@
+<math display="block">
+	<mrow intent="$name($var)">
+	    <msub arg="name">
+		<mi>y</mi>
+		<mn>2</mn>
+	    </msub>
+	    <mo>(</mo>
+	    <mi arg="var">t</mi>
+	    <mo>)</mo>
+	</mrow>
+
+	<mo>=</mo>
+
+	<mrow intent="$name($var)">
+	    <msub arg="name">
+		<mi>x</mi>
+		<mn>2</mn>
+	    </msub>
+	    <mo>(</mo>
+	    <mi arg="var">t</mi>
+	    <mo>)</mo>
+	</mrow>
+
+	<mo>-</mo>
+	
+	<mrow intent="times($a, $b)">
+		<mfrac arg="a">
+		    <mrow intent="inner-product($f, $g)">
+			<mo>(</mo>
+			<msub arg="f">
+			    <mi>x</mi>
+			    <mn>2</mn>
+			</msub>
+			<mo>,</mo>
+			<msub arg="g">
+			    <mi>y</mi>
+			    <mn>0</mn>
+			</msub>
+			<mo>)</mo>
+		    </mrow>
+		    <mrow intent="inner-product($f, $g)">
+			<mo>(</mo>
+			<msub arg="f">
+			    <mi>y</mi>
+			    <mn>0</mn>
+			</msub>
+			<mo>,</mo>
+			<msub arg="g">
+			    <mi>y</mi>
+			    <mn>0</mn>
+			</msub>
+			<mo>)</mo>
+		    </mrow>
+		</mfrac>
+		<mrow arg="b" intent="$name($var)">
+		    <msub arg="name">
+			<mi>y</mi>
+			<mn>0</mn>
+		    </msub>
+		    <mo>(</mo>
+		    <mi arg="var">t</mi>
+		    <mo>)</mo>
+		</mrow>
+	</mrow>
+
+	<mo>-</mo>
+	<mrow intent="times($a, $b)">
+		<mfrac arg="a">
+		    <mrow intent="inner-product($f, $g)">
+			<mo>(</mo>
+			<msub arg="f">
+			    <mi>x</mi>
+			    <mn>2</mn>
+			</msub>
+			<mo>,</mo>
+			<msub arg="g">
+			    <mi>y</mi>
+			    <mn>1</mn>
+			</msub>
+			<mo>)</mo>
+		    </mrow>
+		    <mrow intent="inner-product($f, $g)">
+			<mo>(</mo>
+			<msub arg="f">
+			    <mi>y</mi>
+			    <mn>1</mn>
+			</msub>
+			<mo>,</mo>
+			<msub arg="g">
+			    <mi>y</mi>
+			    <mn>1</mn>
+			</msub>
+			<mo>)</mo>
+		    </mrow>
+		</mfrac>
+		<mrow arg="b" intent="$name($var)">
+		    <msub arg="name">
+			<mi>y</mi>
+			<mn>1</mn>
+		    </msub>
+		    <mo>(</mo>
+		    <mi arg="var">t</mi>
+		    <mo>)</mo>
+		</mrow>
+	</mrow>
+
+	<mo>=</mo>
+
+	<msup intent="power($base, $exp)">
+	    <mi arg="base">t</mi>
+	    <mn arg="exp">2</mn>
+	</msup>
+
+	<mo>-</mo>
+
+	<mfrac>
+	    <mn>1</mn>
+	    <mn>3</mn>
+	</mfrac>
+</math>

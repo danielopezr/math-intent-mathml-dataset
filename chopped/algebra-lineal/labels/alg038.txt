@@ -1,0 +1,29 @@
+<math display="block">
+        <mrow intent="$name($var)">
+            <mi arg="name">T</mi>
+            <mo>(</mo>
+            <mrow arg="var" intent="vector :prefix($v)">
+                <msub arg="v">
+                    <mi>e</mi>
+                    <mn>1</mn>
+                </msub>
+            </mrow>
+            <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mo intent="ellipsis">&#x2026;</mo>
+        <mo>=</mo>
+        <mrow intent="$name($var)">
+            <mi arg="name">T</mi>
+            <mo>(</mo>
+            <mrow arg="var" intent="vector :prefix($v)">
+                <msub arg="v">
+                    <mi>e</mi>
+                    <mi>k</mi>
+                </msub>
+            </mrow>
+            <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mn>0</mn>
+</math>

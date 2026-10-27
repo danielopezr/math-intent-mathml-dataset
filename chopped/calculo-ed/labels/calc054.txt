@@ -1,0 +1,17 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="gamma-function($value)">
+        <mo>&#x1D6E4;</mo>
+        <mo>(</mo>
+        <mfrac arg="value">
+            <mn>1</mn>
+            <mn>2</mn>
+        </mfrac>
+        <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msqrt>
+        <mi>&#x1D70B;</mi>
+    </msqrt>
+</mrow>
+</math>

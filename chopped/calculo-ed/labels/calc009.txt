@@ -1,0 +1,75 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mi>y</mi>
+    <mo>=</mo>
+    <mrow intent="times($a, $b)">
+        <msub arg="a">
+            <mi>c</mi>
+            <mn>1</mn>
+        </msub>
+        <msup arg="b" intent="power($base, $exp)">
+            <mi arg="base">e</mi>
+            <mi arg="exp">x</mi>
+        </msup>
+    </mrow>
+    <mo>+</mo>
+    <mrow intent="times($a, $b)">
+        <msup arg="a" intent="power($base, $exp)">
+            <mi arg="base">e</mi>
+            <mrow arg="exp">
+                <mn>2</mn>
+                <mi>x</mi>
+            </mrow>
+        </msup>
+        <mrow arg="b">
+            <mo>[</mo>
+            <mrow intent="times($x, $y)">
+                <mrow arg="x">
+                    <mo>(</mo>
+                    <msub>
+                        <mi>c</mi>
+                        <mn>2</mn>
+                    </msub>
+                    <mo>+</mo>
+                    <mrow>
+                        <msub>
+                            <mi>c</mi>
+                            <mn>3</mn>
+                        </msub>
+                        <mi>x</mi>
+                    </mrow>
+                    <mo>)</mo>
+                </mrow>
+                <mrow arg="y" intent="cosine($var)">
+                    <mo>cos</mo>
+                    <mi arg="var">x</mi>
+                </mrow>
+            </mrow>
+            <mo>+</mo>
+            <mrow intent="times($x, $y)">
+                <mrow arg="x">
+                    <mo>(</mo>
+                    <msub>
+                        <mi>c</mi>
+                        <mn>4</mn>
+                    </msub>
+                    <mo>+</mo>
+                    <mrow>
+                        <msub>
+                            <mi>c</mi>
+                            <mn>5</mn>
+                        </msub>
+                        <mi>x</mi>
+                    </mrow>
+                    <mo>)</mo>
+                </mrow>
+                <mrow arg="y" intent="sine($var)">
+                    <mo>sen</mo>
+                    <mi arg="var">x</mi>
+                </mrow>
+            </mrow>
+            <mo>]</mo>
+        </mrow>
+    </mrow>
+</mrow>
+</math>

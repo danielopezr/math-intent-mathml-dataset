@@ -1,0 +1,62 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mfrac>
+        <mn>1</mn>
+        <mrow intent="times($a, $b)">
+            <mi arg="a">t</mi>
+            <msup arg="b" intent="power($base, $exp)">
+                <mrow arg="base">
+                    <mo>[</mo>
+                    <mrow intent="$name($var)">
+                        <msub arg="name">
+                            <mi>J</mi>
+                            <mi>p</mi>
+                        </msub>
+                        <mo>(</mo>
+                        <mi arg="var">t</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>]</mo>
+                </mrow>
+                <mn arg="exp">2</mn>
+            </msup>
+        </mrow>
+    </mfrac>
+    <mo>=</mo>
+    <mrow intent="times($a, $b)">
+        <mfrac arg="a">
+            <mn>1</mn>
+            <msup intent="power($base, $exp)">
+                <mi arg="base">t</mi>
+                <mrow arg="exp">
+                    <mn>2</mn>
+                    <mi>p</mi>
+                    <mo>+</mo>
+                    <mn>1</mn>
+                </mrow>
+            </msup>
+        </mfrac>
+        <mrow arg="b">
+                <munderover>
+                <mo>&#x2211;</mo>
+                <mrow>
+                    <mi>n</mi>
+                    <mo>=</mo>
+                    <mn>0</mn>
+                </mrow>
+                <mi>&#x221E;</mi>
+            </munderover>
+            <mrow intent="times($a, $b)">
+                <msub arg="a">
+                    <mi>A</mi>
+                    <mi>n</mi>
+                </msub>
+                <msup arg="b" intent="power($base, $exp)">
+                    <mi arg="base">t</mi>
+                    <mi arg="exp">n</mi>
+                </msup>
+            </mrow>
+        </mrow>
+    </mrow>    
+</mrow>
+</math>

@@ -1,0 +1,36 @@
+<math display="block">
+        <mrow intent="$name($var)">
+            <mi arg="name">f</mi>
+            <mo>(</mo>
+            <mn arg="var">0</mn>
+            <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="determinant($mat)">
+            <mi>det</mi>
+            <mo>(</mo>
+            <mrow arg="mat">
+                <mo>-</mo>
+                <mi>A</mi>
+            </mrow>
+            <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="times($a, $b)">
+            <msup arg="a" intent="power($base, exp)">
+                <mrow>
+                    <mo>(</mo>
+                    <mrow arg="base">
+                        <mo>-</mo>
+                        <mn>1</mn>
+                    </mrow>
+                    <mo>)</mo>
+                </mrow>
+                <mi arg="exp">n</mi>
+            </msup>
+            <mrow arg="b" intent="determinant($mat)">
+                <mi>det</mi>
+                <mi arg="mat">A</mi>
+            </mrow>
+        </mrow>  
+</math>

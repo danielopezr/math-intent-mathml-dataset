@@ -1,0 +1,31 @@
+<math display="block">
+        <msub>
+            <mi>f</mi>
+            <mi>n</mi>
+        </msub>
+
+        <mo>=</mo>
+        <mrow>
+            <munderover>
+                <mo>&#x2211;</mo>
+                <mi>k=0</mi>
+                <mi>2n</mi>
+            </munderover>
+            <mrow intent="times($a, $b)">
+                <mrow arg="a" intent="inner-product($vec1, $vec2)">
+                    <mo>(</mo>
+                    <mi arg="vec1">f</mi>
+                    <mo>,</mo>
+                    <msub arg="vec2">
+                        <mi>&#x1D711;</mi>
+                        <mi>k</mi>
+                    </msub>
+                    <mo>)</mo>
+                </mrow>
+                <msub arg="b">
+                    <mi>&#x1D711;</mi>
+                    <mi>k</mi>
+                </msub>
+            </mrow>
+        </mrow>
+</math>

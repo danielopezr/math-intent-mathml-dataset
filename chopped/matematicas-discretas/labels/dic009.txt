@@ -1,0 +1,31 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="$name($var1, $var2)">
+        <mi arg="name">S</mi>
+        <mo>(</mo>
+        <mi arg="var1">n</mi>
+        <mo>,</mo>
+        <mn arg="var2">0</mn>
+        <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msup intent="power($base, $exp)">
+        <mn arg="base">1</mn>
+        <mn arg="exp">0</mn>
+    </msup>
+    <mo>+</mo>
+    <msup intent="power($base, $exp)">
+        <mn arg="base">2</mn>
+        <mn arg="exp">0</mn>
+    </msup>
+    <mo>+</mo>
+    <mo intent="ellipsis">&#x22EF;</mo>
+    <mo>+</mo>
+    <msup intent="power($base, $exp)">
+        <mi arg="base">n</mi>
+        <mn arg="exp">0</mn>
+    </msup>
+    <mo>=</mo>
+    <mi>n</mi>
+</mrow>
+</math>

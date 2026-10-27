@@ -1,0 +1,75 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+        <mi>c</mi>
+        <mo>=</mo>
+        <mrow intent="times($a, $b)">
+            <mi arg="a">i</mi>
+            <mrow arg="b">
+                <mo>(</mo>
+                <mn>1</mn>
+                <mo>+</mo>
+                <mi>r</mi>
+                <mo>)</mo>
+            </mrow>       
+        </mrow>
+
+        <mo intent="ellipsis">&#x2026;</mo> 
+        <mo intent="ellipsis">&#x2026;</mo> 
+        <mo>+</mo>
+        
+        <mrow intent="times($a, $b)">
+            <mi arg="a">i</mi>
+            <mrow arg="b" intent="power($base, $exp)">
+                <msup>
+                    <mrow arg="base">
+                        <mo>(</mo>
+                        <mrow>
+                            <mn>1</mn>
+                            <mo>+</mo>
+                            <mi>r</mi>
+                        </mrow>
+                        <mo>)</mo>
+                    </mrow>
+                    <mrow arg="exp">
+                        <mi>t</mi>
+                        <mo>-</mo>
+                        <mi>2</mi>
+                    </mrow>
+                </msup>
+            </mrow>
+        </mrow>
+
+        <mo>+</mo>
+        <mrow intent="times($a, $b)">
+            <mi arg="a">i</mi>
+            <mrow arg="b" intent="power($base, $exp)">
+                <msup>
+                    <mrow arg="base">
+                        <mo>(</mo>
+                        <mrow>
+                            <mn>1</mn>
+                            <mo>+</mo>
+                            <mi>r</mi>
+                        </mrow>
+                        <mo>)</mo>
+                    </mrow>
+                    <mrow arg="exp">
+                        <mi>t</mi>
+                        <mo>-</mo>
+                        <mi>1</mi>
+                    </mrow>
+                </msup>
+            </mrow>
+        </mrow>
+
+        <mo>+</mo>
+        <mrow intent="times($a, $b)">
+            <mi arg="a">i</mi>
+            <mrow arg="b" intent="plus($x, $y)">
+                <mo>(</mo>
+                <mn arg="x">1</mn>
+                <mo>+</mo>
+                <mi arg="y">r</mi>
+                <mo>)</mo>
+            </mrow>       
+        </mrow>
+</math>

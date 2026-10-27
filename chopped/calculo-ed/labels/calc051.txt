@@ -1,0 +1,23 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="$name($var)">
+        <mi arg="name">g</mi>
+        <mo>(</mo>
+        <mi arg="var">x</mi>
+        <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="times($a, $b)">
+        <msup arg="a" intent="power($base, $exp)">
+            <mi arg="base">x</mi>
+            <mn arg="exp">&#x00BD;</mn>
+        </msup>
+        <mrow arg="b" intent="$name($var)">
+            <mi arg="name">f</mi>
+            <mo>(</mo>
+            <mi arg="var">x</mi>
+            <mo>)</mo>
+        </mrow>
+    </mrow>
+</mrow>
+</math>

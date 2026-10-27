@@ -1,0 +1,118 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML" >
+        <mrow>
+            <msubsup>
+                <mo>&#x222B;</mo>
+                <mi>a</mi>
+                <mi>b</mi>
+            </msubsup>
+            <mrow>
+                <mo>[</mo>
+                <mrow intent="times($a, $b)">
+                    <mrow arg="a" intent="$name($var)">
+                        <msub arg="name">
+                            <mi>f</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <mo>(</mo>
+                        <mi arg="var">x</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mrow arg="b" intent="$name($var)">
+                        <msub arg="name">
+                            <mi>g</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <mo>(</mo>
+                        <mi arg="var">x</mi>
+                        <mo>)</mo>
+                    </mrow>
+                </mrow>
+                <mo>+</mo>
+                <mrow intent="times($a, $b)">
+                    <mrow arg="a" intent="$name($var)">
+                        <msub arg="name">
+                            <mi>f</mi>
+                            <mn>2</mn>
+                        </msub>
+                        <mo>(</mo>
+                        <mi arg="var">x</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mrow arg="b" intent="$name($var)">
+                        <msub arg="name">
+                            <mi>g</mi>
+                            <mn>2</mn>
+                        </msub>
+                        <mo>(</mo>
+                        <mi arg="var">x</mi>
+                        <mo>)</mo>
+                    </mrow>
+                </mrow>
+                <mo>]</mo>
+                <mrow>
+                    <mi>d</mi>
+                    <mi>x</mi>
+                </mrow>
+            </mrow>
+            <mo>+</mo>
+            <mrow intent="times($a, $b)">
+                <mi arg="a">i</mi>
+                <mrow arg="b">
+                    <msubsup>
+                        <mo>&#x222B;</mo>
+                        <mi>a</mi>
+                        <mi>b</mi>
+                    </msubsup>
+                    <mrow>
+                        <mo>[</mo>
+                        <mrow intent="times($x, $y)">
+                            <mrow arg="x" intent="$name($var)">
+                                <msub arg="name">
+                                    <mi>f</mi>
+                                    <mn>2</mn>
+                                </msub>
+                                <mo>(</mo>
+                                <mi arg="var">x</mi>
+                                <mo>)</mo>
+                            </mrow>
+                            <mrow arg="y" intent="$name($var)">
+                                <msub arg="name">
+                                    <mi>g</mi>
+                                    <mn>1</mn>
+                                </msub>
+                                <mo>(</mo>
+                                <mi arg="var">x</mi>
+                                <mo>)</mo>
+                            </mrow>
+                        </mrow>
+                        <mo>-</mo>
+                        <mrow intent="times($x, $y)">
+                            <mrow arg="x" intent="$name($var)">
+                                <msub arg="name">
+                                    <mi>f</mi>
+                                    <mn>1</mn>
+                                </msub>
+                                <mo>(</mo>
+                                <mi arg="var">x</mi>
+                                <mo>)</mo>
+                            </mrow>
+                            <mrow arg="y" intent="$name($var)">
+                                <msub arg="name">
+                                    <mi>g</mi>
+                                    <mn>2</mn>
+                                </msub>
+                                <mo>(</mo>
+                                <mi arg="var">x</mi>
+                                <mo>)</mo>
+                            </mrow>
+                        </mrow>
+                        <mo>]</mo>
+                        <mrow>
+                            <mi>d</mi>
+                            <mi>x</mi>
+                        </mrow>
+                    </mrow>
+                </mrow>
+            </mrow>
+        </mrow>
+</math>

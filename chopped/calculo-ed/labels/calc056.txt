@@ -1,0 +1,74 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="$name($var)">
+        <msub arg="name">
+            <mi>J</mi>
+            <mn>&#x00BD;</mn>
+        </msub>
+        <mo>(</mo>
+        <mi arg="var">x</mi>
+        <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="times($a, $b)">
+        <mrow arg="a">
+            <msup arg="a" intent="power($base, $exp)">
+                <mrow arg="base">
+                    <mo>(</mo>
+                    <mfrac>
+                        <mn>2</mn>
+                        <mrow>
+                            <mi>&#x1D70B;</mi>
+                            <mi>x</mi>
+                        </mrow>
+                    </mfrac>
+                    <mo>)</mo>
+                </mrow>
+                <mn arg="exp">&#x00BD;</mn>
+            </msup>
+            <mrow arg="b" intent="sine($var)">
+                <mo>sen</mo>
+                <mi arg="var">x</mi>
+            </mrow>
+        </mrow>
+    </mrow>
+    <mspace width="2em" />
+    <mtext>y</mtext>
+    <mspace width="2em" />
+    <mrow intent="$name($var)">
+        <msub arg="name">
+            <mi>J</mi>
+            <mrow>
+                <mo>-</mo>
+                <mn>&#x00BD;</mn>
+            </mrow>
+        </msub>
+        <mo>(</mo>
+        <mi arg="var">x</mi>
+        <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="times($a, $b)">
+        <mrow arg="a">
+            <msup arg="a" intent="power($base, $exp)">
+                <mrow arg="base">
+                    <mo>(</mo>
+                    <mfrac>
+                        <mn>2</mn>
+                        <mrow>
+                            <mi>&#x1D70B;</mi>
+                            <mi>x</mi>
+                        </mrow>
+                    </mfrac>
+                    <mo>)</mo>
+                </mrow>
+                <mn arg="exp">&#x00BD;</mn>
+            </msup>
+            <mrow arg="b" intent="cosine($var)">
+                <mo>cos</mo>
+                <mi arg="var">x</mi>
+            </mrow>
+        </mrow>
+    </mrow>
+</mrow>
+</math>

@@ -1,0 +1,19 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mo>=</mo>
+    <mrow intent="times($a, $b, $c)">
+        <mfrac arg="a">
+            <mn>1</mn>
+            <mn>2</mn>
+        </mfrac>
+        <mi arg="b">n</mi>
+        <mrow arg="c">
+            <mo>(</mo>
+            <mi>n</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+            <mo>)</mo>
+        </mrow>
+    </mrow>
+</mrow>
+</math>

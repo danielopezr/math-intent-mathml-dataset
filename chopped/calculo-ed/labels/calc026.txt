@@ -1,0 +1,14 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow intent="gamma-function($var)">
+    <mo>&#x1D6E4;</mo>
+    <mo>(</mo>
+    <mrow arg="var">
+        <mi>n</mi>
+        <mo>+</mo>
+        <mn>1</mn>
+        <mo>-</mo>
+        <mi>&#x1D6FC;</mi>
+    </mrow>
+    <mo>)</mo>
+</mrow>    
+</math>

@@ -1,0 +1,188 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="$name($var)">
+        <msub arg="name">
+            <mi>K</mi>
+            <mi>p</mi>
+        </msub>
+        <mo>(</mo>
+        <mi arg="var">x</mi>
+        <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="times($a, $b)">
+        <mrow arg="a" intent="$name($var)">
+            <msub arg="name">
+                <mi>J</mi>
+                <mi>p</mi>
+            </msub>
+            <mo>(</mo>
+            <mi arg="var">x</mi>
+            <mo>)</mo>
+        </mrow>
+        <mrow arg="b" intent="natural-logarithm($var)">
+            <mo>log</mo>
+            <mi arg="var">x</mi>
+        </mrow>
+    </mrow>
+    <mo>-</mo>
+    <mrow intent="times($a, $b, $c)">
+        <mfrac arg="a">
+            <mn>1</mn>
+            <mn>2</mn>
+        </mfrac>
+        <msup arg="b" intent="power($base, $exp)">
+            <mrow arg="base">
+                <mo>(</mo>
+                <mfrac>
+                    <mi>x</mi>
+                    <mn>2</mn>
+                </mfrac>
+                <mo>)</mo>
+            </mrow>
+            <mrow arg="exp">
+                <mo>-</mo>
+                <mi>p</mi>
+            </mrow>
+        </msup>
+        <mrow arg="c">
+            <munderover>
+                <mo>&#x2211;</mo>
+                <mrow>
+                    <mi>n</mi>
+                    <mo>=</mo>
+                    <mn>0</mn>
+                </mrow>
+                <mrow>
+                    <mi>p</mi>
+                    <mo>-</mo>
+                    <mn>1</mn>
+                </mrow>
+            </munderover>
+            <mrow intent="times($x, $y)">
+                <mfrac arg="x">
+                    <mrow intent="factorial($var)">
+                        <mrow arg="var">
+                            <mo>(</mo>
+                            <mi>p</mi>
+                            <mo>-</mo>
+                            <mi>n</mi>
+                            <mo>-</mo>
+                            <mn>1</mn>
+                            <mo>)</mo>
+                        </mrow>
+                        <mo>!</mo>
+                    </mrow>
+                    <mrow intent="factorial($n)">
+                        <mi arg="n">n</mi>
+                        <mo>!</mo>
+                    </mrow>
+                </mfrac>
+                <msup arg="y" intent="power($base, $exp)">
+                    <mrow arg="base">
+                        <mo>(</mo>
+                        <mfrac>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </mfrac>
+                        <mo>)</mo>
+                    </mrow>
+                    <mrow arg="exp">
+                        <mn>2</mn>
+                        <mi>n</mi>
+                    </mrow>
+                </msup>
+            </mrow>
+        </mrow>
+    </mrow>
+    <mo>-</mo>
+    <mrow intent="times($a, $b, $c)">
+        <mfrac arg="a">
+            <mn>1</mn>
+            <mn>2</mn>
+        </mfrac>
+        <msup arg="b" intent="power($base, $exp)">
+            <mrow arg="base">
+                <mo>(</mo>
+                <mfrac>
+                    <mi>x</mi>
+                    <mn>2</mn>
+                </mfrac>
+                <mo>)</mo>
+            </mrow>
+            <mi arg="exp">p</mi>
+        </msup>
+        <mrow arg="c">
+            <munderover>
+                <mo>&#x2211;</mo>
+                <mrow>
+                    <mi>n</mi>
+                    <mo>=</mo>
+                    <mn>0</mn>
+                </mrow>
+                <mn>&#x221E;</mn>
+            </munderover>
+            <mrow intent="times($x, $y, $z)">
+                <msup arg="x" intent="power($base, $exp)">
+                    <mrow>
+                        <mo>(</mo>
+                        <mrow arg="base">
+                            <mo>-</mo>
+                            <mn>1</mn>
+                        </mrow>
+                        <mo>)</mo>
+                    </mrow>
+                    <mi>n</mi>
+                </msup>
+                <mfrac arg="y">
+                    <mrow>
+                        <msub>
+                            <mi>h</mi>
+                            <mi>n</mi>
+                        </msub>
+                        <mo>+</mo>
+                        <msub>
+                            <mi>h</mi>
+                            <mrow>
+                                <mi>n</mi>
+                                <mo>+</mo>
+                                <mi>p</mi>
+                            </mrow>
+                        </msub>
+                    </mrow>
+                    <mrow intent="times($var1, $var2)">
+                        <mrow arg="var1" intent="factorial($n)">
+                            <mi arg="n">n</mi>
+                            <mo>!</mo>
+                        </mrow>
+                        <mrow arg="var2" intent="factorial($v)">
+                            <mrow arg="v">
+                                <mo>(</mo>
+                                <mi>n</mi>
+                                <mo>+</mo>
+                                <mi>p</mi>
+                                <mo>)</mo>
+                            </mrow>
+                            <mo>!</mo>
+                        </mrow>
+                    </mrow>
+                </mfrac>
+                <msup arg="z" intent="power($base, $exp)">
+                    <mrow arg="base">
+                        <mo>(</mo>
+                        <mfrac>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </mfrac>
+                        <mo>)</mo>
+                    </mrow>
+                    <mrow arg="exp">
+                        <mn>2</mn>
+                        <mi>n</mi>
+                    </mrow>
+                </msup>
+            </mrow>
+        </mrow>
+    </mrow>
+</mrow>  
+</math>

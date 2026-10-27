@@ -1,0 +1,12 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mn>19</mn>
+    <mi>m</mi>
+    <mo>-</mo>
+    <mn>10</mn>
+    <mi>m</mi>
+    <mo>+</mo>
+    <mn>6</mn>
+    <mi>m</mi>
+  </mrow>
+</math>
