@@ -1,28 +1,30 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mn>3</mn><mi>a</mi>
+<mrow>
+    <mrow intent="times($arg1,$arg2)"><mn arg="arg1">3</mn><mi arg="arg2">a</mi></mrow>
     <mo>,</mo>
     <mspace width="0.5em"/>
     <mrow>
        <mo>-</mo>
-       <mn>5</mn>
-       <mi>b</mi>
+       <mrow intent="times($arg1,$arg2)"><mn arg="arg1">5</mn>
+       <mi arg="arg2">b</mi></mrow>
     </mrow>
     <mo>,</mo>
     <mspace width="0.5em"/>
     <mfrac>
-      <mrow>
-        <msup intent="power($base, $exp)">
+      <mrow intent="times($arg1,$arg2)">
+        <msup intent="power($base, $exp)" arg="arg1">
             <mi arg="base">x</mi>
             <mn arg="exp">2</mn>
         </msup>
-        <mi>y</mi>
+        <mi arg="arg2">y</mi>
       </mrow>
-      <mrow>
-        <mn>4</mn>
-        <msup intent="power($base, $exp)">
+      <mrow intent="times($arg1,$arg2)">
+        <mn arg="arg1">4</mn>
+        <msup intent="power($base, $exp)" arg="arg2">
             <mi arg="base">a</mi>
             <mn arg="exp">3</mn>
         </msup>
       </mrow>
     </mfrac>
+</mrow>
 </math>

@@ -1,7 +1,7 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
 <mrow>
     <mrow intent="cosine($var)">
-        <mo>cos</mo>
+        <mi>cos</mi>
         <mi arg="var">&#x1D703;</mi>
     </mrow>
     <mo>=</mo>
@@ -32,7 +32,7 @@
     <mtext>y</mtext>
     <mspace width="1em" />
     <mrow intent="sine($var)">
-        <mo>sen</mo>
+        <mi>sen</mi>
         <mi arg="var">&#x1D703;</mi>
     </mrow>
     <mo>=</mo>
@@ -57,9 +57,9 @@
                 </mrow>
             </msup>
         </mrow>
-        <mrow>
-            <mn>2</mn>
-            <mi>i</mi>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">2</mn>
+            <mi arg="arg2">i</mi>
         </mrow>
     </mfrac>
 </mrow>

@@ -1,11 +1,13 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
   <mfrac>
     <mi>C</mi>
     <mi>D</mi>
   </mfrac>
   <mo>=</mo>
-  <mi>&#x03C0;</mi>
+  <mi>&#x3C0;</mi>
   <mo>=</mo>
   <mn intent=":decimal">3.14159</mn>
-  <mo>&#x2026;</mo>
+  <mo intent="ellipsis">&#x2026;</mo>
+</mrow>
 </math>

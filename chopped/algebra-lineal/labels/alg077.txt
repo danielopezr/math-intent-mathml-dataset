@@ -41,7 +41,7 @@
                     <mrow>
                         <mi>b</mi>
                         <mo>-</mo>
-                        <mrow><mn>2</mn><mi>c</mi></mrow>
+                        <mrow intent="times($arg1,$arg2)"><mn arg="arg1">2</mn><mi arg="arg2">c</mi></mrow>
                     </mrow>
                 </mtd>
                 <mtd><mi>d</mi></mtd>

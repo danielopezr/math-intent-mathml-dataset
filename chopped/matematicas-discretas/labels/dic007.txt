@@ -27,9 +27,9 @@
                 <mo>+</mo>
                 <mrow intent="fraction($num, $den)">
                     <mrow arg="num" intent="times($x, $y)">
-                        <mrow arg="x">
-                            <mn>3</mn>
-                            <mi>n</mi>
+                        <mrow arg="x" intent="times($arg1,$arg2)">
+                            <mn arg="arg1">3</mn>
+                            <mi arg="arg2">n</mi>
                         </mrow>
                         <mrow arg="y">
                             <mo>(</mo>

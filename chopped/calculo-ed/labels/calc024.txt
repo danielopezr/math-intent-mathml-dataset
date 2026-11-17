@@ -4,7 +4,7 @@
     <mo>&#x2192;</mo>
     <mrow arg="value">
         <mo>+</mo>
-        <mn arg="value">&#x221E;</mn>
+        <mi>&#x221E;</mi>
     </mrow>
 </mrow>    
 </math>

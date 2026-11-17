@@ -1,4 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
     <mfrac>
       <msup intent="power($base, $exp)">
         <mn arg="base">3</mn>
@@ -25,4 +26,5 @@
     </msup>
     <mo>=</mo>
     <mn>9</mn>
+</mrow>
 </math>

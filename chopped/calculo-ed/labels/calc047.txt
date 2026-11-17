@@ -21,7 +21,7 @@
             <mo>)</mo>
         </mrow>
         <mrow arg="b" intent="natural-logarithm($var)">
-            <mo>log</mo>
+            <mi>log</mi>
             <mi arg="var">x</mi>
         </mrow>
     </mrow>
@@ -87,9 +87,9 @@
                         </mfrac>
                         <mo>)</mo>
                     </mrow>
-                    <mrow arg="exp">
-                        <mn>2</mn>
-                        <mi>n</mi>
+                    <mrow arg="exp" intent="times($arg1,$arg2)">
+                        <mn arg="arg1">2</mn>
+                        <mi arg="arg2">n</mi>
                     </mrow>
                 </msup>
             </mrow>
@@ -120,11 +120,11 @@
                     <mo>=</mo>
                     <mn>0</mn>
                 </mrow>
-                <mn>&#x221E;</mn>
+                <mi>&#x221E;</mi>
             </munderover>
             <mrow intent="times($x, $y, $z)">
                 <msup arg="x" intent="power($base, $exp)">
-                    <mrow>
+                    <mrow arg="base">
                         <mo>(</mo>
                         <mrow arg="base">
                             <mo>-</mo>
@@ -132,7 +132,7 @@
                         </mrow>
                         <mo>)</mo>
                     </mrow>
-                    <mi>n</mi>
+                    <mi arg="exp">n</mi>
                 </msup>
                 <mfrac arg="y">
                     <mrow>
@@ -176,9 +176,9 @@
                         </mfrac>
                         <mo>)</mo>
                     </mrow>
-                    <mrow arg="exp">
-                        <mn>2</mn>
-                        <mi>n</mi>
+                    <mrow arg="exp" intent="times($arg1,$arg2)">
+                        <mn arg="arg1">2</mn>
+                        <mi arg="arg2">n</mi>
                     </mrow>
                 </msup>
             </mrow>

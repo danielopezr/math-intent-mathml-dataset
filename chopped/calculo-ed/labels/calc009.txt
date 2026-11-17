@@ -16,9 +16,9 @@
     <mrow intent="times($a, $b)">
         <msup arg="a" intent="power($base, $exp)">
             <mi arg="base">e</mi>
-            <mrow arg="exp">
-                <mn>2</mn>
-                <mi>x</mi>
+            <mrow arg="exp" intent="times($arg1,$arg2)">
+                <mn arg="arg1">2</mn>
+                <mi arg="arg2">x</mi>
             </mrow>
         </msup>
         <mrow arg="b">
@@ -31,17 +31,17 @@
                         <mn>2</mn>
                     </msub>
                     <mo>+</mo>
-                    <mrow>
-                        <msub>
+                    <mrow intent="times($arg1,$arg2)">
+                        <msub arg="arg1">
                             <mi>c</mi>
                             <mn>3</mn>
                         </msub>
-                        <mi>x</mi>
+                        <mi arg="arg2">x</mi>
                     </mrow>
                     <mo>)</mo>
                 </mrow>
                 <mrow arg="y" intent="cosine($var)">
-                    <mo>cos</mo>
+                    <mi>cos</mi>
                     <mi arg="var">x</mi>
                 </mrow>
             </mrow>
@@ -54,17 +54,17 @@
                         <mn>4</mn>
                     </msub>
                     <mo>+</mo>
-                    <mrow>
-                        <msub>
+                    <mrow intent="times($arg1,$arg2)">
+                        <msub arg="arg1">
                             <mi>c</mi>
                             <mn>5</mn>
                         </msub>
-                        <mi>x</mi>
+                        <mi arg="arg2">x</mi>
                     </mrow>
                     <mo>)</mo>
                 </mrow>
                 <mrow arg="y" intent="sine($var)">
-                    <mo>sen</mo>
+                    <mi>sen</mi>
                     <mi arg="var">x</mi>
                 </mrow>
             </mrow>

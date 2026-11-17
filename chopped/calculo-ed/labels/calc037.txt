@@ -1,7 +1,7 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
 <mrow>
     <mrow intent="gamma-function($var)">
-        <mo>&#x1D6E4;</mo>
+        <mi>&#x1D6E4;</mi>
         <mo>(</mo>
         <mn arg="var">1</mn>
         <mo>)</mo>
@@ -11,7 +11,7 @@
         <msubsup>
             <mo>&#x222B;</mo>
             <mn>0</mn>
-            <mn>&#x221E;</mn>
+            <mi>&#x221E;</mi>
         </msubsup>
         <msup intent="power($base, $exp)">
             <mi arg="base">e</mi>

@@ -48,16 +48,16 @@
                 <mtd>
                     <mrow>
                         <mo>-</mo>
-                        <mn>2</mn>
-                        <msub>
+                        <mrow intent="times($arg1,$arg2)"><mn arg="arg1">2</mn>
+                        <msub arg="arg2">
                             <mi>x</mi>
                             <mn>1</mn>
-                        </msub>
+                        </msub></mrow>
                     </mrow>
                     <mo>+</mo>
-                    <mrow>
-                        <mn>4</mn>
-                        <msub>
+                    <mrow intent="times($arg1,$arg2)">
+                        <mn arg="arg1">4</mn>
+                        <msub arg="arg2">
                             <mi>x</mi>
                             <mn>2</mn>
                         </msub>

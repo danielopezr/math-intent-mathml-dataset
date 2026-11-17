@@ -24,21 +24,21 @@
                     <mtr>
                         <mtd>
                             <msup intent="power($base, $exp)">
-                                <mrow arg="base" intent="cosine($var)">
-                                    <mo>cos</mo>
+                                <mrow arg="base">
+                                    <mi>cos</mi>
                                 </mrow>
-                                <mn>2</mn>
+                                <mn arg="exp">2</mn>
                             </msup>
                             <mi arg="var">&#x1D703;</mi> 
                         </mtd>
                         <mtd>
                             <mrow intent="times($a, $b)">
                                <mrow arg="a" intent="sine($var)">
-                                    <mo>sen</mo>
+                                    <mi>sen</mi>
                                     <mi arg="var">&#x1D703;</mi>
                                </mrow>
                                <mrow arg="b" intent="cosine($var)">
-                                    <mo>cos</mo>
+                                    <mi>cos</mi>
                                     <mi arg="var">&#x1D703;</mi>
                                </mrow>
                             </mrow>
@@ -48,21 +48,21 @@
                         <mtd>
                             <mrow intent="times($a, $b)">
                                <mrow arg="a" intent="sine($var)">
-                                    <mo>sen</mo>
+                                    <mi>sen</mi>
                                     <mi arg="var">&#x1D703;</mi>
                                </mrow>
                                <mrow arg="b" intent="cosine($var)">
-                                    <mo>cos</mo>
+                                    <mi>cos</mi>
                                     <mi arg="var">&#x1D703;</mi>
                                </mrow>
                             </mrow>
                         </mtd>
                         <mtd>
                             <msup intent="power($base, $exp)">
-                                <mrow arg="base" intent="sine($var)">
-                                    <mo>sen</mo>
+                                <mrow arg="base">
+                                    <mi>sen</mi>
                                 </mrow>
-                                <mn>2</mn>
+                                <mn arg="exp">2</mn>
                             </msup>
                             <mi arg="var">&#x1D703;</mi>
                         </mtd>

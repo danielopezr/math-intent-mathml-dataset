@@ -1,4 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
         <msup intent="power($b, $e)">
             <mi arg="b">x</mi>
             <mn arg="e">2</mn>
@@ -12,4 +13,5 @@
         <mi>n</mi>
         <mo>=</mo>
         <mn>0</mn>
-</math>   
+</mrow>
+</math>

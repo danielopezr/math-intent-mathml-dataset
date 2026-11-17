@@ -1,7 +1,7 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
 <mrow>
     <mrow intent="$name($var)">
-        <mi>Q</mi>
+        <mi arg="name">Q</mi>
         <mo>(</mo>
         <mi arg="var">x</mi>
         <mo>)</mo>

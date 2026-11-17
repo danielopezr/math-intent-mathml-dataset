@@ -13,9 +13,9 @@
     <mrow intent="times($a, $b, $c)">
         <msub arg="a">
             <mi>A</mi>
-            <mrow>
-                <mn>2</mn>
-                <mi>p</mi>
+            <mrow intent="times($arg1,$arg2)">
+                <mn arg="arg1">2</mn>
+                <mi arg="arg2">p</mi>
             </mrow>
         </msub>
         <mrow arg="b" intent="$name($var)">
@@ -28,7 +28,7 @@
             <mo>)</mo>
         </mrow>
         <mrow arg="c" intent="natural-logarithm($var)">
-            <mo>log</mo>
+            <mi>log</mi>
             <mi arg="var">x</mi>
         </mrow>
     </mrow>
@@ -47,8 +47,8 @@
             <mi arg="base">x</mi>
             <mrow arg="exp">
                 <mo>-</mo>
-                <mn>2</mn>
-                <mi>p</mi>
+                <mrow intent="times($arg1,$arg2)"><mn arg="arg1">2</mn>
+                <mi arg="arg2">p</mi></mrow>
             </mrow>
         </msup>
         <mrow arg="c">

@@ -27,8 +27,8 @@
                     <mrow arg="x">
                         <mo>(</mo>
                         <mfrac linethickness="0" intent="binomial-coefficient($n, $k)">
-                            <mn>3</mn>
-                            <mn>0</mn>
+                            <mn arg="n">3</mn>
+                            <mn arg="k">0</mn>
                         </mfrac>
                         <mo>)</mo>
                     </mrow>
@@ -46,8 +46,8 @@
                     <mrow arg="x">
                         <mo>(</mo>
                         <mfrac linethickness="0" intent="binomial-coefficient($n, $k)">
-                            <mn>3</mn>
-                            <mn>1</mn>
+                            <mn arg="n">3</mn>
+                            <mn arg="k">1</mn>
                         </mfrac>
                         <mo>)</mo>
                     </mrow>

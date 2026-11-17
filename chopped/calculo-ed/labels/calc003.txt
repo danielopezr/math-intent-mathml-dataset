@@ -9,7 +9,7 @@
         <mn arg="a">2</mn>
         <msup arg="b" intent="power($base, $exp)">
             <mi arg="base">r</mi>
-            <mn>2</mn>
+            <mn arg="exp">2</mn>
         </msup>
    </mrow>
    <mo>+</mo>

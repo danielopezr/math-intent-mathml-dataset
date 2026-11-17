@@ -1,4 +1,5 @@
-<math display="block">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
         <msub>
             <mi>f</mi>
             <mi>n</mi>
@@ -28,4 +29,5 @@
                 </msub>
             </mrow>
         </mrow>
+</mrow>
 </math>

@@ -1,4 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
         <mi>c</mi>
         <mo>=</mo>
         <mrow intent="times($a, $b)">
@@ -32,7 +33,7 @@
                     <mrow arg="exp">
                         <mi>t</mi>
                         <mo>-</mo>
-                        <mi>2</mi>
+                        <mn>2</mn>
                     </mrow>
                 </msup>
             </mrow>
@@ -55,7 +56,7 @@
                     <mrow arg="exp">
                         <mi>t</mi>
                         <mo>-</mo>
-                        <mi>1</mi>
+                        <mn>1</mn>
                     </mrow>
                 </msup>
             </mrow>
@@ -72,4 +73,5 @@
                 <mo>)</mo>
             </mrow>       
         </mrow>
+</mrow>
 </math>

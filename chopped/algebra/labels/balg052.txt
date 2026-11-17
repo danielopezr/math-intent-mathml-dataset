@@ -1,10 +1,11 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
   <mrow intent="times($a, $b, $c)">
     <mn arg="a">2</mn>
     <mrow arg="b">
         <mo>(</mo>
-        <mn>2</mn>
-        <mi>a</mi>
+        <mrow intent="times($arg1,$arg2)"><mn arg="arg1">2</mn>
+        <mi arg="arg2">a</mi></mrow>
         <mo>-</mo>
         <mi>b</mi>
         <mo>)</mo>
@@ -42,7 +43,7 @@
   </mrow>  
   <mo>=</mo>
   <mn>2</mn>
-  <mo>&#x00D7;</mo>
+  <mo>&#xD7;</mo>
   <mrow intent="mixed-fraction($a, $b)">
       <mn arg="a">16</mn>
       <mfrac arg="b">
@@ -52,11 +53,11 @@
   </mrow>    
   <mo>-</mo>
   <mn>7</mn>
-  <mo>&#x00D7;</mo>
+  <mo>&#xD7;</mo>
   <mn>1</mn>
   <mo>=</mo>
   <mn>2</mn>
-  <mo>&#x00D7;</mo>
+  <mo>&#xD7;</mo>
   <mfrac>
       <mn>33</mn>
       <mn>2</mn>
@@ -69,4 +70,5 @@
   <mn>7</mn>
   <mo>=</mo>
   <mn>26</mn>
+</mrow>
 </math>

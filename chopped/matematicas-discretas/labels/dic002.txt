@@ -37,8 +37,8 @@
                             <mrow arg="x">
                                 <mo>(</mo>
                                 <mfrac linethickness="0" intent="binomial-coefficient($n, $k)">
-                                    <mn>3</mn>
-                                    <mn>0</mn>
+                                    <mn arg="n">3</mn>
+                                    <mn arg="k">0</mn>
                                 </mfrac>
                                 <mo>)</mo>
                             </mrow>
@@ -56,8 +56,8 @@
                             <mrow arg="x">
                                 <mo>(</mo>
                                 <mfrac linethickness="0" intent="binomial-coefficient($n, $k)">
-                                    <mn>3</mn>
-                                    <mn>1</mn>
+                                    <mn arg="n">3</mn>
+                                    <mn arg="k">1</mn>
                                 </mfrac>
                                 <mo>)</mo>
                             </mrow>
@@ -77,7 +77,7 @@
             </mtd>
         </mtr>
         <mtr>
-            <mtd></mtd>
+            <mtd/>
             <mtd><mo>=</mo></mtd>
             <mtd intent="times($a, $b)">
                 <mfrac arg="a">
@@ -105,9 +105,9 @@
                         <mo>+</mo>
                         <mrow intent="fraction($num, $den)">
                             <mrow arg="num" intent="times($x, $y)">
-                                <mrow arg="x">
-                                    <mn>3</mn>
-                                    <mi>n</mi>
+                                <mrow arg="x" intent="times($arg1,$arg2)">
+                                    <mn arg="arg1">3</mn>
+                                    <mi arg="arg2">n</mi>
                                 </mrow>
                                 <mrow arg="y">
                                     <mo>(</mo>
@@ -127,7 +127,7 @@
             </mtd>
         </mtr>
         <mtr>
-            <mtd></mtd>
+            <mtd/>
             <mtd><mo>=</mo></mtd>
             <mtd>
                 <mrow intent="times($a, $b)">
@@ -143,9 +143,9 @@
                         </msup>
                         <mo>+</mo>
                         <mrow intent="fraction($num, $den)">
-                            <mrow arg="num">
-                                <mn>3</mn>
-                                <msup intent="power($base, $exp)">
+                            <mrow arg="num" intent="times($arg1,$arg2)">
+                                <mn arg="arg1">3</mn>
+                                <msup intent="power($base, $exp)" arg="arg2">
                                     <mi arg="base">n</mi>
                                     <mn arg="exp">2</mn>
                                 </msup>
@@ -178,9 +178,9 @@
                     </mrow>
                     <mrow arg="d">
                         <mo>(</mo>
-                        <mrow>
-                            <mn>2</mn>
-                            <mi>n</mi>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">2</mn>
+                            <mi arg="arg2">n</mi>
                         </mrow>
                         <mo>+</mo>
                         <mn>1</mn>

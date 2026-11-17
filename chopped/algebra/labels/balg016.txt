@@ -1,4 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
     <mi>x</mi>
     <mo>=</mo>
     <mo>-</mo>
@@ -6,7 +7,7 @@
       <mi>m</mi>
       <mn>2</mn>
     </mfrac>
-    <mo>&#x00B1;</mo>
+    <mo>&#xB1;</mo>
     <msqrt>
       <mrow>
         <mfrac>
@@ -20,4 +21,5 @@
         <mi>n</mi>
       </mrow>
     </msqrt>
+</mrow>
 </math>

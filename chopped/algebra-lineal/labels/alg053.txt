@@ -1,4 +1,5 @@
-<math display="block">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
     <mrow intent="$name($var)">
         <mi arg="name">D</mi>
         <mo>(</mo>
@@ -36,4 +37,5 @@
             </msup>
         </mrow>
     </mrow>
+</mrow>
 </math>

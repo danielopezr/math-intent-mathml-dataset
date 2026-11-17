@@ -1,15 +1,15 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
   <mrow>
-    <mn>3</mn><mi>m</mi>
-    <mo>−</mo><mn>5</mn><mi>n</mi>
+    <mrow intent="times($a, $b)"><mn arg="a">3</mn><mi arg="b">m</mi></mrow>
+    <mo>−</mo><mrow intent="times($a, $b)"><mn arg="a">5</mn><mi arg="b">n</mi></mrow>
     <mo>+</mo><mn>6</mn>
     <mo>;</mo>
-    <mo>−</mo><mn>6</mn><mi>m</mi>
+    <mo>−</mo><mrow intent="times($a, $b)"><mn arg="a">6</mn><mi arg="b">m</mi></mrow>
     <mo>+</mo><mn>8</mn>
-    <mo>−</mo><mn>20</mn><mi>n</mi>
+    <mo>−</mo><mrow intent="times($a, $b)"><mn arg="a">20</mn><mi arg="b">n</mi></mrow>
     <mo>;</mo>
-    <mo>−</mo><mn>20</mn><mi>n</mi>
-    <mo>+</mo><mn>12</mn><mi>m</mi>
+    <mo>−</mo><mrow intent="times($a, $b)"><mn arg="a">20</mn><mi arg="b">n</mi></mrow>
+    <mo>+</mo><mrow intent="times($a, $b)"><mn arg="a">12</mn><mi arg="b">m</mi></mrow>
     <mo>−</mo><mn>12</mn>
   </mrow>
 </math>

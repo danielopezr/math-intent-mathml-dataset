@@ -2,9 +2,9 @@
 <mrow>
     <msub>
         <mi>A</mi>
-        <mrow>
-            <mn>2</mn>
-            <mi>p</mi>
+        <mrow intent="times($a, $b)">
+            <mn arg="a">2</mn>
+            <mi arg="b">p</mi>
         </mrow>
     </msub>
     <mo>&#x2260;</mo>

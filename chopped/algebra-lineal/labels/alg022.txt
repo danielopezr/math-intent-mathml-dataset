@@ -1,4 +1,5 @@
-<math display="block">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
         <mrow>
             <mrow intent="$name($var)">
                 <msub arg="name">
@@ -14,20 +15,17 @@
 
             <mfrac>
                 <mn>1</mn>
-                <mrow>
-                    <mo></mo>
-                    <msqrt>
+                <msqrt>
                         <mrow intent="times($a, $b)">
                             <mn arg="a">2</mn>
-                            <mn arg="b">&#x1D70B;</mn>
+                            <mi arg="b">&#x1D70B;</mi>
                         </mrow>
                     </msqrt>
-                </mrow>
             </mfrac>
         </mrow>
 
         <mo>,</mo>
-        <mspace width="1em" />
+        <mspace width="1em"/>
 
         <mrow>
             <mrow intent="$name($var)">
@@ -57,17 +55,14 @@
                         <mi arg="b">x</mi>
                     </mrow>
                 </mrow>
-                <mrow>
-                    <mo></mo>
-                    <msqrt>
-                        <mn arg="b">&#x1D70B;</mn>
+                <msqrt>
+                        <mi arg="b">&#x1D70B;</mi>
                     </msqrt>
-                </mrow>
             </mfrac>
         </mrow>
 
         <mo>,</mo>
-        <mspace width="1em" />
+        <mspace width="1em"/>
 
         <mrow>
             <mrow intent="$name($var)">
@@ -86,30 +81,28 @@
             <mo>=</mo>
 
             <mfrac>
-                <mrow intent="sin($var)">
+                <mrow intent="sine($var)">
                     <mi>sen</mi>
                     <mrow arg="var" intent="times($a, $b)">
                         <mi arg="a">k</mi>
                         <mi arg="b">x</mi>
                     </mrow>
                 </mrow>
-                <mrow>
-                    <mo></mo>
-                    <msqrt>
-                        <mn arg="b">&#x1D70B;</mn>
+                <msqrt>
+                        <mi arg="b">&#x1D70B;</mi>
                     </msqrt>
-                </mrow>
             </mfrac>
         </mrow>
 
         <mo>,</mo>
-        <mspace width="1em" />
+        <mspace width="1em"/>
         
         <mrow>
         	<mtext>para</mtext>
-		<mspace width="0.5em" />
+		<mspace width="0.5em"/>
 		<mi>k</mi>
 		<mo>&#x2265;</mo>
 		<mn>1</mn>
         </mrow>
+</mrow>
 </math>

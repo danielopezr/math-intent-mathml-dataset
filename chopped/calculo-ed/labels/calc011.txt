@@ -1,11 +1,11 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
 <mrow>
-    <mrow intent="derivative($y, x, 3)">
+    <mrow intent="derivative($y, _x, 3)">
         <mi arg="y">y</mi>
         <mo>&#x2034;</mo>
     </mrow>
     <mo>-</mo>
-     <mrow arg="b" intent="derivative($y, x, 1)">
+     <mrow arg="b" intent="derivative($y, _x, 1)">
         <mi arg="y">y</mi>
         <mo>&#x2032;</mo>
     </mrow>

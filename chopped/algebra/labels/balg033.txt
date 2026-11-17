@@ -2,7 +2,7 @@
   <mrow intent="times($a, $b)">
     <mrow arg="a">
         <mo>(</mo>
-        <msup intent="power($base, $exp">
+        <msup intent="power($base, $exp)">
              <mi arg="base">x</mi>
              <mn arg="exp">2</mn>
         </msup>

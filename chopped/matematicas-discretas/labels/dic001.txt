@@ -21,7 +21,7 @@
                     <mo>(</mo>
                     <mi>n</mi>
                     <mo>+</mo>
-                    <mi>1</mi>
+                    <mn>1</mn>
                     <mo>)</mo>
                 </mrow>
                 <mn arg="exp">2</mn>
@@ -63,9 +63,9 @@
                 <mn arg="exp">2</mn>
             </msup>
             <mo>+</mo>
-            <mrow>
-                <mn>2</mn>
-                <mi>n</mi>
+            <mrow intent="times($arg1,$arg2)">
+                <mn arg="arg1">2</mn>
+                <mi arg="arg2">n</mi>
             </mrow>
             <mo>-</mo>
             <mi>n</mi>

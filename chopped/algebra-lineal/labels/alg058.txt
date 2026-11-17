@@ -1,9 +1,10 @@
-<math display="block">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
 <mtable columnalign="left" rowspacing="1em">
     <mtr>
         <mtd>
             <mrow intent="determinant($mat)">
-                <mo>det</mo>
+                <mi>det</mi>
                 <mo>(</mo>
                 <mrow arg="mat">
                     <mrow intent="times($a, $b)">
@@ -323,4 +324,5 @@
     </mtr>
             
 </mtable>
+</mrow>
 </math>

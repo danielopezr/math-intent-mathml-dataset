@@ -1,7 +1,7 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
 <mrow>
     <mrow intent="gamma-function($var)">
-        <mo>&#x1D6E4;</mo>
+        <mi>&#x1D6E4;</mi>
         <mo>(</mo>>
         <mi arg="var">s</mi>
         <mo>)</mo>
@@ -9,7 +9,7 @@
     <mo>=</mo>
     <mfrac>
         <mrow intent="gamma-function($var)">
-            <mo>&#x1D6E4;</mo>
+            <mi>&#x1D6E4;</mi>
             <mrow arg="var">
                 <mo>(</mo>
                 <mi>s</mi>

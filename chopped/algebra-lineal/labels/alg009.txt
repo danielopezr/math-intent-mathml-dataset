@@ -1,8 +1,9 @@
-<math display="block">
-    <mrow intent="function ($var $name)">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="$name($var)">
         <msub arg="name">
             <mi>y</mi>
-            <mn>n</mn>
+            <mi>n</mi>
         </msub>
         <mo>(</mo>
         <mi arg="var">t</mi>
@@ -20,9 +21,9 @@
             <mrow intent="factorial($var)">
                 <mrow>
                     <mo>(</mo>
-                    <mrow arg="var">
-                        <mn>2</mn>
-                        <mi>n</mi>
+                    <mrow arg="var" intent="times($arg1,$arg2)">
+                        <mn arg="arg1">2</mn>
+                        <mi arg="arg2">n</mi>
                     </mrow>
                     <mo>)</mo>
                     <mo>!</mo>
@@ -58,4 +59,5 @@
 	    </msup>
         </mrow>
     </mrow>
+</mrow>
 </math>

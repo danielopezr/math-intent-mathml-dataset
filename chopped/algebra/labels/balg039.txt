@@ -4,19 +4,19 @@
     <mo>−</mo>
     <mi>b</mi>
     <mo>+</mo>
-    <mn>2</mn><mi>a</mi>
+    <mrow intent="times($a, $b)"><mn arg="a">2</mn><mi arg="b">a</mi></mrow>
     <mo>+</mo>
-    <mn>3</mn><mi>b</mi>
+    <mrow intent="times($a, $b)"><mn arg="a">3</mn><mi arg="b">b</mi></mrow>
     <mo>−</mo>
     <mi>c</mi>
     <mo>−</mo>
-    <mn>4</mn><mi>a</mi>
+    <mrow intent="times($a, $b)"><mn arg="a">4</mn><mi arg="b">a</mi></mrow>
     <mo>+</mo>
-    <mn>5</mn><mi>b</mi>
+    <mrow intent="times($a, $b)"><mn arg="a">5</mn><mi arg="b">b</mi></mrow>
     <mo>=</mo>
     <mo>−</mo><mi>a</mi>
     <mo>+</mo>
-    <mn>7</mn><mi>b</mi>
+    <mrow intent="times($a, $b)"><mn arg="a">7</mn><mi arg="b">b</mi></mrow>
     <mo>−</mo>
     <mi>c</mi>
   </mrow>

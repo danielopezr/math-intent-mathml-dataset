@@ -13,10 +13,10 @@
                 <mo>(</mo>
                 <msup intent="power($bas, $ex)">
                     <mi arg="bas">r</mi>
-                    <mn>2</mn>
+                    <mn arg="ex">2</mn>
                 </msup>
                 <mo>-</mo>
-                <mrow intent="times($x. $y)">
+                <mrow intent="times($x, $y)">
                     <mn arg="x">4</mn>
                     <mi arg="y">r</mi>
                 </mrow>

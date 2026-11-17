@@ -1,10 +1,12 @@
-<math display="block"> 
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow> 
     <mrow intent="$name($var)">
         <mi arg="name">f</mi>
         <mo>(</mo>
         <mi arg="var">&#x1D706;</mi>
         <mo>)</mo>
     </mrow>           
+    <mo>=</mo>
     <mrow intent="determinant($mat)">
         <mi>det</mi>
         <mo>(</mo>
@@ -18,4 +20,5 @@
         </mrow>
         <mo>)</mo>
     </mrow>
+</mrow>
 </math>

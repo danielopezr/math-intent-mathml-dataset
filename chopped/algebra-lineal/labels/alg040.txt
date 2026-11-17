@@ -1,4 +1,4 @@
-<math display="block">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
         <mrow>
             <mrow intent="$name($var)">
                 <mi arg="name">T</mi>
@@ -16,7 +16,7 @@
                         <mrow>
                             <mi>k</mi>
                             <mo>+</mo>
-                            <mn>r</mn>
+                            <mi>r</mi>
                         </mrow>
                     </munderover>
                     <mrow intent="times($a, $b)">

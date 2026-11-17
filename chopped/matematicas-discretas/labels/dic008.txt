@@ -14,9 +14,9 @@
             </msup>
             <mo>+</mo>
             <mrow intent="fraction($num, $den)">
-                <mrow arg="num">
-                    <mn>3</mn>
-                    <msup intent="power($base, $exp)">
+                <mrow arg="num" intent="times($arg1,$arg2)">
+                    <mn arg="arg1">3</mn>
+                    <msup intent="power($base, $exp)" arg="arg2">
                         <mi arg="base">n</mi>
                         <mn arg="exp">2</mn>
                     </msup>
@@ -49,9 +49,9 @@
         </mrow>
         <mrow arg="d">
             <mo>(</mo>
-            <mrow>
-                <mn>2</mn>
-                <mi>n</mi>
+            <mrow intent="times($arg1,$arg2)">
+                <mn arg="arg1">2</mn>
+                <mi arg="arg2">n</mi>
             </mrow>
             <mo>+</mo>
             <mn>1</mn>

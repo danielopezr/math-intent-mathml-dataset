@@ -13,7 +13,7 @@
                 <mtd><mn>0</mn></mtd>
             </mtr>
             <mtr>
-                <mtd><mn>-3</mn></mtd>
+                <mtd><mo>−</mo><mn>3</mn></mtd>
                 <mtd><mn>1</mn></mtd>
             </mtr>
         </mtable>

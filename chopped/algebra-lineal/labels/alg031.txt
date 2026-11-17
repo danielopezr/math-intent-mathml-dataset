@@ -1,5 +1,6 @@
-<math display="block">
-        <msub >
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+        <msub>
             <mi>b</mi>
             <mi>k</mi>
         </msub>
@@ -7,15 +8,15 @@
         <mrow intent="times($a, $b)">
             <mfrac arg="a">
                 <mn>1</mn>
-                <mn>&#x1d70b;</mn>
+                <mi>&#x1D70B;</mi>
             </mfrac>
             <mrow arg="b">
                 <msubsup>
                     <mo>&#x222B;</mo>
                     <mn>0</mn>
-                    <mrow>
-                        <mn>2</mn>
-                        <mn>&#x1d70b;</mn>
+                    <mrow intent="times($arg1,$arg2)">
+                        <mn arg="arg1">2</mn>
+                        <mi arg="arg2">&#x1D70B;</mi>
                     </mrow>
                 </msubsup>
                 <mrow intent="times($x, $y)">
@@ -26,10 +27,10 @@
                         <mo>)</mo>
                     </mrow>
                     <mrow arg="y" intent="sine($var)">
-                        <mo>sen</mo>
-                        <mrow arg="var">
-                            <mi>k</mi>
-                            <mi>x</mi>
+                        <mi>sen</mi>
+                        <mrow arg="var" intent="times($arg1,$arg2)">
+                            <mi arg="arg1">k</mi>
+                            <mi arg="arg2">x</mi>
                         </mrow>
                     </mrow>
                 </mrow>
@@ -39,4 +40,5 @@
                 </mrow>
             </mrow>
         </mrow>
+</mrow>
 </math>

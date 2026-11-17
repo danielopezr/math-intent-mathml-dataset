@@ -5,7 +5,7 @@
     <mo>,</mo>
     <mrow arg="val2">
         <mo>+</mo>
-        <mn>&#x221E;</mn>
+        <mi>&#x221E;</mi>
     </mrow>
     <mo>)</mo>
 </mrow>    

@@ -1,4 +1,4 @@
-<math display="block">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
         <mrow>
             <mrow intent="vector :prefix($name)">
                 <msub arg="name">
@@ -25,7 +25,7 @@
                     <mrow>
                         <mi>k</mi>
                         <mo>+</mo>
-                        <mi>1</mi>
+                        <mn>1</mn>
                     </mrow>
                 </msub>
             </mrow>

@@ -13,7 +13,7 @@
                 <mtd><mn>0</mn></mtd>
             </mtr>
             <mtr>
-                <mtd><mn>-3</mn></mtd>
+                <mtd><mo>−</mo><mn>3</mn></mtd>
                 <mtd><mn>1</mn></mtd>
             </mtr>
         </mtable>
@@ -58,7 +58,7 @@
         <mtable intent=":matrix" columnspacing="1em">
             <mtr>
                 <mtd><mn>1</mn></mtd>
-                <mtd><mn>-2</mn></mtd>
+                <mtd><mo>−</mo><mn>2</mn></mtd>
             </mtr>
             <mtr>
                 <mtd><mn>0</mn></mtd>

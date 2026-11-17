@@ -1,10 +1,11 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
   <mrow intent="times($a, $b)">
     <mfrac arg="a"><mn>1</mn><mn>5</mn></mfrac>
     <mrow arg="b">
        <mo>(</mo>
        <mfrac>
-          <mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow>
+          <mrow><mi>x</mi><mo>&#x2212;</mo><mn>2</mn></mrow>
           <mn>3</mn>
        </mfrac>
        <mo>)</mo>
@@ -14,4 +15,5 @@
   <mfrac><mn>1</mn><mn>5</mn></mfrac>
   <mo>=</mo>
   <mn>0</mn>
+</mrow>
 </math>

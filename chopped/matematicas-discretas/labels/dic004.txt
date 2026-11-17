@@ -1,4 +1,4 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
 <mrow>
     <mo>=</mo>
     <mrow intent="times($a, $b)">
@@ -13,9 +13,9 @@
                 <mn arg="exp">2</mn>
             </msup>
             <mo>+</mo>
-            <mrow>
-                <mn>2</mn>
-                <mi>n</mi>
+            <mrow intent="times($arg1,$arg2)">
+                <mn arg="arg1">2</mn>
+                <mi arg="arg2">n</mi>
             </mrow>
             <mo>-</mo>
             <mi>n</mi>

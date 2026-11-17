@@ -4,7 +4,7 @@
     <mo>+</mo>
     <msqrt><mi>b</mi></msqrt>
     <mo>-</mo>
-    <mn>2</mn><mi>c</mi>
+    <mrow intent="times($a, $b)"><mn arg="a">2</mn><mi arg="b">c</mi></mrow>
     <mo>+</mo>
     <msqrt><mi>d</mi></msqrt>
   </mrow>

@@ -1,4 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
   <mrow intent="times($a, $b)">
     <mfrac arg="a"><mn>1</mn><mn>2</mn></mfrac>
     <msup arg="b" intent="power($base, $exp)">
@@ -26,4 +27,5 @@
        <mn arg="exp">2</mn>
     </msup>
   </mrow>
+</mrow>
 </math>

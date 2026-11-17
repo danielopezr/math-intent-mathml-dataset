@@ -1,4 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
         <mi>c</mi>
         <mo>=</mo>
         <mfrac>
@@ -49,6 +50,7 @@
                 </mrow>
                 <mo>-</mo>
                 <mn>1</mn>
-            </mrow >
+            </mrow>
         </mfrac>
+</mrow>
 </math>

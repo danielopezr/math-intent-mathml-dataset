@@ -3,7 +3,7 @@
     <mrow intent="$name($var)">
         <msub arg="name">
             <mi>K</mi>
-            <mn>p</mn>
+            <mi>p</mi>
         </msub>
             <mo>(</mo>
         <mi arg="var">x</mi>
@@ -21,7 +21,7 @@
             <mo>)</mo>
         </mrow>
         <mrow arg="b" intent="natural-logarithm($var)">
-            <mo>log</mo>
+            <mi>log</mi>
             <mi arg="var">x</mi>
         </mrow>
     </mrow>

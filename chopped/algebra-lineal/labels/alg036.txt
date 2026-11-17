@@ -1,4 +1,5 @@
-<math>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
         <mrow intent="dimension($space)">
             <mi>dim</mi>
             <mrow arg="space" intent="image($v)">
@@ -10,4 +11,5 @@
         </mrow>
         <mo>=</mo>
         <mi>r</mi>
+</mrow>
 </math>

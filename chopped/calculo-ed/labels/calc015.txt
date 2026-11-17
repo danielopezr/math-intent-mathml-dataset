@@ -1,6 +1,6 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
 <mrow>
-    <msup intent="derivative($y, x, $n)">
+    <msup intent="derivative($y, _x, $n)">
         <mi arg="y">y</mi>
         <mrow>
             <mo>(</mo>

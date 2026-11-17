@@ -11,8 +11,8 @@
             <mi arg="exp">&#x1D6FC;</mi>
         </msup>
         <mo>/</mo>
-        <mrow arg="dem" intent="gamma-function($var)">
-            <mo>&#x1D6E4;</mo>
+        <mrow arg="den" intent="gamma-function($var)">
+            <mi>&#x1D6E4;</mi>
             <mrow arg="var">
                 <mo>(</mo>
                 <mn>1</mn>

@@ -1,6 +1,6 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
 <mrow>
-    <mrow intent="derivative($y, x, 2)">
+    <mrow intent="derivative($y, _x, 2)">
         <mi arg="y">y</mi>
         <mo>&#x2033;</mo>
     </mrow>
@@ -25,8 +25,8 @@
                 <mrow intent="times($a, $b)">
                     <mn arg="a">4</mn>
                     <msup arg="b" intent="power($base, $exp)">
-                        <mi>x</mi>
-                        <mn>2</mn>
+                        <mi arg="base">x</mi>
+                        <mn arg="exp">2</mn>
                     </msup>
                 </mrow>
             </mfrac>

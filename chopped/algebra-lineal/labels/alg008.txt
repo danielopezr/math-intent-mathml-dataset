@@ -1,4 +1,4 @@
-<math display="block">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
 	<mrow>
 	<mrow>
 	<mrow intent="$name($var)">
@@ -19,12 +19,12 @@
 	</msup>
 
 	<mo>-</mo>
-	<mrow>
-	    <mfrac>
+	<mrow intent="times($arg1,$arg2)">
+	    <mfrac arg="arg1">
 		<mn>3</mn>
 		<mn>5</mn>
 	    </mfrac>
-	    <mi>t</mi>
+	    <mi arg="arg2">t</mi>
 	</mrow>
 
 	</mrow>
@@ -51,12 +51,12 @@
 	</msup>
 
 	<mo>-</mo>
-	<mrow>
-	    <mfrac>
+	<mrow intent="times($arg1,$arg2)">
+	    <mfrac arg="arg1">
 		<mn>6</mn>
 		<mn>7</mn>
 	    </mfrac>
-	    <msup intent="power($base, $exp)">
+	    <msup intent="power($base, $exp)" arg="arg2">
 		<mi arg="base">t</mi>
 		<mn arg="exp">2</mn>
 	    </msup>
@@ -92,24 +92,24 @@
 	</msup>
 
 	<mo>-</mo>
-	<mrow>
-	    <mfrac>
+	<mrow intent="times($arg1,$arg2)">
+	    <mfrac arg="arg1">
 		<mn>10</mn>
 		<mn>9</mn>
 	    </mfrac>
-	    <msup intent="power($base, $exp)">
+	    <msup intent="power($base, $exp)" arg="arg2">
 		<mi arg="base">t</mi>
 		<mn arg="exp">3</mn>
 	    </msup>
 	</mrow>
 
 	<mo>+</mo>
-	<mrow>
-	    <mfrac>
+	<mrow intent="times($arg1,$arg2)">
+	    <mfrac arg="arg1">
 		<mn>5</mn>
 		<mn>21</mn>
 	    </mfrac>
-	    <mi>t</mi>
+	    <mi arg="arg2">t</mi>
 	</mrow>
 	</mrow>
 	</mrow>

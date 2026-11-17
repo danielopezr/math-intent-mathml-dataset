@@ -10,7 +10,7 @@
     </mrow>
     <mo>=</mo>
     <mrow intent="$name($val)">
-        <mrow arg="name" intent="derivative($y, x, 1)">
+        <mrow arg="name" intent="derivative($y, _x, 1)">
             <mi arg="y">f</mi>
             <mo>&#x2032;</mo>
         </mrow>
@@ -24,7 +24,7 @@
     <mn>0</mn>
     <mo>,</mo>
     <mrow intent="$name($val)">
-        <mrow arg="name" intent="derivative($y, x, 2)">
+        <mrow arg="name" intent="derivative($y, _x, 2)">
             <mi arg="y">f</mi>
             <mo>&#x2033;</mo>
         </mrow>

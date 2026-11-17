@@ -26,8 +26,8 @@
     </mrow>
     <mo>=</mo>
     <mfrac>
-        <mrow intent="$gamma-function($var)">
-            <mo arg="name">&#x1D6E4;</mo>
+        <mrow intent="gamma-function($var)">
+            <mi>&#x1D6E4;</mi>
             <mrow arg="var">
                 <mo>(</mo>
                 <mi>n</mi>
@@ -39,7 +39,7 @@
             </mrow>
         </mrow>
         <mrow intent="gamma-function($var)">
-            <mo arg="name">&#x1D6E4;</mo>
+            <mi>&#x1D6E4;</mi>
             <mrow arg="var">
                 <mo>(</mo>
                 <mn>1</mn>

@@ -1,4 +1,5 @@
-<math display="block">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
 <mtable columnalign="center">
     <mtr>
         <mtd>
@@ -11,7 +12,7 @@
             <mo>=</mo>
             <mn>0</mn>
             <mo>,</mo>
-            <mspace width="1em" />
+            <mspace width="1em"/>
 
             <mrow intent="$name($var)">
                 <mi arg="name">D</mi>
@@ -26,7 +27,7 @@
             <mo>=</mo>
             <mn>1</mn>
             <mo>,</mo>
-            <mspace width="1em" />
+            <mspace width="1em"/>
 
             <mrow intent="$name($var)">
                 <mi arg="name">D</mi>
@@ -97,4 +98,5 @@
         </mtd>
     </mtr>
 </mtable>
+</mrow>
 </math>

@@ -1,4 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
 <mtable rowspacing="0.5em">
     <mtr>
         <mtd>
@@ -7,14 +8,14 @@
                     <mrow arg="base">
                         <mo>(</mo>
                         <mrow intent="cosine($var)">
-                            <mo>cos</mo>
+                            <mi>cos</mi>
                             <mi arg="var">&#x1D703;</mi>
                         </mrow>
                         <mo>+</mo>
                         <mrow intent="times($a, $b)">
                             <mi arg="a">i</mi>
                             <mrow arg="b" intent="sine($var)">
-                                <mo>sen</mo>
+                                <mi>sen</mi>
                                 <mi arg="var">&#x1D703;</mi>
                             </mrow>
                         </mrow>
@@ -24,20 +25,20 @@
                 </msup>
                 <mo>=</mo>
                 <mrow intent="cosine($var)">
-                    <mo>cos</mo>
-                    <mrow arg="var">
-                        <mn>2</mn>
-                        <mi>&#x1D703;</mi>
+                    <mi>cos</mi>
+                    <mrow arg="var" intent="times($arg1,$arg2)">
+                        <mn arg="arg1">2</mn>
+                        <mi arg="arg2">&#x1D703;</mi>
                     </mrow>
                 </mrow>
                 <mo>+</mo>
                 <mrow intent="times($a, $b)">
                     <mi arg="a">i</mi>
                     <mrow arg="b" intent="sine($var)">
-                        <mo>sen</mo>
-                        <mrow arg="var">
-                            <mn>2</mn>
-                            <mi>&#x1D703;</mi>
+                        <mi>sen</mi>
+                        <mrow arg="var" intent="times($arg1,$arg2)">
+                            <mn arg="arg1">2</mn>
+                            <mi arg="arg2">&#x1D703;</mi>
                         </mrow>
                     </mrow>
                 </mrow>
@@ -51,14 +52,14 @@
                     <mrow arg="base">
                         <mo>(</mo>
                         <mrow intent="cosine($var)">
-                            <mo>cos</mo>
+                            <mi>cos</mi>
                             <mi arg="var">&#x1D703;</mi>
                         </mrow>
                         <mo>+</mo>
                         <mrow intent="times($a, $b)">
                             <mi arg="a">i</mi>
                             <mrow arg="b" intent="sine($var)">
-                                <mo>sen</mo>
+                                <mi>sen</mi>
                                 <mi arg="var">&#x1D703;</mi>
                             </mrow>
                         </mrow>
@@ -68,20 +69,20 @@
                 </msup>
                 <mo>=</mo>
                 <mrow intent="cosine($var)">
-                    <mo>cos</mo>
-                    <mrow arg="var">
-                        <mn>3</mn>
-                        <mi>&#x1D703;</mi>
+                    <mi>cos</mi>
+                    <mrow arg="var" intent="times($arg1,$arg2)">
+                        <mn arg="arg1">3</mn>
+                        <mi arg="arg2">&#x1D703;</mi>
                     </mrow>
                 </mrow>
                 <mo>+</mo>
                 <mrow intent="times($a, $b)">
                     <mi arg="a">i</mi>
                     <mrow arg="b" intent="sine($var)">
-                        <mo>sen</mo>
-                        <mrow arg="var">
-                            <mn>3</mn>
-                            <mi>&#x1D703;</mi>
+                        <mi>sen</mi>
+                        <mrow arg="var" intent="times($arg1,$arg2)">
+                            <mn arg="arg1">3</mn>
+                            <mi arg="arg2">&#x1D703;</mi>
                         </mrow>
                     </mrow>
                 </mrow>
@@ -89,4 +90,5 @@
         </mtd>
     </mtr>
 </mtable>
+</mrow>
 </math>

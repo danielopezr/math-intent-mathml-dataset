@@ -1,4 +1,5 @@
-<math display="block">
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
 <mtable columnalign="left">
     <mtr>
         <mtd>                        
@@ -36,8 +37,8 @@
                             <msub>
                                 <mi>a</mi>
                                 <mrow>
-                                    <mi>1</mi>
-                                    <mi>2</mi>
+                                    <mn>1</mn>
+                                    <mn>2</mn>
                                 </mrow>
                             </msub>
                         </mtd>
@@ -48,8 +49,8 @@
                             <msub>
                                 <mi>a</mi>
                                 <mrow>
-                                    <mi>2</mi>
-                                    <mi>1</mi>
+                                    <mn>2</mn>
+                                    <mn>1</mn>
                                 </mrow>
                             </msub>
                         </mtd>
@@ -119,7 +120,7 @@
         </mtd>
     </mtr>
     <mtr>
-        <mtd></mtd>
+        <mtd/>
         <mtd><mo>=</mo></mtd>
         <mtd>
             <msup intent="power($base, $exp)">
@@ -190,4 +191,5 @@
         </mtd>
     </mtr>        
 </mtable>
+</mrow>
 </math>

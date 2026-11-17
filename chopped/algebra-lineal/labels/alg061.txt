@@ -1,4 +1,5 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML" >
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
        <mrow intent="inner-product($f, $g)">
             <mo>&#x27E8;</mo>
             <mi mathvariant="bold" arg="f">f</mi>
@@ -71,7 +72,7 @@
                         </mrow>
                         <mo>]</mo>
                     </mrow>
-                    <mo>&#x0305;</mo>
+                    <mo>&#x305;</mo>
                 </mover>
             </mrow>
             <mrow>
@@ -79,4 +80,5 @@
                 <mi>x</mi>
             </mrow>
        </mrow>
+</mrow>
 </math>
