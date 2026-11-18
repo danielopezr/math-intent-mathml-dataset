@@ -1,5 +1,7 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
+        <mi>A</mi>
+        <mo>=</mo>
         <mo>[</mo>
         <mtable intent=":matrix">
             <mtr>
@@ -9,12 +11,6 @@
                 <mtd>
                     <mn>1</mn>
                 </mtd>
-                <mtd>
-                    <mn>2</mn>
-                </mtd>
-                <mtd>
-                    <mn>9</mn>
-                </mtd>
             </mtr>
             <mtr>
                 <mtd>
@@ -22,44 +18,6 @@
                 </mtd>
                 <mtd>
                     <mn>1</mn>
-                </mtd>
-                <mtd>
-                    <mrow>
-                        <mo>−</mo>
-                        <mfrac>
-                            <mn>7</mn>
-                            <mn>2</mn>
-                        </mfrac>
-                    </mrow>
-                </mtd>
-                <mtd>
-                    <mrow>
-                        <mo>−</mo>
-                        <mfrac>
-                            <mn>17</mn>
-                            <mn>2</mn>
-                        </mfrac>
-                    </mrow>
-                </mtd>
-            </mtr>
-            <mtr>
-                <mtd>
-                    <mn>0</mn>
-                </mtd>
-                <mtd>
-                    <mn>3</mn>
-                </mtd>
-                <mtd>
-                    <mrow>
-                        <mo>−</mo>
-                        <mn>11</mn>
-                    </mrow>
-                </mtd>
-                <mtd>
-                    <mrow>
-                        <mo>−</mo>
-                        <mn>27</mn>
-                    </mrow>
                 </mtd>
             </mtr>
         </mtable>

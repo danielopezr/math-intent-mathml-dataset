@@ -13,13 +13,13 @@ used on their own.
 
 | Area | Folder | ID prefix | Images | Labelled | Pages |
 |---|---|---|---|---|---|
-| Algebra | `areas/algebra` | `balg` | 310 | 220 | 29 |
+| Algebra | `areas/algebra` | `balg` | 220 | 220 | 29 |
 | Calculus and differential equations | `areas/calculus-differential-equations` | `calc` | 220 | 220 | 22 |
-| Linear algebra | `areas/linear-algebra` | `alg` | 240 | 220 | 46 |
+| Linear algebra | `areas/linear-algebra` | `alg` | 220 | 220 | 46 |
 | Discrete mathematics | `areas/discrete-math` | `dic` | 60 | 10 | 39 |
 | Mathematical logic | `areas/mathematical-logic` | `log` | 67 | 0 | 32 |
 | Probability | `areas/probability` | `prob` | 61 | 0 | 34 |
-| **Total** | | | **958** | **670** | **202** |
+| **Total** | | | **838** | **670** | **202** |
 
 The textbooks are in Spanish, so some expressions contain Spanish function
 names and words (`sen` for sine, `y` for "and").
@@ -82,12 +82,17 @@ equivalent for evaluation.
 
 ## Status
 
-- **Reviewed and approved:** the calculus labels `calc001`–`calc170` were
-  checked one by one against their images (2026-11-18). `calc171`–`calc220`
-  and the labels of the other areas have not been reviewed yet.
+- **Reviewed and approved:** these labels were checked one by one against
+  their images (2026-11-18):
+  - all the calculus labels, `calc001`–`calc220`;
+  - the algebra labels `balg001`–`balg104`.
+
+  `balg105`–`balg220` and the labels of the other areas have not been
+  reviewed yet.
 - Mathematical logic and probability have no labels yet; discrete mathematics
-  has 10 of 60, algebra 220 of 310 and linear algebra 220 of 240.
-- 39 labelled samples have no topic.
+  has 10 of 60. Algebra, calculus and linear algebra have 220 labelled
+  images each, numbered `001`–`220` without gaps.
+- 326 labelled samples have no topic.
 
 ## History
 
@@ -102,6 +107,20 @@ here and reorganised; the commit history was kept. Old paths map to new ones:
 | `algebra`, `calculo-ed`, `algebra-lineal`, `matematicas-discretas`, `logica-matematica`, `probabilidad` | `algebra`, `calculus-differential-equations`, `linear-algebra`, `discrete-math`, `mathematical-logic`, `probability` |
 
 Sample IDs did not change, so results computed before the move still match.
+
+On 2026-11-18 algebra and linear algebra were reduced to 220 labelled images
+each and renumbered `001`–`220`. The unlabelled crops were removed (most were
+cut off, mixed with the neighbouring line or had handwriting on them), and so
+were three algebra crops that were only a piece of another sample (old
+`balg012`, `balg015` and `balg057`). `metadata/id-changes-2026-11-18.csv` maps
+every old ID to its new one (empty if it was removed). Results computed before
+that date use the old algebra and linear-algebra IDs.
+
+The same day three linear-algebra samples that repeated another one were
+replaced, keeping their IDs, by new crops from the pages: `alg017` (it
+repeated `alg016`) is now ⟨f + g, s⟩ = ∫ (f(x) + g(x)) s(x) dx, `alg074` (the
+E₃ already in `alg071`) is a 2 × 2 matrix with 1/√2 entries, and `alg102`
+(the same matrix as `alg054`) is T(v) = ⟨v, w₁⟩w₁ + ⟨v, w₂⟩w₂.
 
 ## License
 

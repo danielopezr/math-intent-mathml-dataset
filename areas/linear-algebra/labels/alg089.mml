@@ -1,0 +1,30 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mrow intent="inner-product($arg1,$arg2)">
+            <mi>⟨</mi>
+            <mi arg="arg1">𝐟</mi>
+            <mo>,</mo>
+            <mi arg="arg2">𝐟</mi>
+            <mi>⟩</mi>
+        </mrow>
+        <mo>=</mo>
+        <msubsup>
+            <mo>∫</mo>
+            <mi>a</mi>
+            <mi>b</mi>
+        </msubsup>
+        <mrow intent="$name($var)">
+            <msup arg="name" intent="power($base,$exp)">
+                <mi arg="base">f</mi>
+                <mn arg="exp">2</mn>
+            </msup>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">x</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mi>d</mi>
+        <mi>x</mi>
+        <mo>≥</mo>
+        <mn>0</mn>
+    </mrow>
+</math>

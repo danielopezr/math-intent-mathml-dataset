@@ -1,30 +1,53 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
+        <mrow intent="times($arg1,$arg2)">
+            <mi arg="arg1">k</mi>
+            <mrow arg="arg2">
+                <mo stretchy="false">(</mo>
+                <mi>𝐮</mi>
+                <mo>·</mo>
+                <mi>𝐯</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+        </mrow>
         <mo>=</mo>
         <mrow intent="times($arg1,$arg2)">
-            <mfrac arg="arg1">
-                <mrow intent="absolute-value($a)">
-                    <mo stretchy="false">|</mo>
-                    <mrow arg="a">
-                        <mi>𝐮</mi>
-                        <mo>·</mo>
-                        <mi>𝐚</mi>
-                    </mrow>
-                    <mo stretchy="false">|</mo>
+            <mi arg="arg1">k</mi>
+            <mrow arg="arg2">
+                <mo stretchy="false">(</mo>
+                <mrow intent="times($arg1,$arg2)">
+                    <msub arg="arg1">
+                        <mi>u</mi>
+                        <mn>1</mn>
+                    </msub>
+                    <msub arg="arg2">
+                        <mi>v</mi>
+                        <mn>1</mn>
+                    </msub>
                 </mrow>
-                <msup intent="power($base,$exp)">
-                    <mrow intent="norm($a)" arg="base">
-                        <mo fence="false" stretchy="false">‖</mo>
-                        <mi arg="a">𝐚</mi>
-                        <mo fence="false" stretchy="false">‖</mo>
-                    </mrow>
-                    <mn arg="exp">2</mn>
-                </msup>
-            </mfrac>
-            <mrow intent="norm($a)" arg="arg2">
-                <mo fence="false" stretchy="false">‖</mo>
-                <mi arg="a">𝐚</mi>
-                <mo fence="false" stretchy="false">‖</mo>
+                <mo>+</mo>
+                <mrow intent="times($arg1,$arg2)">
+                    <msub arg="arg1">
+                        <mi>u</mi>
+                        <mn>2</mn>
+                    </msub>
+                    <msub arg="arg2">
+                        <mi>v</mi>
+                        <mn>2</mn>
+                    </msub>
+                </mrow>
+                <mo>+</mo>
+                <mrow intent="times($arg1,$arg2)">
+                    <msub arg="arg1">
+                        <mi>u</mi>
+                        <mn>3</mn>
+                    </msub>
+                    <msub arg="arg2">
+                        <mi>v</mi>
+                        <mn>3</mn>
+                    </msub>
+                </mrow>
+                <mo stretchy="false">)</mo>
             </mrow>
         </mrow>
     </mrow>

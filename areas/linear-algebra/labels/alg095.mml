@@ -1,73 +1,59 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow intent="vector($vec)">
-            <mo>[</mo>
-            <mtable arg="vec">
-                <mtr>
-                    <mtd>
-                        <msub>
-                            <mi>w</mi>
-                            <mn>1</mn>
-                        </msub>
-                    </mtd>
-                </mtr>
-                <mtr>
-                    <mtd>
-                        <msub>
-                            <mi>w</mi>
-                            <mn>2</mn>
-                        </msub>
-                    </mtd>
-                </mtr>
-            </mtable>
-            <mo>]</mo>
-        </mrow>
+        <mi>A</mi>
         <mo>=</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mrow arg="arg1">
-                <mo>[</mo>
-                <mtable intent=":matrix">
-                    <mtr>
-                        <mtd>
-                            <mn>2</mn>
-                        </mtd>
-                        <mtd>
-                            <mn>1</mn>
-                        </mtd>
-                    </mtr>
-                    <mtr>
-                        <mtd>
-                            <mn>3</mn>
-                        </mtd>
-                        <mtd>
-                            <mn>4</mn>
-                        </mtd>
-                    </mtr>
-                </mtable>
-                <mo>]</mo>
-            </mrow>
-            <mrow intent="vector($vec)" arg="arg2">
-                <mo>[</mo>
-                <mtable arg="vec">
-                    <mtr>
-                        <mtd>
-                            <msub>
-                                <mi>x</mi>
-                                <mn>1</mn>
-                            </msub>
-                        </mtd>
-                    </mtr>
-                    <mtr>
-                        <mtd>
-                            <msub>
-                                <mi>x</mi>
+        <mo>[</mo>
+        <mtable intent=":matrix">
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mrow intent="fraction($num,$den)">
+                            <mn arg="num">1</mn>
+                            <mo>/</mo>
+                            <msqrt arg="den">
                                 <mn>2</mn>
-                            </msub>
-                        </mtd>
-                    </mtr>
-                </mtable>
-                <mo>]</mo>
-            </mrow>
-        </mrow>
+                            </msqrt>
+                        </mrow>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mrow intent="fraction($num,$den)">
+                            <mn arg="num">1</mn>
+                            <mo>/</mo>
+                            <msqrt arg="den">
+                                <mn>2</mn>
+                            </msqrt>
+                        </mrow>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mrow intent="fraction($num,$den)">
+                        <mn arg="num">1</mn>
+                        <mo>/</mo>
+                        <msqrt arg="den">
+                            <mn>2</mn>
+                        </msqrt>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mrow intent="fraction($num,$den)">
+                            <mn arg="num">1</mn>
+                            <mo>/</mo>
+                            <msqrt arg="den">
+                                <mn>2</mn>
+                            </msqrt>
+                        </mrow>
+                    </mrow>
+                </mtd>
+            </mtr>
+        </mtable>
+        <mo>]</mo>
     </mrow>
 </math>

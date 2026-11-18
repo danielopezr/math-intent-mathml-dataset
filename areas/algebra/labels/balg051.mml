@@ -1,13 +1,36 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
         <mfrac>
-            <mi>C</mi>
-            <mi>D</mi>
+            <mrow intent="times($a, $b)">
+                <mn arg="a">4</mn>
+                <mrow arg="b">
+                    <mo>(</mo>
+                    <mi>m</mi>
+                    <mo>+</mo>
+                    <mi>p</mi>
+                    <mo>)</mo>
+                </mrow>
+            </mrow>
+            <mi>a</mi>
         </mfrac>
-        <mo>=</mo>
-        <mi>&#x3C0;</mi>
-        <mo>=</mo>
-        <mn intent=":decimal">3.14159</mn>
-        <mo intent="ellipsis">&#x2026;</mo>
+        <mo>÷</mo>
+        <mfrac>
+            <mrow>
+                <msup intent="power($base, $exp)">
+                    <mi arg="base">a</mi>
+                    <mn arg="exp">2</mn>
+                </msup>
+                <mo>+</mo>
+                <msup intent="power($base, $exp)">
+                    <mi arg="base">b</mi>
+                    <mn arg="exp">2</mn>
+                </msup>
+            </mrow>
+            <msup intent="power($base, $exp)">
+                <mi arg="base">c</mi>
+                <mn arg="exp">2</mn>
+            </msup>
+        </mfrac>
+        <mo>.</mo>
     </mrow>
 </math>

@@ -1,71 +1,166 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow intent="inner-product($arg1,$arg2)">
-            <mi>⟨</mi>
-            <mrow arg="arg1" intent="times($arg1,$arg2)">
-                <mi arg="arg1">k</mi>
-                <mi arg="arg2">𝐟</mi>
-            </mrow>
-            <mo>,</mo>
-            <mi arg="arg2">𝐠</mi>
-            <mi>⟩</mi>
-        </mrow>
-        <mo>=</mo>
-        <msubsup>
-            <mo>∫</mo>
-            <mi>a</mi>
-            <mi>b</mi>
-        </msubsup>
-        <mrow intent="times($arg1,$arg2,$arg3)">
-            <mi arg="arg1">k</mi>
-            <mrow intent="$name($var)" arg="arg2">
-                <mi arg="name">f</mi>
-                <mo stretchy="false">(</mo>
-                <mi arg="var">x</mi>
-                <mo stretchy="false">)</mo>
-            </mrow>
-            <mrow intent="$name($var)" arg="arg3">
-                <mi arg="name">g</mi>
-                <mo stretchy="false">(</mo>
-                <mi arg="var">x</mi>
-                <mo stretchy="false">)</mo>
-            </mrow>
-        </mrow>
-        <mi>d</mi>
-        <mi>x</mi>
-        <mo>=</mo>
-        <mi>k</mi>
-        <msubsup>
-            <mo>∫</mo>
-            <mi>a</mi>
-            <mi>b</mi>
-        </msubsup>
         <mrow intent="times($arg1,$arg2)">
-            <mrow intent="$name($var)" arg="arg1">
-                <mi arg="name">f</mi>
-                <mo stretchy="false">(</mo>
-                <mi arg="var">x</mi>
-                <mo stretchy="false">)</mo>
+            <mrow arg="arg1">
+                <mo stretchy="false">[</mo>
+                <msup intent="inverse($base)">
+                    <mi arg="base">T</mi>
+                    <mrow>
+                        <mo>−</mo>
+                        <mn>1</mn>
+                    </mrow>
+                </msup>
+                <mo stretchy="false">]</mo>
             </mrow>
-            <mrow intent="$name($var)" arg="arg2">
-                <mi arg="name">g</mi>
-                <mo stretchy="false">(</mo>
-                <mi arg="var">x</mi>
-                <mo stretchy="false">)</mo>
+            <mrow intent="vector($vec)" arg="arg2">
+                <mo>[</mo>
+                <mtable arg="vec">
+                    <mtr>
+                        <mtd>
+                            <msub>
+                                <mi>w</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </mtd>
+                    </mtr>
+                    <mtr>
+                        <mtd>
+                            <msub>
+                                <mi>w</mi>
+                                <mn>2</mn>
+                            </msub>
+                        </mtd>
+                    </mtr>
+                </mtable>
+                <mo>]</mo>
             </mrow>
         </mrow>
-        <mi>d</mi>
-        <mi>x</mi>
         <mo>=</mo>
         <mrow intent="times($arg1,$arg2)">
-            <mi arg="arg1">k</mi>
-            <mrow intent="inner-product($arg1,$arg2)" arg="arg2">
-                <mi>⟨</mi>
-                <mi arg="arg1">𝐟</mi>
-                <mo>,</mo>
-                <mi arg="arg2">𝐠</mi>
-                <mi>⟩</mi>
+            <mrow arg="arg1">
+                <mo>[</mo>
+                <mtable intent=":matrix">
+                    <mtr>
+                        <mtd>
+                            <mfrac>
+                                <mn>4</mn>
+                                <mn>5</mn>
+                            </mfrac>
+                        </mtd>
+                        <mtd>
+                            <mrow>
+                                <mo>−</mo>
+                                <mfrac>
+                                    <mn>1</mn>
+                                    <mn>5</mn>
+                                </mfrac>
+                            </mrow>
+                        </mtd>
+                    </mtr>
+                    <mtr>
+                        <mtd>
+                            <mrow>
+                                <mo>−</mo>
+                                <mfrac>
+                                    <mn>3</mn>
+                                    <mn>5</mn>
+                                </mfrac>
+                            </mrow>
+                        </mtd>
+                        <mtd>
+                            <mfrac>
+                                <mn>2</mn>
+                                <mn>5</mn>
+                            </mfrac>
+                        </mtd>
+                    </mtr>
+                </mtable>
+                <mo>]</mo>
             </mrow>
+            <mrow intent="vector($vec)" arg="arg2">
+                <mo>[</mo>
+                <mtable arg="vec">
+                    <mtr>
+                        <mtd>
+                            <msub>
+                                <mi>w</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </mtd>
+                    </mtr>
+                    <mtr>
+                        <mtd>
+                            <msub>
+                                <mi>w</mi>
+                                <mn>2</mn>
+                            </msub>
+                        </mtd>
+                    </mtr>
+                </mtable>
+                <mo>]</mo>
+            </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="vector($vec)">
+            <mo>[</mo>
+            <mtable arg="vec">
+                <mtr>
+                    <mtd>
+                        <mrow>
+                            <mrow intent="times($arg1,$arg2)">
+                                <mfrac arg="arg1">
+                                    <mn>4</mn>
+                                    <mn>5</mn>
+                                </mfrac>
+                                <msub arg="arg2">
+                                    <mi>w</mi>
+                                    <mn>1</mn>
+                                </msub>
+                            </mrow>
+                            <mo>−</mo>
+                            <mrow intent="times($arg1,$arg2)">
+                                <mfrac arg="arg1">
+                                    <mn>1</mn>
+                                    <mn>5</mn>
+                                </mfrac>
+                                <msub arg="arg2">
+                                    <mi>w</mi>
+                                    <mn>2</mn>
+                                </msub>
+                            </mrow>
+                        </mrow>
+                    </mtd>
+                </mtr>
+                <mtr>
+                    <mtd>
+                        <mrow>
+                            <mo>−</mo>
+                            <mrow intent="times($arg1,$arg2)">
+                                <mfrac arg="arg1">
+                                    <mn>3</mn>
+                                    <mn>5</mn>
+                                </mfrac>
+                                <msub arg="arg2">
+                                    <mi>w</mi>
+                                    <mn>1</mn>
+                                </msub>
+                            </mrow>
+                            <mo>+</mo>
+                            <mrow intent="times($arg1,$arg2)">
+                                <mfrac arg="arg1">
+                                    <mn>2</mn>
+                                    <mn>5</mn>
+                                </mfrac>
+                                <msub arg="arg2">
+                                    <mi>w</mi>
+                                    <mn>2</mn>
+                                </msub>
+                            </mrow>
+                        </mrow>
+                    </mtd>
+                </mtr>
+            </mtable>
+            <mo>]</mo>
         </mrow>
     </mrow>
 </math>

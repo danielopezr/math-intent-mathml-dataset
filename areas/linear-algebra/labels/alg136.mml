@@ -1,30 +1,47 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
+        <mi>𝐮</mi>
+        <mo>·</mo>
+        <mi>𝐯</mi>
         <mo>=</mo>
         <mrow intent="times($arg1,$arg2)">
-            <mrow intent="absolute-value($a)" arg="arg1">
-                <mo stretchy="true" fence="true" form="prefix">|</mo>
-                <mfrac arg="a">
-                    <mrow>
-                        <mi>𝐮</mi>
-                        <mo>·</mo>
-                        <mi>𝐚</mi>
+            <mfrac arg="arg1">
+                <mn>1</mn>
+                <mn>2</mn>
+            </mfrac>
+            <mrow arg="arg2">
+                <mo stretchy="false">(</mo>
+                <msup intent="power($base,$exp)">
+                    <mrow intent="norm($a)" arg="base">
+                        <mo fence="false" stretchy="false">‖</mo>
+                        <mi arg="a">𝐮</mi>
+                        <mo fence="false" stretchy="false">‖</mo>
                     </mrow>
-                    <msup intent="power($base,$exp)">
-                        <mrow intent="norm($a)" arg="base">
-                            <mo fence="false" stretchy="false">‖</mo>
-                            <mi arg="a">𝐚</mi>
-                            <mo fence="false" stretchy="false">‖</mo>
+                    <mn arg="exp">2</mn>
+                </msup>
+                <mo>+</mo>
+                <msup intent="power($base,$exp)">
+                    <mrow intent="norm($a)" arg="base">
+                        <mo fence="false" stretchy="false">‖</mo>
+                        <mi arg="a">𝐯</mi>
+                        <mo fence="false" stretchy="false">‖</mo>
+                    </mrow>
+                    <mn arg="exp">2</mn>
+                </msup>
+                <mo>−</mo>
+                <msup intent="power($base,$exp)">
+                    <mrow intent="norm($a)" arg="base">
+                        <mo fence="false" stretchy="false">‖</mo>
+                        <mrow arg="a">
+                            <mi>𝐯</mi>
+                            <mo>−</mo>
+                            <mi>𝐮</mi>
                         </mrow>
-                        <mn arg="exp">2</mn>
-                    </msup>
-                </mfrac>
-                <mo stretchy="true" fence="true" form="postfix">|</mo>
-            </mrow>
-            <mrow intent="norm($a)" arg="arg2">
-                <mo fence="false" stretchy="false">‖</mo>
-                <mi arg="a">𝐚</mi>
-                <mo fence="false" stretchy="false">‖</mo>
+                        <mo fence="false" stretchy="false">‖</mo>
+                    </mrow>
+                    <mn arg="exp">2</mn>
+                </msup>
+                <mo stretchy="false">)</mo>
             </mrow>
         </mrow>
     </mrow>

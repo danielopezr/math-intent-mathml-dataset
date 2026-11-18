@@ -1,28 +1,90 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mrow intent="times($a, $b)">
-        <mrow arg="a">
-            <mo>(</mo>
+    <mrow>
+        <mfrac>
+            <mrow intent="times($arg1,$arg2,$arg3)">
+                <mn arg="arg1">4</mn>
+                <msup intent="power($base, $exp)" arg="arg2">
+                    <mi arg="base">a</mi>
+                    <mn arg="exp">2</mn>
+                </msup>
+                <msup intent="power($base, $exp)" arg="arg3">
+                    <mi arg="base">b</mi>
+                    <mn arg="exp">3</mn>
+                </msup>
+            </mrow>
+            <mrow intent="times($arg1,$arg2,$arg3)">
+                <mn arg="arg1">5</mn>
+                <mi arg="arg2">c</mi>
+                <mi arg="arg3">d</mi>
+            </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+            <mrow>
+                <mn>4</mn>
+                <mo>×</mo>
+                <msup intent="power($base, $exp)">
+                    <mrow arg="base">
+                        <mo>(</mo>
+                        <mfrac>
+                            <mn>1</mn>
+                            <mn>2</mn>
+                        </mfrac>
+                        <mo>)</mo>
+                    </mrow>
+                    <mn arg="exp">2</mn>
+                </msup>
+                <mo>×</mo>
+                <msup intent="power($base, $exp)">
+                    <mrow arg="base">
+                        <mo>(</mo>
+                        <mfrac>
+                            <mn>1</mn>
+                            <mn>3</mn>
+                        </mfrac>
+                        <mo>)</mo>
+                    </mrow>
+                    <mn arg="exp">3</mn>
+                </msup>
+            </mrow>
+            <mrow>
+                <mn>5</mn>
+                <mo>×</mo>
+                <mn>2</mn>
+                <mo>×</mo>
+                <mn>3</mn>
+            </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+            <mrow>
+                <mn>4</mn>
+                <mo>×</mo>
+                <mfrac>
+                    <mn>1</mn>
+                    <mn>4</mn>
+                </mfrac>
+                <mo>×</mo>
+                <mfrac>
+                    <mn>1</mn>
+                    <mn>27</mn>
+                </mfrac>
+            </mrow>
+            <mn>30</mn>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
             <mfrac>
-                <mrow intent="times($arg1,$arg2)">
-                    <mn arg="arg1">8</mn>
-                    <mi arg="arg2">m</mi>
-                </mrow>
-                <mrow intent="times($arg1,$arg2)">
-                    <mn arg="arg1">9</mn>
-                    <mi arg="arg2">n</mi>
-                </mrow>
+                <mn>1</mn>
+                <mn>27</mn>
             </mfrac>
-            <mo>+</mo>
-            <mfrac>
-                <mrow intent="times($arg1,$arg2)">
-                    <mn arg="arg1">16</mn>
-                    <mi arg="arg2">p</mi>
-                </mrow>
-                <mi>b</mi>
-            </mfrac>
-            <mo>)</mo>
-        </mrow>
-        <mi arg="b">a</mi>
+            <mn>30</mn>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+            <mn>1</mn>
+            <mn>810</mn>
+        </mfrac>
         <mo>.</mo>
     </mrow>
 </math>

@@ -1,30 +1,73 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow intent="inner-product($arg1,$arg2)">
-            <mi>⟨</mi>
-            <mi arg="arg1">𝐟</mi>
-            <mo>,</mo>
-            <mi arg="arg2">𝐟</mi>
-            <mi>⟩</mi>
-        </mrow>
-        <mo>=</mo>
-        <msubsup>
-            <mo>∫</mo>
-            <mi>a</mi>
-            <mi>b</mi>
-        </msubsup>
-        <mrow intent="$name($var)">
-            <msup arg="name" intent="power($base,$exp)">
-                <mi arg="base">f</mi>
-                <mn arg="exp">2</mn>
+        <mrow intent="$name($v1, $v2)">
+            <msup arg="name">
+                <mi>T</mi>
+                <mrow>
+                    <mo>−</mo>
+                    <mn>1</mn>
+                </mrow>
             </msup>
             <mo stretchy="false">(</mo>
-            <mi arg="var">x</mi>
+            <msub arg="v1">
+                <mi>w</mi>
+                <mn>1</mn>
+            </msub>
+            <mo>,</mo>
+            <msub arg="v2">
+                <mi>w</mi>
+                <mn>2</mn>
+            </msub>
             <mo stretchy="false">)</mo>
         </mrow>
-        <mi>d</mi>
-        <mi>x</mi>
-        <mo>≥</mo>
-        <mn>0</mn>
+        <mo>=</mo>
+        <mrow>
+            <mo stretchy="true" fence="true" form="prefix">(</mo>
+            <mrow intent="times($arg1,$arg2)">
+                <mfrac arg="arg1">
+                    <mn>4</mn>
+                    <mn>5</mn>
+                </mfrac>
+                <msub arg="arg2">
+                    <mi>w</mi>
+                    <mn>1</mn>
+                </msub>
+            </mrow>
+            <mo>−</mo>
+            <mrow intent="times($arg1,$arg2)">
+                <mfrac arg="arg1">
+                    <mn>1</mn>
+                    <mn>5</mn>
+                </mfrac>
+                <msub arg="arg2">
+                    <mi>w</mi>
+                    <mn>2</mn>
+                </msub>
+            </mrow>
+            <mo>,</mo>
+            <mo>−</mo>
+            <mrow intent="times($arg1,$arg2)">
+                <mfrac arg="arg1">
+                    <mn>3</mn>
+                    <mn>5</mn>
+                </mfrac>
+                <msub arg="arg2">
+                    <mi>w</mi>
+                    <mn>1</mn>
+                </msub>
+            </mrow>
+            <mo>+</mo>
+            <mrow intent="times($arg1,$arg2)">
+                <mfrac arg="arg1">
+                    <mn>2</mn>
+                    <mn>5</mn>
+                </mfrac>
+                <msub arg="arg2">
+                    <mi>w</mi>
+                    <mn>2</mn>
+                </msub>
+            </mrow>
+            <mo stretchy="true" fence="true" form="postfix">)</mo>
+        </mrow>
     </mrow>
 </math>

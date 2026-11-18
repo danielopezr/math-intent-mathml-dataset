@@ -1,28 +1,10 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mi>A</mi>
+        <mi>y</mi>
         <mo>=</mo>
-        <mi>b</mi>
-        <mo>×</mo>
-        <mi>h</mi>
-        <mo>=</mo>
-        <mn>8</mn>
-        <mi intent=":unit">m.</mi>
-        <mo>×</mo>
-        <mrow intent="mixed-fraction($int, $frac)">
-            <mn arg="int">3</mn>
-            <mfrac arg="frac">
-                <mn>1</mn>
-                <mn>2</mn>
-            </mfrac>
+        <mrow intent="logarithm($arg)">
+            <mi>log</mi>
+            <mi arg="arg">B</mi>
         </mrow>
-        <mi intent=":unit">m</mi>
-        <mo>=</mo>
-        <mn>28</mn>
-        <msup intent="power($base, $exp)">
-            <mi arg="base" intent=":unit">m.</mi>
-            <mn arg="exp">2</mn>
-        </msup>
-        <mo>.</mo>
     </mrow>
 </math>

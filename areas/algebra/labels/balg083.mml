@@ -1,55 +1,42 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <msup intent="power($base,$exp)">
-            <mrow arg="base">
-                <mo stretchy="false">(</mo>
-                <msqrt>
-                    <mrow>
-                        <mo>−</mo>
-                        <mn>1</mn>
-                    </mrow>
-                </msqrt>
-                <mo stretchy="false">)</mo>
+        <mfrac>
+            <mrow intent="times($arg1,$arg2)">
+                <mn arg="arg1">5</mn>
+                <mi arg="arg2">x</mi>
             </mrow>
-            <mn arg="exp">5</mn>
-        </msup>
-        <mo>=</mo>
-        <msup intent="power($base,$exp)">
-            <mrow arg="base">
+            <mn>4</mn>
+        </mfrac>
+        <mo>−</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac arg="arg1">
+                <mn>3</mn>
+                <mn>17</mn>
+            </mfrac>
+            <mrow arg="arg2">
                 <mo stretchy="false">(</mo>
-                <msqrt>
-                    <mrow>
-                        <mo>−</mo>
-                        <mn>1</mn>
-                    </mrow>
-                </msqrt>
-                <mo stretchy="false">)</mo>
-            </mrow>
-            <mn arg="exp">4</mn>
-        </msup>
-        <mo>×</mo>
-        <msqrt>
-            <mrow>
+                <mi>x</mi>
                 <mo>−</mo>
-                <mn>1</mn>
+                <mn>20</mn>
+                <mo stretchy="false">)</mo>
             </mrow>
-        </msqrt>
-        <mo>=</mo>
+        </mrow>
+        <mo>−</mo>
+        <mo stretchy="false">(</mo>
+        <mn>2</mn>
+        <mi>x</mi>
+        <mo>−</mo>
         <mn>1</mn>
-        <mo>×</mo>
-        <msqrt>
-            <mrow>
-                <mo>−</mo>
-                <mn>1</mn>
-            </mrow>
-        </msqrt>
+        <mo stretchy="false">)</mo>
         <mo>=</mo>
-        <msqrt>
+        <mfrac>
             <mrow>
-                <mo>−</mo>
-                <mn>1</mn>
+                <mi>x</mi>
+                <mo>+</mo>
+                <mn>24</mn>
             </mrow>
-        </msqrt>
+            <mn>34</mn>
+        </mfrac>
         <mo>.</mo>
     </mrow>
 </math>

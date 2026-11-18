@@ -1,27 +1,33 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mi>A</mi>
+        <msup intent="inverse($base)">
+            <mrow arg="base">
+                <mo stretchy="false">(</mo>
+                <msup intent="transpose($base)">
+                    <mi arg="base">B</mi>
+                    <mi>T</mi>
+                </msup>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+            </mrow>
+        </msup>
         <mo>=</mo>
-        <mo>[</mo>
-        <mtable intent=":matrix">
-            <mtr>
-                <mtd>
-                    <mn>1</mn>
-                </mtd>
-                <mtd>
-                    <mn>2</mn>
-                </mtd>
-            </mtr>
-            <mtr>
-                <mtd>
-                    <mn>2</mn>
-                </mtd>
-                <mtd>
-                    <mn>5</mn>
-                </mtd>
-            </mtr>
-        </mtable>
-        <mo>]</mo>
-        <mo>,</mo>
+        <msup intent="transpose($base)">
+            <mrow arg="base">
+                <mo stretchy="false">(</mo>
+                <msup intent="inverse($base)">
+                    <mi arg="base">B</mi>
+                    <mrow>
+                        <mo>−</mo>
+                        <mn>1</mn>
+                    </mrow>
+                </msup>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mi>T</mi>
+        </msup>
     </mrow>
 </math>

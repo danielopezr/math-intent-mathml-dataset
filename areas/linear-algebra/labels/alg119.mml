@@ -1,14 +1,26 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mi>𝐮</mi>
-        <mo>·</mo>
-        <mo stretchy="false">(</mo>
-        <mi>𝐯</mi>
-        <mo>×</mo>
-        <mi>𝐰</mi>
-        <mo stretchy="false">)</mo>
         <mo>=</mo>
         <mn>0</mn>
-        <mo>.</mo>
+        <mo>+</mo>
+        <msup intent="power($base,$exp)">
+            <mi arg="base">i</mi>
+            <mn arg="exp">2</mn>
+        </msup>
+        <mo>+</mo>
+        <mn>0</mn>
+        <mo>−</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">2</mn>
+            <mi arg="arg2">i</mi>
+        </mrow>
+        <mo>−</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">2</mn>
+            <msup arg="arg2" intent="power($base,$exp)">
+                <mi arg="base">i</mi>
+                <mn arg="exp">2</mn>
+            </msup>
+        </mrow>
     </mrow>
 </math>

@@ -1,28 +1,35 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow intent="determinant($arg)">
-            <mi>det</mi>
-            <mo stretchy="false">(</mo>
-            <mrow arg="arg">
-                <mi>A</mi>
-                <mo>+</mo>
-                <mi>B</mi>
+        <msup intent="inverse($base)">
+            <mi arg="base">A</mi>
+            <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
             </mrow>
-            <mo stretchy="false">)</mo>
-        </mrow>
-        <mo>≠</mo>
-        <mrow intent="determinant($arg)">
-            <mi>det</mi>
-            <mo stretchy="false">(</mo>
-            <mi arg="arg">A</mi>
-            <mo stretchy="false">)</mo>
-        </mrow>
-        <mo>+</mo>
-        <mrow intent="determinant($arg)">
-            <mi>det</mi>
-            <mo stretchy="false">(</mo>
-            <mi arg="arg">B</mi>
-            <mo stretchy="false">)</mo>
-        </mrow>
+        </msup>
+        <mo>=</mo>
+        <mo>[</mo>
+        <mtable intent=":matrix">
+            <mtr>
+                <mtd>
+                    <mn>2</mn>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mn>1</mn>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mn>3</mn>
+                </mtd>
+                <mtd>
+                    <mn>5</mn>
+                </mtd>
+            </mtr>
+        </mtable>
+        <mo>]</mo>
     </mrow>
 </math>

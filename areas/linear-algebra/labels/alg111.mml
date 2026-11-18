@@ -1,112 +1,27 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <msub>
-            <mi>A</mi>
-            <mi>n</mi>
-        </msub>
+        <mo stretchy="false">(</mo>
+        <mo>−</mo>
+        <mn>3</mn>
+        <mo>,</mo>
+        <mn>0</mn>
+        <mo>,</mo>
+        <mn>2</mn>
+        <mo stretchy="false">)</mo>
+        <mo>;</mo>
+        <mo>−</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">3</mn>
+            <mi arg="arg2">x</mi>
+        </mrow>
+        <mo>+</mo>
+        <mi>y</mi>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">5</mn>
+            <mi arg="arg2">z</mi>
+        </mrow>
         <mo>=</mo>
-        <mo>(</mo>
-        <mtable intent=":matrix">
-            <mtr>
-                <mtd>
-                    <msub>
-                        <mi>a</mi>
-                        <mrow>
-                            <mn>1</mn>
-                            <mn>1</mn>
-                        </mrow>
-                    </msub>
-                </mtd>
-                <mtd>
-                    <msub>
-                        <mi>a</mi>
-                        <mrow>
-                            <mn>1</mn>
-                            <mn>2</mn>
-                        </mrow>
-                    </msub>
-                </mtd>
-                <mtd>
-                    <mo intent="ellipsis">⋯</mo>
-                </mtd>
-                <mtd>
-                    <msub>
-                        <mi>b</mi>
-                        <mn>1</mn>
-                    </msub>
-                </mtd>
-            </mtr>
-            <mtr>
-                <mtd>
-                    <msub>
-                        <mi>a</mi>
-                        <mrow>
-                            <mn>2</mn>
-                            <mn>1</mn>
-                        </mrow>
-                    </msub>
-                </mtd>
-                <mtd>
-                    <msub>
-                        <mi>a</mi>
-                        <mrow>
-                            <mn>2</mn>
-                            <mn>2</mn>
-                        </mrow>
-                    </msub>
-                </mtd>
-                <mtd>
-                    <mo intent="ellipsis">⋯</mo>
-                </mtd>
-                <mtd>
-                    <msub>
-                        <mi>b</mi>
-                        <mn>2</mn>
-                    </msub>
-                </mtd>
-            </mtr>
-            <mtr>
-                <mtd>
-                    <mo>⋮</mo>
-                </mtd>
-                <mtd>
-                    <mo>⋮</mo>
-                </mtd>
-                <mtd/>
-                <mtd>
-                    <mo>⋮</mo>
-                </mtd>
-            </mtr>
-            <mtr>
-                <mtd>
-                    <msub>
-                        <mi>a</mi>
-                        <mrow>
-                            <mi>n</mi>
-                            <mn>1</mn>
-                        </mrow>
-                    </msub>
-                </mtd>
-                <mtd>
-                    <msub>
-                        <mi>a</mi>
-                        <mrow>
-                            <mi>n</mi>
-                            <mn>2</mn>
-                        </mrow>
-                    </msub>
-                </mtd>
-                <mtd>
-                    <mo intent="ellipsis">⋯</mo>
-                </mtd>
-                <mtd>
-                    <msub>
-                        <mi>b</mi>
-                        <mi>n</mi>
-                    </msub>
-                </mtd>
-            </mtr>
-        </mtable>
-        <mo>)</mo>
+        <mn>0</mn>
     </mrow>
 </math>

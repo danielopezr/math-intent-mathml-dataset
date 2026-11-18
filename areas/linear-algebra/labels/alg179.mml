@@ -1,42 +1,56 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <msup intent="inverse($base)">
-            <mrow arg="base">
-                <mo stretchy="false">(</mo>
-                <mrow intent="times($arg1,$arg2)">
-                    <mn arg="arg1">7</mn>
-                    <mi arg="arg2">A</mi>
-                </mrow>
-                <mo stretchy="false">)</mo>
-            </mrow>
-            <mrow>
-                <mo>−</mo>
-                <mn>1</mn>
-            </mrow>
-        </msup>
-        <mo>=</mo>
         <mo>[</mo>
         <mtable intent=":matrix">
-            <mtr>
-                <mtd>
-                    <mrow>
-                        <mo>−</mo>
-                        <mn>3</mn>
-                    </mrow>
-                </mtd>
-                <mtd>
-                    <mn>7</mn>
-                </mtd>
-            </mtr>
             <mtr>
                 <mtd>
                     <mn>1</mn>
                 </mtd>
                 <mtd>
+                    <mn>1</mn>
+                </mtd>
+                <mtd>
+                    <mn>2</mn>
+                </mtd>
+                <mtd>
+                    <mn>9</mn>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mn>0</mn>
+                </mtd>
+                <mtd>
+                    <mn>2</mn>
+                </mtd>
+                <mtd>
                     <mrow>
                         <mo>−</mo>
-                        <mn>2</mn>
+                        <mn>7</mn>
                     </mrow>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mn>17</mn>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mn>3</mn>
+                </mtd>
+                <mtd>
+                    <mn>6</mn>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mn>5</mn>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mn>0</mn>
                 </mtd>
             </mtr>
         </mtable>

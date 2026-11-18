@@ -1,25 +1,62 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mi>x</mi>
-        <mo>=</mo>
-        <mo>−</mo>
-        <mfrac>
-            <mi>m</mi>
-            <mn>2</mn>
-        </mfrac>
-        <mo>&#xB1;</mo>
-        <msqrt>
-            <mrow>
-                <mfrac>
-                    <msup intent="power($base, $exp)">
-                        <mi arg="base">m</mi>
-                        <mn arg="exp">2</mn>
-                    </msup>
-                    <mn>4</mn>
-                </mfrac>
-                <mo>−</mo>
-                <mi>n</mi>
+        <msup intent="power($base, $exp)">
+            <mrow arg="base">
+                <mo>(</mo>
+                <msqrt>
+                    <mrow>
+                        <mo>−</mo>
+                        <mn>1</mn>
+                    </mrow>
+                </msqrt>
+                <mo>)</mo>
             </mrow>
-        </msqrt>
+            <mn arg="exp">4</mn>
+        </msup>
+        <mo>=</mo>
+        <msup intent="power($b, $e)">
+            <mrow arg="b">
+                <mo>(</mo>
+                <msqrt>
+                    <mrow>
+                        <mo>−</mo>
+                        <mn>1</mn>
+                    </mrow>
+                </msqrt>
+                <mo>)</mo>
+            </mrow>
+            <mn arg="e">2</mn>
+        </msup>
+        <mo>×</mo>
+        <msup intent="power($base, $exp)">
+            <mrow arg="base">
+                <mo>(</mo>
+                <msqrt>
+                    <mrow>
+                        <mo>−</mo>
+                        <mn>1</mn>
+                    </mrow>
+                </msqrt>
+                <mo>)</mo>
+            </mrow>
+            <mn arg="exp">2</mn>
+        </msup>
+        <mo>=</mo>
+        <mrow>
+            <mo>(</mo>
+            <mo>−</mo>
+            <mn>1</mn>
+            <mo>)</mo>
+        </mrow>
+        <mo>×</mo>
+        <mrow>
+            <mo>(</mo>
+            <mo>−</mo>
+            <mn>1</mn>
+            <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mn>1</mn>
+        <mo>.</mo>
     </mrow>
 </math>

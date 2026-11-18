@@ -1,23 +1,46 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mtext>c)</mtext>
-        <mi>x</mi>
-        <mo>=</mo>
-        <mrow intent="vector($vec)">
-            <mo>(</mo>
-            <mtable arg="vec">
-                <mtr>
-                    <mtd>
-                        <mn>4</mn>
-                    </mtd>
-                </mtr>
-                <mtr>
-                    <mtd>
-                        <mn>3</mn>
-                    </mtd>
-                </mtr>
-            </mtable>
-            <mo>)</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">0</mn>
+            <msub arg="arg2">
+                <mi>x</mi>
+                <mn>1</mn>
+            </msub>
         </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">0</mn>
+            <msub arg="arg2">
+                <mi>x</mi>
+                <mn>2</mn>
+            </msub>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">0</mn>
+            <msub arg="arg2">
+                <mi>x</mi>
+                <mn>3</mn>
+            </msub>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">0</mn>
+            <msub arg="arg2">
+                <mi>x</mi>
+                <mn>4</mn>
+            </msub>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">0</mn>
+            <msub arg="arg2">
+                <mi>x</mi>
+                <mn>5</mn>
+            </msub>
+        </mrow>
+        <mo>=</mo>
+        <mn>0</mn>
+        <mo>,</mo>
     </mrow>
 </math>

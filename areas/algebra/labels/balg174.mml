@@ -1,48 +1,22 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow intent="times($arg1,$arg2,$arg3)">
-            <mn arg="arg1">2</mn>
-            <mrow arg="arg2">
-                <mo stretchy="false">(</mo>
-                <mrow intent="times($arg1,$arg2)">
-                    <mn arg="arg1">2</mn>
-                    <mi arg="arg2">a</mi>
-                </mrow>
-                <mo>−</mo>
-                <mi>b</mi>
-                <mo stretchy="false">)</mo>
-            </mrow>
-            <mrow arg="arg3">
-                <mo stretchy="false">(</mo>
-                <msup intent="power($base,$exp)">
-                    <mi arg="base">x</mi>
+        <mfrac>
+            <mrow intent="times($arg1,$arg2,$arg3)">
+                <mn arg="arg1">5</mn>
+                <msup arg="arg2" intent="power($base,$exp)">
+                    <mi arg="base">b</mi>
                     <mn arg="exp">2</mn>
                 </msup>
-                <mo>+</mo>
-                <mi>y</mi>
-                <mo stretchy="false">)</mo>
-            </mrow>
-        </mrow>
-        <mo>−</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mrow arg="arg1">
-                <mo stretchy="false">(</mo>
-                <msup intent="power($base,$exp)">
-                    <mi arg="base">a</mi>
+                <msup arg="arg3" intent="power($base,$exp)">
+                    <mi arg="base">m</mi>
                     <mn arg="exp">2</mn>
                 </msup>
-                <mo>+</mo>
-                <mi>b</mi>
-                <mo stretchy="false">)</mo>
             </mrow>
-            <mrow arg="arg2">
-                <mo stretchy="false">(</mo>
-                <mi>b</mi>
-                <mo>−</mo>
-                <mi>a</mi>
-                <mo stretchy="false">)</mo>
+            <mrow intent="times($arg1,$arg2)">
+                <mi arg="arg1">n</mi>
+                <mi arg="arg2">p</mi>
             </mrow>
-        </mrow>
-        <mtext>para</mtext>
+        </mfrac>
+        <mo>.</mo>
     </mrow>
 </math>

@@ -2,9 +2,24 @@
     <mrow>
         <mfrac>
             <mrow>
-                <mi>x</mi>
+                <mrow intent="times($a, $b)">
+                    <mn arg="a">3</mn>
+                    <mi arg="b">x</mi>
+                </mrow>
                 <mo>−</mo>
-                <mn>2</mn>
+                <mn>1</mn>
+            </mrow>
+            <mn>2</mn>
+        </mfrac>
+        <mo>−</mo>
+        <mfrac>
+            <mrow>
+                <mrow intent="times($a, $b)">
+                    <mn arg="a">5</mn>
+                    <mi arg="b">x</mi>
+                </mrow>
+                <mo>+</mo>
+                <mn>4</mn>
             </mrow>
             <mn>3</mn>
         </mfrac>
@@ -12,20 +27,27 @@
         <mfrac>
             <mrow>
                 <mi>x</mi>
+                <mo>+</mo>
+                <mn>2</mn>
+            </mrow>
+            <mn>8</mn>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+            <mrow>
+                <mrow intent="times($a, $b)">
+                    <mn arg="a">2</mn>
+                    <mi arg="b">x</mi>
+                </mrow>
                 <mo>−</mo>
                 <mn>3</mn>
             </mrow>
-            <mn>4</mn>
+            <mn>5</mn>
         </mfrac>
-        <mo>=</mo>
         <mo>−</mo>
         <mfrac>
-            <mrow>
-                <mi>x</mi>
-                <mo>−</mo>
-                <mn>5</mn>
-            </mrow>
-            <mn>5</mn>
+            <mn>1</mn>
+            <mn>10</mn>
         </mfrac>
         <mo>.</mo>
     </mrow>

@@ -3,22 +3,16 @@
         <mrow intent="times($arg1,$arg2)">
             <mrow arg="arg1">
                 <mo stretchy="false">(</mo>
-                <msup intent="power($base,$exp)">
-                    <mi arg="base">n</mi>
-                    <mn arg="exp">2</mn>
-                </msup>
-                <mo>−</mo>
-                <mn>1</mn>
+                <mi>x</mi>
+                <mo>+</mo>
+                <mn>2</mn>
                 <mo stretchy="false">)</mo>
             </mrow>
             <mrow arg="arg2">
                 <mo stretchy="false">(</mo>
-                <msup intent="power($base,$exp)">
-                    <mi arg="base">n</mi>
-                    <mn arg="exp">2</mn>
-                </msup>
+                <mi>x</mi>
                 <mo>+</mo>
-                <mn>20</mn>
+                <mn>3</mn>
                 <mo stretchy="false">)</mo>
             </mrow>
         </mrow>

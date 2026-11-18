@@ -4,23 +4,23 @@
             <mrow>
                 <msup intent="power($base,$exp)">
                     <mi arg="base">x</mi>
-                    <mn arg="exp">15</mn>
+                    <mn arg="exp">20</mn>
                 </msup>
-                <mo>+</mo>
+                <mo>−</mo>
                 <msup intent="power($base,$exp)">
                     <mi arg="base">y</mi>
-                    <mn arg="exp">15</mn>
+                    <mn arg="exp">20</mn>
                 </msup>
             </mrow>
             <mrow>
                 <msup intent="power($base,$exp)">
                     <mi arg="base">x</mi>
-                    <mn arg="exp">3</mn>
+                    <mn arg="exp">5</mn>
                 </msup>
                 <mo>+</mo>
                 <msup intent="power($base,$exp)">
                     <mi arg="base">y</mi>
-                    <mn arg="exp">3</mn>
+                    <mn arg="exp">5</mn>
                 </msup>
             </mrow>
         </mfrac>

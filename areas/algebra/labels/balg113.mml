@@ -3,16 +3,20 @@
         <mrow intent="times($arg1,$arg2)">
             <mrow arg="arg1">
                 <mo stretchy="false">(</mo>
-                <mi>n</mi>
+                <mi>x</mi>
                 <mo>+</mo>
-                <mn>3</mn>
+                <mi>y</mi>
+                <mo>+</mo>
+                <mn>1</mn>
                 <mo stretchy="false">)</mo>
             </mrow>
             <mrow arg="arg2">
                 <mo stretchy="false">(</mo>
-                <mi>n</mi>
-                <mo>+</mo>
-                <mn>5</mn>
+                <mi>x</mi>
+                <mo>−</mo>
+                <mi>y</mi>
+                <mo>−</mo>
+                <mn>1</mn>
                 <mo stretchy="false">)</mo>
             </mrow>
         </mrow>

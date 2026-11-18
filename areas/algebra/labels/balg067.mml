@@ -1,55 +1,21 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow>
-            <mo>−</mo>
-            <mrow intent="times($a, $b)">
-                <mfrac arg="a">
-                    <mn>5</mn>
-                    <mn>6</mn>
-                </mfrac>
-                <msup arg="b" intent="power($base, $exp)">
-                    <mi arg="base">a</mi>
-                    <mrow arg="exp">
-                        <mi>x</mi>
-                        <mo>+</mo>
-                        <mn>1</mn>
-                    </mrow>
-                </msup>
-            </mrow>
+        <msqrt>
+            <mi>a</mi>
+        </msqrt>
+        <mo>+</mo>
+        <msqrt>
+            <mi>b</mi>
+        </msqrt>
+        <mo>−</mo>
+        <mrow intent="times($a, $b)">
+            <mn arg="a">2</mn>
+            <mi arg="b">c</mi>
         </mrow>
         <mo>+</mo>
-        <mrow intent="times($a, $b)">
-            <mfrac arg="a">
-                <mn>3</mn>
-                <mn>4</mn>
-            </mfrac>
-            <msup arg="b" intent="power($base, $exp)">
-                <mi arg="base">a</mi>
-                <mrow arg="exp">
-                    <mi>x</mi>
-                    <mo>+</mo>
-                    <mn>1</mn>
-                </mrow>
-            </msup>
-        </mrow>
-        <mo>=</mo>
-        <mrow>
-            <mo>−</mo>
-            <mrow intent="times($a, $b)">
-                <mfrac arg="a">
-                    <mn>1</mn>
-                    <mn>12</mn>
-                </mfrac>
-                <msup arg="b" intent="power($base, $exp)">
-                    <mi arg="base">a</mi>
-                    <mrow arg="exp">
-                        <mi>x</mi>
-                        <mo>+</mo>
-                        <mn>1</mn>
-                    </mrow>
-                </msup>
-            </mrow>
-        </mrow>
+        <msqrt>
+            <mi>d</mi>
+        </msqrt>
         <mo>.</mo>
     </mrow>
 </math>

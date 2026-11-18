@@ -1,62 +1,32 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <msup intent="power($base, $exp)">
-            <mrow arg="base">
-                <mo>(</mo>
-                <msqrt>
-                    <mrow>
-                        <mo>−</mo>
-                        <mn>1</mn>
-                    </mrow>
-                </msqrt>
-                <mo>)</mo>
+        <mfrac>
+            <mrow>
+                <mi>x</mi>
+                <mo>−</mo>
+                <mn>2</mn>
             </mrow>
-            <mn arg="exp">4</mn>
-        </msup>
-        <mo>=</mo>
-        <msup intent="power($b, $e)">
-            <mrow arg="b">
-                <mo>(</mo>
-                <msqrt>
-                    <mrow>
-                        <mo>−</mo>
-                        <mn>1</mn>
-                    </mrow>
-                </msqrt>
-                <mo>)</mo>
+            <mn>3</mn>
+        </mfrac>
+        <mo>−</mo>
+        <mfrac>
+            <mrow>
+                <mi>x</mi>
+                <mo>−</mo>
+                <mn>3</mn>
             </mrow>
-            <mn arg="e">2</mn>
-        </msup>
-        <mo>×</mo>
-        <msup intent="power($base, $exp)">
-            <mrow arg="base">
-                <mo>(</mo>
-                <msqrt>
-                    <mrow>
-                        <mo>−</mo>
-                        <mn>1</mn>
-                    </mrow>
-                </msqrt>
-                <mo>)</mo>
+            <mn>4</mn>
+        </mfrac>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mfrac>
+            <mrow>
+                <mi>x</mi>
+                <mo>−</mo>
+                <mn>5</mn>
             </mrow>
-            <mn arg="exp">2</mn>
-        </msup>
-        <mo>=</mo>
-        <mrow>
-            <mo>(</mo>
-            <mo>−</mo>
-            <mn>1</mn>
-            <mo>)</mo>
-        </mrow>
-        <mo>×</mo>
-        <mrow>
-            <mo>(</mo>
-            <mo>−</mo>
-            <mn>1</mn>
-            <mo>)</mo>
-        </mrow>
-        <mo>=</mo>
-        <mn>1</mn>
+            <mn>5</mn>
+        </mfrac>
         <mo>.</mo>
     </mrow>
 </math>

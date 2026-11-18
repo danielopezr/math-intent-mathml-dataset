@@ -1,29 +1,68 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow intent="$name($var)">
-            <mi arg="name">tr</mi>
-            <mo stretchy="false">(</mo>
-            <mrow arg="var">
-                <mi>A</mi>
-                <mo>+</mo>
-                <mi>B</mi>
-            </mrow>
-            <mo stretchy="false">)</mo>
-        </mrow>
-        <mo>=</mo>
-        <mrow intent="$name($var)">
-            <mi arg="name">tr</mi>
-            <mo stretchy="false">(</mo>
-            <mi arg="var">A</mi>
-            <mo stretchy="false">)</mo>
-        </mrow>
-        <mo>+</mo>
-        <mrow intent="$name($var)">
-            <mi arg="name">tr</mi>
-            <mo stretchy="false">(</mo>
-            <mi arg="var">B</mi>
-            <mo stretchy="false">)</mo>
-        </mrow>
-        <mo>.</mo>
+        <mo>[</mo>
+        <mtable intent=":matrix">
+            <mtr>
+                <mtd>
+                    <mn>1</mn>
+                </mtd>
+                <mtd>
+                    <mn>0</mn>
+                </mtd>
+                <mtd>
+                    <mfrac>
+                        <mn>11</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                </mtd>
+                <mtd>
+                    <mfrac>
+                        <mn>35</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mn>0</mn>
+                </mtd>
+                <mtd>
+                    <mn>1</mn>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mfrac>
+                            <mn>7</mn>
+                            <mn>2</mn>
+                        </mfrac>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mfrac>
+                            <mn>17</mn>
+                            <mn>2</mn>
+                        </mfrac>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mn>0</mn>
+                </mtd>
+                <mtd>
+                    <mn>0</mn>
+                </mtd>
+                <mtd>
+                    <mn>1</mn>
+                </mtd>
+                <mtd>
+                    <mn>3</mn>
+                </mtd>
+            </mtr>
+        </mtable>
+        <mo>]</mo>
     </mrow>
 </math>

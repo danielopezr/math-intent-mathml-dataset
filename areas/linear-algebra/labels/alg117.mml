@@ -1,27 +1,43 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mo stretchy="false">(</mo>
-        <mo>−</mo>
-        <mn>3</mn>
-        <mo>,</mo>
-        <mn>0</mn>
-        <mo>,</mo>
-        <mn>2</mn>
-        <mo stretchy="false">)</mo>
-        <mo>;</mo>
-        <mo>−</mo>
+        <mi>𝐮</mi>
+        <mo>=</mo>
         <mrow intent="times($arg1,$arg2)">
             <mn arg="arg1">3</mn>
-            <mi arg="arg2">x</mi>
+            <mi arg="arg2">𝐢</mi>
+        </mrow>
+        <mo>−</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">2</mn>
+            <mi arg="arg2">𝐣</mi>
         </mrow>
         <mo>+</mo>
-        <mi>y</mi>
+        <mi>𝐤</mi>
+        <mo>;</mo>
+        <mi>𝐯</mi>
+        <mo>=</mo>
+        <mi>𝐢</mi>
+        <mo>+</mo>
+        <mi>𝐣</mi>
+        <mo>−</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">5</mn>
+            <mi arg="arg2">𝐤</mi>
+        </mrow>
+        <mo>;</mo>
+        <mi>𝐰</mi>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mi>𝐢</mi>
         <mo>+</mo>
         <mrow intent="times($arg1,$arg2)">
             <mn arg="arg1">5</mn>
-            <mi arg="arg2">z</mi>
+            <mi arg="arg2">𝐣</mi>
         </mrow>
-        <mo>=</mo>
-        <mn>0</mn>
+        <mo>−</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">16</mn>
+            <mi arg="arg2">𝐤</mi>
+        </mrow>
     </mrow>
 </math>

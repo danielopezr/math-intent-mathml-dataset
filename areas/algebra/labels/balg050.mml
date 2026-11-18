@@ -1,19 +1,77 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mi>d</mi>
-        <mo>=</mo>
-        <msqrt>
-            <mrow>
+        <mrow intent="times($a, $b, $c)">
+            <mn arg="a">2</mn>
+            <mrow arg="b">
+                <mo>(</mo>
+                <mrow intent="times($arg1,$arg2)">
+                    <mn arg="arg1">2</mn>
+                    <mi arg="arg2">a</mi>
+                </mrow>
+                <mo>−</mo>
+                <mi>b</mi>
+                <mo>)</mo>
+            </mrow>
+            <mrow arg="c">
+                <mo>(</mo>
+                <msup intent="power($base, $exp)">
+                    <mi arg="base">x</mi>
+                    <mn arg="exp">2</mn>
+                </msup>
+                <mo>+</mo>
+                <mi>y</mi>
+                <mo>)</mo>
+            </mrow>
+        </mrow>
+        <mo>−</mo>
+        <mrow intent="times($a, $b)">
+            <mrow arg="a">
+                <mo>(</mo>
                 <msup intent="power($base, $exp)">
                     <mi arg="base">a</mi>
                     <mn arg="exp">2</mn>
                 </msup>
                 <mo>+</mo>
-                <msup intent="power($base, $exp)">
-                    <mi arg="base">b</mi>
-                    <mn arg="exp">2</mn>
-                </msup>
+                <mi>b</mi>
+                <mo>)</mo>
             </mrow>
-        </msqrt>
+            <mrow arg="b">
+                <mo>(</mo>
+                <mi>b</mi>
+                <mo>−</mo>
+                <mi>a</mi>
+                <mo>)</mo>
+            </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mn>2</mn>
+        <mo>×</mo>
+        <mrow intent="mixed-fraction($a, $b)">
+            <mn arg="a">16</mn>
+            <mfrac arg="b">
+                <mn>1</mn>
+                <mn>2</mn>
+            </mfrac>
+        </mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+        <mo>×</mo>
+        <mn>1</mn>
+        <mo>=</mo>
+        <mn>2</mn>
+        <mo>×</mo>
+        <mfrac>
+            <mn>33</mn>
+            <mn>2</mn>
+        </mfrac>
+        <mo>−</mo>
+        <mn>7</mn>
+        <mo>=</mo>
+        <mn>33</mn>
+        <mo>−</mo>
+        <mn>7</mn>
+        <mo>=</mo>
+        <mn>26</mn>
+        <mo>.</mo>
     </mrow>
 </math>

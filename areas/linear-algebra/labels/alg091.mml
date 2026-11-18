@@ -1,63 +1,28 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow intent="inner-product($arg1,$arg2)">
-            <mi>⟨</mi>
-            <mi arg="arg1">𝐟</mi>
-            <mo>,</mo>
-            <mi arg="arg2">𝐠</mi>
-            <mi>⟩</mi>
-        </mrow>
+        <mo stretchy="false">[</mo>
+        <mi>T</mi>
+        <mo stretchy="false">]</mo>
         <mo>=</mo>
-        <msubsup>
-            <mo>∫</mo>
-            <mi>a</mi>
-            <mi>b</mi>
-        </msubsup>
-        <mrow intent="times($arg1,$arg2)">
-            <mrow intent="$name($var)" arg="arg1">
-                <mi arg="name">f</mi>
-                <mo stretchy="false">(</mo>
-                <mi arg="var">x</mi>
-                <mo stretchy="false">)</mo>
-            </mrow>
-            <mrow intent="$name($var)" arg="arg2">
-                <mi arg="name">g</mi>
-                <mo stretchy="false">(</mo>
-                <mi arg="var">x</mi>
-                <mo stretchy="false">)</mo>
-            </mrow>
-        </mrow>
-        <mi>d</mi>
-        <mi>x</mi>
-        <mo>=</mo>
-        <msubsup>
-            <mo>∫</mo>
-            <mi>a</mi>
-            <mi>b</mi>
-        </msubsup>
-        <mrow intent="times($arg1,$arg2)">
-            <mrow intent="$name($var)" arg="arg1">
-                <mi arg="name">g</mi>
-                <mo stretchy="false">(</mo>
-                <mi arg="var">x</mi>
-                <mo stretchy="false">)</mo>
-            </mrow>
-            <mrow intent="$name($var)" arg="arg2">
-                <mi arg="name">f</mi>
-                <mo stretchy="false">(</mo>
-                <mi arg="var">x</mi>
-                <mo stretchy="false">)</mo>
-            </mrow>
-        </mrow>
-        <mi>d</mi>
-        <mi>x</mi>
-        <mo>=</mo>
-        <mrow intent="inner-product($arg1,$arg2)">
-            <mi>⟨</mi>
-            <mi arg="arg1">𝐠</mi>
-            <mo>,</mo>
-            <mi arg="arg2">𝐟</mi>
-            <mi>⟩</mi>
-        </mrow>
+        <mo>[</mo>
+        <mtable intent=":matrix">
+            <mtr>
+                <mtd>
+                    <mn>2</mn>
+                </mtd>
+                <mtd>
+                    <mn>1</mn>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mn>3</mn>
+                </mtd>
+                <mtd>
+                    <mn>4</mn>
+                </mtd>
+            </mtr>
+        </mtable>
+        <mo>]</mo>
     </mrow>
 </math>

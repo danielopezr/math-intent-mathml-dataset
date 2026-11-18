@@ -1,24 +1,24 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
+        <mrow>
+            <msup intent="power($base, $exp)">
+                <mi arg="base">a</mi>
+                <mi arg="exp">m</mi>
+            </msup>
+            <mo>&#x22C5;</mo>
+            <msup intent="power($base, $exp)">
+                <mi arg="base">a</mi>
+                <mi arg="exp">n</mi>
+            </msup>
+        </mrow>
+        <mo>=</mo>
         <msup intent="power($base, $exp)">
-            <mn arg="base">3</mn>
+            <mi arg="base">a</mi>
             <mrow arg="exp">
-                <mo>−</mo>
-                <mn>2</mn>
+                <mi>m</mi>
+                <mo>+</mo>
+                <mi>n</mi>
             </mrow>
         </msup>
-        <mo>=</mo>
-        <mfrac>
-            <mn>1</mn>
-            <msup intent="power($base, $exp)">
-                <mn arg="base">3</mn>
-                <mn arg="exp">2</mn>
-            </msup>
-        </mfrac>
-        <mo>=</mo>
-        <mfrac>
-            <mn>1</mn>
-            <mn>9</mn>
-        </mfrac>
     </mrow>
 </math>

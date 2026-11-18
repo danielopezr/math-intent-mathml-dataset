@@ -1,64 +1,64 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mo stretchy="false">[</mo>
-        <msup intent="inverse($base)">
-            <mi arg="base">T</mi>
+        <mrow intent="$name($var)">
+            <msub arg="name">
+                <mi>f</mi>
+                <mi>n</mi>
+            </msub>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">x</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac arg="arg1">
+                <mn>1</mn>
+                <mn>2</mn>
+            </mfrac>
+            <msub arg="arg2">
+                <mi>a</mi>
+                <mn>0</mn>
+            </msub>
+        </mrow>
+        <mo>+</mo>
+        <msubsup>
+            <mo>∑</mo>
             <mrow>
-                <mo>−</mo>
+                <mi>k</mi>
+                <mo>=</mo>
                 <mn>1</mn>
             </mrow>
-        </msup>
-        <mo stretchy="false">]</mo>
-        <mo>=</mo>
-        <msup intent="inverse($base)">
-            <mrow arg="base">
-                <mo stretchy="false">[</mo>
-                <mi>T</mi>
-                <mo stretchy="false">]</mo>
+            <mi>n</mi>
+        </msubsup>
+        <mo stretchy="false">(</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <msub arg="arg1">
+                <mi>a</mi>
+                <mi>k</mi>
+            </msub>
+            <mrow intent="cosine($arg)" arg="arg2">
+                <mi>cos</mi>
+                <mrow arg="arg" intent="times($arg1,$arg2)">
+                    <mi arg="arg1">k</mi>
+                    <mi arg="arg2">x</mi>
+                </mrow>
             </mrow>
-            <mrow>
-                <mo>−</mo>
-                <mn>1</mn>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <msub arg="arg1">
+                <mi>b</mi>
+                <mi>k</mi>
+            </msub>
+            <mrow intent="sine($arg)" arg="arg2">
+                <mi>sen</mi>
+                <mrow arg="arg" intent="times($arg1,$arg2)">
+                    <mi arg="arg1">k</mi>
+                    <mi arg="arg2">x</mi>
+                </mrow>
             </mrow>
-        </msup>
-        <mo>=</mo>
-        <mo>[</mo>
-        <mtable intent=":matrix">
-            <mtr>
-                <mtd>
-                    <mfrac>
-                        <mn>4</mn>
-                        <mn>5</mn>
-                    </mfrac>
-                </mtd>
-                <mtd>
-                    <mrow>
-                        <mo>−</mo>
-                        <mfrac>
-                            <mn>1</mn>
-                            <mn>5</mn>
-                        </mfrac>
-                    </mrow>
-                </mtd>
-            </mtr>
-            <mtr>
-                <mtd>
-                    <mrow>
-                        <mo>−</mo>
-                        <mfrac>
-                            <mn>3</mn>
-                            <mn>5</mn>
-                        </mfrac>
-                    </mrow>
-                </mtd>
-                <mtd>
-                    <mfrac>
-                        <mn>2</mn>
-                        <mn>5</mn>
-                    </mfrac>
-                </mtd>
-            </mtr>
-        </mtable>
-        <mo>]</mo>
+        </mrow>
+        <mo stretchy="false">)</mo>
+        <mo>,</mo>
     </mrow>
 </math>

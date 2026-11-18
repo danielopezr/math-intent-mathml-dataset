@@ -3,18 +3,14 @@
         <mrow intent="times($arg1,$arg2)">
             <mrow arg="arg1">
                 <mo stretchy="false">(</mo>
-                <mi>a</mi>
-                <mo>+</mo>
-                <mi>b</mi>
-                <mo>−</mo>
                 <mn>1</mn>
+                <mo>−</mo>
+                <mi>a</mi>
                 <mo stretchy="false">)</mo>
             </mrow>
             <mrow arg="arg2">
                 <mo stretchy="false">(</mo>
                 <mi>a</mi>
-                <mo>+</mo>
-                <mi>b</mi>
                 <mo>+</mo>
                 <mn>1</mn>
                 <mo stretchy="false">)</mo>

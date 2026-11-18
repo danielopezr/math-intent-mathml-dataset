@@ -1,28 +1,19 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mo stretchy="false">[</mo>
-        <mi>T</mi>
-        <mo stretchy="false">]</mo>
+        <msup intent="power($base,$exp)">
+            <mrow arg="base">
+                <mo stretchy="false">(</mo>
+                <mi>a</mi>
+                <mo>+</mo>
+                <mrow intent="times($arg1,$arg2)">
+                    <mi arg="arg1">b</mi>
+                    <mi arg="arg2">i</mi>
+                </mrow>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mn arg="exp">3</mn>
+        </msup>
         <mo>=</mo>
-        <mo>[</mo>
-        <mtable intent=":matrix">
-            <mtr>
-                <mtd>
-                    <mn>2</mn>
-                </mtd>
-                <mtd>
-                    <mn>1</mn>
-                </mtd>
-            </mtr>
-            <mtr>
-                <mtd>
-                    <mn>3</mn>
-                </mtd>
-                <mtd>
-                    <mn>4</mn>
-                </mtd>
-            </mtr>
-        </mtable>
-        <mo>]</mo>
+        <mn>8</mn>
     </mrow>
 </math>

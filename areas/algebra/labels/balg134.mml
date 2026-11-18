@@ -2,91 +2,42 @@
     <mrow>
         <msup intent="power($base,$exp)">
             <mi arg="base">a</mi>
-            <mn arg="exp">3</mn>
+            <mn arg="exp">4</mn>
+        </msup>
+        <mo>+</mo>
+        <msup intent="power($base,$exp)">
+            <mi arg="base">a</mi>
+            <mn arg="exp">6</mn>
+        </msup>
+        <mo>+</mo>
+        <mn>6</mn>
+        <mo>;</mo>
+        <msup intent="power($base,$exp)">
+            <mi arg="base">a</mi>
+            <mn arg="exp">5</mn>
         </msup>
         <mo>−</mo>
-        <mrow intent="times($arg1,$arg2,$arg3)">
-            <mfrac arg="arg1">
-                <mn>1</mn>
-                <mn>2</mn>
-            </mfrac>
-            <mi arg="arg2">a</mi>
-            <msup arg="arg3" intent="power($base,$exp)">
-                <mi arg="base">b</mi>
-                <mn arg="exp">2</mn>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">3</mn>
+            <msup arg="arg2" intent="power($base,$exp)">
+                <mi arg="base">a</mi>
+                <mn arg="exp">3</mn>
             </msup>
         </mrow>
         <mo>+</mo>
+        <mn>8</mn>
+        <mo>;</mo>
         <msup intent="power($base,$exp)">
-            <mi arg="base">b</mi>
+            <mi arg="base">a</mi>
             <mn arg="exp">3</mn>
         </msup>
-        <mo>;</mo>
-        <mrow intent="times($arg1,$arg2,$arg3)">
-            <mfrac arg="arg1">
-                <mn>5</mn>
-                <mn>6</mn>
-            </mfrac>
-            <msup arg="arg2" intent="power($base,$exp)">
-                <mi arg="base">a</mi>
-                <mn arg="exp">2</mn>
-            </msup>
-            <mi arg="arg3">b</mi>
-        </mrow>
         <mo>−</mo>
-        <mrow intent="times($arg1,$arg2,$arg3)">
-            <mfrac arg="arg1">
-                <mn>3</mn>
-                <mn>8</mn>
-            </mfrac>
-            <mi arg="arg2">a</mi>
-            <msup arg="arg3" intent="power($base,$exp)">
-                <mi arg="base">b</mi>
-                <mn arg="exp">2</mn>
-            </msup>
-        </mrow>
+        <msup intent="power($base,$exp)">
+            <mi arg="base">a</mi>
+            <mn arg="exp">2</mn>
+        </msup>
         <mo>−</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mn arg="arg1">2</mn>
-            <msup arg="arg2" intent="power($base,$exp)">
-                <mi arg="base">b</mi>
-                <mn arg="exp">3</mn>
-            </msup>
-        </mrow>
-        <mo>;</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mfrac arg="arg1">
-                <mn>1</mn>
-                <mn>4</mn>
-            </mfrac>
-            <msup arg="arg2" intent="power($base,$exp)">
-                <mi arg="base">a</mi>
-                <mn arg="exp">3</mn>
-            </msup>
-        </mrow>
-        <mo>−</mo>
-        <mrow intent="times($arg1,$arg2,$arg3)">
-            <mfrac arg="arg1">
-                <mn>1</mn>
-                <mn>2</mn>
-            </mfrac>
-            <msup arg="arg2" intent="power($base,$exp)">
-                <mi arg="base">a</mi>
-                <mn arg="exp">2</mn>
-            </msup>
-            <mi arg="arg3">b</mi>
-        </mrow>
-        <mo>−</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mfrac arg="arg1">
-                <mn>3</mn>
-                <mn>5</mn>
-            </mfrac>
-            <msup arg="arg2" intent="power($base,$exp)">
-                <mi arg="base">b</mi>
-                <mn arg="exp">3</mn>
-            </msup>
-        </mrow>
+        <mn>14</mn>
         <mo>.</mo>
     </mrow>
 </math>

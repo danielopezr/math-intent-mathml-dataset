@@ -1,32 +1,59 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow>
-            <msub>
-                <mi>E</mi>
-                <mn>3</mn>
-            </msub>
-            <mo>=</mo>
-            <mo>[</mo>
-            <mtable intent=":matrix" columnspacing="1em">
-                <mtr>
-                    <mtd>
-                        <mn>1</mn>
-                    </mtd>
-                    <mtd>
+        <mi>A</mi>
+        <mo>=</mo>
+        <mo>[</mo>
+        <mtable intent=":matrix">
+            <mtr>
+                <mtd>
+                    <mrow>
                         <mo>−</mo>
-                        <mn>2</mn>
-                    </mtd>
-                </mtr>
-                <mtr>
-                    <mtd>
-                        <mn>0</mn>
-                    </mtd>
-                    <mtd>
-                        <mn>1</mn>
-                    </mtd>
-                </mtr>
-            </mtable>
-            <mo>]</mo>
-        </mrow>
+                        <mrow intent="fraction($num,$den)">
+                            <mn arg="num">1</mn>
+                            <mo>/</mo>
+                            <msqrt arg="den">
+                                <mn>2</mn>
+                            </msqrt>
+                        </mrow>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mrow intent="fraction($num,$den)">
+                            <mn arg="num">1</mn>
+                            <mo>/</mo>
+                            <msqrt arg="den">
+                                <mn>2</mn>
+                            </msqrt>
+                        </mrow>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mrow intent="fraction($num,$den)">
+                        <mn arg="num">1</mn>
+                        <mo>/</mo>
+                        <msqrt arg="den">
+                            <mn>2</mn>
+                        </msqrt>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mrow intent="fraction($num,$den)">
+                            <mn arg="num">1</mn>
+                            <mo>/</mo>
+                            <msqrt arg="den">
+                                <mn>2</mn>
+                            </msqrt>
+                        </mrow>
+                    </mrow>
+                </mtd>
+            </mtr>
+        </mtable>
+        <mo>]</mo>
     </mrow>
 </math>

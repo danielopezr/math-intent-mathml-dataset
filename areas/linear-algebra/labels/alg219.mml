@@ -1,39 +1,16 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mo>[</mo>
-        <mtable intent=":matrix">
-            <mtr>
-                <mtd>
-                    <mrow intent="cosine($arg)">
-                        <mi>cos</mi>
-                        <mi arg="arg">θ</mi>
-                    </mrow>
-                </mtd>
-                <mtd>
-                    <mrow intent="sine($arg)">
-                        <mi>sen</mi>
-                        <mi arg="arg">θ</mi>
-                    </mrow>
-                </mtd>
-            </mtr>
-            <mtr>
-                <mtd>
-                    <mrow>
-                        <mo>−</mo>
-                        <mrow intent="sine($arg)">
-                            <mi>sen</mi>
-                            <mi arg="arg">θ</mi>
-                        </mrow>
-                    </mrow>
-                </mtd>
-                <mtd>
-                    <mrow intent="cosine($arg)">
-                        <mi>cos</mi>
-                        <mi arg="arg">θ</mi>
-                    </mrow>
-                </mtd>
-            </mtr>
-        </mtable>
-        <mo>]</mo>
+        <msup intent="power($base,$exp)">
+            <mi arg="base">A</mi>
+            <mn arg="exp">2</mn>
+        </msup>
+        <mo>−</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">2</mn>
+            <mi arg="arg2">A</mi>
+        </mrow>
+        <mo>+</mo>
+        <mi>I</mi>
+        <mo>.</mo>
     </mrow>
 </math>

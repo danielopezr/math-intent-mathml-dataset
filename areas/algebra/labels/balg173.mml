@@ -2,46 +2,15 @@
     <mrow>
         <mfrac>
             <mrow intent="times($arg1,$arg2)">
-                <mn arg="arg1">2</mn>
-                <msqrt arg="arg2">
-                    <mrow intent="times($arg1,$arg2)">
-                        <msup arg="arg1" intent="power($base,$exp)">
-                            <mi arg="base">a</mi>
-                            <mn arg="exp">2</mn>
-                        </msup>
-                        <msup arg="arg2" intent="power($base,$exp)">
-                            <mi arg="base">b</mi>
-                            <mn arg="exp">2</mn>
-                        </msup>
-                    </mrow>
-                </msqrt>
+                <mn arg="arg1">4</mn>
+                <mi arg="arg2">a</mi>
             </mrow>
-            <mn>3</mn>
-        </mfrac>
-        <mo>+</mo>
-        <mfrac>
-            <mrow intent="times($arg1,$arg2)">
+            <mrow intent="times($arg1,$arg2,$arg3)">
                 <mn arg="arg1">3</mn>
-                <msqrt arg="arg2">
-                    <mrow>
-                        <mn>2</mn>
-                        <mo>+</mo>
-                        <msup intent="power($base,$exp)">
-                            <mi arg="base">d</mi>
-                            <mn arg="exp">2</mn>
-                        </msup>
-                    </mrow>
-                </msqrt>
+                <mi arg="arg2">b</mi>
+                <mi arg="arg3">c</mi>
             </mrow>
-            <mn>4</mn>
         </mfrac>
-        <mo>−</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mi arg="arg1">a</mi>
-            <msqrt arg="arg2">
-                <mi>n</mi>
-            </msqrt>
-        </mrow>
         <mo>.</mo>
     </mrow>
 </math>

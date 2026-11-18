@@ -1,79 +1,53 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
         <mrow>
+            <mi>a</mi>
+            <mo>+</mo>
+            <mi>b</mi>
+            <mo>+</mo>
+            <mi>c</mi>
+        </mrow>
+        <mo>,</mo>
+        <mspace width="0.5em"/>
+        <mrow>
+            <msup intent="power($base, $exp)">
+                <mi arg="base">x</mi>
+                <mn arg="exp">2</mn>
+            </msup>
             <mo>−</mo>
-            <mrow intent="times($arg1,$arg2,$arg3)">
-                <mn arg="arg1">3</mn>
+            <mrow intent="times($arg1,$arg2)">
+                <mn arg="arg1">5</mn>
+                <mi arg="arg2">x</mi>
+            </mrow>
+            <mo>+</mo>
+            <mn>6</mn>
+        </mrow>
+        <mo>,</mo>
+        <mspace width="0.5em"/>
+        <mrow>
+            <mrow intent="times($arg1,$arg2)">
+                <mn arg="arg1">5</mn>
                 <msup intent="power($base, $exp)" arg="arg2">
-                    <mi arg="base">m</mi>
-                    <mn arg="exp">15</mn>
-                </msup>
-                <msup intent="power($b, $e)" arg="arg3">
-                    <mi arg="b">n</mi>
-                    <mn arg="e">2</mn>
+                    <mi arg="base">x</mi>
+                    <mn arg="exp">2</mn>
                 </msup>
             </mrow>
-        </mrow>
-        <mo>+</mo>
-        <mrow intent="times($arg1,$arg2,$arg3)">
-            <mn arg="arg1">4</mn>
-            <msup intent="power($base, $exp)" arg="arg2">
-                <mi arg="base">m</mi>
-                <mn arg="exp">12</mn>
-            </msup>
-            <msup intent="power($base, $exp)" arg="arg3">
-                <mi arg="base">n</mi>
-                <mn arg="exp">3</mn>
-            </msup>
-        </mrow>
-        <mo>−</mo>
-        <mrow intent="times($arg1,$arg2,$arg3)">
-            <mn arg="arg1">8</mn>
-            <msup intent="power($base, $exp)" arg="arg2">
-                <mi arg="base">m</mi>
-                <mn arg="exp">6</mn>
-            </msup>
-            <msup intent="power($base, $exp)" arg="arg3">
-                <mi arg="base">n</mi>
-                <mn arg="exp">5</mn>
-            </msup>
-        </mrow>
-        <mo>−</mo>
-        <mrow intent="times($arg1,$arg2,$arg3)">
-            <mn arg="arg1">10</mn>
-            <msup intent="power($base, $exp)" arg="arg2">
-                <mi arg="base">m</mi>
-                <mn arg="exp">3</mn>
-            </msup>
-            <msup intent="power($base, $exp)" arg="arg3">
-                <mi arg="base">n</mi>
-                <mn arg="exp">6</mn>
-            </msup>
-        </mrow>
-        <mo>+</mo>
-        <msup intent="power($base, $exp)">
-            <mi arg="base">n</mi>
-            <mn arg="exp">7</mn>
-        </msup>
-        <mo>−</mo>
-        <mrow intent="times($arg1,$arg2,$arg3)">
-            <mn arg="arg1">7</mn>
-            <msup intent="power($base, $exp)" arg="arg2">
-                <mi arg="base">m</mi>
-                <mn arg="exp">9</mn>
-            </msup>
-            <msup intent="power($base, $exp)" arg="arg3">
-                <mi arg="base">n</mi>
-                <mn arg="exp">4</mn>
-            </msup>
-        </mrow>
-        <mo>+</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <msup intent="power($base, $exp)" arg="arg1">
-                <mi arg="base">m</mi>
-                <mn arg="exp">18</mn>
-            </msup>
-            <mi arg="arg2">n</mi>
+            <mo>−</mo>
+            <mrow intent="times($arg1,$arg2)">
+                <mn arg="arg1">6</mn>
+                <msup intent="power($base, $exp)" arg="arg2">
+                    <mi arg="base">y</mi>
+                    <mn arg="exp">3</mn>
+                </msup>
+            </mrow>
+            <mo>+</mo>
+            <mfrac>
+                <msup intent="power($base, $exp)">
+                    <mi arg="base">a</mi>
+                    <mn arg="exp">2</mn>
+                </msup>
+                <mn>3</mn>
+            </mfrac>
         </mrow>
         <mo>.</mo>
     </mrow>

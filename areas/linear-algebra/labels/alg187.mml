@@ -1,99 +1,93 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow intent="times($arg1,$arg2)">
-            <mrow arg="arg1">
-                <mo stretchy="false">(</mo>
-                <mrow intent="times($arg1,$arg2)">
-                    <mi arg="arg1">A</mi>
-                    <mi arg="arg2">B</mi>
-                </mrow>
-                <mo stretchy="false">)</mo>
-            </mrow>
-            <mi arg="arg2">C</mi>
-        </mrow>
-        <mo>=</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mrow arg="arg1">
-                <mo>[</mo>
-                <mtable intent=":matrix">
-                    <mtr>
-                        <mtd>
-                            <mn>8</mn>
-                        </mtd>
-                        <mtd>
-                            <mn>5</mn>
-                        </mtd>
-                    </mtr>
-                    <mtr>
-                        <mtd>
-                            <mn>20</mn>
-                        </mtd>
-                        <mtd>
-                            <mn>13</mn>
-                        </mtd>
-                    </mtr>
-                    <mtr>
-                        <mtd>
-                            <mn>2</mn>
-                        </mtd>
-                        <mtd>
-                            <mn>1</mn>
-                        </mtd>
-                    </mtr>
-                </mtable>
-                <mo>]</mo>
-            </mrow>
-            <mrow arg="arg2">
-                <mo>[</mo>
-                <mtable intent=":matrix">
-                    <mtr>
-                        <mtd>
-                            <mn>1</mn>
-                        </mtd>
-                        <mtd>
-                            <mn>0</mn>
-                        </mtd>
-                    </mtr>
-                    <mtr>
-                        <mtd>
-                            <mn>2</mn>
-                        </mtd>
-                        <mtd>
-                            <mn>3</mn>
-                        </mtd>
-                    </mtr>
-                </mtable>
-                <mo>]</mo>
-            </mrow>
-        </mrow>
-        <mo>=</mo>
-        <mo>[</mo>
-        <mtable intent=":matrix">
+        <mtable>
             <mtr>
                 <mtd>
-                    <mn>18</mn>
-                </mtd>
-                <mtd>
-                    <mn>15</mn>
+                    <mrow>
+                        <msub>
+                            <mi>x</mi>
+                            <mn>1</mn>
+                        </msub>
+                        <mo>+</mo>
+                        <msub>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msub>
+                        <mo>+</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">2</mn>
+                            <msub arg="arg2">
+                                <mi>x</mi>
+                                <mn>3</mn>
+                            </msub>
+                        </mrow>
+                        <mo>=</mo>
+                        <mn>9</mn>
+                    </mrow>
                 </mtd>
             </mtr>
             <mtr>
                 <mtd>
-                    <mn>46</mn>
-                </mtd>
-                <mtd>
-                    <mn>39</mn>
+                    <mrow>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">2</mn>
+                            <msub arg="arg2">
+                                <mi>x</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">4</mn>
+                            <msub arg="arg2">
+                                <mi>x</mi>
+                                <mn>2</mn>
+                            </msub>
+                        </mrow>
+                        <mo>−</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">3</mn>
+                            <msub arg="arg2">
+                                <mi>x</mi>
+                                <mn>3</mn>
+                            </msub>
+                        </mrow>
+                        <mo>=</mo>
+                        <mn>1</mn>
+                    </mrow>
                 </mtd>
             </mtr>
             <mtr>
                 <mtd>
-                    <mn>4</mn>
-                </mtd>
-                <mtd>
-                    <mn>3</mn>
+                    <mrow>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">3</mn>
+                            <msub arg="arg2">
+                                <mi>x</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">6</mn>
+                            <msub arg="arg2">
+                                <mi>x</mi>
+                                <mn>2</mn>
+                            </msub>
+                        </mrow>
+                        <mo>−</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">5</mn>
+                            <msub arg="arg2">
+                                <mi>x</mi>
+                                <mn>3</mn>
+                            </msub>
+                        </mrow>
+                        <mo>=</mo>
+                        <mn>0</mn>
+                    </mrow>
                 </mtd>
             </mtr>
         </mtable>
-        <mo>]</mo>
     </mrow>
 </math>

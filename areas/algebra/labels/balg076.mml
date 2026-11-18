@@ -1,17 +1,10 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mi>m</mi>
-        <mo>;</mo>
-        <mo>{</mo>
-        <mi>a</mi>
-        <mo>+</mo>
-        <mi>b</mi>
-        <mo>}</mo>
-        <mo>&#x00F7;</mo>
-        <mo>{</mo>
-        <mi>c</mi>
-        <mo>−</mo>
-        <mi>d</mi>
-        <mo>}</mo>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mrow intent="logarithm($arg)">
+            <mi>log</mi>
+            <mi arg="arg">A</mi>
+        </mrow>
     </mrow>
 </math>

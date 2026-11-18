@@ -1,35 +1,108 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow>
-            <mo stretchy="true" fence="true" form="prefix">{</mo>
-            <mtable>
-                <mtr>
-                    <mtd columnalign="left">
-                        <mn>1</mn>
-                    </mtd>
-                    <mtd columnalign="left">
-                        <mrow>
-                            <mtext>si</mtext>
-                            <mi>i</mi>
-                            <mo>=</mo>
-                            <mi>j</mi>
+        <mo>[</mo>
+        <mtable intent=":matrix">
+            <mtr>
+                <mtd>
+                    <mrow intent="times($arg1,$arg2)">
+                        <mfrac arg="arg1">
+                            <mn>1</mn>
+                            <mn>2</mn>
+                        </mfrac>
+                        <mrow arg="arg2">
+                            <mo stretchy="false">(</mo>
+                            <msup intent="exponential($exp)">
+                                <mi>e</mi>
+                                <mi arg="exp">x</mi>
+                            </msup>
+                            <mo>+</mo>
+                            <msup intent="exponential($exp)">
+                                <mi>e</mi>
+                                <mrow arg="exp">
+                                    <mo>−</mo>
+                                    <mi>x</mi>
+                                </mrow>
+                            </msup>
+                            <mo stretchy="false">)</mo>
                         </mrow>
-                    </mtd>
-                </mtr>
-                <mtr>
-                    <mtd columnalign="left">
-                        <mn>0</mn>
-                    </mtd>
-                    <mtd columnalign="left">
-                        <mrow>
-                            <mtext>si</mtext>
-                            <mi>i</mi>
-                            <mo>≠</mo>
-                            <mi>j</mi>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mrow intent="times($arg1,$arg2)">
+                        <mfrac arg="arg1">
+                            <mn>1</mn>
+                            <mn>2</mn>
+                        </mfrac>
+                        <mrow arg="arg2">
+                            <mo stretchy="false">(</mo>
+                            <msup intent="exponential($exp)">
+                                <mi>e</mi>
+                                <mi arg="exp">x</mi>
+                            </msup>
+                            <mo>−</mo>
+                            <msup intent="exponential($exp)">
+                                <mi>e</mi>
+                                <mrow arg="exp">
+                                    <mo>−</mo>
+                                    <mi>x</mi>
+                                </mrow>
+                            </msup>
+                            <mo stretchy="false">)</mo>
                         </mrow>
-                    </mtd>
-                </mtr>
-            </mtable>
-        </mrow>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mrow intent="times($arg1,$arg2)">
+                        <mfrac arg="arg1">
+                            <mn>1</mn>
+                            <mn>2</mn>
+                        </mfrac>
+                        <mrow arg="arg2">
+                            <mo stretchy="false">(</mo>
+                            <msup intent="exponential($exp)">
+                                <mi>e</mi>
+                                <mi arg="exp">x</mi>
+                            </msup>
+                            <mo>−</mo>
+                            <msup intent="exponential($exp)">
+                                <mi>e</mi>
+                                <mrow arg="exp">
+                                    <mo>−</mo>
+                                    <mi>x</mi>
+                                </mrow>
+                            </msup>
+                            <mo stretchy="false">)</mo>
+                        </mrow>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mrow intent="times($arg1,$arg2)">
+                        <mfrac arg="arg1">
+                            <mn>1</mn>
+                            <mn>2</mn>
+                        </mfrac>
+                        <mrow arg="arg2">
+                            <mo stretchy="false">(</mo>
+                            <msup intent="exponential($exp)">
+                                <mi>e</mi>
+                                <mi arg="exp">x</mi>
+                            </msup>
+                            <mo>+</mo>
+                            <msup intent="exponential($exp)">
+                                <mi>e</mi>
+                                <mrow arg="exp">
+                                    <mo>−</mo>
+                                    <mi>x</mi>
+                                </mrow>
+                            </msup>
+                            <mo stretchy="false">)</mo>
+                        </mrow>
+                    </mrow>
+                </mtd>
+            </mtr>
+        </mtable>
+        <mo>]</mo>
     </mrow>
 </math>

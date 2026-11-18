@@ -1,11 +1,31 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
         <mo>=</mo>
-        <mn>1</mn>
-        <mo>−</mo>
         <mrow intent="times($arg1,$arg2)">
-            <mn arg="arg1">2</mn>
-            <mi arg="arg2">i</mi>
+            <mrow intent="absolute-value($a)" arg="arg1">
+                <mo stretchy="true" fence="true" form="prefix">|</mo>
+                <mfrac arg="a">
+                    <mrow>
+                        <mi>𝐮</mi>
+                        <mo>·</mo>
+                        <mi>𝐚</mi>
+                    </mrow>
+                    <msup intent="power($base,$exp)">
+                        <mrow intent="norm($a)" arg="base">
+                            <mo fence="false" stretchy="false">‖</mo>
+                            <mi arg="a">𝐚</mi>
+                            <mo fence="false" stretchy="false">‖</mo>
+                        </mrow>
+                        <mn arg="exp">2</mn>
+                    </msup>
+                </mfrac>
+                <mo stretchy="true" fence="true" form="postfix">|</mo>
+            </mrow>
+            <mrow intent="norm($a)" arg="arg2">
+                <mo fence="false" stretchy="false">‖</mo>
+                <mi arg="a">𝐚</mi>
+                <mo fence="false" stretchy="false">‖</mo>
+            </mrow>
         </mrow>
     </mrow>
 </math>

@@ -1,82 +1,23 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <msup intent="inverse($base)">
-            <mi arg="base">A</mi>
-            <mrow>
-                <mo>−</mo>
-                <mn>1</mn>
-            </mrow>
-        </msup>
-        <mo>=</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mfrac arg="arg1">
-                <mn>1</mn>
-                <mrow intent="determinant($arg)">
-                    <mi>det</mi>
-                    <mo stretchy="false">(</mo>
-                    <mi arg="arg">A</mi>
-                    <mo stretchy="false">)</mo>
-                </mrow>
-            </mfrac>
-            <mrow intent="$name($var)" arg="arg2">
-                <mi arg="name">adj</mi>
-                <mo stretchy="false">(</mo>
-                <mi arg="var">A</mi>
-                <mo stretchy="false">)</mo>
-            </mrow>
+        <mtext>b)</mtext>
+        <mrow intent="$name($var)">
+            <mi arg="name">p</mi>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">x</mi>
+            <mo stretchy="false">)</mo>
         </mrow>
         <mo>=</mo>
         <mrow intent="times($arg1,$arg2)">
-            <mfrac arg="arg1">
-                <mn>1</mn>
-                <mn>64</mn>
-            </mfrac>
-            <mrow arg="arg2">
-                <mo>[</mo>
-                <mtable intent=":matrix">
-                    <mtr>
-                        <mtd>
-                            <mn>12</mn>
-                        </mtd>
-                        <mtd>
-                            <mn>4</mn>
-                        </mtd>
-                        <mtd>
-                            <mn>12</mn>
-                        </mtd>
-                    </mtr>
-                    <mtr>
-                        <mtd>
-                            <mn>6</mn>
-                        </mtd>
-                        <mtd>
-                            <mn>2</mn>
-                        </mtd>
-                        <mtd>
-                            <mrow>
-                                <mo>−</mo>
-                                <mn>10</mn>
-                            </mrow>
-                        </mtd>
-                    </mtr>
-                    <mtr>
-                        <mtd>
-                            <mrow>
-                                <mo>−</mo>
-                                <mn>16</mn>
-                            </mrow>
-                        </mtd>
-                        <mtd>
-                            <mn>16</mn>
-                        </mtd>
-                        <mtd>
-                            <mn>16</mn>
-                        </mtd>
-                    </mtr>
-                </mtable>
-                <mo>]</mo>
-            </mrow>
+            <mn arg="arg1">2</mn>
+            <msup arg="arg2" intent="power($base,$exp)">
+                <mi arg="base">x</mi>
+                <mn arg="exp">2</mn>
+            </msup>
         </mrow>
-        <mo>=</mo>
+        <mo>−</mo>
+        <mi>x</mi>
+        <mo>+</mo>
+        <mn>1</mn>
     </mrow>
 </math>

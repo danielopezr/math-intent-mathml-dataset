@@ -1,59 +1,49 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <msup intent="power($base,$exp)">
-            <mrow arg="base">
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">9</mn>
+            <mi arg="arg2">x</mi>
+        </mrow>
+        <mo>−</mo>
+        <mn>2</mn>
+        <mo>−</mo>
+        <mrow intent="times($arg1,$arg2,$arg3)">
+            <mn arg="arg1">7</mn>
+            <mi arg="arg2">x</mi>
+            <mrow arg="arg3">
                 <mo stretchy="false">(</mo>
-                <msqrt>
-                    <mrow>
-                        <mo>−</mo>
-                        <mn>1</mn>
-                    </mrow>
-                </msqrt>
+                <mfrac>
+                    <mn>1</mn>
+                    <mi>x</mi>
+                </mfrac>
+                <mo>−</mo>
+                <mfrac>
+                    <mn>1</mn>
+                    <mn>2</mn>
+                </mfrac>
                 <mo stretchy="false">)</mo>
             </mrow>
-            <mn arg="exp">3</mn>
-        </msup>
+        </mrow>
         <mo>=</mo>
-        <msup intent="power($base,$exp)">
-            <mrow arg="base">
-                <mo stretchy="false">(</mo>
-                <msqrt>
-                    <mrow>
-                        <mo>−</mo>
-                        <mn>1</mn>
-                    </mrow>
-                </msqrt>
-                <mo stretchy="false">)</mo>
-            </mrow>
-            <mn arg="exp">2</mn>
-        </msup>
-        <mo>×</mo>
-        <msqrt>
+        <mfrac>
             <mrow>
-                <mo>−</mo>
                 <mn>1</mn>
+                <mo>+</mo>
+                <mfrac>
+                    <mi>x</mi>
+                    <mn>2</mn>
+                </mfrac>
             </mrow>
-        </msqrt>
-        <mo>=</mo>
-        <mo stretchy="false">(</mo>
-        <mo>−</mo>
-        <mn>1</mn>
-        <mo stretchy="false">)</mo>
-        <mo>×</mo>
-        <msqrt>
-            <mrow>
-                <mo>−</mo>
-                <mn>1</mn>
-            </mrow>
-        </msqrt>
-        <mo>=</mo>
-        <mo>−</mo>
-        <msqrt>
-            <mrow>
-                <mo>−</mo>
-                <mn>1</mn>
-            </mrow>
-        </msqrt>
+            <mn>2</mn>
+        </mfrac>
+        <mo>+</mo>
+        <mrow intent="mixed-fraction($int,$frac)">
+            <mn arg="int">2</mn>
+            <mfrac arg="frac">
+                <mn>3</mn>
+                <mn>4</mn>
+            </mfrac>
+        </mrow>
         <mo>.</mo>
     </mrow>
 </math>

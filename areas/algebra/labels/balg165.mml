@@ -1,23 +1,62 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mfrac>
-            <msup intent="power($base,$exp)">
+        <mrow intent="times($arg1,$arg2,$arg3)">
+            <msup arg="arg1" intent="power($base,$exp)">
                 <mi arg="base">a</mi>
-                <mi arg="exp">m</mi>
+                <mn arg="exp">2</mn>
             </msup>
-            <msup intent="power($base,$exp)">
-                <mi arg="base">a</mi>
-                <mi arg="exp">n</mi>
+            <msup arg="arg2" intent="power($base,$exp)">
+                <mi arg="base">b</mi>
+                <mn arg="exp">3</mn>
             </msup>
-        </mfrac>
+            <msup arg="arg3" intent="power($base,$exp)">
+                <mi arg="base">c</mi>
+                <mn arg="exp">4</mn>
+            </msup>
+        </mrow>
         <mo>=</mo>
         <msup intent="power($base,$exp)">
-            <mi arg="base">a</mi>
-            <mrow arg="exp">
-                <mi>m</mi>
-                <mo>−</mo>
-                <mi>n</mi>
-            </mrow>
+            <mn arg="base">2</mn>
+            <mn arg="exp">2</mn>
         </msup>
+        <mo>×</mo>
+        <msup intent="power($base,$exp)">
+            <mn arg="base">3</mn>
+            <mn arg="exp">3</mn>
+        </msup>
+        <mo>×</mo>
+        <msup intent="power($base,$exp)">
+            <mrow arg="base">
+                <mo stretchy="false">(</mo>
+                <mfrac>
+                    <mn>1</mn>
+                    <mn>2</mn>
+                </mfrac>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mn arg="exp">4</mn>
+        </msup>
+        <mo>=</mo>
+        <mn>4</mn>
+        <mo>×</mo>
+        <mn>27</mn>
+        <mo>×</mo>
+        <mfrac>
+            <mn>1</mn>
+            <mn>16</mn>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+            <mn>27</mn>
+            <mn>4</mn>
+        </mfrac>
+        <mo>=</mo>
+        <mrow intent="mixed-fraction($int,$frac)">
+            <mn arg="int">6</mn>
+            <mfrac arg="frac">
+                <mn>3</mn>
+                <mn>4</mn>
+            </mfrac>
+        </mrow>
     </mrow>
 </math>

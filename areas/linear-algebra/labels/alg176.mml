@@ -1,35 +1,66 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <msup intent="inverse($base)">
-            <mrow arg="base">
-                <mo stretchy="false">(</mo>
-                <mrow intent="times($arg1,$arg2)">
-                    <mi arg="arg1">A</mi>
-                    <mi arg="arg2">B</mi>
-                </mrow>
-                <mo stretchy="false">)</mo>
-            </mrow>
-            <mrow>
-                <mo>−</mo>
-                <mn>1</mn>
-            </mrow>
-        </msup>
-        <mo>=</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <msup arg="arg1" intent="inverse($base)">
-                <mi arg="base">B</mi>
-                <mrow>
-                    <mo>−</mo>
-                    <mn>1</mn>
-                </mrow>
-            </msup>
-            <msup arg="arg2" intent="inverse($base)">
-                <mi arg="base">A</mi>
-                <mrow>
-                    <mo>−</mo>
-                    <mn>1</mn>
-                </mrow>
-            </msup>
-        </mrow>
+        <mtable>
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mi>y</mi>
+                        <mo>+</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">2</mn>
+                            <mi arg="arg2">z</mi>
+                        </mrow>
+                        <mo>=</mo>
+                        <mn>9</mn>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">2</mn>
+                            <mi arg="arg2">x</mi>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">4</mn>
+                            <mi arg="arg2">y</mi>
+                        </mrow>
+                        <mo>−</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">3</mn>
+                            <mi arg="arg2">z</mi>
+                        </mrow>
+                        <mo>=</mo>
+                        <mn>1</mn>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">3</mn>
+                            <mi arg="arg2">x</mi>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">6</mn>
+                            <mi arg="arg2">y</mi>
+                        </mrow>
+                        <mo>−</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">5</mn>
+                            <mi arg="arg2">z</mi>
+                        </mrow>
+                        <mo>=</mo>
+                        <mn>0</mn>
+                    </mrow>
+                </mtd>
+            </mtr>
+        </mtable>
     </mrow>
 </math>

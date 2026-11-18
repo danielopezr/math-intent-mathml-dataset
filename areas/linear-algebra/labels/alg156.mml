@@ -1,59 +1,27 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow intent="times($arg1,$arg2,$arg3)">
-            <mrow intent="norm($a)" arg="arg1">
-                <mo fence="false" stretchy="false">‖</mo>
-                <mi arg="a">𝐮</mi>
-                <mo fence="false" stretchy="false">‖</mo>
+        <msup intent="inverse($base)">
+            <mi arg="base">A</mi>
+            <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
             </mrow>
-            <mrow intent="norm($a)" arg="arg2">
-                <mo fence="false" stretchy="false">‖</mo>
-                <mi arg="a">𝐯</mi>
-                <mo fence="false" stretchy="false">‖</mo>
-            </mrow>
-            <mrow intent="cosine($arg)" arg="arg3">
-                <mi>cos</mi>
-                <mi arg="arg">θ</mi>
-            </mrow>
-        </mrow>
+        </msup>
         <mo>=</mo>
         <mrow intent="times($arg1,$arg2)">
             <mfrac arg="arg1">
                 <mn>1</mn>
-                <mn>2</mn>
+                <mrow intent="determinant($arg)">
+                    <mi>det</mi>
+                    <mo stretchy="false">(</mo>
+                    <mi arg="arg">A</mi>
+                    <mo stretchy="false">)</mo>
+                </mrow>
             </mfrac>
-            <mrow arg="arg2">
+            <mrow intent="$name($var)" arg="arg2">
+                <mi arg="name">adj</mi>
                 <mo stretchy="false">(</mo>
-                <msup intent="power($base,$exp)">
-                    <mrow intent="norm($a)" arg="base">
-                        <mo fence="false" stretchy="false">‖</mo>
-                        <mi arg="a">𝐮</mi>
-                        <mo fence="false" stretchy="false">‖</mo>
-                    </mrow>
-                    <mn arg="exp">2</mn>
-                </msup>
-                <mo>+</mo>
-                <msup intent="power($base,$exp)">
-                    <mrow intent="norm($a)" arg="base">
-                        <mo fence="false" stretchy="false">‖</mo>
-                        <mi arg="a">𝐯</mi>
-                        <mo fence="false" stretchy="false">‖</mo>
-                    </mrow>
-                    <mn arg="exp">2</mn>
-                </msup>
-                <mo>−</mo>
-                <msup intent="power($base,$exp)">
-                    <mrow intent="norm($a)" arg="base">
-                        <mo fence="false" stretchy="false">‖</mo>
-                        <mrow arg="a">
-                            <mi>𝐯</mi>
-                            <mo>−</mo>
-                            <mi>𝐮</mi>
-                        </mrow>
-                        <mo fence="false" stretchy="false">‖</mo>
-                    </mrow>
-                    <mn arg="exp">2</mn>
-                </msup>
+                <mi arg="var">A</mi>
                 <mo stretchy="false">)</mo>
             </mrow>
         </mrow>

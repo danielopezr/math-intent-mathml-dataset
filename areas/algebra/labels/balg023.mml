@@ -1,65 +1,57 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow intent="times($a, $b)">
-            <mfrac arg="a">
-                <mn>3</mn>
-                <mn>5</mn>
-            </mfrac>
-            <mo>(</mo>
-            <mfrac arg="b">
-                <mrow>
-                    <mrow intent="times($arg1,$arg2)">
-                        <mn arg="arg1">2</mn>
-                        <mi arg="arg2">x</mi>
-                    </mrow>
-                    <mo>−</mo>
-                    <mn>1</mn>
-                </mrow>
-                <mn>6</mn>
-            </mfrac>
-            <mo>)</mo>
-        </mrow>
+        <mfrac>
+            <mrow intent="times($a, $b)">
+                <mn arg="a">3</mn>
+                <mi arg="b">x</mi>
+            </mrow>
+            <mn>8</mn>
+        </mfrac>
         <mo>−</mo>
-        <mrow intent="times($a, $b)">
-            <mfrac arg="a">
-                <mn>4</mn>
-                <mn>3</mn>
-            </mfrac>
-            <mo>(</mo>
-            <mfrac arg="b">
-                <mrow>
-                    <mrow intent="times($arg1,$arg2)">
-                        <mn arg="arg1">3</mn>
-                        <mi arg="arg2">x</mi>
-                    </mrow>
-                    <mo>+</mo>
-                    <mn>2</mn>
-                </mrow>
-                <mn>4</mn>
-            </mfrac>
-            <mo>)</mo>
-        </mrow>
+        <mfrac>
+            <mn>7</mn>
+            <mn>10</mn>
+        </mfrac>
         <mo>−</mo>
-        <mrow intent="times($a, $b)">
-            <mfrac arg="a">
-                <mn>1</mn>
-                <mn>5</mn>
-            </mfrac>
-            <mo>(</mo>
-            <mfrac arg="b">
-                <mrow>
-                    <mi>x</mi>
-                    <mo>−</mo>
-                    <mn>2</mn>
+        <mfrac>
+            <mrow>
+                <mrow intent="times($a, $b)">
+                    <mn arg="a">12</mn>
+                    <mi arg="b">x</mi>
                 </mrow>
+                <mo>−</mo>
+                <mn>5</mn>
+            </mrow>
+            <mn>16</mn>
+        </mfrac>
+        <mo>−</mo>
+        <mfrac>
+            <mrow>
+                <mrow intent="times($a, $b)">
+                    <mn arg="a">2</mn>
+                    <mi arg="b">x</mi>
+                </mrow>
+                <mo>−</mo>
                 <mn>3</mn>
-            </mfrac>
-            <mo>)</mo>
-        </mrow>
+            </mrow>
+            <mn>20</mn>
+        </mfrac>
         <mo>+</mo>
         <mfrac>
-            <mn>1</mn>
-            <mn>5</mn>
+            <mrow>
+                <mrow intent="times($a, $b)">
+                    <mn arg="a">4</mn>
+                    <mi arg="b">x</mi>
+                </mrow>
+                <mo>+</mo>
+                <mn>9</mn>
+            </mrow>
+            <mn>4</mn>
+        </mfrac>
+        <mo>+</mo>
+        <mfrac>
+            <mn>7</mn>
+            <mn>80</mn>
         </mfrac>
         <mo>=</mo>
         <mn>0</mn>

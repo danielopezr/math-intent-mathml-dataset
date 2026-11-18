@@ -15,7 +15,7 @@ alg013,images/alg013.jpeg,labels/alg013.mml,Linear algebra,orthogonalization; or
 alg014,images/alg014.jpeg,labels/alg014.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
 alg015,images/alg015.jpeg,labels/alg015.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
 alg016,images/alg016.jpeg,labels/alg016.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
-alg017,images/alg017.jpeg,labels/alg017.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
+alg017,images/alg017.jpeg,labels/alg017.mml,Linear algebra,,medium
 alg018,images/alg018.jpeg,labels/alg018.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
 alg019,images/alg019.jpeg,labels/alg019.mml,Linear algebra,orthogonal projections; orthogonal complements,simple
 alg020,images/alg020.jpeg,labels/alg020.mml,Linear algebra,orthogonal projections; orthogonal complements,very simple
@@ -72,7 +72,7 @@ alg070,images/alg070.jpeg,labels/alg070.mml,Linear algebra,row reduction; matrix
 alg071,images/alg071.jpeg,labels/alg071.mml,Linear algebra,row reduction; matrix representation of row operations,medium
 alg072,images/alg072.jpeg,labels/alg072.mml,Linear algebra,row reduction; matrix representation of row operations,simple
 alg073,images/alg073.jpeg,labels/alg073.mml,Linear algebra,row reduction; matrix representation of row operations,simple
-alg074,images/alg074.jpeg,labels/alg074.mml,Linear algebra,row reduction; matrix representation of row operations,simple
+alg074,images/alg074.jpeg,labels/alg074.mml,Linear algebra,,simple
 alg075,images/alg075.jpeg,labels/alg075.mml,Linear algebra,row reduction; matrix representation of row operations,medium
 alg076,images/alg076.jpeg,labels/alg076.mml,Linear algebra,row reduction; matrix representation of row operations,medium
 alg077,images/alg077.jpeg,labels/alg077.mml,Linear algebra,linear transformations; matrix representation of linear transformations,simple
@@ -80,162 +80,142 @@ alg078,images/alg078.jpeg,labels/alg078.mml,Linear algebra,linear transformation
 alg079,images/alg079.jpeg,labels/alg079.mml,Linear algebra,linear transformations; matrix representation of linear transformations,very simple
 alg080,images/alg080.jpeg,labels/alg080.mml,Linear algebra,linear transformations; matrix representation of linear transformations,medium
 alg081,images/alg081.jpeg,labels/alg081.mml,Linear algebra,,simple
-alg082,images/alg082.jpeg,,Linear algebra,,
-alg083,images/alg083.jpeg,,Linear algebra,,
+alg082,images/alg082.jpeg,labels/alg082.mml,Linear algebra,,simple
+alg083,images/alg083.jpeg,labels/alg083.mml,Linear algebra,,simple
 alg084,images/alg084.jpeg,labels/alg084.mml,Linear algebra,,simple
-alg085,images/alg085.jpeg,,Linear algebra,,
+alg085,images/alg085.jpeg,labels/alg085.mml,Linear algebra,,very simple
 alg086,images/alg086.jpeg,labels/alg086.mml,Linear algebra,,simple
-alg087,images/alg087.jpeg,labels/alg087.mml,Linear algebra,,simple
-alg088,images/alg088.jpeg,labels/alg088.mml,Linear algebra,,very simple
-alg089,images/alg089.jpeg,,Linear algebra,,
+alg087,images/alg087.jpeg,labels/alg087.mml,Linear algebra,,medium
+alg088,images/alg088.jpeg,labels/alg088.mml,Linear algebra,,medium
+alg089,images/alg089.jpeg,labels/alg089.mml,Linear algebra,,simple
 alg090,images/alg090.jpeg,labels/alg090.mml,Linear algebra,,simple
-alg091,images/alg091.jpeg,labels/alg091.mml,Linear algebra,,medium
-alg092,images/alg092.jpeg,,Linear algebra,,
+alg091,images/alg091.jpeg,labels/alg091.mml,Linear algebra,,very simple
+alg092,images/alg092.jpeg,labels/alg092.mml,Linear algebra,,simple
 alg093,images/alg093.jpeg,labels/alg093.mml,Linear algebra,,medium
-alg094,images/alg094.jpeg,labels/alg094.mml,Linear algebra,,simple
+alg094,images/alg094.jpeg,labels/alg094.mml,Linear algebra,,medium
 alg095,images/alg095.jpeg,labels/alg095.mml,Linear algebra,,simple
 alg096,images/alg096.jpeg,labels/alg096.mml,Linear algebra,,very simple
-alg097,images/alg097.jpeg,labels/alg097.mml,Linear algebra,,simple
-alg098,images/alg098.jpeg,labels/alg098.mml,Linear algebra,,medium
-alg099,images/alg099.jpeg,labels/alg099.mml,Linear algebra,,medium
-alg100,images/alg100.jpeg,labels/alg100.mml,Linear algebra,,simple
-alg101,images/alg101.jpeg,labels/alg101.mml,Linear algebra,,very simple
-alg102,images/alg102.jpeg,labels/alg102.mml,Linear algebra,,medium
-alg103,images/alg103.jpeg,labels/alg103.mml,Linear algebra,,simple
-alg104,images/alg104.jpeg,labels/alg104.mml,Linear algebra,,simple
+alg097,images/alg097.jpeg,labels/alg097.mml,Linear algebra,,medium
+alg098,images/alg098.jpeg,labels/alg098.mml,Linear algebra,,simple
+alg099,images/alg099.jpeg,labels/alg099.mml,Linear algebra,,simple
+alg100,images/alg100.jpeg,labels/alg100.mml,Linear algebra,,medium
+alg101,images/alg101.jpeg,labels/alg101.mml,Linear algebra,,simple
+alg102,images/alg102.jpeg,labels/alg102.mml,Linear algebra,orthogonal projections; orthogonal complements,medium
+alg103,images/alg103.jpeg,labels/alg103.mml,Linear algebra,,very simple
+alg104,images/alg104.jpeg,labels/alg104.mml,Linear algebra,,medium
 alg105,images/alg105.jpeg,labels/alg105.mml,Linear algebra,,medium
-alg106,images/alg106.jpeg,labels/alg106.mml,Linear algebra,,simple
-alg107,images/alg107.jpeg,labels/alg107.mml,Linear algebra,,simple
-alg108,images/alg108.jpeg,labels/alg108.mml,Linear algebra,,very simple
-alg109,images/alg109.jpeg,labels/alg109.mml,Linear algebra,,medium
-alg110,images/alg110.jpeg,labels/alg110.mml,Linear algebra,,medium
-alg111,images/alg111.jpeg,labels/alg111.mml,Linear algebra,,medium
-alg112,images/alg112.jpeg,labels/alg112.mml,Linear algebra,,medium
-alg113,images/alg113.jpeg,labels/alg113.mml,Linear algebra,,medium
-alg114,images/alg114.jpeg,,Linear algebra,,
-alg115,images/alg115.jpeg,labels/alg115.mml,Linear algebra,,simple
-alg116,images/alg116.jpeg,labels/alg116.mml,Linear algebra,,simple
-alg117,images/alg117.jpeg,labels/alg117.mml,Linear algebra,,simple
-alg118,images/alg118.jpeg,labels/alg118.mml,Linear algebra,,simple
-alg119,images/alg119.jpeg,labels/alg119.mml,Linear algebra,,very simple
-alg120,images/alg120.jpeg,labels/alg120.mml,Linear algebra,,medium
-alg121,images/alg121.jpeg,labels/alg121.mml,Linear algebra,,medium
+alg106,images/alg106.jpeg,labels/alg106.mml,Linear algebra,,medium
+alg107,images/alg107.jpeg,labels/alg107.mml,Linear algebra,,medium
+alg108,images/alg108.jpeg,labels/alg108.mml,Linear algebra,,medium
+alg109,images/alg109.jpeg,labels/alg109.mml,Linear algebra,,simple
+alg110,images/alg110.jpeg,labels/alg110.mml,Linear algebra,,simple
+alg111,images/alg111.jpeg,labels/alg111.mml,Linear algebra,,simple
+alg112,images/alg112.jpeg,labels/alg112.mml,Linear algebra,,simple
+alg113,images/alg113.jpeg,labels/alg113.mml,Linear algebra,,very simple
+alg114,images/alg114.jpeg,labels/alg114.mml,Linear algebra,,medium
+alg115,images/alg115.jpeg,labels/alg115.mml,Linear algebra,,medium
+alg116,images/alg116.jpeg,labels/alg116.mml,Linear algebra,,medium
+alg117,images/alg117.jpeg,labels/alg117.mml,Linear algebra,,medium
+alg118,images/alg118.jpeg,labels/alg118.mml,Linear algebra,,medium
+alg119,images/alg119.jpeg,labels/alg119.mml,Linear algebra,,simple
+alg120,images/alg120.jpeg,labels/alg120.mml,Linear algebra,,very simple
+alg121,images/alg121.jpeg,labels/alg121.mml,Linear algebra,,simple
 alg122,images/alg122.jpeg,labels/alg122.mml,Linear algebra,,medium
-alg123,images/alg123.jpeg,labels/alg123.mml,Linear algebra,,medium
-alg124,images/alg124.jpeg,labels/alg124.mml,Linear algebra,,medium
-alg125,images/alg125.jpeg,,Linear algebra,,
+alg123,images/alg123.jpeg,labels/alg123.mml,Linear algebra,,simple
+alg124,images/alg124.jpeg,labels/alg124.mml,Linear algebra,,simple
+alg125,images/alg125.jpeg,labels/alg125.mml,Linear algebra,,simple
 alg126,images/alg126.jpeg,labels/alg126.mml,Linear algebra,,simple
-alg127,images/alg127.jpeg,labels/alg127.mml,Linear algebra,,very simple
-alg128,images/alg128.jpeg,,Linear algebra,,
-alg129,images/alg129.jpeg,,Linear algebra,,
+alg127,images/alg127.jpeg,labels/alg127.mml,Linear algebra,,simple
+alg128,images/alg128.jpeg,labels/alg128.mml,Linear algebra,,simple
+alg129,images/alg129.jpeg,labels/alg129.mml,Linear algebra,,simple
 alg130,images/alg130.jpeg,labels/alg130.mml,Linear algebra,,simple
-alg131,images/alg131.jpeg,labels/alg131.mml,Linear algebra,,medium
+alg131,images/alg131.jpeg,labels/alg131.mml,Linear algebra,,very simple
 alg132,images/alg132.jpeg,labels/alg132.mml,Linear algebra,,simple
-alg133,images/alg133.jpeg,labels/alg133.mml,Linear algebra,,simple
+alg133,images/alg133.jpeg,labels/alg133.mml,Linear algebra,,medium
 alg134,images/alg134.jpeg,labels/alg134.mml,Linear algebra,,simple
 alg135,images/alg135.jpeg,labels/alg135.mml,Linear algebra,,simple
 alg136,images/alg136.jpeg,labels/alg136.mml,Linear algebra,,simple
-alg137,images/alg137.jpeg,,Linear algebra,,
-alg138,images/alg138.jpeg,,Linear algebra,,
-alg139,images/alg139.jpeg,labels/alg139.mml,Linear algebra,,simple
+alg137,images/alg137.jpeg,labels/alg137.mml,Linear algebra,,simple
+alg138,images/alg138.jpeg,labels/alg138.mml,Linear algebra,,simple
+alg139,images/alg139.jpeg,labels/alg139.mml,Linear algebra,,medium
 alg140,images/alg140.jpeg,labels/alg140.mml,Linear algebra,,simple
 alg141,images/alg141.jpeg,labels/alg141.mml,Linear algebra,,simple
-alg142,images/alg142.jpeg,labels/alg142.mml,Linear algebra,,very simple
-alg143,images/alg143.jpeg,,Linear algebra,,
-alg144,images/alg144.jpeg,labels/alg144.mml,Linear algebra,,simple
+alg142,images/alg142.jpeg,labels/alg142.mml,Linear algebra,,simple
+alg143,images/alg143.jpeg,labels/alg143.mml,Linear algebra,,simple
+alg144,images/alg144.jpeg,labels/alg144.mml,Linear algebra,,medium
 alg145,images/alg145.jpeg,labels/alg145.mml,Linear algebra,,medium
 alg146,images/alg146.jpeg,labels/alg146.mml,Linear algebra,,simple
 alg147,images/alg147.jpeg,labels/alg147.mml,Linear algebra,,simple
-alg148,images/alg148.jpeg,labels/alg148.mml,Linear algebra,,simple
-alg149,images/alg149.jpeg,labels/alg149.mml,Linear algebra,,simple
-alg150,images/alg150.jpeg,labels/alg150.mml,Linear algebra,,simple
-alg151,images/alg151.jpeg,labels/alg151.mml,Linear algebra,,medium
+alg148,images/alg148.jpeg,labels/alg148.mml,Linear algebra,,medium
+alg149,images/alg149.jpeg,labels/alg149.mml,Linear algebra,,very simple
+alg150,images/alg150.jpeg,labels/alg150.mml,Linear algebra,,very simple
+alg151,images/alg151.jpeg,labels/alg151.mml,Linear algebra,,very simple
 alg152,images/alg152.jpeg,labels/alg152.mml,Linear algebra,,simple
 alg153,images/alg153.jpeg,labels/alg153.mml,Linear algebra,,simple
 alg154,images/alg154.jpeg,labels/alg154.mml,Linear algebra,,simple
 alg155,images/alg155.jpeg,labels/alg155.mml,Linear algebra,,simple
-alg156,images/alg156.jpeg,labels/alg156.mml,Linear algebra,,medium
+alg156,images/alg156.jpeg,labels/alg156.mml,Linear algebra,,simple
 alg157,images/alg157.jpeg,labels/alg157.mml,Linear algebra,,medium
-alg158,images/alg158.jpeg,,Linear algebra,,
-alg159,images/alg159.jpeg,labels/alg159.mml,Linear algebra,,simple
+alg158,images/alg158.jpeg,labels/alg158.mml,Linear algebra,,simple
+alg159,images/alg159.jpeg,labels/alg159.mml,Linear algebra,,medium
 alg160,images/alg160.jpeg,labels/alg160.mml,Linear algebra,,simple
-alg161,images/alg161.jpeg,labels/alg161.mml,Linear algebra,,medium
-alg162,images/alg162.jpeg,labels/alg162.mml,Linear algebra,,very simple
-alg163,images/alg163.jpeg,labels/alg163.mml,Linear algebra,,very simple
-alg164,images/alg164.jpeg,labels/alg164.mml,Linear algebra,,very simple
+alg161,images/alg161.jpeg,labels/alg161.mml,Linear algebra,,very simple
+alg162,images/alg162.jpeg,labels/alg162.mml,Linear algebra,,simple
+alg163,images/alg163.jpeg,labels/alg163.mml,Linear algebra,,simple
+alg164,images/alg164.jpeg,labels/alg164.mml,Linear algebra,,simple
 alg165,images/alg165.jpeg,labels/alg165.mml,Linear algebra,,simple
 alg166,images/alg166.jpeg,labels/alg166.mml,Linear algebra,,simple
 alg167,images/alg167.jpeg,labels/alg167.mml,Linear algebra,,simple
 alg168,images/alg168.jpeg,labels/alg168.mml,Linear algebra,,simple
-alg169,images/alg169.jpeg,labels/alg169.mml,Linear algebra,,simple
-alg170,images/alg170.jpeg,labels/alg170.mml,Linear algebra,,medium
+alg169,images/alg169.jpeg,labels/alg169.mml,Linear algebra,,very simple
+alg170,images/alg170.jpeg,labels/alg170.mml,Linear algebra,,simple
 alg171,images/alg171.jpeg,labels/alg171.mml,Linear algebra,,simple
-alg172,images/alg172.jpeg,labels/alg172.mml,Linear algebra,,medium
+alg172,images/alg172.jpeg,labels/alg172.mml,Linear algebra,,simple
 alg173,images/alg173.jpeg,labels/alg173.mml,Linear algebra,,simple
-alg174,images/alg174.jpeg,labels/alg174.mml,Linear algebra,,very simple
-alg175,images/alg175.jpeg,labels/alg175.mml,Linear algebra,,simple
+alg174,images/alg174.jpeg,labels/alg174.mml,Linear algebra,,medium
+alg175,images/alg175.jpeg,labels/alg175.mml,Linear algebra,,medium
 alg176,images/alg176.jpeg,labels/alg176.mml,Linear algebra,,simple
 alg177,images/alg177.jpeg,labels/alg177.mml,Linear algebra,,simple
 alg178,images/alg178.jpeg,labels/alg178.mml,Linear algebra,,simple
 alg179,images/alg179.jpeg,labels/alg179.mml,Linear algebra,,simple
 alg180,images/alg180.jpeg,labels/alg180.mml,Linear algebra,,simple
 alg181,images/alg181.jpeg,labels/alg181.mml,Linear algebra,,simple
-alg182,images/alg182.jpeg,labels/alg182.mml,Linear algebra,,very simple
+alg182,images/alg182.jpeg,labels/alg182.mml,Linear algebra,,simple
 alg183,images/alg183.jpeg,labels/alg183.mml,Linear algebra,,simple
 alg184,images/alg184.jpeg,labels/alg184.mml,Linear algebra,,simple
 alg185,images/alg185.jpeg,labels/alg185.mml,Linear algebra,,simple
 alg186,images/alg186.jpeg,labels/alg186.mml,Linear algebra,,simple
 alg187,images/alg187.jpeg,labels/alg187.mml,Linear algebra,,medium
-alg188,images/alg188.jpeg,labels/alg188.mml,Linear algebra,,medium
-alg189,images/alg189.jpeg,labels/alg189.mml,Linear algebra,,simple
-alg190,images/alg190.jpeg,labels/alg190.mml,Linear algebra,,simple
-alg191,images/alg191.jpeg,labels/alg191.mml,Linear algebra,,simple
+alg188,images/alg188.jpeg,labels/alg188.mml,Linear algebra,,simple
+alg189,images/alg189.jpeg,labels/alg189.mml,Linear algebra,,very simple
+alg190,images/alg190.jpeg,labels/alg190.mml,Linear algebra,,very simple
+alg191,images/alg191.jpeg,labels/alg191.mml,Linear algebra,,very simple
 alg192,images/alg192.jpeg,labels/alg192.mml,Linear algebra,,simple
-alg193,images/alg193.jpeg,labels/alg193.mml,Linear algebra,,simple
-alg194,images/alg194.jpeg,labels/alg194.mml,Linear algebra,,simple
+alg193,images/alg193.jpeg,labels/alg193.mml,Linear algebra,,very simple
+alg194,images/alg194.jpeg,labels/alg194.mml,Linear algebra,,very simple
 alg195,images/alg195.jpeg,labels/alg195.mml,Linear algebra,,simple
-alg196,images/alg196.jpeg,labels/alg196.mml,Linear algebra,,simple
-alg197,images/alg197.jpeg,labels/alg197.mml,Linear algebra,,simple
-alg198,images/alg198.jpeg,labels/alg198.mml,Linear algebra,,simple
-alg199,images/alg199.jpeg,labels/alg199.mml,Linear algebra,,simple
-alg200,images/alg200.jpeg,labels/alg200.mml,Linear algebra,,medium
-alg201,images/alg201.jpeg,,Linear algebra,,
-alg202,images/alg202.jpeg,,Linear algebra,,
-alg203,images/alg203.jpeg,,Linear algebra,,
-alg204,images/alg204.jpeg,labels/alg204.mml,Linear algebra,,simple
-alg205,images/alg205.jpeg,labels/alg205.mml,Linear algebra,,very simple
-alg206,images/alg206.jpeg,labels/alg206.mml,Linear algebra,,very simple
-alg207,images/alg207.jpeg,labels/alg207.mml,Linear algebra,,very simple
+alg196,images/alg196.jpeg,labels/alg196.mml,Linear algebra,,very simple
+alg197,images/alg197.jpeg,labels/alg197.mml,Linear algebra,,very simple
+alg198,images/alg198.jpeg,labels/alg198.mml,Linear algebra,,very simple
+alg199,images/alg199.jpeg,labels/alg199.mml,Linear algebra,,very simple
+alg200,images/alg200.jpeg,labels/alg200.mml,Linear algebra,,very simple
+alg201,images/alg201.jpeg,labels/alg201.mml,Linear algebra,,simple
+alg202,images/alg202.jpeg,labels/alg202.mml,Linear algebra,,simple
+alg203,images/alg203.jpeg,labels/alg203.mml,Linear algebra,,simple
+alg204,images/alg204.jpeg,labels/alg204.mml,Linear algebra,,medium
+alg205,images/alg205.jpeg,labels/alg205.mml,Linear algebra,,simple
+alg206,images/alg206.jpeg,labels/alg206.mml,Linear algebra,,simple
+alg207,images/alg207.jpeg,labels/alg207.mml,Linear algebra,,simple
 alg208,images/alg208.jpeg,labels/alg208.mml,Linear algebra,,simple
-alg209,images/alg209.jpeg,labels/alg209.mml,Linear algebra,,very simple
+alg209,images/alg209.jpeg,labels/alg209.mml,Linear algebra,,medium
 alg210,images/alg210.jpeg,labels/alg210.mml,Linear algebra,,very simple
-alg211,images/alg211.jpeg,labels/alg211.mml,Linear algebra,,simple
+alg211,images/alg211.jpeg,labels/alg211.mml,Linear algebra,,very simple
 alg212,images/alg212.jpeg,labels/alg212.mml,Linear algebra,,very simple
-alg213,images/alg213.jpeg,labels/alg213.mml,Linear algebra,,very simple
-alg214,images/alg214.jpeg,labels/alg214.mml,Linear algebra,,very simple
-alg215,images/alg215.jpeg,labels/alg215.mml,Linear algebra,,very simple
-alg216,images/alg216.jpeg,labels/alg216.mml,Linear algebra,,very simple
+alg213,images/alg213.jpeg,labels/alg213.mml,Linear algebra,,simple
+alg214,images/alg214.jpeg,labels/alg214.mml,Linear algebra,,medium
+alg215,images/alg215.jpeg,labels/alg215.mml,Linear algebra,,simple
+alg216,images/alg216.jpeg,labels/alg216.mml,Linear algebra,,simple
 alg217,images/alg217.jpeg,labels/alg217.mml,Linear algebra,,simple
 alg218,images/alg218.jpeg,labels/alg218.mml,Linear algebra,,simple
-alg219,images/alg219.jpeg,labels/alg219.mml,Linear algebra,,simple
-alg220,images/alg220.jpeg,labels/alg220.mml,Linear algebra,,medium
-alg221,images/alg221.jpeg,labels/alg221.mml,Linear algebra,,simple
-alg222,images/alg222.jpeg,labels/alg222.mml,Linear algebra,,simple
-alg223,images/alg223.jpeg,labels/alg223.mml,Linear algebra,,simple
-alg224,images/alg224.jpeg,labels/alg224.mml,Linear algebra,,simple
-alg225,images/alg225.jpeg,labels/alg225.mml,Linear algebra,,medium
-alg226,images/alg226.jpeg,,Linear algebra,,
-alg227,images/alg227.jpeg,,Linear algebra,,
-alg228,images/alg228.jpeg,labels/alg228.mml,Linear algebra,,very simple
-alg229,images/alg229.jpeg,labels/alg229.mml,Linear algebra,,very simple
-alg230,images/alg230.jpeg,labels/alg230.mml,Linear algebra,,very simple
-alg231,images/alg231.jpeg,labels/alg231.mml,Linear algebra,,simple
-alg232,images/alg232.jpeg,,Linear algebra,,
-alg233,images/alg233.jpeg,labels/alg233.mml,Linear algebra,,medium
-alg234,images/alg234.jpeg,,Linear algebra,,
-alg235,images/alg235.jpeg,labels/alg235.mml,Linear algebra,,simple
-alg236,images/alg236.jpeg,labels/alg236.mml,Linear algebra,,simple
-alg237,images/alg237.jpeg,labels/alg237.mml,Linear algebra,,simple
-alg238,images/alg238.jpeg,labels/alg238.mml,Linear algebra,,simple
-alg239,images/alg239.jpeg,labels/alg239.mml,Linear algebra,,very simple
-alg240,images/alg240.jpeg,labels/alg240.mml,Linear algebra,,simple
+alg219,images/alg219.jpeg,labels/alg219.mml,Linear algebra,,very simple
+alg220,images/alg220.jpeg,labels/alg220.mml,Linear algebra,,simple

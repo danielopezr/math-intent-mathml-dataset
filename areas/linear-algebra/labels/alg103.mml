@@ -1,36 +1,10 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <msub>
-            <mi>e</mi>
-            <mn>1</mn>
-        </msub>
-        <mo>,</mo>
-        <mo intent="ellipsis">…</mo>
-        <mo>,</mo>
-        <msub>
-            <mi>e</mi>
-            <mi>k</mi>
-        </msub>
-        <mo>,</mo>
-        <msub>
-            <mi>e</mi>
-            <mrow>
-                <mi>k</mi>
-                <mo>+</mo>
-                <mn>1</mn>
-            </mrow>
-        </msub>
-        <mo>,</mo>
-        <mo intent="ellipsis">…</mo>
-        <mo>,</mo>
-        <msub>
-            <mi>e</mi>
-            <mrow>
-                <mi>k</mi>
-                <mo>+</mo>
-                <mi>r</mi>
-            </mrow>
-        </msub>
-        <mo>,</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mi arg="arg1">A</mi>
+            <mi arg="arg2">𝐱</mi>
+        </mrow>
+        <mo>=</mo>
+        <mi>𝐛</mi>
     </mrow>
 </math>

@@ -1,32 +1,82 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow intent="norm($a)">
-            <mo fence="false" stretchy="false">‖</mo>
-            <mrow arg="a">
-                <msub>
-                    <mi>proy</mi>
-                    <mi>𝐚</mi>
-                </msub>
-                <mi>𝐮</mi>
-            </mrow>
-            <mo fence="false" stretchy="false">‖</mo>
+        <mi>𝐮</mi>
+        <mo>·</mo>
+        <mi>𝐯</mi>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <msub arg="arg1">
+                <mi>u</mi>
+                <mn>1</mn>
+            </msub>
+            <msub arg="arg2">
+                <mi>v</mi>
+                <mn>1</mn>
+            </msub>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <msub arg="arg1">
+                <mi>u</mi>
+                <mn>2</mn>
+            </msub>
+            <msub arg="arg2">
+                <mi>v</mi>
+                <mn>2</mn>
+            </msub>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <msub arg="arg1">
+                <mi>u</mi>
+                <mn>3</mn>
+            </msub>
+            <msub arg="arg2">
+                <mi>v</mi>
+                <mn>3</mn>
+            </msub>
         </mrow>
         <mo>=</mo>
-        <mfrac>
-            <mrow intent="absolute-value($a)">
-                <mo stretchy="false">|</mo>
-                <mrow arg="a">
-                    <mi>𝐮</mi>
-                    <mo>·</mo>
-                    <mi>𝐚</mi>
-                </mrow>
-                <mo stretchy="false">|</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow arg="arg1">
+                <mo stretchy="false">(</mo>
+                <mn>2</mn>
+                <mo stretchy="false">)</mo>
             </mrow>
-            <mrow intent="norm($a)">
-                <mo fence="false" stretchy="false">‖</mo>
-                <mi arg="a">𝐚</mi>
-                <mo fence="false" stretchy="false">‖</mo>
+            <mrow arg="arg2">
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
+                <mo stretchy="false">)</mo>
             </mrow>
-        </mfrac>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow arg="arg1">
+                <mo stretchy="false">(</mo>
+                <mo>−</mo>
+                <mn>1</mn>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow arg="arg2">
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
+                <mo stretchy="false">)</mo>
+            </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow arg="arg1">
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow arg="arg2">
+                <mo stretchy="false">(</mo>
+                <mn>2</mn>
+                <mo stretchy="false">)</mo>
+            </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mn>3</mn>
     </mrow>
 </math>

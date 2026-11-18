@@ -1,59 +1,49 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mi>A</mi>
+        <mrow intent="$name($var)">
+            <mi arg="name">D</mi>
+            <mo stretchy="false">(</mo>
+            <mn arg="var">1</mn>
+            <mo stretchy="false">)</mo>
+        </mrow>
         <mo>=</mo>
-        <mo>[</mo>
-        <mtable intent=":matrix">
-            <mtr>
-                <mtd>
-                    <mrow>
-                        <mo>−</mo>
-                        <mrow intent="fraction($num,$den)">
-                            <mn arg="num">1</mn>
-                            <mo>/</mo>
-                            <msqrt arg="den">
-                                <mn>2</mn>
-                            </msqrt>
-                        </mrow>
-                    </mrow>
-                </mtd>
-                <mtd>
-                    <mrow>
-                        <mo>−</mo>
-                        <mrow intent="fraction($num,$den)">
-                            <mn arg="num">1</mn>
-                            <mo>/</mo>
-                            <msqrt arg="den">
-                                <mn>2</mn>
-                            </msqrt>
-                        </mrow>
-                    </mrow>
-                </mtd>
-            </mtr>
-            <mtr>
-                <mtd>
-                    <mrow intent="fraction($num,$den)">
-                        <mn arg="num">1</mn>
-                        <mo>/</mo>
-                        <msqrt arg="den">
-                            <mn>2</mn>
-                        </msqrt>
-                    </mrow>
-                </mtd>
-                <mtd>
-                    <mrow>
-                        <mo>−</mo>
-                        <mrow intent="fraction($num,$den)">
-                            <mn arg="num">1</mn>
-                            <mo>/</mo>
-                            <msqrt arg="den">
-                                <mn>2</mn>
-                            </msqrt>
-                        </mrow>
-                    </mrow>
-                </mtd>
-            </mtr>
-        </mtable>
-        <mo>]</mo>
+        <mn>0</mn>
+        <mo>,</mo>
+        <mrow intent="$name($var)">
+            <mi arg="name">D</mi>
+            <mo stretchy="false">(</mo>
+            <mrow arg="var">
+                <mn>1</mn>
+                <mo>+</mo>
+                <mi>x</mi>
+            </mrow>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mrow intent="$name($var)">
+            <mi arg="name">D</mi>
+            <mo stretchy="false">(</mo>
+            <mrow arg="var">
+                <mn>1</mn>
+                <mo>+</mo>
+                <mi>x</mi>
+                <mo>+</mo>
+                <msup intent="power($base,$exp)">
+                    <mi arg="base">x</mi>
+                    <mn arg="exp">2</mn>
+                </msup>
+            </mrow>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mn>1</mn>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">2</mn>
+            <mi arg="arg2">x</mi>
+        </mrow>
+        <mo>,</mo>
     </mrow>
 </math>

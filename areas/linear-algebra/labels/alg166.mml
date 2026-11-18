@@ -1,30 +1,45 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow intent="times($arg1,$arg2)">
-            <mfrac arg="arg1">
-                <mn>1</mn>
-                <mrow intent="determinant($arg)">
-                    <mi>det</mi>
-                    <mo stretchy="false">(</mo>
-                    <mi arg="arg">A</mi>
-                    <mo stretchy="false">)</mo>
-                </mrow>
-            </mfrac>
-            <mrow arg="arg2">
-                <mo stretchy="false">[</mo>
+        <msup intent="inverse($base)">
+            <mrow arg="base">
+                <mo stretchy="false">(</mo>
                 <mrow intent="times($arg1,$arg2)">
-                    <mi arg="arg1">A</mi>
-                    <mrow intent="$name($var)" arg="arg2">
-                        <mi arg="name">adj</mi>
-                        <mo stretchy="false">(</mo>
-                        <mi arg="var">A</mi>
-                        <mo stretchy="false">)</mo>
-                    </mrow>
+                    <mn arg="arg1">7</mn>
+                    <mi arg="arg2">A</mi>
                 </mrow>
-                <mo stretchy="false">]</mo>
+                <mo stretchy="false">)</mo>
             </mrow>
-        </mrow>
+            <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+            </mrow>
+        </msup>
         <mo>=</mo>
-        <mi>I</mi>
+        <mo>[</mo>
+        <mtable intent=":matrix">
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mn>3</mn>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mn>7</mn>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mn>1</mn>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mn>2</mn>
+                    </mrow>
+                </mtd>
+            </mtr>
+        </mtable>
+        <mo>]</mo>
     </mrow>
 </math>

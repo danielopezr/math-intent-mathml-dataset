@@ -1,28 +1,48 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mi>A</mi>
-        <mrow>
-            <mo stretchy="true" fence="true" form="prefix">[</mo>
-            <mrow intent="times($arg1,$arg2)">
-                <mfrac arg="arg1">
-                    <mn>1</mn>
-                    <mrow intent="determinant($arg)">
-                        <mi>det</mi>
-                        <mo stretchy="false">(</mo>
-                        <mi arg="arg">A</mi>
-                        <mo stretchy="false">)</mo>
-                    </mrow>
-                </mfrac>
-                <mrow intent="$name($var)" arg="arg2">
-                    <mi arg="name">adj</mi>
-                    <mo stretchy="false">(</mo>
-                    <mi arg="var">A</mi>
-                    <mo stretchy="false">)</mo>
+        <msup intent="inverse($base)">
+            <mrow arg="base">
+                <mo stretchy="false">(</mo>
+                <mrow intent="times($arg1,$arg2)">
+                    <mn arg="arg1">5</mn>
+                    <msup arg="arg2" intent="transpose($base)">
+                        <mi arg="base">A</mi>
+                        <mi>T</mi>
+                    </msup>
                 </mrow>
+                <mo stretchy="false">)</mo>
             </mrow>
-            <mo stretchy="true" fence="true" form="postfix">]</mo>
-        </mrow>
+            <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+            </mrow>
+        </msup>
         <mo>=</mo>
-        <mi>I</mi>
+        <mo>[</mo>
+        <mtable intent=":matrix">
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mn>3</mn>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mn>1</mn>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mn>5</mn>
+                </mtd>
+                <mtd>
+                    <mn>2</mn>
+                </mtd>
+            </mtr>
+        </mtable>
+        <mo>]</mo>
     </mrow>
 </math>

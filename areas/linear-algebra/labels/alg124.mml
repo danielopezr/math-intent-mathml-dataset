@@ -1,48 +1,32 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mi>𝐮</mi>
+        <mrow intent="norm($a)">
+            <mo fence="false" stretchy="false">‖</mo>
+            <mrow arg="a">
+                <msub>
+                    <mi>proy</mi>
+                    <mi>𝐚</mi>
+                </msub>
+                <mi>𝐮</mi>
+            </mrow>
+            <mo fence="false" stretchy="false">‖</mo>
+        </mrow>
         <mo>=</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mn arg="arg1">2</mn>
-            <mi arg="arg2">𝐢</mi>
-        </mrow>
-        <mo>−</mo>
-        <mi>𝐣</mi>
-        <mo>−</mo>
-        <mi>𝐤</mi>
-        <mo>;</mo>
-        <mi>𝐯</mi>
-        <mo>=</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mn arg="arg1">4</mn>
-            <mi arg="arg2">𝐢</mi>
-        </mrow>
-        <mo>+</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mn arg="arg1">3</mn>
-            <mi arg="arg2">𝐣</mi>
-        </mrow>
-        <mo>+</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mn arg="arg1">2</mn>
-            <mi arg="arg2">𝐤</mi>
-        </mrow>
-        <mo>;</mo>
-        <mi>𝐰</mi>
-        <mo>=</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mn arg="arg1">6</mn>
-            <mi arg="arg2">𝐢</mi>
-        </mrow>
-        <mo>+</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mn arg="arg1">7</mn>
-            <mi arg="arg2">𝐣</mi>
-        </mrow>
-        <mo>+</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mn arg="arg1">5</mn>
-            <mi arg="arg2">𝐤</mi>
-        </mrow>
+        <mfrac>
+            <mrow intent="absolute-value($a)">
+                <mo stretchy="false">|</mo>
+                <mrow arg="a">
+                    <mi>𝐮</mi>
+                    <mo>·</mo>
+                    <mi>𝐚</mi>
+                </mrow>
+                <mo stretchy="false">|</mo>
+            </mrow>
+            <mrow intent="norm($a)">
+                <mo fence="false" stretchy="false">‖</mo>
+                <mi arg="a">𝐚</mi>
+                <mo fence="false" stretchy="false">‖</mo>
+            </mrow>
+        </mfrac>
     </mrow>
 </math>

@@ -1,26 +1,38 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mo>=</mo>
-        <mn>0</mn>
-        <mo>+</mo>
-        <msup intent="power($base,$exp)">
-            <mi arg="base">i</mi>
-            <mn arg="exp">2</mn>
-        </msup>
-        <mo>+</mo>
-        <mn>0</mn>
-        <mo>−</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mn arg="arg1">2</mn>
-            <mi arg="arg2">i</mi>
+        <mrow intent="norm($a)">
+            <mo fence="false" stretchy="false">‖</mo>
+            <mrow arg="a">
+                <msub>
+                    <mi>proy</mi>
+                    <mi>𝐚</mi>
+                </msub>
+                <mi>𝐮</mi>
+            </mrow>
+            <mo fence="false" stretchy="false">‖</mo>
         </mrow>
-        <mo>−</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mn arg="arg1">2</mn>
-            <msup arg="arg2" intent="power($base,$exp)">
-                <mi arg="base">i</mi>
-                <mn arg="exp">2</mn>
-            </msup>
+        <mo>=</mo>
+        <mrow intent="norm($a)">
+            <mo stretchy="true" fence="true" form="prefix">‖</mo>
+            <mrow arg="a" intent="times($arg1,$arg2)">
+                <mfrac arg="arg1">
+                    <mrow>
+                        <mi>𝐮</mi>
+                        <mo>·</mo>
+                        <mi>𝐚</mi>
+                    </mrow>
+                    <msup intent="power($base,$exp)">
+                        <mrow intent="norm($a)" arg="base">
+                            <mo fence="false" stretchy="false">‖</mo>
+                            <mi arg="a">𝐚</mi>
+                            <mo fence="false" stretchy="false">‖</mo>
+                        </mrow>
+                        <mn arg="exp">2</mn>
+                    </msup>
+                </mfrac>
+                <mi arg="arg2">𝐚</mi>
+            </mrow>
+            <mo stretchy="true" fence="true" form="postfix">‖</mo>
         </mrow>
     </mrow>
 </math>

@@ -1,42 +1,40 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
+        <mi>a</mi>
+        <mo>−</mo>
+        <mi>b</mi>
+        <mo>+</mo>
+        <mrow intent="times($a, $b)">
+            <mn arg="a">2</mn>
+            <mi arg="b">a</mi>
+        </mrow>
+        <mo>+</mo>
         <mrow intent="times($a, $b)">
             <mn arg="a">3</mn>
-            <mi arg="b">m</mi>
+            <mi arg="b">b</mi>
         </mrow>
         <mo>−</mo>
+        <mi>c</mi>
+        <mo>−</mo>
+        <mrow intent="times($a, $b)">
+            <mn arg="a">4</mn>
+            <mi arg="b">a</mi>
+        </mrow>
+        <mo>+</mo>
         <mrow intent="times($a, $b)">
             <mn arg="a">5</mn>
-            <mi arg="b">n</mi>
+            <mi arg="b">b</mi>
         </mrow>
-        <mo>+</mo>
-        <mn>6</mn>
-        <mo>;</mo>
+        <mo>=</mo>
         <mo>−</mo>
-        <mrow intent="times($a, $b)">
-            <mn arg="a">6</mn>
-            <mi arg="b">m</mi>
-        </mrow>
-        <mo>+</mo>
-        <mn>8</mn>
-        <mo>−</mo>
-        <mrow intent="times($a, $b)">
-            <mn arg="a">20</mn>
-            <mi arg="b">n</mi>
-        </mrow>
-        <mo>;</mo>
-        <mo>−</mo>
-        <mrow intent="times($a, $b)">
-            <mn arg="a">20</mn>
-            <mi arg="b">n</mi>
-        </mrow>
+        <mi>a</mi>
         <mo>+</mo>
         <mrow intent="times($a, $b)">
-            <mn arg="a">12</mn>
-            <mi arg="b">m</mi>
+            <mn arg="a">7</mn>
+            <mi arg="b">b</mi>
         </mrow>
         <mo>−</mo>
-        <mn>12</mn>
+        <mi>c</mi>
         <mo>.</mo>
     </mrow>
 </math>

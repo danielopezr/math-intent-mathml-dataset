@@ -1,0 +1,29 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mrow intent="$name($var)">
+            <mi arg="name">tr</mi>
+            <mo stretchy="false">(</mo>
+            <mrow arg="var">
+                <mi>A</mi>
+                <mo>+</mo>
+                <mi>B</mi>
+            </mrow>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="$name($var)">
+            <mi arg="name">tr</mi>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">A</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="$name($var)">
+            <mi arg="name">tr</mi>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">B</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>.</mo>
+    </mrow>
+</math>

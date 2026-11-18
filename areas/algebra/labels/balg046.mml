@@ -4,29 +4,28 @@
             <mrow arg="base">
                 <mo>(</mo>
                 <msup intent="power($b, $e)">
-                    <mi arg="b">a</mi>
-                    <mi arg="e">n</mi>
+                    <mn arg="b">4</mn>
+                    <mn arg="e">2</mn>
                 </msup>
                 <mo>)</mo>
             </mrow>
-            <mi arg="exp">m</mi>
+            <mn arg="exp">3</mn>
         </msup>
         <mo>=</mo>
         <msup intent="power($base, $exp)">
-            <mi arg="base">a</mi>
+            <mn arg="base">4</mn>
             <mrow arg="exp">
-                <mi>n</mi>
+                <mn>2</mn>
                 <mo>&#xD7;</mo>
-                <mi>m</mi>
+                <mn>3</mn>
             </mrow>
         </msup>
         <mo>=</mo>
         <msup intent="power($base, $exp)">
-            <mi arg="base">a</mi>
-            <mrow arg="exp" intent="times($arg1,$arg2)">
-                <mi arg="arg1">n</mi>
-                <mi arg="arg2">m</mi>
-            </mrow>
+            <mn arg="base">4</mn>
+            <mn arg="exp">6</mn>
         </msup>
+        <mo>=</mo>
+        <mn>4096</mn>
     </mrow>
 </math>

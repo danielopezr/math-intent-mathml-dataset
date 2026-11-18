@@ -1,61 +1,63 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mtable>
-            <mtr>
-                <mtd>
-                    <mrow>
-                        <mi>x</mi>
-                        <mo>+</mo>
-                        <mi>y</mi>
-                        <mo>+</mo>
-                        <mrow intent="times($arg1,$arg2)">
-                            <mn arg="arg1">2</mn>
-                            <mi arg="arg2">z</mi>
+        <mtext>c)</mtext>
+        <msub>
+            <mi>a</mi>
+            <mrow>
+                <mi>i</mi>
+                <mi>j</mi>
+            </mrow>
+        </msub>
+        <mo>=</mo>
+        <mrow>
+            <mo stretchy="true" fence="true" form="prefix">{</mo>
+            <mtable>
+                <mtr>
+                    <mtd columnalign="left">
+                        <mn>1</mn>
+                    </mtd>
+                    <mtd columnalign="left">
+                        <mrow>
+                            <mtext>si</mtext>
+                            <mrow intent="absolute-value($a)">
+                                <mo stretchy="false">|</mo>
+                                <mrow arg="a">
+                                    <mi>i</mi>
+                                    <mo>−</mo>
+                                    <mi>j</mi>
+                                </mrow>
+                                <mo stretchy="false">|</mo>
+                            </mrow>
+                            <mo>&gt;</mo>
+                            <mn>1</mn>
                         </mrow>
-                        <mo>=</mo>
-                        <mn>9</mn>
-                    </mrow>
-                </mtd>
-            </mtr>
-            <mtr>
-                <mtd>
-                    <mrow>
-                        <mi>y</mi>
-                        <mo>−</mo>
-                        <mrow intent="times($arg1,$arg2)">
-                            <mfrac arg="arg1">
-                                <mn>7</mn>
-                                <mn>2</mn>
-                            </mfrac>
-                            <mi arg="arg2">z</mi>
+                    </mtd>
+                </mtr>
+                <mtr>
+                    <mtd columnalign="left">
+                        <mrow>
+                            <mo>−</mo>
+                            <mn>1</mn>
                         </mrow>
-                        <mo>=</mo>
-                        <mo>−</mo>
-                        <mfrac>
-                            <mn>17</mn>
-                            <mn>2</mn>
-                        </mfrac>
-                    </mrow>
-                </mtd>
-            </mtr>
-            <mtr>
-                <mtd>
-                    <mrow>
-                        <mrow intent="times($arg1,$arg2)">
-                            <mn arg="arg1">3</mn>
-                            <mi arg="arg2">y</mi>
+                    </mtd>
+                    <mtd columnalign="left">
+                        <mrow>
+                            <mtext>si</mtext>
+                            <mrow intent="absolute-value($a)">
+                                <mo stretchy="false">|</mo>
+                                <mrow arg="a">
+                                    <mi>i</mi>
+                                    <mo>−</mo>
+                                    <mi>j</mi>
+                                </mrow>
+                                <mo stretchy="false">|</mo>
+                            </mrow>
+                            <mo>≤</mo>
+                            <mn>1</mn>
                         </mrow>
-                        <mo>−</mo>
-                        <mrow intent="times($arg1,$arg2)">
-                            <mn arg="arg1">11</mn>
-                            <mi arg="arg2">z</mi>
-                        </mrow>
-                        <mo>=</mo>
-                        <mo>−</mo>
-                        <mn>27</mn>
-                    </mrow>
-                </mtd>
-            </mtr>
-        </mtable>
+                    </mtd>
+                </mtr>
+            </mtable>
+        </mrow>
     </mrow>
 </math>

@@ -1,33 +1,29 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mo stretchy="false">(</mo>
-        <mi>a</mi>
-        <mo>,</mo>
-        <mi>b</mi>
-        <mo stretchy="false">)</mo>
+        <mi>𝐮</mi>
         <mo>·</mo>
-        <mo stretchy="false">(</mo>
-        <msub>
-            <mi>x</mi>
-            <mn>2</mn>
-        </msub>
-        <mo>−</mo>
-        <msub>
-            <mi>x</mi>
-            <mn>1</mn>
-        </msub>
-        <mo>,</mo>
-        <msub>
-            <mi>y</mi>
-            <mn>2</mn>
-        </msub>
-        <mo>−</mo>
-        <msub>
-            <mi>y</mi>
-            <mn>1</mn>
-        </msub>
-        <mo stretchy="false">)</mo>
+        <mi>𝐯</mi>
         <mo>=</mo>
-        <mn>0</mn>
+        <mrow intent="times($arg1,$arg2)">
+            <msub arg="arg1">
+                <mi>u</mi>
+                <mn>1</mn>
+            </msub>
+            <msub arg="arg2">
+                <mi>v</mi>
+                <mn>1</mn>
+            </msub>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <msub arg="arg1">
+                <mi>u</mi>
+                <mn>2</mn>
+            </msub>
+            <msub arg="arg2">
+                <mi>v</mi>
+                <mn>2</mn>
+            </msub>
+        </mrow>
     </mrow>
 </math>

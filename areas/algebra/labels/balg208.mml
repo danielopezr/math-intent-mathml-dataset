@@ -2,26 +2,28 @@
     <mrow>
         <mo>−</mo>
         <mrow intent="times($arg1,$arg2)">
-            <mn arg="arg1">6</mn>
-            <mi arg="arg2">m</mi>
+            <mn arg="arg1">8</mn>
+            <msup arg="arg2" intent="power($base,$exp)">
+                <mi arg="base">a</mi>
+                <mrow arg="exp">
+                    <mi>x</mi>
+                    <mo>+</mo>
+                    <mn>1</mn>
+                </mrow>
+            </msup>
         </mrow>
         <mo>+</mo>
         <mrow intent="times($arg1,$arg2)">
             <mn arg="arg1">8</mn>
-            <mi arg="arg2">n</mi>
+            <msup arg="arg2" intent="power($base,$exp)">
+                <mi arg="base">a</mi>
+                <mrow arg="exp">
+                    <mi>x</mi>
+                    <mo>+</mo>
+                    <mn>1</mn>
+                </mrow>
+            </msup>
         </mrow>
-        <mo>+</mo>
-        <mn>5</mn>
-        <mo>−</mo>
-        <mi>m</mi>
-        <mo>−</mo>
-        <mi>n</mi>
-        <mo>−</mo>
-        <mrow intent="times($arg1,$arg2)">
-            <mn arg="arg1">6</mn>
-            <mi arg="arg2">m</mi>
-        </mrow>
-        <mo>−</mo>
-        <mn>11</mn>
+        <mo>.</mo>
     </mrow>
 </math>
