@@ -1,0 +1,78 @@
+id,image,label,area,topic,complexity
+balg001,images/balg001.jpeg,labels/balg001.mml,Algebra,compound interest; geometric series,simple
+balg002,images/balg002.jpeg,labels/balg002.mml,Algebra,compound interest; geometric series,medium
+balg003,images/balg003.jpeg,labels/balg003.mml,Algebra,compound interest; geometric series,simple
+balg004,images/balg004.jpeg,labels/balg004.mml,Algebra,compound interest; geometric series,simple
+balg005,images/balg005.jpeg,labels/balg005.mml,Algebra,compound interest; geometric series,simple
+balg006,images/balg006.jpeg,labels/balg006.mml,Algebra,compound interest; geometric series,simple
+balg007,images/balg007.jpeg,labels/balg007.mml,Algebra,logarithms and their properties,simple
+balg008,images/balg008.jpeg,labels/balg008.mml,Algebra,logarithms and their properties,very simple
+balg009,images/balg009.jpeg,labels/balg009.mml,Algebra,quadratic equation,very simple
+balg010,images/balg010.jpeg,labels/balg010.mml,Algebra,quadratic equation,very simple
+balg011,images/balg011.jpeg,labels/balg011.mml,Algebra,quadratic equation,simple
+balg012,images/balg012.jpeg,labels/balg012.mml,Algebra,quadratic equation,very simple
+balg013,images/balg013.jpeg,labels/balg013.mml,Algebra,quadratic equation,simple
+balg014,images/balg014.jpeg,labels/balg014.mml,Algebra,quadratic equation,simple
+balg015,images/balg015.jpeg,labels/balg015.mml,Algebra,quadratic equation,very simple
+balg016,images/balg016.jpeg,labels/balg016.mml,Algebra,quadratic equation,simple
+balg017,images/balg017.jpeg,labels/balg017.mml,Algebra,roots; imaginary numbers,simple
+balg018,images/balg018.jpeg,labels/balg018.mml,Algebra,roots; imaginary numbers,simple
+balg019,images/balg019.jpeg,labels/balg019.mml,Algebra,roots; imaginary numbers,simple
+balg020,images/balg020.jpeg,labels/balg020.mml,Algebra,equations; linear equations,simple
+balg021,images/balg021.jpeg,labels/balg021.mml,Algebra,equations; linear equations,very simple
+balg022,images/balg022.jpeg,labels/balg022.mml,Algebra,equations; linear equations,simple
+balg023,images/balg023.jpeg,labels/balg023.mml,Algebra,equations; linear equations,medium
+balg024,images/balg024.jpeg,labels/balg024.mml,Algebra,equations; linear equations,simple
+balg025,images/balg025.jpeg,labels/balg025.mml,Algebra,equations; linear equations,simple
+balg026,images/balg026.jpeg,labels/balg026.mml,Algebra,equations; linear equations,simple
+balg027,images/balg027.jpeg,labels/balg027.mml,Algebra,equations; linear equations,simple
+balg028,images/balg028.jpeg,labels/balg028.mml,Algebra,,simple
+balg029,images/balg029.jpeg,labels/balg029.mml,Algebra,,simple
+balg030,images/balg030.jpeg,labels/balg030.mml,Algebra,polynomials; polynomial division,medium
+balg031,images/balg031.jpeg,labels/balg031.mml,Algebra,polynomials; polynomial division,simple
+balg032,images/balg032.jpeg,labels/balg032.mml,Algebra,polynomials; polynomial multiplication,simple
+balg033,images/balg033.jpeg,labels/balg033.mml,Algebra,polynomials; polynomial multiplication,simple
+balg034,images/balg034.jpeg,labels/balg034.mml,Algebra,polynomials; polynomial multiplication,very simple
+balg035,images/balg035.jpeg,labels/balg035.mml,Algebra,polynomials,medium
+balg036,images/balg036.jpeg,labels/balg036.mml,Algebra,polynomials,simple
+balg037,images/balg037.jpeg,labels/balg037.mml,Algebra,polynomials,simple
+balg038,images/balg038.jpeg,labels/balg038.mml,Algebra,polynomials,simple
+balg039,images/balg039.jpeg,labels/balg039.mml,Algebra,polynomials,simple
+balg040,images/balg040.jpeg,labels/balg040.mml,Algebra,polynomials,very simple
+balg041,images/balg041.jpeg,labels/balg041.mml,Algebra,powers and their properties,very simple
+balg042,images/balg042.jpeg,labels/balg042.mml,Algebra,powers and their properties,simple
+balg043,images/balg043.jpeg,labels/balg043.mml,Algebra,powers and their properties,simple
+balg044,images/balg044.jpeg,labels/balg044.mml,Algebra,powers and their properties,simple
+balg045,images/balg045.jpeg,labels/balg045.mml,Algebra,powers and their properties,simple
+balg046,images/balg046.jpeg,labels/balg046.mml,Algebra,powers and their properties,simple
+balg047,images/balg047.jpeg,labels/balg047.mml,Algebra,powers and their properties,very simple
+balg048,images/balg048.jpeg,labels/balg048.mml,Algebra,powers and their properties,simple
+balg049,images/balg049.jpeg,labels/balg049.mml,Algebra,powers and their properties,simple
+balg050,images/balg050.jpeg,labels/balg050.mml,Algebra,geometric distance,very simple
+balg051,images/balg051.jpeg,labels/balg051.mml,Algebra,definition of pi,very simple
+balg052,images/balg052.jpeg,labels/balg052.mml,Algebra,evaluating expressions,medium
+balg053,images/balg053.jpeg,labels/balg053.mml,Algebra,fraction division; fractional expressions,simple
+balg054,images/balg054.jpeg,labels/balg054.mml,Algebra,fractional expressions,simple
+balg055,images/balg055.jpeg,labels/balg055.mml,Algebra,roots; evaluating expressions,simple
+balg056,images/balg056.jpeg,labels/balg056.mml,Algebra,evaluating expressions,medium
+balg057,images/balg057.jpeg,labels/balg057.mml,Algebra,evaluating expressions,simple
+balg058,images/balg058.jpeg,labels/balg058.mml,Algebra,evaluating expressions; roots,simple
+balg059,images/balg059.jpeg,labels/balg059.mml,Algebra,polynomials,simple
+balg060,images/balg060.jpeg,labels/balg060.mml,Algebra,polynomials,medium
+balg061,images/balg061.jpeg,labels/balg061.mml,Algebra,polynomials,simple
+balg062,images/balg062.jpeg,labels/balg062.mml,Algebra,polynomials,medium
+balg063,images/balg063.jpeg,labels/balg063.mml,Algebra,polynomials,simple
+balg064,images/balg064.jpeg,labels/balg064.mml,Algebra,polynomials,very simple
+balg065,images/balg065.jpeg,labels/balg065.mml,Algebra,polynomials,very simple
+balg066,images/balg066.jpeg,labels/balg066.mml,Algebra,polynomials,very simple
+balg067,images/balg067.jpeg,labels/balg067.mml,Algebra,polynomials,simple
+balg068,images/balg068.jpeg,labels/balg068.mml,Algebra,polynomials,simple
+balg069,images/balg069.jpeg,labels/balg069.mml,Algebra,polynomials,simple
+balg070,images/balg070.jpeg,labels/balg070.mml,Algebra,expressions with roots,very simple
+balg071,images/balg071.jpeg,labels/balg071.mml,Algebra,polynomials,medium
+balg072,images/balg072.jpeg,labels/balg072.mml,Algebra,polynomials,simple
+balg073,images/balg073.jpeg,labels/balg073.mml,Algebra,expressions; terms,simple
+balg074,images/balg074.jpeg,labels/balg074.mml,Algebra,polynomials; expressions,simple
+balg075,images/balg075.jpeg,labels/balg075.mml,Algebra,expressions with roots; terms,simple
+balg076,images/balg076.jpeg,labels/balg076.mml,Algebra,,very simple
+balg077,images/balg077.jpeg,labels/balg077.mml,Algebra,,simple

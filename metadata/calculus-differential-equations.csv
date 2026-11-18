@@ -1,0 +1,70 @@
+id,image,label,area,topic,complexity
+calc001,images/calc001.jpeg,labels/calc001.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc002,images/calc002.jpeg,labels/calc002.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc003,images/calc003.jpeg,labels/calc003.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc004,images/calc004.jpeg,labels/calc004.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,very simple
+calc005,images/calc005.jpeg,labels/calc005.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc006,images/calc006.jpeg,labels/calc006.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc007,images/calc007.jpeg,labels/calc007.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc008,images/calc008.jpeg,labels/calc008.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,very simple
+calc009,images/calc009.jpeg,labels/calc009.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,medium
+calc010,images/calc010.jpeg,labels/calc010.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc011,images/calc011.jpeg,labels/calc011.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,very simple
+calc012,images/calc012.jpeg,labels/calc012.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc013,images/calc013.jpeg,labels/calc013.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc014,images/calc014.jpeg,labels/calc014.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,very simple
+calc015,images/calc015.jpeg,labels/calc015.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,very simple
+calc016,images/calc016.jpeg,labels/calc016.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,very simple
+calc017,images/calc017.jpeg,labels/calc017.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc018,images/calc018.jpeg,labels/calc018.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc019,images/calc019.jpeg,labels/calc019.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc020,images/calc020.jpeg,labels/calc020.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc021,images/calc021.jpeg,labels/calc021.mml,Calculus and differential equations,,very simple
+calc022,images/calc022.jpeg,labels/calc022.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc023,images/calc023.jpeg,labels/calc023.mml,Calculus and differential equations,,simple
+calc024,images/calc024.jpeg,labels/calc024.mml,Calculus and differential equations,,very simple
+calc025,images/calc025.jpeg,labels/calc025.mml,Calculus and differential equations,,very simple
+calc026,images/calc026.jpeg,labels/calc026.mml,Calculus and differential equations,gamma function,very simple
+calc027,images/calc027.jpeg,labels/calc027.mml,Calculus and differential equations,Bessel functions,simple
+calc028,images/calc028.jpeg,labels/calc028.mml,Calculus and differential equations,gamma function,medium
+calc029,images/calc029.jpeg,labels/calc029.mml,Calculus and differential equations,,very simple
+calc030,images/calc030.jpeg,labels/calc030.mml,Calculus and differential equations,gamma function,simple
+calc031,images/calc031.jpeg,labels/calc031.mml,Calculus and differential equations,Bessel functions,very simple
+calc032,images/calc032.jpeg,labels/calc032.mml,Calculus and differential equations,gamma function,simple
+calc033,images/calc033.jpeg,labels/calc033.mml,Calculus and differential equations,Bessel functions,simple
+calc034,images/calc034.jpeg,labels/calc034.mml,Calculus and differential equations,solving a differential equation; Bessel functions,simple
+calc035,images/calc035.jpeg,labels/calc035.mml,Calculus and differential equations,,very simple
+calc036,images/calc036.jpeg,labels/calc036.mml,Calculus and differential equations,,very simple
+calc037,images/calc037.jpeg,labels/calc037.mml,Calculus and differential equations,gamma function,simple
+calc038,images/calc038.jpeg,labels/calc038.mml,Calculus and differential equations,gamma function,very simple
+calc039,images/calc039.jpeg,labels/calc039.mml,Calculus and differential equations,gamma function,simple
+calc040,images/calc040.jpeg,labels/calc040.mml,Calculus and differential equations,,very simple
+calc041,images/calc041.jpeg,labels/calc041.mml,Calculus and differential equations,,very simple
+calc042,images/calc042.jpeg,labels/calc042.mml,Calculus and differential equations,,very simple
+calc043,images/calc043.jpeg,labels/calc043.mml,Calculus and differential equations,gamma function,simple
+calc044,images/calc044.jpeg,labels/calc044.mml,Calculus and differential equations,,simple
+calc045,images/calc045.jpeg,labels/calc045.mml,Calculus and differential equations,Bessel functions,medium
+calc046,images/calc046.jpeg,labels/calc046.mml,Calculus and differential equations,Bessel functions,medium
+calc047,images/calc047.jpeg,labels/calc047.mml,Calculus and differential equations,solving differential equations with Bessel functions,complex
+calc048,images/calc048.jpeg,labels/calc048.mml,Calculus and differential equations,,simple
+calc049,images/calc049.jpeg,labels/calc049.mml,Calculus and differential equations,,simple
+calc050,images/calc050.jpeg,labels/calc050.mml,Calculus and differential equations,higher-order differential equations,simple
+calc051,images/calc051.jpeg,labels/calc051.mml,Calculus and differential equations,,simple
+calc052,images/calc052.jpeg,labels/calc052.mml,Calculus and differential equations,,very simple
+calc053,images/calc053.jpeg,labels/calc053.mml,Calculus and differential equations,differential equations with constant coefficients,very simple
+calc054,images/calc054.jpeg,labels/calc054.mml,Calculus and differential equations,gamma function,very simple
+calc055,images/calc055.jpeg,labels/calc055.mml,Calculus and differential equations,,very simple
+calc056,images/calc056.jpeg,labels/calc056.mml,Calculus and differential equations,Bessel functions,medium
+calc057,images/calc057.jpeg,labels/calc057.mml,Calculus and differential equations,gamma function,medium
+calc058,images/calc058.jpeg,labels/calc058.mml,Calculus and differential equations,,simple
+calc059,images/calc059.jpeg,labels/calc059.mml,Calculus and differential equations,reduction of order,simple
+calc060,images/calc060.jpeg,labels/calc060.mml,Calculus and differential equations,first-order linear differential equations,simple
+calc061,images/calc061.jpeg,labels/calc061.mml,Calculus and differential equations,,very simple
+calc062,images/calc062.jpeg,labels/calc062.mml,Calculus and differential equations,,very simple
+calc063,images/calc063.jpeg,labels/calc063.mml,Calculus and differential equations,Bessel functions; reduction of order,simple
+calc064,images/calc064.jpeg,labels/calc064.mml,Calculus and differential equations,Bessel functions,simple
+calc065,images/calc065.jpeg,labels/calc065.mml,Calculus and differential equations,power series,simple
+calc066,images/calc066.jpeg,labels/calc066.mml,Calculus and differential equations,Bessel functions; power series,simple
+calc067,images/calc067.jpeg,labels/calc067.mml,Calculus and differential equations,Bessel functions; power series,medium
+calc068,images/calc068.jpeg,labels/calc068.mml,Calculus and differential equations,Bessel functions; power series,simple
+calc069,images/calc069.jpeg,labels/calc069.mml,Calculus and differential equations,,very simple

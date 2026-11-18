@@ -1,0 +1,7 @@
+# Text files are stored with LF line endings; images are binary.
+*.mml  text eol=lf
+*.csv  text eol=lf
+*.md   text eol=lf
+*.jpeg binary
+*.jpg  binary
+*.png  binary

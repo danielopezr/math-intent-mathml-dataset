@@ -1,0 +1,102 @@
+id,image,label,area,topic,complexity
+alg001,images/alg001.jpeg,labels/alg001.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
+alg002,images/alg002.jpeg,labels/alg002.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
+alg003,images/alg003.jpeg,labels/alg003.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,medium
+alg004,images/alg004.jpeg,labels/alg004.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,medium
+alg005,images/alg005.jpeg,labels/alg005.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
+alg006,images/alg006.jpeg,labels/alg006.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
+alg007,images/alg007.jpeg,labels/alg007.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
+alg008,images/alg008.jpeg,labels/alg008.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,medium
+alg009,images/alg009.jpeg,labels/alg009.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
+alg010,images/alg010.jpeg,labels/alg010.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
+alg011,images/alg011.jpeg,labels/alg011.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,medium
+alg012,images/alg012.jpeg,labels/alg012.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,complex
+alg013,images/alg013.jpeg,labels/alg013.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
+alg014,images/alg014.jpeg,labels/alg014.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
+alg015,images/alg015.jpeg,labels/alg015.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
+alg016,images/alg016.jpeg,labels/alg016.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
+alg017,images/alg017.jpeg,labels/alg017.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
+alg018,images/alg018.jpeg,labels/alg018.mml,Linear algebra,orthogonalization; orthogonal bases; vector spaces of functions,simple
+alg019,images/alg019.jpeg,labels/alg019.mml,Linear algebra,orthogonal projections; orthogonal complements,simple
+alg020,images/alg020.jpeg,labels/alg020.mml,Linear algebra,orthogonal projections; orthogonal complements,very simple
+alg021,images/alg021.jpeg,labels/alg021.mml,Linear algebra,orthogonal projections; orthogonal complements,simple
+alg022,images/alg022.jpeg,labels/alg022.mml,Linear algebra,orthogonal projections; orthogonal complements,medium
+alg023,images/alg023.jpeg,labels/alg023.mml,Linear algebra,orthogonal projections; orthogonal complements,medium
+alg024,images/alg024.jpeg,labels/alg024.mml,Linear algebra,orthogonal projections; orthogonal complements,simple
+alg025,images/alg025.jpeg,labels/alg025.mml,Linear algebra,orthogonal projections; orthogonal complements,simple
+alg026,images/alg026.jpeg,labels/alg026.mml,Linear algebra,orthogonal projections; orthogonal complements,simple
+alg027,images/alg027.jpeg,labels/alg027.mml,Linear algebra,orthogonal projections; orthogonal complements,simple
+alg028,images/alg028.jpeg,labels/alg028.mml,Linear algebra,orthogonal projections; orthogonal complements,simple
+alg029,images/alg029.jpeg,labels/alg029.mml,Linear algebra,orthogonal projections; orthogonal complements,medium
+alg030,images/alg030.jpeg,labels/alg030.mml,Linear algebra,orthogonal projections; orthogonal complements,simple
+alg031,images/alg031.jpeg,labels/alg031.mml,Linear algebra,orthogonal projections; orthogonal complements,simple
+alg032,images/alg032.jpeg,labels/alg032.mml,Linear algebra,orthogonal projections; orthogonal complements,simple
+alg033,images/alg033.jpeg,labels/alg033.mml,Linear algebra,dimension theorem; linear transformations,simple
+alg034,images/alg034.jpeg,labels/alg034.mml,Linear algebra,dimension theorem; linear transformations,simple
+alg035,images/alg035.jpeg,labels/alg035.mml,Linear algebra,dimension theorem; linear transformations,simple
+alg036,images/alg036.jpeg,labels/alg036.mml,Linear algebra,dimension theorem; linear transformations,very simple
+alg037,images/alg037.jpeg,labels/alg037.mml,Linear algebra,dimension theorem; linear transformations,medium
+alg038,images/alg038.jpeg,labels/alg038.mml,Linear algebra,dimension theorem; linear transformations,simple
+alg039,images/alg039.jpeg,labels/alg039.mml,Linear algebra,dimension theorem; linear transformations,simple
+alg040,images/alg040.jpeg,labels/alg040.mml,Linear algebra,dimension theorem; linear transformations,simple
+alg041,images/alg041.jpeg,labels/alg041.mml,Linear algebra,matrix representation of linear transformations,medium
+alg042,images/alg042.jpeg,labels/alg042.mml,Linear algebra,matrix representation of linear transformations,simple
+alg043,images/alg043.jpeg,labels/alg043.mml,Linear algebra,matrix representation of linear transformations,simple
+alg044,images/alg044.jpeg,labels/alg044.mml,Linear algebra,matrix representation of linear transformations,simple
+alg045,images/alg045.jpeg,labels/alg045.mml,Linear algebra,matrix representation of linear transformations,simple
+alg046,images/alg046.jpeg,labels/alg046.mml,Linear algebra,matrix representation of linear transformations,simple
+alg047,images/alg047.jpeg,labels/alg047.mml,Linear algebra,matrix representation of linear transformations,simple
+alg048,images/alg048.jpeg,labels/alg048.mml,Linear algebra,matrix representation of linear transformations,simple
+alg049,images/alg049.jpeg,labels/alg049.mml,Linear algebra,matrix representation of linear transformations,medium
+alg050,images/alg050.jpeg,labels/alg050.mml,Linear algebra,matrix representation of linear transformations,very simple
+alg051,images/alg051.jpeg,labels/alg051.mml,Linear algebra,matrix representation of linear transformations,very simple
+alg052,images/alg052.jpeg,labels/alg052.mml,Linear algebra,matrix representation of linear transformations,simple
+alg053,images/alg053.jpeg,labels/alg053.mml,Linear algebra,matrix representation of linear transformations,simple
+alg054,images/alg054.jpeg,labels/alg054.mml,Linear algebra,matrix representation of linear transformations,simple
+alg055,images/alg055.jpeg,labels/alg055.mml,Linear algebra,eigenvalues and eigenvectors; characteristic polynomial,simple
+alg056,images/alg056.jpeg,labels/alg056.mml,Linear algebra,eigenvalues and eigenvectors; characteristic polynomial,simple
+alg057,images/alg057.jpeg,labels/alg057.mml,Linear algebra,eigenvalues and eigenvectors; characteristic polynomial,complex
+alg058,images/alg058.jpeg,labels/alg058.mml,Linear algebra,eigenvalues and eigenvectors; characteristic polynomial,complex
+alg059,images/alg059.jpeg,labels/alg059.mml,Linear algebra,eigenvalues and eigenvectors; characteristic polynomial,simple
+alg060,images/alg060.jpeg,labels/alg060.mml,Linear algebra,inner product; complex vector spaces of functions,medium
+alg061,images/alg061.jpeg,labels/alg061.mml,Linear algebra,eigenvalues and eigenvectors; characteristic polynomial,medium
+alg062,images/alg062.jpeg,labels/alg062.mml,Linear algebra,eigenvalues and eigenvectors; characteristic polynomial,medium
+alg063,images/alg063.jpeg,labels/alg063.mml,Linear algebra,eigenvalues and eigenvectors; characteristic polynomial,medium
+alg064,images/alg064.jpeg,labels/alg064.mml,Linear algebra,,simple
+alg065,images/alg065.jpeg,labels/alg065.mml,Linear algebra,,medium
+alg066,images/alg066.jpeg,labels/alg066.mml,Linear algebra,,medium
+alg067,images/alg067.jpeg,labels/alg067.mml,Linear algebra,,medium
+alg068,images/alg068.jpeg,labels/alg068.mml,Linear algebra,,very simple
+alg069,images/alg069.jpeg,labels/alg069.mml,Linear algebra,linear combinations,simple
+alg070,images/alg070.jpeg,labels/alg070.mml,Linear algebra,row reduction; matrix representation of row operations,medium
+alg071,images/alg071.jpeg,labels/alg071.mml,Linear algebra,row reduction; matrix representation of row operations,medium
+alg072,images/alg072.jpeg,labels/alg072.mml,Linear algebra,row reduction; matrix representation of row operations,simple
+alg073,images/alg073.jpeg,labels/alg073.mml,Linear algebra,row reduction; matrix representation of row operations,simple
+alg074,images/alg074.jpeg,labels/alg074.mml,Linear algebra,row reduction; matrix representation of row operations,simple
+alg075,images/alg075.jpeg,labels/alg075.mml,Linear algebra,row reduction; matrix representation of row operations,medium
+alg076,images/alg076.jpeg,labels/alg076.mml,Linear algebra,row reduction; matrix representation of row operations,medium
+alg077,images/alg077.jpeg,labels/alg077.mml,Linear algebra,linear transformations; matrix representation of linear transformations,simple
+alg078,images/alg078.jpeg,labels/alg078.mml,Linear algebra,linear transformations; matrix representation of linear transformations,medium
+alg079,images/alg079.jpeg,labels/alg079.mml,Linear algebra,linear transformations; matrix representation of linear transformations,very simple
+alg080,images/alg080.jpeg,labels/alg080.mml,Linear algebra,linear transformations; matrix representation of linear transformations,medium
+alg081,images/alg081.jpeg,,Linear algebra,,
+alg082,images/alg082.jpeg,,Linear algebra,,
+alg083,images/alg083.jpeg,,Linear algebra,,
+alg084,images/alg084.jpeg,,Linear algebra,,
+alg085,images/alg085.jpeg,,Linear algebra,,
+alg086,images/alg086.jpeg,,Linear algebra,,
+alg087,images/alg087.jpeg,,Linear algebra,,
+alg088,images/alg088.jpeg,,Linear algebra,,
+alg089,images/alg089.jpeg,,Linear algebra,,
+alg090,images/alg090.jpeg,,Linear algebra,,
+alg091,images/alg091.jpeg,,Linear algebra,,
+alg092,images/alg092.jpeg,,Linear algebra,,
+alg093,images/alg093.jpeg,,Linear algebra,,
+alg094,images/alg094.jpeg,,Linear algebra,,
+alg095,images/alg095.jpeg,,Linear algebra,,
+alg096,images/alg096.jpeg,,Linear algebra,,
+alg097,images/alg097.jpeg,,Linear algebra,,
+alg098,images/alg098.jpeg,,Linear algebra,,
+alg099,images/alg099.jpeg,,Linear algebra,,
+alg100,images/alg100.jpeg,,Linear algebra,,
+alg101,images/alg101.jpeg,,Linear algebra,,

@@ -1,0 +1,66 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+    <mrow intent="cosine($var)">
+        <mi>cos</mi>
+        <mi arg="var">&#x1D703;</mi>
+    </mrow>
+    <mo>=</mo>
+    <mfrac>
+        <mrow>
+            <msup intent="exponential($exp)">
+                <mi>e</mi>
+                <mrow arg="exp" intent="times($a, $b)">
+                    <mi arg="a">i</mi>
+                    <mi arg="b">&#x1D703;</mi>
+                </mrow>
+            </msup>
+            <mo>+</mo>
+            <msup intent="exponential($exp)">
+                <mi>e</mi>
+                <mrow arg="exp" intent="times($a, $b)">
+                    <mrow arg="a">
+                        <mo>-</mo>
+                        <mi>i</mi>
+                    </mrow>
+                    <mi arg="b">&#x1D703;</mi>
+                </mrow>
+            </msup>
+        </mrow>
+        <mn>2</mn>
+    </mfrac>
+    <mspace width="1em" />
+    <mtext>y</mtext>
+    <mspace width="1em" />
+    <mrow intent="sine($var)">
+        <mi>sen</mi>
+        <mi arg="var">&#x1D703;</mi>
+    </mrow>
+    <mo>=</mo>
+    <mfrac>
+        <mrow>
+            <msup intent="exponential($exp)">
+                <mi>e</mi>
+                <mrow arg="exp" intent="times($a, $b)">
+                    <mi arg="a">i</mi>
+                    <mi arg="b">&#x1D703;</mi>
+                </mrow>
+            </msup>
+            <mo>-</mo>
+            <msup intent="exponential($exp)">
+                <mi>e</mi>
+                <mrow arg="exp" intent="times($a, $b)">
+                    <mrow arg="a">
+                        <mo>-</mo>
+                        <mi>i</mi>
+                    </mrow>
+                    <mi arg="b">&#x1D703;</mi>
+                </mrow>
+            </msup>
+        </mrow>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">2</mn>
+            <mi arg="arg2">i</mi>
+        </mrow>
+    </mfrac>
+</mrow>
+</math>

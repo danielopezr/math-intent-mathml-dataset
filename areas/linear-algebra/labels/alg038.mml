@@ -1,0 +1,31 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+<mrow>
+        <mrow intent="$name($var)">
+            <mi arg="name">T</mi>
+            <mo>(</mo>
+            <mrow arg="var">
+                <msub>
+                    <mi>e</mi>
+                    <mn>1</mn>
+                </msub>
+            </mrow>
+            <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mo intent="ellipsis">&#x2026;</mo>
+        <mo>=</mo>
+        <mrow intent="$name($var)">
+            <mi arg="name">T</mi>
+            <mo>(</mo>
+            <mrow arg="var">
+                <msub>
+                    <mi>e</mi>
+                    <mi>k</mi>
+                </msub>
+            </mrow>
+            <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mn>0</mn>
+</mrow>
+</math>
