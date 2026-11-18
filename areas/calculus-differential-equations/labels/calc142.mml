@@ -1,0 +1,49 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mfrac intent="partial-derivative($f,1,$v1)">
+      <mrow>
+        <mo>∂</mo>
+        <mi arg="f">φ</mi>
+      </mrow>
+      <mrow>
+        <mo>∂</mo>
+        <mi arg="v1">r</mi>
+      </mrow>
+    </mfrac>
+    <mo>=</mo>
+    <mrow intent="times($arg1,$arg2)">
+      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="f">f</mi>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="v1">x</mi>
+        </mrow>
+      </mfrac>
+      <mrow intent="cosine($arg)" arg="arg2">
+        <mi>cos</mi>
+        <mi arg="arg">θ</mi>
+      </mrow>
+    </mrow>
+    <mo>+</mo>
+    <mrow intent="times($arg1,$arg2)">
+      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="f">f</mi>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="v1">y</mi>
+        </mrow>
+      </mfrac>
+      <mrow intent="sine($arg)" arg="arg2">
+        <mi>sen</mi>
+        <mi arg="arg">θ</mi>
+      </mrow>
+    </mrow>
+    <mo>,</mo>
+  </mrow>
+</math>

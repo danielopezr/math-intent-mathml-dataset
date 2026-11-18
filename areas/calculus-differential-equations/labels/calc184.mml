@@ -1,0 +1,64 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="times($arg1,$arg2)">
+      <mrow arg="arg1">
+        <mi>Δ</mi>
+        <msub>
+          <mi>x</mi>
+          <mi>i</mi>
+        </msub>
+      </mrow>
+      <mrow arg="arg2">
+        <mi>Δ</mi>
+        <msub>
+          <mi>y</mi>
+          <mi>j</mi>
+        </msub>
+      </mrow>
+    </mrow>
+    <mo>=</mo>
+    <msub>
+      <mo>∬</mo>
+      <msub>
+        <mi>R</mi>
+        <mrow>
+          <mi>i</mi>
+          <mi>j</mi>
+        </mrow>
+      </msub>
+    </msub>
+    <mi>d</mi>
+    <mi>x</mi>
+    <mi>d</mi>
+    <mi>y</mi>
+    <mo>=</mo>
+    <msub>
+      <mo>∬</mo>
+      <msubsup>
+        <mi>R</mi>
+        <mrow>
+          <mi>i</mi>
+          <mi>j</mi>
+        </mrow>
+        <mo>*</mo>
+      </msubsup>
+    </msub>
+    <mrow intent="absolute-value($a)">
+      <mo stretchy="false">|</mo>
+      <mrow arg="a" intent="$name($v1, $v2)">
+        <mi arg="name">J</mi>
+        <mo stretchy="false">(</mo>
+        <mi arg="v1">u</mi>
+        <mo>,</mo>
+        <mi arg="v2">v</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+      <mo stretchy="false">|</mo>
+    </mrow>
+    <mi>d</mi>
+    <mi>u</mi>
+    <mi>d</mi>
+    <mi>v</mi>
+    <mo>.</mo>
+  </mrow>
+</math>

@@ -1,0 +1,26 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <msup intent="derivative($y,_t,1)">
+      <mi arg="y">Y</mi>
+      <mi>′</mi>
+    </msup>
+    <mo>=</mo>
+    <mrow intent="times($arg1,$arg2)">
+      <mrow intent="$name($var)" arg="arg1">
+        <mi arg="name">P</mi>
+        <mo stretchy="false">(</mo>
+        <mi arg="var">t</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+      <mi arg="arg2">Y</mi>
+    </mrow>
+    <mo>+</mo>
+    <mrow intent="$name($var)">
+      <mi arg="name">Q</mi>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">t</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>.</mo>
+  </mrow>
+</math>

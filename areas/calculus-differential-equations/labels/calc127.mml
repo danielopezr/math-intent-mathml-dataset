@@ -1,0 +1,26 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="$name($var)">
+      <msub arg="name">
+        <mi>𝐓</mi>
+        <mi>𝐚</mi>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">𝐲</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="$name($v1, $v2)">
+      <msup arg="name">
+        <mi>𝐟</mi>
+        <mi>′</mi>
+      </msup>
+      <mo stretchy="false">(</mo>
+      <mi arg="v1">𝐚</mi>
+      <mi>;</mi>
+      <mi arg="v2">𝐲</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>.</mo>
+  </mrow>
+</math>

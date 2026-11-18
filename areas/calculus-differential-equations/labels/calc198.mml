@@ -1,0 +1,43 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="divergence($f)">
+      <mo>∇</mo>
+      <mo>·</mo>
+      <mi arg="f">𝐅</mi>
+    </mrow>
+    <mo>=</mo>
+    <mfrac intent="partial-derivative($f,1,$v1)">
+      <mrow>
+        <mo>∂</mo>
+        <mi arg="f">P</mi>
+      </mrow>
+      <mrow>
+        <mo>∂</mo>
+        <mi arg="v1">x</mi>
+      </mrow>
+    </mfrac>
+    <mo>+</mo>
+    <mfrac intent="partial-derivative($f,1,$v1)">
+      <mrow>
+        <mo>∂</mo>
+        <mi arg="f">Q</mi>
+      </mrow>
+      <mrow>
+        <mo>∂</mo>
+        <mi arg="v1">y</mi>
+      </mrow>
+    </mfrac>
+    <mo>+</mo>
+    <mfrac intent="partial-derivative($f,1,$v1)">
+      <mrow>
+        <mo>∂</mo>
+        <mi arg="f">R</mi>
+      </mrow>
+      <mrow>
+        <mo>∂</mo>
+        <mi arg="v1">z</mi>
+      </mrow>
+    </mfrac>
+    <mo>.</mo>
+  </mrow>
+</math>

@@ -1,0 +1,29 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <msub>
+      <mi>a</mi>
+      <mn>0</mn>
+    </msub>
+    <mo>=</mo>
+    <mrow intent="fraction($num,$den)">
+      <msup intent="power($base,$exp)" arg="num">
+        <mn arg="base">2</mn>
+        <mrow arg="exp">
+          <mo>−</mo>
+          <mi>α</mi>
+        </mrow>
+      </msup>
+      <mo>/</mo>
+      <mrow intent="gamma-function($arg)" arg="den">
+        <mi>Γ</mi>
+        <mo stretchy="false">(</mo>
+        <mrow arg="arg">
+          <mn>1</mn>
+          <mo>+</mo>
+          <mi>α</mi>
+        </mrow>
+        <mo stretchy="false">)</mo>
+      </mrow>
+    </mrow>
+  </mrow>
+</math>

@@ -1,0 +1,27 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="$name($v1, $v2, $v3)">
+      <mi arg="name">f</mi>
+      <mo stretchy="false">(</mo>
+      <mi arg="v1">x</mi>
+      <mo>,</mo>
+      <mi arg="v2">y</mi>
+      <mo>,</mo>
+      <mi arg="v3">z</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mo stretchy="false">(</mo>
+    <mi>𝐫</mi>
+    <mo>×</mo>
+    <mi>𝐀</mi>
+    <mo stretchy="false">)</mo>
+    <mo>·</mo>
+    <mo stretchy="false">(</mo>
+    <mi>𝐫</mi>
+    <mo>×</mo>
+    <mi>𝐁</mi>
+    <mo stretchy="false">)</mo>
+    <mo>,</mo>
+  </mrow>
+</math>

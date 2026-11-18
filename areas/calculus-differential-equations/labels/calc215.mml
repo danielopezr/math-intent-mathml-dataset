@@ -1,0 +1,28 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <msub>
+      <mo>∬</mo>
+      <mi>S</mi>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mrow intent="curl($f)">
+      <mi>rot</mi>
+      <mi arg="f">𝐅</mi>
+    </mrow>
+    <mo stretchy="false">)</mo>
+    <mo>·</mo>
+    <mi>𝐧</mi>
+    <mi>d</mi>
+    <mi>S</mi>
+    <mo>=</mo>
+    <msub>
+      <mo>∫</mo>
+      <mi>C</mi>
+    </msub>
+    <mi>𝐅</mi>
+    <mo>·</mo>
+    <mi>d</mi>
+    <mi mathvariant="bold-italic">α</mi>
+    <mo>.</mo>
+  </mrow>
+</math>

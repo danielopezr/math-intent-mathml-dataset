@@ -1,0 +1,146 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="partial-derivative($f,1,$v1)">
+      <mfrac>
+        <mo>∂</mo>
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="v1">θ</mi>
+        </mrow>
+      </mfrac>
+      <mrow arg="f">
+        <mo stretchy="true" fence="true" form="prefix">(</mo>
+        <mfrac intent="partial-derivative($f,1,$v1)">
+          <mrow>
+            <mo>∂</mo>
+            <mi arg="f">f</mi>
+          </mrow>
+          <mrow>
+            <mo>∂</mo>
+            <mi arg="v1">y</mi>
+          </mrow>
+        </mfrac>
+        <mo stretchy="true" fence="true" form="postfix">)</mo>
+      </mrow>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="times($arg1,$arg2)">
+      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+        <mrow>
+          <mo>∂</mo>
+          <mrow arg="f">
+            <mo stretchy="false">(</mo>
+            <mrow>
+              <msub>
+                <mi>D</mi>
+                <mn>2</mn>
+              </msub>
+              <mi>f</mi>
+            </mrow>
+            <mo stretchy="false">)</mo>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="v1">x</mi>
+        </mrow>
+      </mfrac>
+      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg2">
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="f">x</mi>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="v1">θ</mi>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <mo>+</mo>
+    <mrow intent="times($arg1,$arg2)">
+      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+        <mrow>
+          <mo>∂</mo>
+          <mrow arg="f">
+            <mo stretchy="false">(</mo>
+            <mrow>
+              <msub>
+                <mi>D</mi>
+                <mn>2</mn>
+              </msub>
+              <mi>f</mi>
+            </mrow>
+            <mo stretchy="false">)</mo>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="v1">y</mi>
+        </mrow>
+      </mfrac>
+      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg2">
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="f">y</mi>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="v1">θ</mi>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="times($arg1,$arg2)">
+      <mfrac intent="partial-derivative($f,2,$v1,$v2)" arg="arg1">
+        <mrow>
+          <msup>
+            <mo>∂</mo>
+            <mn>2</mn>
+          </msup>
+          <mi arg="f">f</mi>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="v1">x</mi>
+          <mo>∂</mo>
+          <mi arg="v2">y</mi>
+        </mrow>
+      </mfrac>
+      <mrow arg="arg2">
+        <mo stretchy="false">(</mo>
+        <mo>−</mo>
+        <mi>r</mi>
+        <mi>sen</mi>
+        <mi>θ</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+    </mrow>
+    <mo>+</mo>
+    <mrow intent="times($arg1,$arg2)">
+      <mfrac intent="partial-derivative($f,2,$v1)" arg="arg1">
+        <mrow>
+          <msup>
+            <mo>∂</mo>
+            <mn>2</mn>
+          </msup>
+          <mi arg="f">f</mi>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <msup>
+            <mi arg="v1">y</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+      </mfrac>
+      <mrow arg="arg2">
+        <mo stretchy="false">(</mo>
+        <mi>r</mi>
+        <mi>cos</mi>
+        <mi>θ</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+    </mrow>
+    <mo>.</mo>
+  </mrow>
+</math>

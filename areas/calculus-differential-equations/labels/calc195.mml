@@ -1,0 +1,135 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="$name($v1, $v2, $v3)">
+      <mi arg="name">J</mi>
+      <mo stretchy="false">(</mo>
+      <mi arg="v1">u</mi>
+      <mo>,</mo>
+      <mi arg="v2">v</mi>
+      <mo>,</mo>
+      <mi arg="v3">w</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="determinant($mat)">
+      <mo>|</mo>
+      <mtable arg="mat" intent=":matrix">
+        <mtr>
+          <mtd>
+            <mfrac intent="partial-derivative($f,1,$v1)">
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="f">X</mi>
+              </mrow>
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="v1">u</mi>
+              </mrow>
+            </mfrac>
+          </mtd>
+          <mtd>
+            <mfrac intent="partial-derivative($f,1,$v1)">
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="f">Y</mi>
+              </mrow>
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="v1">u</mi>
+              </mrow>
+            </mfrac>
+          </mtd>
+          <mtd>
+            <mfrac intent="partial-derivative($f,1,$v1)">
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="f">Z</mi>
+              </mrow>
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="v1">u</mi>
+              </mrow>
+            </mfrac>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mfrac intent="partial-derivative($f,1,$v1)">
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="f">X</mi>
+              </mrow>
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="v1">v</mi>
+              </mrow>
+            </mfrac>
+          </mtd>
+          <mtd>
+            <mfrac intent="partial-derivative($f,1,$v1)">
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="f">Y</mi>
+              </mrow>
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="v1">v</mi>
+              </mrow>
+            </mfrac>
+          </mtd>
+          <mtd>
+            <mfrac intent="partial-derivative($f,1,$v1)">
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="f">Z</mi>
+              </mrow>
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="v1">v</mi>
+              </mrow>
+            </mfrac>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <mfrac intent="partial-derivative($f,1,$v1)">
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="f">X</mi>
+              </mrow>
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="v1">w</mi>
+              </mrow>
+            </mfrac>
+          </mtd>
+          <mtd>
+            <mfrac intent="partial-derivative($f,1,$v1)">
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="f">Y</mi>
+              </mrow>
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="v1">w</mi>
+              </mrow>
+            </mfrac>
+          </mtd>
+          <mtd>
+            <mfrac intent="partial-derivative($f,1,$v1)">
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="f">Z</mi>
+              </mrow>
+              <mrow>
+                <mo>∂</mo>
+                <mi arg="v1">w</mi>
+              </mrow>
+            </mfrac>
+          </mtd>
+        </mtr>
+      </mtable>
+      <mo>|</mo>
+    </mrow>
+  </mrow>
+</math>

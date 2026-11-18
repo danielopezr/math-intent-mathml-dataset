@@ -1,0 +1,62 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <msub>
+      <mi>𝐕</mi>
+      <mn>2</mn>
+    </msub>
+    <mo>=</mo>
+    <mfrac intent="partial-derivative($f,1,$v1)">
+      <mrow>
+        <mo>∂</mo>
+        <mi arg="f">𝐫</mi>
+      </mrow>
+      <mrow>
+        <mo>∂</mo>
+        <mi arg="v1">v</mi>
+      </mrow>
+    </mfrac>
+    <mo>=</mo>
+    <mrow intent="times($arg1,$arg2)">
+      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="f">X</mi>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="v1">v</mi>
+        </mrow>
+      </mfrac>
+      <mi arg="arg2">𝐢</mi>
+    </mrow>
+    <mo>+</mo>
+    <mrow intent="times($arg1,$arg2)">
+      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="f">Y</mi>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="v1">v</mi>
+        </mrow>
+      </mfrac>
+      <mi arg="arg2">𝐣</mi>
+    </mrow>
+    <mo>+</mo>
+    <mrow intent="times($arg1,$arg2)">
+      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="f">Z</mi>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="v1">v</mi>
+        </mrow>
+      </mfrac>
+      <mi arg="arg2">𝐤</mi>
+    </mrow>
+    <mo>,</mo>
+  </mrow>
+</math>

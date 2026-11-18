@@ -1,0 +1,20 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow>
+      <msub>
+        <mi>T</mi>
+        <mi>𝐚</mi>
+      </msub>
+      <mi>:</mi>
+      <msup intent="power($base,$exp)">
+        <mi arg="base">𝐑</mi>
+        <mi arg="exp">n</mi>
+      </msup>
+    </mrow>
+    <mo>→</mo>
+    <msup intent="power($base,$exp)">
+      <mi arg="base">𝐑</mi>
+      <mi arg="exp">m</mi>
+    </msup>
+  </mrow>
+</math>

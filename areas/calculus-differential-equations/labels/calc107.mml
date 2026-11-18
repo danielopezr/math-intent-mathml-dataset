@@ -1,0 +1,29 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="$name($var)">
+      <mi arg="name">Y</mi>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">x</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msub>
+      <mi>lim</mi>
+      <mrow intent="tends-to($var,$value)">
+        <mi arg="var">k</mi>
+        <mo>→</mo>
+        <mi arg="value">∞</mi>
+      </mrow>
+    </msub>
+    <mrow intent="$name($var)">
+      <msub arg="name">
+        <mi>Y</mi>
+        <mi>k</mi>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">x</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>.</mo>
+  </mrow>
+</math>

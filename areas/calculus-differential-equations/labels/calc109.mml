@@ -1,0 +1,12 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="$name($var)">
+      <mi arg="name">Y</mi>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">a</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mi>B</mi>
+  </mrow>
+</math>

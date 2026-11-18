@@ -1,0 +1,49 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="$name($var)">
+      <msup arg="name" intent="derivative($y,_x,1)">
+        <mi arg="y">G</mi>
+        <mi>′</mi>
+      </msup>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">x</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mfrac intent="partial-derivative($f,1,$v1)">
+      <mrow>
+        <mo>∂</mo>
+        <mi arg="f">g</mi>
+      </mrow>
+      <mrow>
+        <mo>∂</mo>
+        <mi arg="v1">x</mi>
+      </mrow>
+    </mfrac>
+    <mo>·</mo>
+    <mn>1</mn>
+    <mo>+</mo>
+    <mrow intent="times($arg1,$arg2)">
+      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="f">g</mi>
+        </mrow>
+        <mrow>
+          <mo>∂</mo>
+          <mi arg="v1">y</mi>
+        </mrow>
+      </mfrac>
+      <mrow intent="$name($var)" arg="arg2">
+        <msup arg="name" intent="derivative($y,_x,1)">
+          <mi arg="y">Y</mi>
+          <mi>′</mi>
+        </msup>
+        <mo stretchy="false">(</mo>
+        <mi arg="var">x</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+    </mrow>
+    <mo>,</mo>
+  </mrow>
+</math>

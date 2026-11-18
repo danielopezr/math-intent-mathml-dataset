@@ -1,0 +1,25 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mi>inf</mi>
+    <mi>f</mi>
+    <mo>=</mo>
+    <mi>inf</mi>
+    <mo stretchy="false">{</mo>
+    <mrow intent="$name($var)">
+      <mi arg="name">f</mi>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">𝐱</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>∣</mo>
+    <mi>𝐱</mi>
+    <mo>∈</mo>
+    <mo stretchy="false">[</mo>
+    <mi>𝐚</mi>
+    <mo>,</mo>
+    <mi>𝐛</mi>
+    <mo stretchy="false">]</mo>
+    <mo stretchy="false">}</mo>
+    <mo>.</mo>
+  </mrow>
+</math>

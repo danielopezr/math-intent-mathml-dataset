@@ -1,0 +1,25 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <msub>
+      <mo>∭</mo>
+      <mi>S</mi>
+    </msub>
+    <mrow intent="$name($v1, $v2, $v3)">
+      <mi arg="name">f</mi>
+      <mo stretchy="false">(</mo>
+      <mi arg="v1">x</mi>
+      <mo>,</mo>
+      <mi arg="v2">y</mi>
+      <mo>,</mo>
+      <mi arg="v3">z</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mi>d</mi>
+    <mi>x</mi>
+    <mi>d</mi>
+    <mi>y</mi>
+    <mi>d</mi>
+    <mi>z</mi>
+    <mo>.</mo>
+  </mrow>
+</math>

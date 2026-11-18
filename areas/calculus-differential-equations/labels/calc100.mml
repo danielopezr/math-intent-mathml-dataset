@@ -1,0 +1,25 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="$name($var)">
+      <mi arg="name">A</mi>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">x</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msubsup>
+      <mo>∫</mo>
+      <mi>a</mi>
+      <mi>x</mi>
+    </msubsup>
+    <mrow intent="$name($var)">
+      <mi arg="name">P</mi>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">t</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mi>d</mi>
+    <mi>t</mi>
+    <mo>,</mo>
+  </mrow>
+</math>

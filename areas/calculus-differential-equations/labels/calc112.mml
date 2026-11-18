@@ -1,0 +1,125 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="$name($var)">
+      <mi arg="name">Y</mi>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">x</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msub>
+      <mi>lim</mi>
+      <mrow intent="tends-to($var,$value)">
+        <mi arg="var">k</mi>
+        <mo>→</mo>
+        <mi arg="value">∞</mi>
+      </mrow>
+    </msub>
+    <mrow intent="$name($var)">
+      <msub arg="name">
+        <mi>Y</mi>
+        <mrow>
+          <mi>k</mi>
+          <mo>+</mo>
+          <mn>1</mn>
+        </mrow>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">x</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mi>B</mi>
+    <mo>+</mo>
+    <msub>
+      <mi>lim</mi>
+      <mrow intent="tends-to($var,$value)">
+        <mi arg="var">k</mi>
+        <mo>→</mo>
+        <mi arg="value">∞</mi>
+      </mrow>
+    </msub>
+    <msubsup>
+      <mo>∫</mo>
+      <mi>a</mi>
+      <mi>x</mi>
+    </msubsup>
+    <mrow intent="times($arg1,$arg2)">
+      <mrow intent="$name($var)" arg="arg1">
+        <mi arg="name">A</mi>
+        <mo stretchy="false">(</mo>
+        <mi arg="var">t</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow intent="$name($var)" arg="arg2">
+        <msub arg="name">
+          <mi>Y</mi>
+          <mi>k</mi>
+        </msub>
+        <mo stretchy="false">(</mo>
+        <mi arg="var">t</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+    </mrow>
+    <mi>d</mi>
+    <mi>t</mi>
+    <mo>=</mo>
+    <mi>B</mi>
+    <mo>+</mo>
+    <msubsup>
+      <mo>∫</mo>
+      <mi>a</mi>
+      <mi>x</mi>
+    </msubsup>
+    <mrow intent="$name($var)">
+      <mi arg="name">A</mi>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">t</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <msub>
+      <mi>lim</mi>
+      <mrow intent="tends-to($var,$value)">
+        <mi arg="var">k</mi>
+        <mo>→</mo>
+        <mi arg="value">∞</mi>
+      </mrow>
+    </msub>
+    <mrow intent="$name($var)">
+      <msub arg="name">
+        <mi>Y</mi>
+        <mi>k</mi>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">t</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mi>d</mi>
+    <mi>t</mi>
+    <mo>=</mo>
+    <mi>B</mi>
+    <mo>+</mo>
+    <msubsup>
+      <mo>∫</mo>
+      <mi>a</mi>
+      <mi>x</mi>
+    </msubsup>
+    <mrow intent="times($arg1,$arg2)">
+      <mrow intent="$name($var)" arg="arg1">
+        <mi arg="name">A</mi>
+        <mo stretchy="false">(</mo>
+        <mi arg="var">t</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow intent="$name($var)" arg="arg2">
+        <mi arg="name">Y</mi>
+        <mo stretchy="false">(</mo>
+        <mi arg="var">t</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+    </mrow>
+    <mi>d</mi>
+    <mi>t</mi>
+    <mo>.</mo>
+  </mrow>
+</math>

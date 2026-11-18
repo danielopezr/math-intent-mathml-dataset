@@ -14,12 +14,12 @@ used on their own.
 | Area | Folder | ID prefix | Images | Labelled | Pages |
 |---|---|---|---|---|---|
 | Algebra | `areas/algebra` | `balg` | 77 | 77 | 31 |
-| Calculus and differential equations | `areas/calculus-differential-equations` | `calc` | 69 | 69 | 30 |
-| Linear algebra | `areas/linear-algebra` | `alg` | 101 | 80 | 44 |
-| Discrete mathematics | `areas/discrete-math` | `dic` | 60 | 10 | 35 |
+| Calculus and differential equations | `areas/calculus-differential-equations` | `calc` | 220 | 220 | 22 |
+| Linear algebra | `areas/linear-algebra` | `alg` | 101 | 80 | 46 |
+| Discrete mathematics | `areas/discrete-math` | `dic` | 60 | 10 | 39 |
 | Mathematical logic | `areas/mathematical-logic` | `log` | 67 | 0 | 33 |
-| Probability | `areas/probability` | `prob` | 61 | 0 | 32 |
-| **Total** | | | **435** | **236** | **205** |
+| Probability | `areas/probability` | `prob` | 61 | 0 | 34 |
+| **Total** | | | **586** | **387** | **205** |
 
 The textbooks are in Spanish, so some expressions contain Spanish function
 names and words (`sen` for sine, `y` for "and").

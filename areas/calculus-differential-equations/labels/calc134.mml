@@ -1,0 +1,87 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="$name($v1, $v2)">
+      <mrow arg="name">
+        <msub>
+          <mi>D</mi>
+          <mn>2</mn>
+        </msub>
+        <mi>h</mi>
+      </mrow>
+      <mo stretchy="false">(</mo>
+      <mi arg="v1">s</mi>
+      <mo>,</mo>
+      <mi arg="v2">t</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="times($arg1,$arg2)">
+      <mrow intent="$name($v1, $v2)" arg="arg1">
+        <mrow arg="name">
+          <msub>
+            <mi>D</mi>
+            <mn>1</mn>
+          </msub>
+          <mi>f</mi>
+        </mrow>
+        <mo stretchy="false">(</mo>
+        <mi arg="v1">x</mi>
+        <mo>,</mo>
+        <mi arg="v2">y</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow intent="$name($v1, $v2)" arg="arg2">
+        <mrow arg="name">
+          <msub>
+            <mi>D</mi>
+            <mn>2</mn>
+          </msub>
+          <msub>
+            <mi>g</mi>
+            <mn>1</mn>
+          </msub>
+        </mrow>
+        <mo stretchy="false">(</mo>
+        <mi arg="v1">s</mi>
+        <mo>,</mo>
+        <mi arg="v2">t</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+    </mrow>
+    <mo>+</mo>
+    <mrow intent="times($arg1,$arg2)">
+      <mrow intent="$name($v1, $v2)" arg="arg1">
+        <mrow arg="name">
+          <msub>
+            <mi>D</mi>
+            <mn>2</mn>
+          </msub>
+          <mi>f</mi>
+        </mrow>
+        <mo stretchy="false">(</mo>
+        <mi arg="v1">x</mi>
+        <mo>,</mo>
+        <mi arg="v2">y</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow intent="$name($v1, $v2)" arg="arg2">
+        <mrow arg="name">
+          <msub>
+            <mi>D</mi>
+            <mn>2</mn>
+          </msub>
+          <msub>
+            <mi>g</mi>
+            <mn>2</mn>
+          </msub>
+        </mrow>
+        <mo stretchy="false">(</mo>
+        <mi arg="v1">s</mi>
+        <mo>,</mo>
+        <mi arg="v2">t</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+    </mrow>
+    <mo>.</mo>
+  </mrow>
+</math>

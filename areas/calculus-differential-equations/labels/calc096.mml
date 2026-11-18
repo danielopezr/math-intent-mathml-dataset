@@ -1,0 +1,30 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="$name($var)">
+      <mi arg="name">Q</mi>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">t</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="vector($vec)">
+      <mo>[</mo>
+      <mtable arg="vec">
+        <mtr>
+          <mtd>
+            <mn>0</mn>
+          </mtd>
+        </mtr>
+        <mtr>
+          <mtd>
+            <msup intent="exponential($exp)">
+              <mi>e</mi>
+              <mi arg="exp">t</mi>
+            </msup>
+          </mtd>
+        </mtr>
+      </mtable>
+      <mo>]</mo>
+    </mrow>
+  </mrow>
+</math>

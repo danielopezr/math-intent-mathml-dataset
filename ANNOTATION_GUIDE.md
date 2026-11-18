@@ -2,7 +2,8 @@
 
 Status: **agreed by the team (2026-11-15); integrals, visible products,
 operators applied to an expression, vectors, matrices and mixed numbers added
-on 2026-11-17.** It applies equally to the labels
+on 2026-11-17; partial derivatives, ∇, norms and operator applications added
+the same day with the new calculus crops.** It applies equally to the labels
 of this dataset, to the deterministic annotator and the language model of the
 `image-to-mathml` pipeline, and to the evaluation metrics. Where the pipeline
 has a setting for a rule, it is named, in case the rule is revisited.
@@ -83,9 +84,10 @@ Also not annotated, because the symbol already says it:
 - products with a visible operator, `A × B`, `2 × 3`, `a · b` (in `A × B` the
   `×` may also be a Cartesian product);
 - large operators with limits: integrals, sums, products and limits
-  (`∫_a^b`, `∑_{k=0}^{n}`, `lim_{x→0}`);
-- subscripted symbols such as `e_k` or `v_1`: nothing in the notation says
-  they are vectors (a bold or arrowed letter would).
+  (`∫_a^b`, `∑_{k=0}^{n}`, `lim_{x→0}`), and `sup` / `inf`;
+- subscripted symbols such as `e_k` or `v_1`, and bold letters (`r`, `F`,
+  `i`, `j`, `k`): the font already marks a vector and no intent is added;
+- maps between sets, `X: T → S`.
 
 Numbers are written as in the source: a fraction is always an `mfrac`, never
 a `½` character.
@@ -112,6 +114,28 @@ expression. This applies in calculus or differential-equation contexts
 base or as a superscript: the metrics treat both forms as equal.
 
 ## 7. Other readings
+
+- Partial derivatives are annotated on the `mfrac`:
+  `partial-derivative($f, n, $x)` with the order `n` and the variables in the
+  order of the denominator: `∂f/∂x` → `partial-derivative($f, 1, $x)`,
+  `∂²f/∂x²` → `partial-derivative($f, 2, $x)`, `∂²f/∂y∂x` →
+  `partial-derivative($f, 2, $y, $x)`. The operator `∂/∂θ` alone is not
+  annotated; applied to a parenthesis, `∂/∂θ (∂f/∂x)`, the group of both is a
+  partial derivative of the parenthesis. The Jacobian notation
+  `∂(F, G)/∂(x, y)` is not annotated.
+- `∇f` → `gradient($f)`, `∇·F` → `divergence($F)`, `∇×F` and `rot F` →
+  `curl($F)`, on the group of the operator and its operand. `∇f(a)` is the
+  application of `∇f` to `a`. `∇` alone (`∇ = ∂/∂x i + …`) is not annotated.
+- `‖v‖` → `norm($v)` and `|x|` → `absolute-value($x)`, on the group with the
+  bars; `‖y‖²` is the power of the norm.
+- `D_1 f(x, y)`, `D_{ij} f(a)`, `DX(u)`: the operator and the function form
+  the name of the application: `$name($v1, $v2)` with `D_1 f` as the name, not
+  a product. `f'(a; y)` (directional derivative) is an application of `f'`
+  with no `derivative` intent; `y'`, `Y'(x)` and `r'(t)` are derivatives with
+  respect to the variable of the context (`_x`, `_t`, …).
+- `Δx`, `Δu` are one factor: `c_{ij} Δx_i Δy_j` → `times(c_ij, Δx_i, Δy_j)`.
+- A product written with `⋯` between factors is one `times` with all the
+  factors: `(1-α)(2-α)⋯(n-α)` → `times((1-α), (2-α), (n-α))`.
 
 - A table between brackets or parentheses is a matrix: `:matrix` on the
   `mtable`. With a single column it is a column vector: `vector($vec)` on the

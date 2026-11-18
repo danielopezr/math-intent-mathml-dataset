@@ -1,0 +1,53 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <msub>
+      <mo>∫</mo>
+      <mi>S</mi>
+    </msub>
+    <mrow intent="$name($var)">
+      <mi arg="name">f</mi>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">𝐱</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mi>d</mi>
+    <mi>𝐱</mi>
+    <mo>=</mo>
+    <msub>
+      <mo>∫</mo>
+      <mi>T</mi>
+    </msub>
+    <mrow intent="times($arg1,$arg2)">
+      <mrow intent="$name($var)" arg="arg1">
+        <mi arg="name">f</mi>
+        <mo stretchy="false">[</mo>
+        <mrow arg="var" intent="$name($var)">
+          <mi arg="name">𝐗</mi>
+          <mo stretchy="false">(</mo>
+          <mi arg="var">𝐮</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+        <mo stretchy="false">]</mo>
+      </mrow>
+      <mrow intent="absolute-value($a)" arg="arg2">
+        <mo stretchy="false">|</mo>
+        <mrow arg="a" intent="determinant($arg)">
+          <mi>det</mi>
+          <mrow intent="$name($var)" arg="arg">
+            <mrow arg="name">
+              <mi>D</mi>
+              <mi>𝐗</mi>
+            </mrow>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">𝐮</mi>
+            <mo stretchy="false">)</mo>
+          </mrow>
+        </mrow>
+        <mo stretchy="false">|</mo>
+      </mrow>
+    </mrow>
+    <mi>d</mi>
+    <mi>𝐮</mi>
+    <mo>,</mo>
+  </mrow>
+</math>

@@ -1,0 +1,22 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mfrac>
+      <mrow intent="factorial($var)">
+        <mo stretchy="false">(</mo>
+        <mrow arg="var">
+          <mi>p</mi>
+          <mo>−</mo>
+          <mi>n</mi>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+        <mo stretchy="false">)</mo>
+        <mo>!</mo>
+      </mrow>
+      <mrow intent="factorial($var)">
+        <mi arg="var">n</mi>
+        <mo>!</mo>
+      </mrow>
+    </mfrac>
+  </mrow>
+</math>

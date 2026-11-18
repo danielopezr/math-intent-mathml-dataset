@@ -1,0 +1,59 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mi>𝐧</mi>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mfrac intent="partial-derivative($f,1,$v1)">
+          <mrow>
+            <mo>∂</mo>
+            <mi arg="f">𝐫</mi>
+          </mrow>
+          <mrow>
+            <mo>∂</mo>
+            <mi arg="v1">u</mi>
+          </mrow>
+        </mfrac>
+        <mo>×</mo>
+        <mfrac intent="partial-derivative($f,1,$v1)">
+          <mrow>
+            <mo>∂</mo>
+            <mi arg="f">𝐫</mi>
+          </mrow>
+          <mrow>
+            <mo>∂</mo>
+            <mi arg="v1">v</mi>
+          </mrow>
+        </mfrac>
+      </mrow>
+      <mrow intent="norm($a)">
+        <mo stretchy="true" fence="true" form="prefix">‖</mo>
+        <mrow arg="a">
+          <mfrac intent="partial-derivative($f,1,$v1)">
+            <mrow>
+              <mo>∂</mo>
+              <mi arg="f">𝐫</mi>
+            </mrow>
+            <mrow>
+              <mo>∂</mo>
+              <mi arg="v1">u</mi>
+            </mrow>
+          </mfrac>
+          <mo>×</mo>
+          <mfrac intent="partial-derivative($f,1,$v1)">
+            <mrow>
+              <mo>∂</mo>
+              <mi arg="f">𝐫</mi>
+            </mrow>
+            <mrow>
+              <mo>∂</mo>
+              <mi arg="v1">v</mi>
+            </mrow>
+          </mfrac>
+        </mrow>
+        <mo stretchy="true" fence="true" form="postfix">‖</mo>
+      </mrow>
+    </mfrac>
+    <mo>.</mo>
+  </mrow>
+</math>

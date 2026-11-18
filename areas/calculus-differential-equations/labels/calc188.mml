@@ -1,0 +1,38 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mo>∫</mo>
+    <mo intent="ellipsis">⋯</mo>
+    <msub>
+      <mo>∫</mo>
+      <mi>S</mi>
+    </msub>
+    <mrow intent="$name($v1, $v2, $v3)">
+      <mi arg="name">f</mi>
+      <mo stretchy="false">(</mo>
+      <msub arg="v1">
+        <mi>x</mi>
+        <mn>1</mn>
+      </msub>
+      <mo>,</mo>
+      <mo arg="v2" intent="ellipsis">…</mo>
+      <mo>,</mo>
+      <msub arg="v3">
+        <mi>x</mi>
+        <mi>n</mi>
+      </msub>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mi>d</mi>
+    <msub>
+      <mi>x</mi>
+      <mn>1</mn>
+    </msub>
+    <mo intent="ellipsis">⋯</mo>
+    <mi>d</mi>
+    <msub>
+      <mi>x</mi>
+      <mi>n</mi>
+    </msub>
+    <mo>,</mo>
+  </mrow>
+</math>

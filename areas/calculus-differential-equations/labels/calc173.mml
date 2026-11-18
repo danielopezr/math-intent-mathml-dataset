@@ -1,0 +1,86 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="absolute-value($a)">
+      <mo stretchy="false">|</mo>
+      <mrow arg="a" intent="$name($v1, $v2)">
+        <msub arg="name">
+          <mi>E</mi>
+          <mn>2</mn>
+        </msub>
+        <mo stretchy="false">(</mo>
+        <mi arg="v1">𝐚</mi>
+        <mo>,</mo>
+        <mi arg="v2">𝐲</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+      <mo stretchy="false">|</mo>
+    </mrow>
+    <mo>≤</mo>
+    <mfrac>
+      <mn>1</mn>
+      <mn>2</mn>
+    </mfrac>
+    <msubsup>
+      <mo>∑</mo>
+      <mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>1</mn>
+      </mrow>
+      <mi>n</mi>
+    </msubsup>
+    <msubsup>
+      <mo>∑</mo>
+      <mrow>
+        <mi>j</mi>
+        <mo>=</mo>
+        <mn>1</mn>
+      </mrow>
+      <mi>n</mi>
+    </msubsup>
+    <mrow intent="absolute-value($a)">
+      <mo stretchy="false">|</mo>
+      <mrow arg="a">
+        <mrow intent="$name($var)">
+          <mrow arg="name">
+            <msub>
+              <mi>D</mi>
+              <mrow>
+                <mi>i</mi>
+                <mi>j</mi>
+              </mrow>
+            </msub>
+            <mi>f</mi>
+          </mrow>
+          <mo stretchy="false">(</mo>
+          <mrow arg="var">
+            <mi>𝐚</mi>
+            <mo>+</mo>
+            <mrow intent="times($arg1,$arg2)">
+              <mi arg="arg1">c</mi>
+              <mi arg="arg2">𝐲</mi>
+            </mrow>
+          </mrow>
+          <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>−</mo>
+        <mrow intent="$name($var)">
+          <mrow arg="name">
+            <msub>
+              <mi>D</mi>
+              <mrow>
+                <mi>i</mi>
+                <mi>j</mi>
+              </mrow>
+            </msub>
+            <mi>f</mi>
+          </mrow>
+          <mo stretchy="false">(</mo>
+          <mi arg="var">𝐚</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+      </mrow>
+      <mo stretchy="false">|</mo>
+    </mrow>
+  </mrow>
+</math>

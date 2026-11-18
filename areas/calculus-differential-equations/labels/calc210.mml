@@ -1,0 +1,113 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="absolute-value($a)">
+      <mo stretchy="false">|</mo>
+      <mrow arg="a">
+        <mo stretchy="false">(</mo>
+        <mrow intent="times($arg1,$arg2)">
+          <msub arg="arg1">
+            <mi>𝐕</mi>
+            <mn>1</mn>
+          </msub>
+          <mrow arg="arg2">
+            <mi>Δ</mi>
+            <mi>u</mi>
+          </mrow>
+        </mrow>
+        <mo stretchy="false">)</mo>
+        <mo>·</mo>
+        <mo stretchy="false">(</mo>
+        <mrow intent="times($arg1,$arg2)">
+          <msub arg="arg1">
+            <mi>𝐕</mi>
+            <mn>2</mn>
+          </msub>
+          <mrow arg="arg2">
+            <mi>Δ</mi>
+            <mi>v</mi>
+          </mrow>
+        </mrow>
+        <mo stretchy="false">)</mo>
+        <mo>×</mo>
+        <mo stretchy="false">(</mo>
+        <mrow intent="times($arg1,$arg2)">
+          <msub arg="arg1">
+            <mi>𝐕</mi>
+            <mn>3</mn>
+          </msub>
+          <mrow arg="arg2">
+            <mi>Δ</mi>
+            <mi>w</mi>
+          </mrow>
+        </mrow>
+        <mo stretchy="false">)</mo>
+      </mrow>
+      <mo stretchy="false">|</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="times($arg1,$arg2,$arg3,$arg4)">
+      <mrow intent="absolute-value($a)" arg="arg1">
+        <mo stretchy="false">|</mo>
+        <mrow arg="a">
+          <msub>
+            <mi>𝐕</mi>
+            <mn>1</mn>
+          </msub>
+          <mo>·</mo>
+          <msub>
+            <mi>𝐕</mi>
+            <mn>2</mn>
+          </msub>
+          <mo>×</mo>
+          <msub>
+            <mi>𝐕</mi>
+            <mn>3</mn>
+          </msub>
+        </mrow>
+        <mo stretchy="false">|</mo>
+      </mrow>
+      <mrow arg="arg2">
+        <mi>Δ</mi>
+        <mi>u</mi>
+      </mrow>
+      <mrow arg="arg3">
+        <mi>Δ</mi>
+        <mi>v</mi>
+      </mrow>
+      <mrow arg="arg4">
+        <mi>Δ</mi>
+        <mi>w</mi>
+      </mrow>
+    </mrow>
+    <mo>=</mo>
+    <mrow intent="times($arg1,$arg2,$arg3,$arg4)">
+      <mrow intent="absolute-value($a)" arg="arg1">
+        <mo stretchy="false">|</mo>
+        <mrow arg="a" intent="$name($v1, $v2, $v3)">
+          <mi arg="name">J</mi>
+          <mo stretchy="false">(</mo>
+          <mi arg="v1">u</mi>
+          <mo>,</mo>
+          <mi arg="v2">v</mi>
+          <mo>,</mo>
+          <mi arg="v3">w</mi>
+          <mo stretchy="false">)</mo>
+        </mrow>
+        <mo stretchy="false">|</mo>
+      </mrow>
+      <mrow arg="arg2">
+        <mi>Δ</mi>
+        <mi>u</mi>
+      </mrow>
+      <mrow arg="arg3">
+        <mi>Δ</mi>
+        <mi>v</mi>
+      </mrow>
+      <mrow arg="arg4">
+        <mi>Δ</mi>
+        <mi>w</mi>
+      </mrow>
+    </mrow>
+    <mo>.</mo>
+  </mrow>
+</math>

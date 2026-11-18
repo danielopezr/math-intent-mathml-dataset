@@ -1,0 +1,47 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mrow intent="$name($var)">
+      <msup arg="name" intent="derivative($y,_z,1)">
+        <mi arg="y">Y</mi>
+        <mi>′</mi>
+      </msup>
+      <mo stretchy="false">(</mo>
+      <mi arg="var">z</mi>
+      <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mo>∂</mo>
+        <mo stretchy="false">(</mo>
+        <mi>F</mi>
+        <mo>,</mo>
+        <mi>G</mi>
+        <mo stretchy="false">)</mo>
+        <mo>/</mo>
+        <mo>∂</mo>
+        <mo stretchy="false">(</mo>
+        <mi>z</mi>
+        <mo>,</mo>
+        <mi>x</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow>
+        <mo>∂</mo>
+        <mo stretchy="false">(</mo>
+        <mi>F</mi>
+        <mo>,</mo>
+        <mi>G</mi>
+        <mo stretchy="false">)</mo>
+        <mo>/</mo>
+        <mo>∂</mo>
+        <mo stretchy="false">(</mo>
+        <mi>x</mi>
+        <mo>,</mo>
+        <mi>y</mi>
+        <mo stretchy="false">)</mo>
+      </mrow>
+    </mfrac>
+    <mo>.</mo>
+  </mrow>
+</math>
