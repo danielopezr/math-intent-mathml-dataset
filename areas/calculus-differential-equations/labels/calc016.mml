@@ -1,12 +1,13 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-    <mrow intent="derivative($y, _x, 3)">
-        <mi arg="y">y</mi>
-        <mo>&#x2034;</mo>
+    <mrow>
+        <mrow intent="derivative($y, _x, 3)">
+            <mi arg="y">y</mi>
+            <mo>&#x2034;</mo>
+        </mrow>
+        <mo>−</mo>
+        <mi>y</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+        <mo>.</mo>
     </mrow>
-    <mo>-</mo>
-    <mi>y</mi>
-    <mo>=</mo>
-    <mn>0</mn>
-</mrow>
 </math>

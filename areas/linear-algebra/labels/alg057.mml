@@ -1,29 +1,84 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-<mtable columnalign="left">
-    <mtr>
-        <mtd>                        
-            <mrow intent="determinant($mat)">
-                <mi>det</mi>
-                <mo>(</mo>
-                <mrow arg="mat">
+    <mrow>
+        <mtable columnalign="left">
+            <mtr>
+                <mtd>
+                    <mrow intent="determinant($mat)">
+                        <mi>det</mi>
+                        <mo>(</mo>
+                        <mrow arg="mat">
+                            <mrow intent="times($a, $b)">
+                                <mi arg="a">&#x1D706;</mi>
+                                <mi arg="b" intent="identity-matrix">I</mi>
+                            </mrow>
+                            <mo>−</mo>
+                            <mi>A</mi>
+                        </mrow>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>=</mo>
+                    <mrow intent="determinant($mat)">
+                        <mo>|</mo>
+                        <mtable arg="mat" intent=":matrix" columnspacing="0.5em">
+                            <mtr>
+                                <mtd>
+                                    <mi>&#x1D706;</mi>
+                                    <mo>−</mo>
+                                    <msub>
+                                        <mi>a</mi>
+                                        <mrow>
+                                            <mn>1</mn>
+                                            <mn>1</mn>
+                                        </mrow>
+                                    </msub>
+                                </mtd>
+                                <mtd>
+                                    <mo>−</mo>
+                                    <msub>
+                                        <mi>a</mi>
+                                        <mrow>
+                                            <mn>1</mn>
+                                            <mn>2</mn>
+                                        </mrow>
+                                    </msub>
+                                </mtd>
+                            </mtr>
+                            <mtr>
+                                <mtd>
+                                    <mo>−</mo>
+                                    <msub>
+                                        <mi>a</mi>
+                                        <mrow>
+                                            <mn>2</mn>
+                                            <mn>1</mn>
+                                        </mrow>
+                                    </msub>
+                                </mtd>
+                                <mtd>
+                                    <mi>&#x1D706;</mi>
+                                    <mo>−</mo>
+                                    <msub>
+                                        <mi>a</mi>
+                                        <mrow>
+                                            <mn>2</mn>
+                                            <mn>2</mn>
+                                        </mrow>
+                                    </msub>
+                                </mtd>
+                            </mtr>
+                        </mtable>
+                        <mo>|</mo>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mo>=</mo>
+                </mtd>
+                <mtd>
                     <mrow intent="times($a, $b)">
-                        <mi arg="a">&#x1D706;</mi>
-                        <mi arg="b" intent="identity-matrix">I</mi>
-                    </mrow>
-                    <mo>-</mo>
-                    <mi>A</mi>
-                </mrow>
-                <mo>)</mo>
-            </mrow>
-            <mo>=</mo>
-            <mrow intent="determinant($mat)">
-                <mo>|</mo>
-                <mtable arg="mat" intent=":matrix" columnspacing="0.5em">
-                    <mtr>
-                        <mtd>
+                        <mrow arg="a">
+                            <mo>(</mo>
                             <mi>&#x1D706;</mi>
-                            <mo>-</mo>
+                            <mo>−</mo>
                             <msub>
                                 <mi>a</mi>
                                 <mrow>
@@ -31,32 +86,12 @@
                                     <mn>1</mn>
                                 </mrow>
                             </msub>
-                        </mtd>
-                        <mtd>
-                            <mo>-</mo>
-                            <msub>
-                                <mi>a</mi>
-                                <mrow>
-                                    <mn>1</mn>
-                                    <mn>2</mn>
-                                </mrow>
-                            </msub>
-                        </mtd>
-                    </mtr>
-                    <mtr>
-                        <mtd>
-                            <mo>-</mo>
-                            <msub>
-                                <mi>a</mi>
-                                <mrow>
-                                    <mn>2</mn>
-                                    <mn>1</mn>
-                                </mrow>
-                            </msub>
-                        </mtd>
-                        <mtd>
+                            <mo>)</mo>
+                        </mrow>
+                        <mrow arg="b">
+                            <mo>(</mo>
                             <mi>&#x1D706;</mi>
-                            <mo>-</mo>
+                            <mo>−</mo>
                             <msub>
                                 <mi>a</mi>
                                 <mrow>
@@ -64,132 +99,101 @@
                                     <mn>2</mn>
                                 </mrow>
                             </msub>
-                        </mtd>
-                    </mtr>
-                </mtable>
-                <mo>|</mo>
-            </mrow>
-        </mtd>
-        <mtd><mo>=</mo></mtd>    
-        <mtd>
-            <mrow intent="times($a, $b)">
-                <mrow arg="a">
-                    <mo>(</mo>
-                    <mi>&#x1D706;</mi>
-                    <mo>-</mo>
-                    <msub>
-                        <mi>a</mi>
-                        <mrow>
-                            <mn>1</mn>
-                            <mn>1</mn>
+                            <mo>)</mo>
                         </mrow>
-                    </msub>
-                    <mo>)</mo>
-                </mrow>
-                <mrow arg="b">
-                    <mo>(</mo>
-                    <mi>&#x1D706;</mi>
-                    <mo>-</mo>
-                    <msub>
-                        <mi>a</mi>
-                        <mrow>
-                            <mn>2</mn>
-                            <mn>2</mn>
-                        </mrow>
-                    </msub>
-                    <mo>)</mo>
-                </mrow>
-            </mrow>
-            <mo>-</mo>
-            <mrow intent="times($a, $b)">
-                <msub arg="a">
-                    <mi>a</mi>
-                    <mrow>
-                        <mn>1</mn>
-                        <mn>2</mn>
                     </mrow>
-                </msub>
-                <msub arg="b">
-                    <mi>a</mi>
-                    <mrow>
-                        <mn>2</mn>
-                        <mn>1</mn>
-                    </mrow>
-                </msub>
-            </mrow>
-        </mtd>
-    </mtr>
-    <mtr>
-        <mtd/>
-        <mtd><mo>=</mo></mtd>
-        <mtd>
-            <msup intent="power($base, $exp)">
-                <mi arg="base">&#x1D706;</mi>
-                <mn arg="exp">2</mn>
-            </msup>
-            <mo>-</mo>
-            <mrow intent="times($a, $b)">
-                <mrow arg="a">
-                    <mo>(</mo>
-                        <msub>
+                    <mo>−</mo>
+                    <mrow intent="times($a, $b)">
+                        <msub arg="a">
                             <mi>a</mi>
                             <mrow>
                                 <mn>1</mn>
-                                <mn>1</mn>
+                                <mn>2</mn>
                             </mrow>
                         </msub>
-                        <mo>+</mo>
-                        <msub>
+                        <msub arg="b">
                             <mi>a</mi>
                             <mrow>
                                 <mn>2</mn>
-                                <mn>2</mn>
+                                <mn>1</mn>
                             </mrow>
                         </msub>
-                    <mo>)</mo>
-                </mrow>
-                <mi arg="b">&#x1D706;</mi>
-            </mrow>
-            <mo>+</mo>
-            <mrow intent="minus($x, $y)">
-                <mo>(</mo>
-                <mrow arg="x" intent="times($a, $b)">
-                    <msub arg="a">
-                        <mi>a</mi>
-                        <mrow>
-                            <mn>1</mn>
-                            <mn>1</mn>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd/>
+                <mtd>
+                    <mo>=</mo>
+                </mtd>
+                <mtd>
+                    <msup intent="power($base, $exp)">
+                        <mi arg="base">&#x1D706;</mi>
+                        <mn arg="exp">2</mn>
+                    </msup>
+                    <mo>−</mo>
+                    <mrow intent="times($a, $b)">
+                        <mrow arg="a">
+                            <mo>(</mo>
+                            <msub>
+                                <mi>a</mi>
+                                <mrow>
+                                    <mn>1</mn>
+                                    <mn>1</mn>
+                                </mrow>
+                            </msub>
+                            <mo>+</mo>
+                            <msub>
+                                <mi>a</mi>
+                                <mrow>
+                                    <mn>2</mn>
+                                    <mn>2</mn>
+                                </mrow>
+                            </msub>
+                            <mo>)</mo>
                         </mrow>
-                    </msub>
-                    <msub arg="b">
-                        <mi>a</mi>
-                        <mrow>
-                            <mn>2</mn>
-                            <mn>2</mn>
+                        <mi arg="b">&#x1D706;</mi>
+                    </mrow>
+                    <mo>+</mo>
+                    <mrow intent="minus($x, $y)">
+                        <mo>(</mo>
+                        <mrow arg="x" intent="times($a, $b)">
+                            <msub arg="a">
+                                <mi>a</mi>
+                                <mrow>
+                                    <mn>1</mn>
+                                    <mn>1</mn>
+                                </mrow>
+                            </msub>
+                            <msub arg="b">
+                                <mi>a</mi>
+                                <mrow>
+                                    <mn>2</mn>
+                                    <mn>2</mn>
+                                </mrow>
+                            </msub>
                         </mrow>
-                    </msub>
-                </mrow>
-                <mo>-</mo>
-                <mrow arg="y" intent="times($a, $b)">
-                    <msub arg="a">
-                        <mi>a</mi>
-                        <mrow>
-                            <mn>1</mn>
-                            <mn>2</mn>
+                        <mo>−</mo>
+                        <mrow arg="y" intent="times($a, $b)">
+                            <msub arg="a">
+                                <mi>a</mi>
+                                <mrow>
+                                    <mn>1</mn>
+                                    <mn>2</mn>
+                                </mrow>
+                            </msub>
+                            <msub arg="b">
+                                <mi>a</mi>
+                                <mrow>
+                                    <mn>2</mn>
+                                    <mn>1</mn>
+                                </mrow>
+                            </msub>
                         </mrow>
-                    </msub>
-                    <msub arg="b">
-                        <mi>a</mi>
-                        <mrow>
-                            <mn>2</mn>
-                            <mn>1</mn>
-                        </mrow>
-                    </msub>
-                </mrow>
-                <mo>)</mo>
-            </mrow>
-        </mtd>
-    </mtr>        
-</mtable>
-</mrow>
+                        <mo>)</mo>
+                    </mrow>
+                </mtd>
+            </mtr>
+        </mtable>
+    </mrow>
 </math>

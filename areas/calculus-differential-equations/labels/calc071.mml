@@ -1,11 +1,11 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($var)">
-      <mi arg="name">f</mi>
-      <mo stretchy="false">(</mo>
-      <mi arg="var">r</mi>
-      <mo stretchy="false">)</mo>
+    <mrow>
+        <mrow intent="$name($var)">
+            <mi arg="name">f</mi>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">r</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
     </mrow>
-    <mo>=</mo>
-  </mrow>
 </math>

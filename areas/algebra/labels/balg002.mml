@@ -1,5 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
+    <mrow>
         <mi>c</mi>
         <mo>=</mo>
         <mrow intent="times($a, $b)">
@@ -10,13 +10,11 @@
                 <mo>+</mo>
                 <mi>r</mi>
                 <mo>)</mo>
-            </mrow>       
+            </mrow>
         </mrow>
-
-        <mo intent="ellipsis">&#x2026;</mo> 
-        <mo intent="ellipsis">&#x2026;</mo> 
+        <mo intent="ellipsis">&#x2026;</mo>
+        <mo intent="ellipsis">&#x2026;</mo>
         <mo>+</mo>
-        
         <mrow intent="times($a, $b)">
             <mi arg="a">i</mi>
             <mrow arg="b" intent="power($base, $exp)">
@@ -32,13 +30,12 @@
                     </mrow>
                     <mrow arg="exp">
                         <mi>t</mi>
-                        <mo>-</mo>
+                        <mo>−</mo>
                         <mn>2</mn>
                     </mrow>
                 </msup>
             </mrow>
         </mrow>
-
         <mo>+</mo>
         <mrow intent="times($a, $b)">
             <mi arg="a">i</mi>
@@ -55,13 +52,12 @@
                     </mrow>
                     <mrow arg="exp">
                         <mi>t</mi>
-                        <mo>-</mo>
+                        <mo>−</mo>
                         <mn>1</mn>
                     </mrow>
                 </msup>
             </mrow>
         </mrow>
-
         <mo>+</mo>
         <mrow intent="times($a, $b)">
             <mi arg="a">i</mi>
@@ -71,7 +67,7 @@
                 <mo>+</mo>
                 <mi arg="y">r</mi>
                 <mo>)</mo>
-            </mrow>       
+            </mrow>
         </mrow>
-</mrow>
+    </mrow>
 </math>

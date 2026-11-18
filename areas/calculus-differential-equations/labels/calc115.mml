@@ -1,45 +1,45 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="gradient($f)">
-      <mo>∇</mo>
-      <mi arg="f">f</mi>
+    <mrow>
+        <mrow intent="gradient($f)">
+            <mo>∇</mo>
+            <mi arg="f">f</mi>
+        </mrow>
+        <mo>·</mo>
+        <mi>𝐓</mi>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="f">f</mi>
+                </mrow>
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="v1">x</mi>
+                </mrow>
+            </mfrac>
+            <mrow intent="cosine($arg)" arg="arg2">
+                <mi>cos</mi>
+                <mi arg="arg">α</mi>
+            </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="f">f</mi>
+                </mrow>
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="v1">y</mi>
+                </mrow>
+            </mfrac>
+            <mrow intent="cosine($arg)" arg="arg2">
+                <mi>cos</mi>
+                <mi arg="arg">β</mi>
+            </mrow>
+        </mrow>
+        <mo>.</mo>
     </mrow>
-    <mo>·</mo>
-    <mi>𝐓</mi>
-    <mo>=</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="f">f</mi>
-        </mrow>
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="v1">x</mi>
-        </mrow>
-      </mfrac>
-      <mrow intent="cosine($arg)" arg="arg2">
-        <mi>cos</mi>
-        <mi arg="arg">α</mi>
-      </mrow>
-    </mrow>
-    <mo>+</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="f">f</mi>
-        </mrow>
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="v1">y</mi>
-        </mrow>
-      </mfrac>
-      <mrow intent="cosine($arg)" arg="arg2">
-        <mi>cos</mi>
-        <mi arg="arg">β</mi>
-      </mrow>
-    </mrow>
-    <mo>.</mo>
-  </mrow>
 </math>

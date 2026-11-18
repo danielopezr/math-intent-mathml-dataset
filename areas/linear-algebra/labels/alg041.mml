@@ -1,5 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
+    <mrow>
         <mtable columnalign="center">
             <mtr>
                 <mtd>
@@ -132,5 +132,5 @@
                 </mtd>
             </mtr>
         </mtable>
-</mrow>
+    </mrow>
 </math>

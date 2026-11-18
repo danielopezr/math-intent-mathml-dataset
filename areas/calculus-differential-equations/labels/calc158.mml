@@ -1,31 +1,31 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mi>𝐀</mi>
-    <mo>·</mo>
-    <mrow intent="gradient($f)">
-      <mo>∇</mo>
-      <mrow arg="f">
-        <mo stretchy="true" fence="true" form="prefix">(</mo>
-        <mfrac>
-          <mn>1</mn>
-          <mi>r</mi>
-        </mfrac>
-        <mo stretchy="true" fence="true" form="postfix">)</mo>
-      </mrow>
-    </mrow>
-    <mo>=</mo>
-    <mo>−</mo>
-    <mfrac>
-      <mrow>
+    <mrow>
         <mi>𝐀</mi>
         <mo>·</mo>
-        <mi>𝐫</mi>
-      </mrow>
-      <msup intent="power($base,$exp)">
-        <mi arg="base">r</mi>
-        <mn arg="exp">3</mn>
-      </msup>
-    </mfrac>
-    <mo>.</mo>
-  </mrow>
+        <mrow intent="gradient($f)">
+            <mo>∇</mo>
+            <mrow arg="f">
+                <mo stretchy="true" fence="true" form="prefix">(</mo>
+                <mfrac>
+                    <mn>1</mn>
+                    <mi>r</mi>
+                </mfrac>
+                <mo stretchy="true" fence="true" form="postfix">)</mo>
+            </mrow>
+        </mrow>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mfrac>
+            <mrow>
+                <mi>𝐀</mi>
+                <mo>·</mo>
+                <mi>𝐫</mi>
+            </mrow>
+            <msup intent="power($base,$exp)">
+                <mi arg="base">r</mi>
+                <mn arg="exp">3</mn>
+            </msup>
+        </mfrac>
+        <mo>.</mo>
+    </mrow>
 </math>

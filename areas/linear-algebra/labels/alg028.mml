@@ -1,48 +1,46 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-	<mrow intent="inner-product($vec1, $vec2)">
-                <mo>(</mo>
-                <mi arg="vec1">f</mi>
-                <mo>,</mo>
-                <msub arg="vec2">
-                    <mi>&#x1D711;</mi>
-                    <mi>k</mi>
-                </msub>
-                <mo>)</mo>
+    <mrow>
+        <mrow intent="inner-product($vec1, $vec2)">
+            <mo>(</mo>
+            <mi arg="vec1">f</mi>
+            <mo>,</mo>
+            <msub arg="vec2">
+                <mi>&#x1D711;</mi>
+                <mi>k</mi>
+            </msub>
+            <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+            <msubsup>
+                <mo>&#x222B;</mo>
+                <mn>0</mn>
+                <mrow intent="times($arg1,$arg2)">
+                    <mn arg="arg1">2</mn>
+                    <mi arg="arg2">&#x1D70B;</mi>
+                </mrow>
+            </msubsup>
+            <mrow intent="times($a, $b)">
+                <mrow arg="a" intent="$name($var)">
+                    <mi arg="name">f</mi>
+                    <mo>(</mo>
+                    <mi arg="var">x</mi>
+                    <mo>)</mo>
+                </mrow>
+                <mrow arg="b" intent="$name($var)">
+                    <msub arg="name">
+                        <mi>&#x1D711;</mi>
+                        <mi>k</mi>
+                    </msub>
+                    <mo>(</mo>
+                    <mi arg="var">x</mi>
+                    <mo>)</mo>
+                </mrow>
             </mrow>
-
-            <mo>=</mo>
-
             <mrow>
-                <msubsup>
-                    <mo>&#x222B;</mo>
-                    <mn>0</mn>
-                    <mrow intent="times($arg1,$arg2)">
-                        <mn arg="arg1">2</mn>
-                        <mi arg="arg2">&#x1D70B;</mi>
-                    </mrow>
-                </msubsup>
-                <mrow intent="times($a, $b)">
-                    <mrow arg="a" intent="$name($var)">
-                        <mi arg="name">f</mi>
-                        <mo>(</mo>
-                        <mi arg="var">x</mi>
-                        <mo>)</mo>
-                    </mrow>
-                    <mrow arg="b" intent="$name($var)">
-                        <msub arg="name">
-                            <mi>&#x1D711;</mi>
-                            <mi>k</mi>
-                        </msub>
-                        <mo>(</mo>
-                        <mi arg="var">x</mi>
-                        <mo>)</mo>
-                    </mrow>
-                </mrow>
-                <mrow>
-                    <mi>d</mi>
-                    <mi>x</mi>
-                </mrow>
-	</mrow>
-</mrow>
+                <mi>d</mi>
+                <mi>x</mi>
+            </mrow>
+        </mrow>
+    </mrow>
 </math>

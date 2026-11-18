@@ -1,17 +1,17 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($var)">
-      <msup arg="name" intent="derivative($y,_t,1)">
-        <mi arg="y">𝐫</mi>
-        <mi>′</mi>
-      </msup>
-      <mo stretchy="false">(</mo>
-      <mn arg="var">1</mn>
-      <mo stretchy="false">)</mo>
+    <mrow>
+        <mrow intent="$name($var)">
+            <msup arg="name" intent="derivative($y,_t,1)">
+                <mi arg="y">𝐫</mi>
+                <mi>′</mi>
+            </msup>
+            <mo stretchy="false">(</mo>
+            <mn arg="var">1</mn>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mi>𝐢</mi>
+        <mo>+</mo>
+        <mi>𝐣</mi>
     </mrow>
-    <mo>=</mo>
-    <mi>𝐢</mi>
-    <mo>+</mo>
-    <mi>𝐣</mi>
-  </mrow>
 </math>

@@ -1,35 +1,35 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($var)">
-      <msup arg="name" intent="derivative($y,_u,2)">
-        <mi arg="y">g</mi>
-        <mi>″</mi>
-      </msup>
-      <mo stretchy="false">(</mo>
-      <mi arg="var">c</mi>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mo>=</mo>
-    <mrow intent="times($arg1,$arg2,$arg3)">
-      <mi arg="arg1">𝐲</mi>
-      <mrow intent="$name($var)" arg="arg2">
-        <mi arg="name">H</mi>
-        <mo stretchy="false">(</mo>
-        <mrow arg="var">
-          <mi>𝐚</mi>
-          <mo>+</mo>
-          <mrow intent="times($arg1,$arg2)">
-            <mi arg="arg1">c</mi>
-            <mi arg="arg2">𝐲</mi>
-          </mrow>
+    <mrow>
+        <mrow intent="$name($var)">
+            <msup arg="name" intent="derivative($y,_u,2)">
+                <mi arg="y">g</mi>
+                <mi>″</mi>
+            </msup>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">c</mi>
+            <mo stretchy="false">)</mo>
         </mrow>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <msup arg="arg3" intent="power($base,$exp)">
-        <mi arg="base">𝐲</mi>
-        <mi arg="exp">t</mi>
-      </msup>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2,$arg3)">
+            <mi arg="arg1">𝐲</mi>
+            <mrow intent="$name($var)" arg="arg2">
+                <mi arg="name">H</mi>
+                <mo stretchy="false">(</mo>
+                <mrow arg="var">
+                    <mi>𝐚</mi>
+                    <mo>+</mo>
+                    <mrow intent="times($arg1,$arg2)">
+                        <mi arg="arg1">c</mi>
+                        <mi arg="arg2">𝐲</mi>
+                    </mrow>
+                </mrow>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <msup arg="arg3" intent="power($base,$exp)">
+                <mi arg="base">𝐲</mi>
+                <mi arg="exp">t</mi>
+            </msup>
+        </mrow>
+        <mo>,</mo>
     </mrow>
-    <mo>,</mo>
-  </mrow>
 </math>

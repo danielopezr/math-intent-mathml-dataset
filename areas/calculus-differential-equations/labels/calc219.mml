@@ -1,39 +1,39 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mo>∇</mo>
-    <mo>=</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mfrac arg="arg1">
-        <mo>∂</mo>
-        <mrow>
-          <mo>∂</mo>
-          <mi>x</mi>
+    <mrow>
+        <mo>∇</mo>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac arg="arg1">
+                <mo>∂</mo>
+                <mrow>
+                    <mo>∂</mo>
+                    <mi>x</mi>
+                </mrow>
+            </mfrac>
+            <mi arg="arg2">𝐢</mi>
         </mrow>
-      </mfrac>
-      <mi arg="arg2">𝐢</mi>
-    </mrow>
-    <mo>+</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mfrac arg="arg1">
-        <mo>∂</mo>
-        <mrow>
-          <mo>∂</mo>
-          <mi>y</mi>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac arg="arg1">
+                <mo>∂</mo>
+                <mrow>
+                    <mo>∂</mo>
+                    <mi>y</mi>
+                </mrow>
+            </mfrac>
+            <mi arg="arg2">𝐣</mi>
         </mrow>
-      </mfrac>
-      <mi arg="arg2">𝐣</mi>
-    </mrow>
-    <mo>+</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mfrac arg="arg1">
-        <mo>∂</mo>
-        <mrow>
-          <mo>∂</mo>
-          <mi>z</mi>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac arg="arg1">
+                <mo>∂</mo>
+                <mrow>
+                    <mo>∂</mo>
+                    <mi>z</mi>
+                </mrow>
+            </mfrac>
+            <mi arg="arg2">𝐤</mi>
         </mrow>
-      </mfrac>
-      <mi arg="arg2">𝐤</mi>
+        <mo>.</mo>
     </mrow>
-    <mo>.</mo>
-  </mrow>
 </math>

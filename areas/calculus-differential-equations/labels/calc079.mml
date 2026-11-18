@@ -1,13 +1,13 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mo>−</mo>
-    <mi>n</mi>
-    <mo>&lt;</mo>
-    <mi>s</mi>
-    <mo>&lt;</mo>
-    <mo>−</mo>
-    <mi>n</mi>
-    <mo>+</mo>
-    <mn>1</mn>
-  </mrow>
+    <mrow>
+        <mo>−</mo>
+        <mi>n</mi>
+        <mo>&lt;</mo>
+        <mi>s</mi>
+        <mo>&lt;</mo>
+        <mo>−</mo>
+        <mi>n</mi>
+        <mo>+</mo>
+        <mn>1</mn>
+    </mrow>
 </math>

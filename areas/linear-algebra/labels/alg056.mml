@@ -1,5 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
+    <mrow>
         <mrow intent="$name($var)">
             <mi arg="name">f</mi>
             <mo>(</mo>
@@ -11,7 +11,7 @@
             <mi>det</mi>
             <mo>(</mo>
             <mrow arg="mat">
-                <mo>-</mo>
+                <mo>−</mo>
                 <mi>A</mi>
             </mrow>
             <mo>)</mo>
@@ -19,10 +19,10 @@
         <mo>=</mo>
         <mrow intent="times($a, $b)">
             <msup arg="a" intent="power($base, $exp)">
-                <mrow>
+                <mrow arg="base">
                     <mo>(</mo>
-                    <mrow arg="base">
-                        <mo>-</mo>
+                    <mrow>
+                        <mo>−</mo>
                         <mn>1</mn>
                     </mrow>
                     <mo>)</mo>
@@ -34,5 +34,5 @@
                 <mi arg="mat">A</mi>
             </mrow>
         </mrow>
-</mrow>  
+    </mrow>
 </math>

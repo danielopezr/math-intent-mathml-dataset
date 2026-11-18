@@ -1,15 +1,15 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="curl($f)">
-      <mi>rot</mi>
-      <mi arg="f">𝐅</mi>
+    <mrow>
+        <mrow intent="curl($f)">
+            <mi>rot</mi>
+            <mi arg="f">𝐅</mi>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="curl($f)">
+            <mo>∇</mo>
+            <mo>×</mo>
+            <mi arg="f">𝐅</mi>
+        </mrow>
+        <mo>,</mo>
     </mrow>
-    <mo>=</mo>
-    <mrow intent="curl($f)">
-      <mo>∇</mo>
-      <mo>×</mo>
-      <mi arg="f">𝐅</mi>
-    </mrow>
-    <mo>,</mo>
-  </mrow>
 </math>

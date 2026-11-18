@@ -1,28 +1,28 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mi>Y</mi>
-    <mo>=</mo>
-    <mrow intent="vector($vec)">
-      <mo>[</mo>
-      <mtable arg="vec">
-        <mtr>
-          <mtd>
-            <msub>
-              <mi>y</mi>
-              <mn>1</mn>
-            </msub>
-          </mtd>
-        </mtr>
-        <mtr>
-          <mtd>
-            <msub>
-              <mi>y</mi>
-              <mn>2</mn>
-            </msub>
-          </mtd>
-        </mtr>
-      </mtable>
-      <mo>]</mo>
+    <mrow>
+        <mi>Y</mi>
+        <mo>=</mo>
+        <mrow intent="vector($vec)">
+            <mo>[</mo>
+            <mtable arg="vec">
+                <mtr>
+                    <mtd>
+                        <msub>
+                            <mi>y</mi>
+                            <mn>1</mn>
+                        </msub>
+                    </mtd>
+                </mtr>
+                <mtr>
+                    <mtd>
+                        <msub>
+                            <mi>y</mi>
+                            <mn>2</mn>
+                        </msub>
+                    </mtd>
+                </mtr>
+            </mtable>
+            <mo>]</mo>
+        </mrow>
     </mrow>
-  </mrow>
 </math>

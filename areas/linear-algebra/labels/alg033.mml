@@ -1,5 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
+    <mrow>
         <mrow intent="dimension($space)">
             <mi>dim</mi>
             <mrow arg="space" intent="kernel($t)">
@@ -24,5 +24,5 @@
             <mi>dim</mi>
             <mi arg="space">V</mi>
         </mrow>
-</mrow>
+    </mrow>
 </math>

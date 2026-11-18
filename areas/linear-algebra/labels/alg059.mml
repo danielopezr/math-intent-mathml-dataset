@@ -1,24 +1,24 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow> 
-    <mrow intent="$name($var)">
-        <mi arg="name">f</mi>
-        <mo>(</mo>
-        <mi arg="var">&#x1D706;</mi>
-        <mo>)</mo>
-    </mrow>           
-    <mo>=</mo>
-    <mrow intent="determinant($mat)">
-        <mi>det</mi>
-        <mo>(</mo>
-        <mrow arg="mat">
-            <mrow intent="times($a, $b)">
-                <mi arg="a">&#x1D706;</mi>
-                <mi arg="b" intent="identity-matrix">I</mi>
-            </mrow>
-            <mo>-</mo>
-            <mi>A</mi>
+    <mrow>
+        <mrow intent="$name($var)">
+            <mi arg="name">f</mi>
+            <mo>(</mo>
+            <mi arg="var">&#x1D706;</mi>
+            <mo>)</mo>
         </mrow>
-        <mo>)</mo>
+        <mo>=</mo>
+        <mrow intent="determinant($mat)">
+            <mi>det</mi>
+            <mo>(</mo>
+            <mrow arg="mat">
+                <mrow intent="times($a, $b)">
+                    <mi arg="a">&#x1D706;</mi>
+                    <mi arg="b" intent="identity-matrix">I</mi>
+                </mrow>
+                <mo>−</mo>
+                <mi>A</mi>
+            </mrow>
+            <mo>)</mo>
+        </mrow>
     </mrow>
-</mrow>
 </math>

@@ -1,32 +1,32 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($var)">
-      <mi arg="name">𝐫</mi>
-      <mo stretchy="false">(</mo>
-      <mi arg="var">t</mi>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mo>=</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mi arg="arg1">t</mi>
-      <mi arg="arg2">𝐢</mi>
-    </mrow>
-    <mo>+</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mrow arg="arg1">
-        <mo stretchy="false">(</mo>
-        <msup intent="power($base,$exp)">
-          <mi arg="base">t</mi>
-          <mn arg="exp">2</mn>
-        </msup>
-        <mo>−</mo>
-        <mi>t</mi>
+    <mrow>
+        <mrow intent="$name($var)">
+            <mi arg="name">𝐫</mi>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">t</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mi arg="arg1">t</mi>
+            <mi arg="arg2">𝐢</mi>
+        </mrow>
         <mo>+</mo>
-        <mn>2</mn>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <mi arg="arg2">𝐣</mi>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow arg="arg1">
+                <mo stretchy="false">(</mo>
+                <msup intent="power($base,$exp)">
+                    <mi arg="base">t</mi>
+                    <mn arg="exp">2</mn>
+                </msup>
+                <mo>−</mo>
+                <mi>t</mi>
+                <mo>+</mo>
+                <mn>2</mn>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mi arg="arg2">𝐣</mi>
+        </mrow>
+        <mo>.</mo>
     </mrow>
-    <mo>.</mo>
-  </mrow>
 </math>

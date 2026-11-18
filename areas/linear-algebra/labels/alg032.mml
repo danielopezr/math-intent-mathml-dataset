@@ -1,5 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
+    <mrow>
         <mrow intent="inner-product($f, $g)">
             <mo>(</mo>
             <mi arg="f">f</mi>
@@ -11,7 +11,10 @@
         <mrow>
             <msubsup>
                 <mo>&#x222B;</mo>
-                <mrow><mo>−</mo><mn>1</mn></mrow>
+                <mrow>
+                    <mo>−</mo>
+                    <mn>1</mn>
+                </mrow>
                 <mn>1</mn>
             </msubsup>
             <mrow intent="times($a, $b)">
@@ -33,5 +36,5 @@
                 <mi>x</mi>
             </mrow>
         </mrow>
-</mrow>
+    </mrow>
 </math>

@@ -1,5 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
+    <mrow>
         <mo>=</mo>
         <mfrac>
             <msup intent="power($base, $exp)">
@@ -8,7 +8,7 @@
             </msup>
             <mn>4</mn>
         </mfrac>
-        <mo>-</mo>
+        <mo>−</mo>
         <mi>n</mi>
-</mrow>
+    </mrow>
 </math>

@@ -1,48 +1,48 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($var)">
-      <mi arg="name">𝐟</mi>
-      <mo stretchy="false">(</mo>
-      <mrow arg="var">
-        <mi>𝐚</mi>
+    <mrow>
+        <mrow intent="$name($var)">
+            <mi arg="name">𝐟</mi>
+            <mo stretchy="false">(</mo>
+            <mrow arg="var">
+                <mi>𝐚</mi>
+                <mo>+</mo>
+                <mi>𝐯</mi>
+            </mrow>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="$name($var)">
+            <mi arg="name">𝐟</mi>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">𝐚</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
         <mo>+</mo>
-        <mi>𝐯</mi>
-      </mrow>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mo>=</mo>
-    <mrow intent="$name($var)">
-      <mi arg="name">𝐟</mi>
-      <mo stretchy="false">(</mo>
-      <mi arg="var">𝐚</mi>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mo>+</mo>
-    <mrow intent="$name($var)">
-      <msub arg="name">
-        <mi>T</mi>
-        <mi>𝐚</mi>
-      </msub>
-      <mo stretchy="false">(</mo>
-      <mi arg="var">𝐯</mi>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mo>+</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mrow intent="norm($a)" arg="arg1">
-        <mo fence="false" stretchy="false">‖</mo>
-        <mi arg="a">𝐯</mi>
-        <mo fence="false" stretchy="false">‖</mo>
-      </mrow>
-      <mrow intent="$name($v1, $v2)" arg="arg2">
-        <mi arg="name">𝐄</mi>
-        <mo stretchy="false">(</mo>
-        <mi arg="v1">𝐚</mi>
+        <mrow intent="$name($var)">
+            <msub arg="name">
+                <mi>T</mi>
+                <mi>𝐚</mi>
+            </msub>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">𝐯</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow intent="norm($a)" arg="arg1">
+                <mo fence="false" stretchy="false">‖</mo>
+                <mi arg="a">𝐯</mi>
+                <mo fence="false" stretchy="false">‖</mo>
+            </mrow>
+            <mrow intent="$name($v1, $v2)" arg="arg2">
+                <mi arg="name">𝐄</mi>
+                <mo stretchy="false">(</mo>
+                <mi arg="v1">𝐚</mi>
+                <mo>,</mo>
+                <mi arg="v2">𝐯</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+        </mrow>
         <mo>,</mo>
-        <mi arg="v2">𝐯</mi>
-        <mo stretchy="false">)</mo>
-      </mrow>
     </mrow>
-    <mo>,</mo>
-  </mrow>
 </math>

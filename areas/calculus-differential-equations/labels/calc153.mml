@@ -1,57 +1,57 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <msubsup>
-      <mo>∫</mo>
-      <mi>c</mi>
-      <mi>v</mi>
-    </msubsup>
     <mrow>
-      <mo stretchy="true" fence="true" form="prefix">[</mo>
-      <msubsup>
-        <mo>∫</mo>
-        <mi>a</mi>
-        <mi>u</mi>
-      </msubsup>
-      <mrow intent="$name($v1, $v2)">
-        <mi arg="name">f</mi>
-        <mo stretchy="false">(</mo>
-        <mi arg="v1">x</mi>
-        <mo>,</mo>
-        <mi arg="v2">y</mi>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <mi>d</mi>
-      <mi>x</mi>
-      <mo stretchy="true" fence="true" form="postfix">]</mo>
+        <msubsup>
+            <mo>∫</mo>
+            <mi>c</mi>
+            <mi>v</mi>
+        </msubsup>
+        <mrow>
+            <mo stretchy="true" fence="true" form="prefix">[</mo>
+            <msubsup>
+                <mo>∫</mo>
+                <mi>a</mi>
+                <mi>u</mi>
+            </msubsup>
+            <mrow intent="$name($v1, $v2)">
+                <mi arg="name">f</mi>
+                <mo stretchy="false">(</mo>
+                <mi arg="v1">x</mi>
+                <mo>,</mo>
+                <mi arg="v2">y</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mi>d</mi>
+            <mi>x</mi>
+            <mo stretchy="true" fence="true" form="postfix">]</mo>
+        </mrow>
+        <mi>d</mi>
+        <mi>y</mi>
+        <mo>=</mo>
+        <msubsup>
+            <mo>∫</mo>
+            <mi>a</mi>
+            <mi>u</mi>
+        </msubsup>
+        <mrow>
+            <mo stretchy="true" fence="true" form="prefix">[</mo>
+            <msubsup>
+                <mo>∫</mo>
+                <mi>c</mi>
+                <mi>v</mi>
+            </msubsup>
+            <mrow intent="$name($v1, $v2)">
+                <mi arg="name">f</mi>
+                <mo stretchy="false">(</mo>
+                <mi arg="v1">x</mi>
+                <mo>,</mo>
+                <mi arg="v2">y</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mi>d</mi>
+            <mi>y</mi>
+            <mo stretchy="true" fence="true" form="postfix">]</mo>
+        </mrow>
+        <mi>d</mi>
+        <mi>x</mi>
     </mrow>
-    <mi>d</mi>
-    <mi>y</mi>
-    <mo>=</mo>
-    <msubsup>
-      <mo>∫</mo>
-      <mi>a</mi>
-      <mi>u</mi>
-    </msubsup>
-    <mrow>
-      <mo stretchy="true" fence="true" form="prefix">[</mo>
-      <msubsup>
-        <mo>∫</mo>
-        <mi>c</mi>
-        <mi>v</mi>
-      </msubsup>
-      <mrow intent="$name($v1, $v2)">
-        <mi arg="name">f</mi>
-        <mo stretchy="false">(</mo>
-        <mi arg="v1">x</mi>
-        <mo>,</mo>
-        <mi arg="v2">y</mi>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <mi>d</mi>
-      <mi>y</mi>
-      <mo stretchy="true" fence="true" form="postfix">]</mo>
-    </mrow>
-    <mi>d</mi>
-    <mi>x</mi>
-  </mrow>
 </math>

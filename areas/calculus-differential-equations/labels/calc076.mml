@@ -1,14 +1,14 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow intent="$name($var)">
-    <msub arg="name">
-      <mi>f</mi>
-      <mrow>
-        <mo>−</mo>
-        <mi>α</mi>
-      </mrow>
-    </msub>
-    <mo stretchy="false">(</mo>
-    <mi arg="var">x</mi>
-    <mo stretchy="false">)</mo>
-  </mrow>
+    <mrow intent="$name($var)">
+        <msub arg="name">
+            <mi>f</mi>
+            <mrow>
+                <mo>−</mo>
+                <mi>α</mi>
+            </mrow>
+        </msub>
+        <mo stretchy="false">(</mo>
+        <mi arg="var">x</mi>
+        <mo stretchy="false">)</mo>
+    </mrow>
 </math>

@@ -1,5 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
+    <mrow>
         <msub>
             <mi>a</mi>
             <mi>k</mi>
@@ -40,5 +40,5 @@
                 </mrow>
             </mrow>
         </mrow>
-</mrow>
+    </mrow>
 </math>

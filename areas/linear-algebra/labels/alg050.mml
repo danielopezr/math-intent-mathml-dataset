@@ -1,12 +1,12 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-    <mrow intent="$name($var)">
-        <mi arg="name">D</mi>
-        <mo>(</mo>
-        <mn arg="var">1</mn>
-        <mo>)</mo>
+    <mrow>
+        <mrow intent="$name($var)">
+            <mi arg="name">D</mi>
+            <mo>(</mo>
+            <mn arg="var">1</mn>
+            <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mn>0</mn>
     </mrow>
-    <mo>=</mo>
-    <mn>0</mn>
-</mrow>
 </math>

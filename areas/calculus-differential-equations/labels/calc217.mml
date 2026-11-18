@@ -1,154 +1,154 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="curl($f)">
-      <mi>rot</mi>
-      <mi arg="f">𝐅</mi>
+    <mrow>
+        <mrow intent="curl($f)">
+            <mi>rot</mi>
+            <mi arg="f">𝐅</mi>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="determinant($mat)">
+            <mo>|</mo>
+            <mtable arg="mat" intent=":matrix">
+                <mtr>
+                    <mtd>
+                        <mi>𝐢</mi>
+                    </mtd>
+                    <mtd>
+                        <mi>𝐣</mi>
+                    </mtd>
+                    <mtd>
+                        <mi>𝐤</mi>
+                    </mtd>
+                </mtr>
+                <mtr>
+                    <mtd>
+                        <mfrac>
+                            <mo>∂</mo>
+                            <mrow>
+                                <mo>∂</mo>
+                                <mi>x</mi>
+                            </mrow>
+                        </mfrac>
+                    </mtd>
+                    <mtd>
+                        <mfrac>
+                            <mo>∂</mo>
+                            <mrow>
+                                <mo>∂</mo>
+                                <mi>y</mi>
+                            </mrow>
+                        </mfrac>
+                    </mtd>
+                    <mtd>
+                        <mfrac>
+                            <mo>∂</mo>
+                            <mrow>
+                                <mo>∂</mo>
+                                <mi>z</mi>
+                            </mrow>
+                        </mfrac>
+                    </mtd>
+                </mtr>
+                <mtr>
+                    <mtd>
+                        <mi>P</mi>
+                    </mtd>
+                    <mtd>
+                        <mi>Q</mi>
+                    </mtd>
+                    <mtd>
+                        <mi>R</mi>
+                    </mtd>
+                </mtr>
+            </mtable>
+            <mo>|</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow arg="arg1">
+                <mo stretchy="true" fence="true" form="prefix">(</mo>
+                <mfrac intent="partial-derivative($f,1,$v1)">
+                    <mrow>
+                        <mo>∂</mo>
+                        <mi arg="f">R</mi>
+                    </mrow>
+                    <mrow>
+                        <mo>∂</mo>
+                        <mi arg="v1">y</mi>
+                    </mrow>
+                </mfrac>
+                <mo>−</mo>
+                <mfrac intent="partial-derivative($f,1,$v1)">
+                    <mrow>
+                        <mo>∂</mo>
+                        <mi arg="f">Q</mi>
+                    </mrow>
+                    <mrow>
+                        <mo>∂</mo>
+                        <mi arg="v1">z</mi>
+                    </mrow>
+                </mfrac>
+                <mo stretchy="true" fence="true" form="postfix">)</mo>
+            </mrow>
+            <mi arg="arg2">𝐢</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow arg="arg1">
+                <mo stretchy="true" fence="true" form="prefix">(</mo>
+                <mfrac intent="partial-derivative($f,1,$v1)">
+                    <mrow>
+                        <mo>∂</mo>
+                        <mi arg="f">P</mi>
+                    </mrow>
+                    <mrow>
+                        <mo>∂</mo>
+                        <mi arg="v1">z</mi>
+                    </mrow>
+                </mfrac>
+                <mo>−</mo>
+                <mfrac intent="partial-derivative($f,1,$v1)">
+                    <mrow>
+                        <mo>∂</mo>
+                        <mi arg="f">R</mi>
+                    </mrow>
+                    <mrow>
+                        <mo>∂</mo>
+                        <mi arg="v1">x</mi>
+                    </mrow>
+                </mfrac>
+                <mo stretchy="true" fence="true" form="postfix">)</mo>
+            </mrow>
+            <mi arg="arg2">𝐣</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow arg="arg1">
+                <mo stretchy="true" fence="true" form="prefix">(</mo>
+                <mfrac intent="partial-derivative($f,1,$v1)">
+                    <mrow>
+                        <mo>∂</mo>
+                        <mi arg="f">Q</mi>
+                    </mrow>
+                    <mrow>
+                        <mo>∂</mo>
+                        <mi arg="v1">x</mi>
+                    </mrow>
+                </mfrac>
+                <mo>−</mo>
+                <mfrac intent="partial-derivative($f,1,$v1)">
+                    <mrow>
+                        <mo>∂</mo>
+                        <mi arg="f">P</mi>
+                    </mrow>
+                    <mrow>
+                        <mo>∂</mo>
+                        <mi arg="v1">y</mi>
+                    </mrow>
+                </mfrac>
+                <mo stretchy="true" fence="true" form="postfix">)</mo>
+            </mrow>
+            <mi arg="arg2">𝐤</mi>
+        </mrow>
+        <mo>.</mo>
     </mrow>
-    <mo>=</mo>
-    <mrow intent="determinant($mat)">
-      <mo>|</mo>
-      <mtable arg="mat" intent=":matrix">
-        <mtr>
-          <mtd>
-            <mi>𝐢</mi>
-          </mtd>
-          <mtd>
-            <mi>𝐣</mi>
-          </mtd>
-          <mtd>
-            <mi>𝐤</mi>
-          </mtd>
-        </mtr>
-        <mtr>
-          <mtd>
-            <mfrac>
-              <mo>∂</mo>
-              <mrow>
-                <mo>∂</mo>
-                <mi>x</mi>
-              </mrow>
-            </mfrac>
-          </mtd>
-          <mtd>
-            <mfrac>
-              <mo>∂</mo>
-              <mrow>
-                <mo>∂</mo>
-                <mi>y</mi>
-              </mrow>
-            </mfrac>
-          </mtd>
-          <mtd>
-            <mfrac>
-              <mo>∂</mo>
-              <mrow>
-                <mo>∂</mo>
-                <mi>z</mi>
-              </mrow>
-            </mfrac>
-          </mtd>
-        </mtr>
-        <mtr>
-          <mtd>
-            <mi>P</mi>
-          </mtd>
-          <mtd>
-            <mi>Q</mi>
-          </mtd>
-          <mtd>
-            <mi>R</mi>
-          </mtd>
-        </mtr>
-      </mtable>
-      <mo>|</mo>
-    </mrow>
-    <mo>=</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mrow arg="arg1">
-        <mo stretchy="true" fence="true" form="prefix">(</mo>
-        <mfrac intent="partial-derivative($f,1,$v1)">
-          <mrow>
-            <mo>∂</mo>
-            <mi arg="f">R</mi>
-          </mrow>
-          <mrow>
-            <mo>∂</mo>
-            <mi arg="v1">y</mi>
-          </mrow>
-        </mfrac>
-        <mo>−</mo>
-        <mfrac intent="partial-derivative($f,1,$v1)">
-          <mrow>
-            <mo>∂</mo>
-            <mi arg="f">Q</mi>
-          </mrow>
-          <mrow>
-            <mo>∂</mo>
-            <mi arg="v1">z</mi>
-          </mrow>
-        </mfrac>
-        <mo stretchy="true" fence="true" form="postfix">)</mo>
-      </mrow>
-      <mi arg="arg2">𝐢</mi>
-    </mrow>
-    <mo>+</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mrow arg="arg1">
-        <mo stretchy="true" fence="true" form="prefix">(</mo>
-        <mfrac intent="partial-derivative($f,1,$v1)">
-          <mrow>
-            <mo>∂</mo>
-            <mi arg="f">P</mi>
-          </mrow>
-          <mrow>
-            <mo>∂</mo>
-            <mi arg="v1">z</mi>
-          </mrow>
-        </mfrac>
-        <mo>−</mo>
-        <mfrac intent="partial-derivative($f,1,$v1)">
-          <mrow>
-            <mo>∂</mo>
-            <mi arg="f">R</mi>
-          </mrow>
-          <mrow>
-            <mo>∂</mo>
-            <mi arg="v1">x</mi>
-          </mrow>
-        </mfrac>
-        <mo stretchy="true" fence="true" form="postfix">)</mo>
-      </mrow>
-      <mi arg="arg2">𝐣</mi>
-    </mrow>
-    <mo>+</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mrow arg="arg1">
-        <mo stretchy="true" fence="true" form="prefix">(</mo>
-        <mfrac intent="partial-derivative($f,1,$v1)">
-          <mrow>
-            <mo>∂</mo>
-            <mi arg="f">Q</mi>
-          </mrow>
-          <mrow>
-            <mo>∂</mo>
-            <mi arg="v1">x</mi>
-          </mrow>
-        </mfrac>
-        <mo>−</mo>
-        <mfrac intent="partial-derivative($f,1,$v1)">
-          <mrow>
-            <mo>∂</mo>
-            <mi arg="f">P</mi>
-          </mrow>
-          <mrow>
-            <mo>∂</mo>
-            <mi arg="v1">y</mi>
-          </mrow>
-        </mfrac>
-        <mo stretchy="true" fence="true" form="postfix">)</mo>
-      </mrow>
-      <mi arg="arg2">𝐤</mi>
-    </mrow>
-    <mo>.</mo>
-  </mrow>
 </math>

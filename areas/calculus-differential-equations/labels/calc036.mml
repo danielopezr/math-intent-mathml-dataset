@@ -1,7 +1,8 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-    <mi>x</mi>
-    <mo>&gt;</mo>
-    <mn>0</mn>
-</mrow>    
+    <mrow>
+        <mi>x</mi>
+        <mo>&gt;</mo>
+        <mn>0</mn>
+        <mo>.</mo>
+    </mrow>
 </math>

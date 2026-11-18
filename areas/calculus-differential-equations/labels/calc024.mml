@@ -1,10 +1,10 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow intent="tends-to($var, $value)">
-    <mi arg="var">x</mi>
-    <mo>&#x2192;</mo>
-    <mrow arg="value">
-        <mo>+</mo>
-        <mi>&#x221E;</mi>
+    <mrow intent="tends-to($var, $value)">
+        <mi arg="var">x</mi>
+        <mo>&#x2192;</mo>
+        <mrow arg="value">
+            <mo>+</mo>
+            <mi>&#x221E;</mi>
+        </mrow>
     </mrow>
-</mrow>    
 </math>

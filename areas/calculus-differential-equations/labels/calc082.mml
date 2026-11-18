@@ -1,44 +1,44 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($var)">
-      <msub arg="name">
-        <mi>J</mi>
-        <mrow>
-          <mo>−</mo>
-          <mfrac>
-            <mn>1</mn>
-            <mn>2</mn>
-          </mfrac>
+    <mrow>
+        <mrow intent="$name($var)">
+            <msub arg="name">
+                <mi>J</mi>
+                <mrow>
+                    <mo>−</mo>
+                    <mfrac>
+                        <mn>1</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                </mrow>
+            </msub>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">x</mi>
+            <mo stretchy="false">)</mo>
         </mrow>
-      </msub>
-      <mo stretchy="false">(</mo>
-      <mi arg="var">x</mi>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mo>=</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <msup arg="arg1" intent="power($base,$exp)">
-        <mrow arg="base">
-          <mo stretchy="true" fence="true" form="prefix">(</mo>
-          <mfrac>
-            <mn>2</mn>
-            <mrow intent="times($arg1,$arg2)">
-              <mi arg="arg1">π</mi>
-              <mi arg="arg2">x</mi>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <msup arg="arg1" intent="power($base,$exp)">
+                <mrow arg="base">
+                    <mo stretchy="true" fence="true" form="prefix">(</mo>
+                    <mfrac>
+                        <mn>2</mn>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mi arg="arg1">π</mi>
+                            <mi arg="arg2">x</mi>
+                        </mrow>
+                    </mfrac>
+                    <mo stretchy="true" fence="true" form="postfix">)</mo>
+                </mrow>
+                <mfrac arg="exp">
+                    <mn>1</mn>
+                    <mn>2</mn>
+                </mfrac>
+            </msup>
+            <mrow intent="cosine($arg)" arg="arg2">
+                <mi>cos</mi>
+                <mi arg="arg">x</mi>
             </mrow>
-          </mfrac>
-          <mo stretchy="true" fence="true" form="postfix">)</mo>
         </mrow>
-        <mfrac arg="exp">
-          <mn>1</mn>
-          <mn>2</mn>
-        </mfrac>
-      </msup>
-      <mrow intent="cosine($arg)" arg="arg2">
-        <mi>cos</mi>
-        <mi arg="arg">x</mi>
-      </mrow>
+        <mo>.</mo>
     </mrow>
-    <mo>.</mo>
-  </mrow>
 </math>

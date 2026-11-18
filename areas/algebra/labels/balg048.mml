@@ -1,31 +1,31 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-    <msup intent="power($base, $exp)">
-      <mrow arg="base">
-        <mo>(</mo>
-        <msup intent="power($b, $e)">
-          <mn arg="b">4</mn>
-          <mn arg="e">2</mn>
+    <mrow>
+        <msup intent="power($base, $exp)">
+            <mrow arg="base">
+                <mo>(</mo>
+                <msup intent="power($b, $e)">
+                    <mn arg="b">4</mn>
+                    <mn arg="e">2</mn>
+                </msup>
+                <mo>)</mo>
+            </mrow>
+            <mn arg="exp">3</mn>
         </msup>
-        <mo>)</mo>
-      </mrow>
-      <mn arg="exp">3</mn>
-    </msup>
-    <mo>=</mo>
-    <msup intent="power($base, $exp)">
-      <mn arg="base">4</mn>
-      <mrow arg="exp">
-        <mn>2</mn>
-        <mo>&#xD7;</mo>
-        <mn>3</mn>
-      </mrow>
-    </msup>
-    <mo>=</mo>
-    <msup intent="power($base, $exp)">
-      <mn arg="base">4</mn>
-      <mn arg="exp">6</mn>
-    </msup>
-    <mo>=</mo>
-    <mn>4096</mn>
-</mrow>
+        <mo>=</mo>
+        <msup intent="power($base, $exp)">
+            <mn arg="base">4</mn>
+            <mrow arg="exp">
+                <mn>2</mn>
+                <mo>&#xD7;</mo>
+                <mn>3</mn>
+            </mrow>
+        </msup>
+        <mo>=</mo>
+        <msup intent="power($base, $exp)">
+            <mn arg="base">4</mn>
+            <mn arg="exp">6</mn>
+        </msup>
+        <mo>=</mo>
+        <mn>4096</mn>
+    </mrow>
 </math>

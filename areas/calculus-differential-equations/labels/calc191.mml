@@ -1,33 +1,33 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mo>∫</mo>
-    <mo intent="ellipsis">⋯</mo>
-    <msub>
-      <mo>∫</mo>
-      <mrow>
-        <mo stretchy="false">[</mo>
-        <mi>𝐚</mi>
+    <mrow>
+        <mo>∫</mo>
+        <mo intent="ellipsis">⋯</mo>
+        <msub>
+            <mo>∫</mo>
+            <mrow>
+                <mo stretchy="false">[</mo>
+                <mi>𝐚</mi>
+                <mo>,</mo>
+                <mi>𝐛</mi>
+                <mo stretchy="false">]</mo>
+            </mrow>
+        </msub>
+        <mi>f</mi>
+        <mo>=</mo>
+        <msub>
+            <mo>∑</mo>
+            <mi>i</mi>
+        </msub>
+        <mrow intent="times($arg1,$arg2)">
+            <msub arg="arg1">
+                <mi>c</mi>
+                <mi>i</mi>
+            </msub>
+            <msub arg="arg2">
+                <mi>v</mi>
+                <mi>i</mi>
+            </msub>
+        </mrow>
         <mo>,</mo>
-        <mi>𝐛</mi>
-        <mo stretchy="false">]</mo>
-      </mrow>
-    </msub>
-    <mi>f</mi>
-    <mo>=</mo>
-    <msub>
-      <mo>∑</mo>
-      <mi>i</mi>
-    </msub>
-    <mrow intent="times($arg1,$arg2)">
-      <msub arg="arg1">
-        <mi>c</mi>
-        <mi>i</mi>
-      </msub>
-      <msub arg="arg2">
-        <mi>v</mi>
-        <mi>i</mi>
-      </msub>
     </mrow>
-    <mo>,</mo>
-  </mrow>
 </math>

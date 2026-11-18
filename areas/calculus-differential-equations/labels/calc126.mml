@@ -1,11 +1,11 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="norm($a)">
-      <mo fence="false" stretchy="false">‖</mo>
-      <mi arg="a">𝐯</mi>
-      <mo fence="false" stretchy="false">‖</mo>
+    <mrow>
+        <mrow intent="norm($a)">
+            <mo fence="false" stretchy="false">‖</mo>
+            <mi arg="a">𝐯</mi>
+            <mo fence="false" stretchy="false">‖</mo>
+        </mrow>
+        <mo>&lt;</mo>
+        <mi>r</mi>
     </mrow>
-    <mo>&lt;</mo>
-    <mi>r</mi>
-  </mrow>
 </math>

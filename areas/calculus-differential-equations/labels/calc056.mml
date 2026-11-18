@@ -1,17 +1,20 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-    <mrow intent="$name($var)">
-        <msub arg="name">
-            <mi>J</mi>
-            <mfrac><mn>1</mn><mn>2</mn></mfrac>
-        </msub>
-        <mo>(</mo>
-        <mi arg="var">x</mi>
-        <mo>)</mo>
-    </mrow>
-    <mo>=</mo>
-    <mrow intent="times($a, $b)">
-        <msup arg="a" intent="power($base, $exp)">
+    <mrow>
+        <mrow intent="$name($var)">
+            <msub arg="name">
+                <mi>J</mi>
+                <mfrac>
+                    <mn>1</mn>
+                    <mn>2</mn>
+                </mfrac>
+            </msub>
+            <mo>(</mo>
+            <mi arg="var">x</mi>
+            <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="times($a, $b)">
+            <msup arg="a" intent="power($base, $exp)">
                 <mrow arg="base">
                     <mo>(</mo>
                     <mfrac>
@@ -23,31 +26,37 @@
                     </mfrac>
                     <mo>)</mo>
                 </mrow>
-                <mfrac arg="exp"><mn>1</mn><mn>2</mn></mfrac>
+                <mfrac arg="exp">
+                    <mn>1</mn>
+                    <mn>2</mn>
+                </mfrac>
             </msup>
             <mrow arg="b" intent="sine($var)">
                 <mi>sen</mi>
                 <mi arg="var">x</mi>
             </mrow>
-    </mrow>
-    <mspace width="2em"/>
-    <mtext>y</mtext>
-    <mspace width="2em"/>
-    <mrow intent="$name($var)">
-        <msub arg="name">
-            <mi>J</mi>
-            <mrow>
-                <mo>-</mo>
-                <mfrac><mn>1</mn><mn>2</mn></mfrac>
-            </mrow>
-        </msub>
-        <mo>(</mo>
-        <mi arg="var">x</mi>
-        <mo>)</mo>
-    </mrow>
-    <mo>=</mo>
-    <mrow intent="times($a, $b)">
-        <msup arg="a" intent="power($base, $exp)">
+        </mrow>
+        <mspace width="2em"/>
+        <mtext>y</mtext>
+        <mspace width="2em"/>
+        <mrow intent="$name($var)">
+            <msub arg="name">
+                <mi>J</mi>
+                <mrow>
+                    <mo>−</mo>
+                    <mfrac>
+                        <mn>1</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                </mrow>
+            </msub>
+            <mo>(</mo>
+            <mi arg="var">x</mi>
+            <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="times($a, $b)">
+            <msup arg="a" intent="power($base, $exp)">
                 <mrow arg="base">
                     <mo>(</mo>
                     <mfrac>
@@ -59,12 +68,15 @@
                     </mfrac>
                     <mo>)</mo>
                 </mrow>
-                <mfrac arg="exp"><mn>1</mn><mn>2</mn></mfrac>
+                <mfrac arg="exp">
+                    <mn>1</mn>
+                    <mn>2</mn>
+                </mfrac>
             </msup>
             <mrow arg="b" intent="cosine($var)">
                 <mi>cos</mi>
                 <mi arg="var">x</mi>
             </mrow>
+        </mrow>
     </mrow>
-</mrow>
 </math>

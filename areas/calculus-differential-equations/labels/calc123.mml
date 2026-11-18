@@ -1,74 +1,74 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($v1, $v2)">
-      <msup arg="name">
-        <mi>f</mi>
-        <mi>′</mi>
-      </msup>
-      <mo stretchy="false">(</mo>
-      <mi arg="v1">𝐚</mi>
-      <mi>;</mi>
-      <mi arg="v2">𝐲</mi>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mo>=</mo>
-    <mo stretchy="false">(</mo>
-    <mrow intent="$name($v1, $v2)">
-      <msubsup arg="name">
-        <mi>f</mi>
-        <mn>1</mn>
-        <mi>′</mi>
-      </msubsup>
-      <mo stretchy="false">(</mo>
-      <mi arg="v1">𝐚</mi>
-      <mi>;</mi>
-      <mi arg="v2">𝐲</mi>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mo>,</mo>
-    <mo intent="ellipsis">…</mo>
-    <mo>,</mo>
-    <mrow intent="$name($v1, $v2)">
-      <msubsup arg="name">
-        <mi>f</mi>
-        <mi>m</mi>
-        <mi>′</mi>
-      </msubsup>
-      <mo stretchy="false">(</mo>
-      <mi arg="v1">𝐚</mi>
-      <mi>;</mi>
-      <mi arg="v2">𝐲</mi>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mo stretchy="false">)</mo>
-    <mo>=</mo>
-    <msubsup>
-      <mo>∑</mo>
-      <mrow>
-        <mi>k</mi>
+    <mrow>
+        <mrow intent="$name($v1, $v2)">
+            <msup arg="name">
+                <mi>f</mi>
+                <mi>′</mi>
+            </msup>
+            <mo stretchy="false">(</mo>
+            <mi arg="v1">𝐚</mi>
+            <mi>;</mi>
+            <mi arg="v2">𝐲</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
         <mo>=</mo>
-        <mn>1</mn>
-      </mrow>
-      <mi>m</mi>
-    </msubsup>
-    <mrow intent="times($arg1,$arg2)">
-      <mrow intent="$name($v1, $v2)" arg="arg1">
-        <msubsup arg="name">
-          <mi>f</mi>
-          <mi>k</mi>
-          <mi>′</mi>
-        </msubsup>
         <mo stretchy="false">(</mo>
-        <mi arg="v1">𝐚</mi>
-        <mi>;</mi>
-        <mi arg="v2">𝐲</mi>
+        <mrow intent="$name($v1, $v2)">
+            <msubsup arg="name">
+                <mi>f</mi>
+                <mn>1</mn>
+                <mi>′</mi>
+            </msubsup>
+            <mo stretchy="false">(</mo>
+            <mi arg="v1">𝐚</mi>
+            <mi>;</mi>
+            <mi arg="v2">𝐲</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>,</mo>
+        <mo intent="ellipsis">…</mo>
+        <mo>,</mo>
+        <mrow intent="$name($v1, $v2)">
+            <msubsup arg="name">
+                <mi>f</mi>
+                <mi>m</mi>
+                <mi>′</mi>
+            </msubsup>
+            <mo stretchy="false">(</mo>
+            <mi arg="v1">𝐚</mi>
+            <mi>;</mi>
+            <mi arg="v2">𝐲</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
         <mo stretchy="false">)</mo>
-      </mrow>
-      <msub arg="arg2">
-        <mi>𝐞</mi>
-        <mi>k</mi>
-      </msub>
+        <mo>=</mo>
+        <msubsup>
+            <mo>∑</mo>
+            <mrow>
+                <mi>k</mi>
+                <mo>=</mo>
+                <mn>1</mn>
+            </mrow>
+            <mi>m</mi>
+        </msubsup>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow intent="$name($v1, $v2)" arg="arg1">
+                <msubsup arg="name">
+                    <mi>f</mi>
+                    <mi>k</mi>
+                    <mi>′</mi>
+                </msubsup>
+                <mo stretchy="false">(</mo>
+                <mi arg="v1">𝐚</mi>
+                <mi>;</mi>
+                <mi arg="v2">𝐲</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <msub arg="arg2">
+                <mi>𝐞</mi>
+                <mi>k</mi>
+            </msub>
+        </mrow>
+        <mo>,</mo>
     </mrow>
-    <mo>,</mo>
-  </mrow>
 </math>

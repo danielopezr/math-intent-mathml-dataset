@@ -1,71 +1,71 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="norm($a)">
-      <mo fence="false" stretchy="false">‖</mo>
-      <mrow arg="a">
-        <mrow intent="$name($var)">
-          <msub arg="name">
-            <mi>Y</mi>
-            <mrow>
-              <mi>m</mi>
-              <mo>+</mo>
-              <mn>1</mn>
+    <mrow>
+        <mrow intent="norm($a)">
+            <mo fence="false" stretchy="false">‖</mo>
+            <mrow arg="a">
+                <mrow intent="$name($var)">
+                    <msub arg="name">
+                        <mi>Y</mi>
+                        <mrow>
+                            <mi>m</mi>
+                            <mo>+</mo>
+                            <mn>1</mn>
+                        </mrow>
+                    </msub>
+                    <mo stretchy="false">(</mo>
+                    <mi arg="var">x</mi>
+                    <mo stretchy="false">)</mo>
+                </mrow>
+                <mo>−</mo>
+                <mrow intent="$name($var)">
+                    <msub arg="name">
+                        <mi>Y</mi>
+                        <mi>m</mi>
+                    </msub>
+                    <mo stretchy="false">(</mo>
+                    <mi arg="var">x</mi>
+                    <mo stretchy="false">)</mo>
+                </mrow>
             </mrow>
-          </msub>
-          <mo stretchy="false">(</mo>
-          <mi arg="var">x</mi>
-          <mo stretchy="false">)</mo>
+            <mo fence="false" stretchy="false">‖</mo>
         </mrow>
-        <mo>−</mo>
-        <mrow intent="$name($var)">
-          <msub arg="name">
-            <mi>Y</mi>
-            <mi>m</mi>
-          </msub>
-          <mo stretchy="false">(</mo>
-          <mi arg="var">x</mi>
-          <mo stretchy="false">)</mo>
-        </mrow>
-      </mrow>
-      <mo fence="false" stretchy="false">‖</mo>
-    </mrow>
-    <mo>≤</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mrow intent="norm($a)" arg="arg1">
-        <mo fence="false" stretchy="false">‖</mo>
-        <mi arg="a">B</mi>
-        <mo fence="false" stretchy="false">‖</mo>
-      </mrow>
-      <mfrac arg="arg2">
+        <mo>≤</mo>
         <mrow intent="times($arg1,$arg2)">
-          <msup arg="arg1" intent="power($base,$exp)">
-            <mi arg="base">M</mi>
-            <mrow arg="exp">
-              <mi>m</mi>
-              <mo>+</mo>
-              <mn>1</mn>
+            <mrow intent="norm($a)" arg="arg1">
+                <mo fence="false" stretchy="false">‖</mo>
+                <mi arg="a">B</mi>
+                <mo fence="false" stretchy="false">‖</mo>
             </mrow>
-          </msup>
-          <msup arg="arg2" intent="power($base,$exp)">
-            <mi arg="base">L</mi>
-            <mrow arg="exp">
-              <mi>m</mi>
-              <mo>+</mo>
-              <mn>1</mn>
-            </mrow>
-          </msup>
+            <mfrac arg="arg2">
+                <mrow intent="times($arg1,$arg2)">
+                    <msup arg="arg1" intent="power($base,$exp)">
+                        <mi arg="base">M</mi>
+                        <mrow arg="exp">
+                            <mi>m</mi>
+                            <mo>+</mo>
+                            <mn>1</mn>
+                        </mrow>
+                    </msup>
+                    <msup arg="arg2" intent="power($base,$exp)">
+                        <mi arg="base">L</mi>
+                        <mrow arg="exp">
+                            <mi>m</mi>
+                            <mo>+</mo>
+                            <mn>1</mn>
+                        </mrow>
+                    </msup>
+                </mrow>
+                <mrow intent="factorial($var)">
+                    <mo stretchy="false">(</mo>
+                    <mrow arg="var">
+                        <mi>m</mi>
+                        <mo>+</mo>
+                        <mn>1</mn>
+                    </mrow>
+                    <mo stretchy="false">)</mo>
+                    <mo>!</mo>
+                </mrow>
+            </mfrac>
         </mrow>
-        <mrow intent="factorial($var)">
-          <mo stretchy="false">(</mo>
-          <mrow arg="var">
-            <mi>m</mi>
-            <mo>+</mo>
-            <mn>1</mn>
-          </mrow>
-          <mo stretchy="false">)</mo>
-          <mo>!</mo>
-        </mrow>
-      </mfrac>
     </mrow>
-  </mrow>
 </math>

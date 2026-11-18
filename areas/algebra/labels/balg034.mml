@@ -1,18 +1,18 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow intent="times($a, $b)">
-    <mrow arg="a">
-        <mo>(</mo>
-        <mi>m</mi>
-        <mo>−</mo>
-        <mn>8</mn>
-        <mo>)</mo>
+    <mrow intent="times($a, $b)">
+        <mrow arg="a">
+            <mo>(</mo>
+            <mi>m</mi>
+            <mo>−</mo>
+            <mn>8</mn>
+            <mo>)</mo>
+        </mrow>
+        <mrow arg="b">
+            <mo>(</mo>
+            <mi>m</mi>
+            <mo>+</mo>
+            <mn>12</mn>
+            <mo>)</mo>
+        </mrow>
     </mrow>
-    <mrow arg="b">
-        <mo>(</mo>
-        <mi>m</mi>
-        <mo>+</mo>
-        <mn>12</mn>
-        <mo>)</mo>
-    </mrow>
-  </mrow>
 </math>

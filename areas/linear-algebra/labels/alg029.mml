@@ -1,88 +1,86 @@
-<math xmlns="http://www.w3.org/1998/Math/MathML"> 
-        <mrow>
-            <msub >
-                <mi>a</mi>
-                <mi>k</mi>
-            </msub>
-            <mo>=</mo>
-            <mrow intent="times($a, $b)">
-                <mfrac arg="a">
-                    <mn>1</mn>
-                    <mi>&#x1d70b;</mi>
-                </mfrac>
-                <mrow arg="b">
-                    <msubsup>
-                        <mo>&#x222B;</mo>
-                        <mn>0</mn>
-                        <mrow intent="times($arg1,$arg2)">
-                            <mn arg="arg1">2</mn>
-                            <mi arg="arg2">&#x1d70b;</mi>
-                        </mrow>
-                    </msubsup>
-                    <mrow intent="times($x, $y)">
-                        <mrow arg="x" intent="$name($var)">
-                            <mi arg="name">f</mi>
-                            <mo>(</mo>
-                            <mi arg="var">x</mi>
-                            <mo>)</mo>
-                        </mrow>
-                        <mrow arg="y" intent="cosine($var)">
-                            <mi>cos</mi>
-                            <mrow arg="var" intent="times($arg1,$arg2)">
-                                <mi arg="arg1">k</mi>
-                                <mi arg="arg2">x</mi>
-                            </mrow>
-                        </mrow>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <msub>
+            <mi>a</mi>
+            <mi>k</mi>
+        </msub>
+        <mo>=</mo>
+        <mrow intent="times($a, $b)">
+            <mfrac arg="a">
+                <mn>1</mn>
+                <mi>&#x1d70b;</mi>
+            </mfrac>
+            <mrow arg="b">
+                <msubsup>
+                    <mo>&#x222B;</mo>
+                    <mn>0</mn>
+                    <mrow intent="times($arg1,$arg2)">
+                        <mn arg="arg1">2</mn>
+                        <mi arg="arg2">&#x1d70b;</mi>
                     </mrow>
-                    <mrow>
-                        <mi>d</mi>
-                        <mi>x</mi>
+                </msubsup>
+                <mrow intent="times($x, $y)">
+                    <mrow arg="x" intent="$name($var)">
+                        <mi arg="name">f</mi>
+                        <mo>(</mo>
+                        <mi arg="var">x</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mrow arg="y" intent="cosine($var)">
+                        <mi>cos</mi>
+                        <mrow arg="var" intent="times($arg1,$arg2)">
+                            <mi arg="arg1">k</mi>
+                            <mi arg="arg2">x</mi>
+                        </mrow>
                     </mrow>
                 </mrow>
-            </mrow>
-
-            <mo>,</mo>
-            <mspace width="1em" />
-
-            <msub >
-                <mi>b</mi>
-                <mi>k</mi>
-            </msub>
-            <mo>=</mo>
-            <mrow intent="times($a, $b)">
-                <mfrac arg="a">
-                    <mn>1</mn>
-                    <mi>&#x1d70b;</mi>
-                </mfrac>
-                <mrow arg="b">
-                    <msubsup>
-                        <mo>&#x222B;</mo>
-                        <mn>0</mn>
-                        <mrow intent="times($arg1,$arg2)">
-                            <mn arg="arg1">2</mn>
-                            <mi arg="arg2">&#x1d70b;</mi>
-                        </mrow>
-                    </msubsup>
-                    <mrow intent="times($x, $y)">
-                        <mrow arg="x" intent="$name($var)">
-                            <mi arg="name">f</mi>
-                            <mo>(</mo>
-                            <mi arg="var">x</mi>
-                            <mo>)</mo>
-                        </mrow>
-                        <mrow arg="y" intent="sine($var)">
-                            <mi>sen</mi>
-                            <mrow arg="var" intent="times($arg1,$arg2)">
-                                <mi arg="arg1">k</mi>
-                                <mi arg="arg2">x</mi>
-                            </mrow>
-                        </mrow>
-                    </mrow>
-                    <mrow>
-                        <mi>d</mi>
-                        <mi>x</mi>
-                    </mrow>
+                <mrow>
+                    <mi>d</mi>
+                    <mi>x</mi>
                 </mrow>
             </mrow>
         </mrow>
+        <mo>,</mo>
+        <mspace width="1em"/>
+        <msub>
+            <mi>b</mi>
+            <mi>k</mi>
+        </msub>
+        <mo>=</mo>
+        <mrow intent="times($a, $b)">
+            <mfrac arg="a">
+                <mn>1</mn>
+                <mi>&#x1d70b;</mi>
+            </mfrac>
+            <mrow arg="b">
+                <msubsup>
+                    <mo>&#x222B;</mo>
+                    <mn>0</mn>
+                    <mrow intent="times($arg1,$arg2)">
+                        <mn arg="arg1">2</mn>
+                        <mi arg="arg2">&#x1d70b;</mi>
+                    </mrow>
+                </msubsup>
+                <mrow intent="times($x, $y)">
+                    <mrow arg="x" intent="$name($var)">
+                        <mi arg="name">f</mi>
+                        <mo>(</mo>
+                        <mi arg="var">x</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mrow arg="y" intent="sine($var)">
+                        <mi>sen</mi>
+                        <mrow arg="var" intent="times($arg1,$arg2)">
+                            <mi arg="arg1">k</mi>
+                            <mi arg="arg2">x</mi>
+                        </mrow>
+                    </mrow>
+                </mrow>
+                <mrow>
+                    <mi>d</mi>
+                    <mi>x</mi>
+                </mrow>
+            </mrow>
+        </mrow>
+    </mrow>
 </math>

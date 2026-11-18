@@ -1,25 +1,25 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($var)">
-      <mi arg="name">P</mi>
-      <mo stretchy="false">(</mo>
-      <mi arg="var">t</mi>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mo>=</mo>
-    <mo stretchy="false">[</mo>
-    <mrow intent="$name($var)">
-      <msub arg="name">
-        <mi>p</mi>
-        <mrow>
-          <mi>j</mi>
-          <mi>i</mi>
+    <mrow>
+        <mrow intent="$name($var)">
+            <mi arg="name">P</mi>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">t</mi>
+            <mo stretchy="false">)</mo>
         </mrow>
-      </msub>
-      <mo stretchy="false">(</mo>
-      <mi arg="var">t</mi>
-      <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mo stretchy="false">[</mo>
+        <mrow intent="$name($var)">
+            <msub arg="name">
+                <mi>p</mi>
+                <mrow>
+                    <mi>j</mi>
+                    <mi>i</mi>
+                </mrow>
+            </msub>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">t</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo stretchy="false">]</mo>
     </mrow>
-    <mo stretchy="false">]</mo>
-  </mrow>
 </math>

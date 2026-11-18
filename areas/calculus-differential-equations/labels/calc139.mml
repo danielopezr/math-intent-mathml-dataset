@@ -1,13 +1,13 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mi>y</mi>
-    <mo>=</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mi arg="arg1">r</mi>
-      <mrow intent="sine($arg)" arg="arg2">
-        <mi>sen</mi>
-        <mi arg="arg">θ</mi>
-      </mrow>
+    <mrow>
+        <mi>y</mi>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mi arg="arg1">r</mi>
+            <mrow intent="sine($arg)" arg="arg2">
+                <mi>sen</mi>
+                <mi arg="arg">θ</mi>
+            </mrow>
+        </mrow>
     </mrow>
-  </mrow>
 </math>

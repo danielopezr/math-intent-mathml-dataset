@@ -1,5 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
+    <mrow>
         <mrow intent="times($a, $b)">
             <mi arg="a">c</mi>
             <mi arg="b">r</mi>
@@ -25,8 +25,7 @@
                     </mrow>
                 </msup>
             </mrow>
-
-            <mo>-</mo>
+            <mo>−</mo>
             <mrow intent="times($a, $b)">
                 <mi arg="a">i</mi>
                 <mrow arg="b">
@@ -38,5 +37,5 @@
                 </mrow>
             </mrow>
         </mrow>
-</mrow>
+    </mrow>
 </math>

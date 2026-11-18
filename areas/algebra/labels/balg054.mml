@@ -1,27 +1,27 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow intent="times($a, $b)">
-    <mrow arg="a"> 
-        <mo>(</mo>
-        <mfrac>
-            <mrow intent="times($arg1,$arg2)">
-                <mn arg="arg1">8</mn>
-                <mi arg="arg2">m</mi>
-            </mrow>
-            <mrow intent="times($arg1,$arg2)">
-               <mn arg="arg1">9</mn>
-               <mi arg="arg2">n</mi>
-            </mrow>
-        </mfrac>
-        <mo>+</mo>
-        <mfrac>
-            <mrow intent="times($arg1,$arg2)">
-               <mn arg="arg1">16</mn>
-               <mi arg="arg2">p</mi>
-            </mrow>
-            <mi>b</mi>
-        </mfrac>
-        <mo>)</mo>
-    </mrow>    
-    <mi arg="b">a</mi>
-  </mrow>
+    <mrow intent="times($a, $b)">
+        <mrow arg="a">
+            <mo>(</mo>
+            <mfrac>
+                <mrow intent="times($arg1,$arg2)">
+                    <mn arg="arg1">8</mn>
+                    <mi arg="arg2">m</mi>
+                </mrow>
+                <mrow intent="times($arg1,$arg2)">
+                    <mn arg="arg1">9</mn>
+                    <mi arg="arg2">n</mi>
+                </mrow>
+            </mfrac>
+            <mo>+</mo>
+            <mfrac>
+                <mrow intent="times($arg1,$arg2)">
+                    <mn arg="arg1">16</mn>
+                    <mi arg="arg2">p</mi>
+                </mrow>
+                <mi>b</mi>
+            </mfrac>
+            <mo>)</mo>
+        </mrow>
+        <mi arg="b">a</mi>
+    </mrow>
 </math>

@@ -1,71 +1,71 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="times($arg1,$arg2)">
-      <msup arg="arg1" intent="power($base,$exp)">
-        <mrow intent="norm($a)" arg="base">
-          <mo fence="false" stretchy="false">‖</mo>
-          <mi arg="a">𝐲</mi>
-          <mo fence="false" stretchy="false">‖</mo>
-        </mrow>
-        <mn arg="exp">2</mn>
-      </msup>
-      <mrow intent="$name($v1, $v2)" arg="arg2">
-        <msub arg="name">
-          <mi>E</mi>
-          <mn>2</mn>
-        </msub>
-        <mo stretchy="false">(</mo>
-        <mi arg="v1">𝐚</mi>
-        <mo>,</mo>
-        <mi arg="v2">𝐲</mi>
-        <mo stretchy="false">)</mo>
-      </mrow>
-    </mrow>
-    <mo>=</mo>
-    <mrow intent="times($arg1,$arg2,$arg3,$arg4)">
-      <mfrac arg="arg1">
-        <mn>1</mn>
-        <mrow intent="factorial($var)">
-          <mn arg="var">2</mn>
-          <mo>!</mo>
-        </mrow>
-      </mfrac>
-      <mi arg="arg2">𝐲</mi>
-      <mrow arg="arg3">
-        <mo stretchy="false">{</mo>
-        <mrow intent="$name($var)">
-          <mi arg="name">H</mi>
-          <mo stretchy="false">(</mo>
-          <mrow arg="var">
-            <mi>𝐚</mi>
-            <mo>+</mo>
-            <mrow intent="times($arg1,$arg2)">
-              <mi arg="arg1">c</mi>
-              <mi arg="arg2">𝐲</mi>
+    <mrow>
+        <mrow intent="times($arg1,$arg2)">
+            <msup arg="arg1" intent="power($base,$exp)">
+                <mrow intent="norm($a)" arg="base">
+                    <mo fence="false" stretchy="false">‖</mo>
+                    <mi arg="a">𝐲</mi>
+                    <mo fence="false" stretchy="false">‖</mo>
+                </mrow>
+                <mn arg="exp">2</mn>
+            </msup>
+            <mrow intent="$name($v1, $v2)" arg="arg2">
+                <msub arg="name">
+                    <mi>E</mi>
+                    <mn>2</mn>
+                </msub>
+                <mo stretchy="false">(</mo>
+                <mi arg="v1">𝐚</mi>
+                <mo>,</mo>
+                <mi arg="v2">𝐲</mi>
+                <mo stretchy="false">)</mo>
             </mrow>
-          </mrow>
-          <mo stretchy="false">)</mo>
         </mrow>
-        <mo>−</mo>
-        <mrow intent="$name($var)">
-          <mi arg="name">H</mi>
-          <mo stretchy="false">(</mo>
-          <mi arg="var">𝐚</mi>
-          <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2,$arg3,$arg4)">
+            <mfrac arg="arg1">
+                <mn>1</mn>
+                <mrow intent="factorial($var)">
+                    <mn arg="var">2</mn>
+                    <mo>!</mo>
+                </mrow>
+            </mfrac>
+            <mi arg="arg2">𝐲</mi>
+            <mrow arg="arg3">
+                <mo stretchy="false">{</mo>
+                <mrow intent="$name($var)">
+                    <mi arg="name">H</mi>
+                    <mo stretchy="false">(</mo>
+                    <mrow arg="var">
+                        <mi>𝐚</mi>
+                        <mo>+</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mi arg="arg1">c</mi>
+                            <mi arg="arg2">𝐲</mi>
+                        </mrow>
+                    </mrow>
+                    <mo stretchy="false">)</mo>
+                </mrow>
+                <mo>−</mo>
+                <mrow intent="$name($var)">
+                    <mi arg="name">H</mi>
+                    <mo stretchy="false">(</mo>
+                    <mi arg="var">𝐚</mi>
+                    <mo stretchy="false">)</mo>
+                </mrow>
+                <mo stretchy="false">}</mo>
+            </mrow>
+            <msup intent="power($base,$exp)" arg="arg4">
+                <mi arg="base">𝐲</mi>
+                <mi arg="exp">t</mi>
+            </msup>
         </mrow>
-        <mo stretchy="false">}</mo>
-      </mrow>
-      <msup intent="power($base,$exp)" arg="arg4">
-        <mi arg="base">𝐲</mi>
-        <mi arg="exp">t</mi>
-      </msup>
+        <mspace width="1em"/>
+        <mtext>si</mtext>
+        <mspace width="1em"/>
+        <mi>𝐲</mi>
+        <mo>≠</mo>
+        <mi>𝐎</mi>
+        <mo>,</mo>
     </mrow>
-    <mspace width="1em"/>
-    <mtext>si</mtext>
-    <mspace width="1em"/>
-    <mi>𝐲</mi>
-    <mo>≠</mo>
-    <mi>𝐎</mi>
-    <mo>,</mo>
-  </mrow>
 </math>

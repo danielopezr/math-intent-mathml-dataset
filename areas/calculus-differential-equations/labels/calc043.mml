@@ -1,53 +1,57 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-    <mrow intent="times($a, $b, $c)">
-        <mrow arg="a">
-            <mo>(</mo>
-            <mn>1</mn>
-            <mo>+</mo>
-            <mi>&#x1D6FC;</mi>
-            <mo>)</mo>
-        </mrow>
-        <mrow arg="b">
-            <mo>(</mo>
-            <mn>2</mn>
-            <mo>+</mo>
-            <mi>&#x1D6FC;</mi>
-            <mo>)</mo>
-        </mrow>
-        <mo intent="ellipsis">&#x22EF;</mo>
-        <mrow arg="c">
-            <mo>(</mo>
-            <mi>n</mi>
-            <mo>+</mo>
-            <mi>&#x1D6FC;</mi>
-            <mo>)</mo>
-        </mrow>
-    </mrow>
-    <mo>=</mo>
-    <mfrac>
-        <mrow intent="gamma-function($var)">
-            <mi>&#x1D6E4;</mi>
-            <mrow arg="var">
+    <mrow>
+        <mrow intent="times($a, $b, $c)">
+            <mrow arg="a">
+                <mo>(</mo>
+                <mn>1</mn>
+                <mo>+</mo>
+                <mi>&#x1D6FC;</mi>
+                <mo>)</mo>
+            </mrow>
+            <mrow arg="b">
+                <mo>(</mo>
+                <mn>2</mn>
+                <mo>+</mo>
+                <mi>&#x1D6FC;</mi>
+                <mo>)</mo>
+            </mrow>
+            <mo intent="ellipsis">&#x22EF;</mo>
+            <mrow arg="c">
                 <mo>(</mo>
                 <mi>n</mi>
                 <mo>+</mo>
-                <mn>1</mn>
-                <mo>+</mo>
                 <mi>&#x1D6FC;</mi>
                 <mo>)</mo>
             </mrow>
         </mrow>
-        <mrow intent="gamma-function($var)">
-            <mi>&#x1D6E4;</mi>
-            <mrow arg="var">
-                <mo>(</mo>
-                <mn>1</mn>
-                <mo>+</mo>
-                <mi>&#x1D6FC;</mi>
-                <mo>)</mo>
+        <mo>=</mo>
+        <mfrac>
+            <mrow intent="gamma-function($var)">
+                <mi>&#x1D6E4;</mi>
+                <mrow>
+                    <mo>(</mo>
+                    <mrow arg="var">
+                        <mi>n</mi>
+                        <mo>+</mo>
+                        <mn>1</mn>
+                        <mo>+</mo>
+                        <mi>&#x1D6FC;</mi>
+                    </mrow>
+                    <mo>)</mo>
+                </mrow>
             </mrow>
-        </mrow>
-    </mfrac>
-</mrow>    
+            <mrow intent="gamma-function($var)">
+                <mi>&#x1D6E4;</mi>
+                <mrow>
+                    <mo>(</mo>
+                    <mrow arg="var">
+                        <mn>1</mn>
+                        <mo>+</mo>
+                        <mi>&#x1D6FC;</mi>
+                    </mrow>
+                    <mo>)</mo>
+                </mrow>
+            </mrow>
+        </mfrac>
+    </mrow>
 </math>

@@ -1,29 +1,29 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($var)">
-      <msup arg="name" intent="derivative($y,_t,1)">
-        <mi arg="y">𝐫</mi>
-        <mi>′</mi>
-      </msup>
-      <mo stretchy="false">(</mo>
-      <mi arg="var">t</mi>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mo>=</mo>
-    <mi>𝐢</mi>
-    <mo>+</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mrow arg="arg1">
-        <mo stretchy="false">(</mo>
-        <mrow intent="times($arg1,$arg2)">
-          <mn arg="arg1">2</mn>
-          <mi arg="arg2">t</mi>
+    <mrow>
+        <mrow intent="$name($var)">
+            <msup arg="name" intent="derivative($y,_t,1)">
+                <mi arg="y">𝐫</mi>
+                <mi>′</mi>
+            </msup>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">t</mi>
+            <mo stretchy="false">)</mo>
         </mrow>
-        <mo>−</mo>
-        <mn>1</mn>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <mi arg="arg2">𝐣</mi>
+        <mo>=</mo>
+        <mi>𝐢</mi>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow arg="arg1">
+                <mo stretchy="false">(</mo>
+                <mrow intent="times($arg1,$arg2)">
+                    <mn arg="arg1">2</mn>
+                    <mi arg="arg2">t</mi>
+                </mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mi arg="arg2">𝐣</mi>
+        </mrow>
     </mrow>
-  </mrow>
 </math>

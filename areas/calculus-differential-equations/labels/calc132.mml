@@ -1,15 +1,15 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($var)">
-      <msub arg="name">
-        <mi>𝐓</mi>
-        <mi>𝐚</mi>
-      </msub>
-      <mo stretchy="false">(</mo>
-      <mi arg="var">𝐎</mi>
-      <mo stretchy="false">)</mo>
+    <mrow>
+        <mrow intent="$name($var)">
+            <msub arg="name">
+                <mi>𝐓</mi>
+                <mi>𝐚</mi>
+            </msub>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">𝐎</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mi>𝐎</mi>
     </mrow>
-    <mo>=</mo>
-    <mi>𝐎</mi>
-  </mrow>
 </math>

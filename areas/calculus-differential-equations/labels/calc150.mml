@@ -1,24 +1,24 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mfrac intent="partial-derivative($f,1,$v1)">
-      <mrow>
-        <mo>∂</mo>
-        <mrow arg="f" intent="$name($v1, $v2)">
-          <mi arg="name">f</mi>
-          <mo stretchy="false">(</mo>
-          <mi arg="v1">x</mi>
-          <mo>,</mo>
-          <mi arg="v2">y</mi>
-          <mo stretchy="false">)</mo>
-        </mrow>
-      </mrow>
-      <mrow>
-        <mo>∂</mo>
-        <mi arg="v1">x</mi>
-      </mrow>
-    </mfrac>
-    <mo>=</mo>
-    <mn>0</mn>
-    <mo>,</mo>
-  </mrow>
+    <mrow>
+        <mfrac intent="partial-derivative($f,1,$v1)">
+            <mrow>
+                <mo>∂</mo>
+                <mrow arg="f" intent="$name($v1, $v2)">
+                    <mi arg="name">f</mi>
+                    <mo stretchy="false">(</mo>
+                    <mi arg="v1">x</mi>
+                    <mo>,</mo>
+                    <mi arg="v2">y</mi>
+                    <mo stretchy="false">)</mo>
+                </mrow>
+            </mrow>
+            <mrow>
+                <mo>∂</mo>
+                <mi arg="v1">x</mi>
+            </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mn>0</mn>
+        <mo>,</mo>
+    </mrow>
 </math>

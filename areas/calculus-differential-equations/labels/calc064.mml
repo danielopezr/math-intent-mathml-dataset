@@ -1,45 +1,45 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-    <mfrac>
-        <mn>1</mn>
-        <msup intent="power($base, $exp)">
-            <mrow arg="base">
-                <mo>[</mo>
-                <mrow intent="$name($var)">
-                    <msub arg="name">
-                        <mi>J</mi>
-                        <mi>p</mi>
-                    </msub>
-                    <mo>(</mo>
-                    <mi arg="var">t</mi>
-                    <mo>)</mo>
-                </mrow>
-                <mo>]</mo>
-            </mrow>
-            <mn arg="exp">2</mn>
-        </msup>
-    </mfrac>
-    <mo>=</mo>
-    <mrow intent="times($a, $b)">
-        <mfrac arg="a">
+    <mrow>
+        <mfrac>
             <mn>1</mn>
             <msup intent="power($base, $exp)">
-                <mi arg="base">t</mi>
-                <mrow arg="exp" intent="times($arg1,$arg2)">
-                    <mn arg="arg1">2</mn>
-                    <mi arg="arg2">p</mi>
+                <mrow arg="base">
+                    <mo>[</mo>
+                    <mrow intent="$name($var)">
+                        <msub arg="name">
+                            <mi>J</mi>
+                            <mi>p</mi>
+                        </msub>
+                        <mo>(</mo>
+                        <mi arg="var">t</mi>
+                        <mo>)</mo>
+                    </mrow>
+                    <mo>]</mo>
                 </mrow>
+                <mn arg="exp">2</mn>
             </msup>
         </mfrac>
-        <mrow arg="b" intent="$name($var)">
-            <msub arg="name">
-                <mi>g</mi>
-                <mi>p</mi>
-            </msub>
-            <mo>(</mo>
-            <mi arg="var">t</mi>
-            <mo>)</mo>
+        <mo>=</mo>
+        <mrow intent="times($a, $b)">
+            <mfrac arg="a">
+                <mn>1</mn>
+                <msup intent="power($base, $exp)">
+                    <mi arg="base">t</mi>
+                    <mrow arg="exp" intent="times($arg1,$arg2)">
+                        <mn arg="arg1">2</mn>
+                        <mi arg="arg2">p</mi>
+                    </mrow>
+                </msup>
+            </mfrac>
+            <mrow arg="b" intent="$name($var)">
+                <msub arg="name">
+                    <mi>g</mi>
+                    <mi>p</mi>
+                </msub>
+                <mo>(</mo>
+                <mi arg="var">t</mi>
+                <mo>)</mo>
+            </mrow>
         </mrow>
     </mrow>
-</mrow>
 </math>

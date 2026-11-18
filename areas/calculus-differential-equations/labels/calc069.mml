@@ -1,13 +1,14 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-    <msub>
-        <mi>A</mi>
-        <mrow intent="times($a, $b)">
-            <mn arg="a">2</mn>
-            <mi arg="b">p</mi>
-        </mrow>
-    </msub>
-    <mo>&#x2260;</mo>
-    <mn>0</mn>
-</mrow>
+    <mrow>
+        <msub>
+            <mi>A</mi>
+            <mrow intent="times($a, $b)">
+                <mn arg="a">2</mn>
+                <mi arg="b">p</mi>
+            </mrow>
+        </msub>
+        <mo>&#x2260;</mo>
+        <mn>0</mn>
+        <mo>.</mo>
+    </mrow>
 </math>

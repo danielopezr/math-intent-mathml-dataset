@@ -1,5 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
+    <mrow>
         <mrow intent="$name($var)">
             <mi arg="name">f</mi>
             <mo>(</mo>
@@ -15,10 +15,10 @@
                     <mi arg="a">&#x1D706;</mi>
                     <mi arg="b" intent="identity-matrix">I</mi>
                 </mrow>
-                <mo>-</mo>
+                <mo>−</mo>
                 <mi>A</mi>
             </mrow>
             <mo>)</mo>
         </mrow>
-</mrow>     
+    </mrow>
 </math>

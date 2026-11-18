@@ -1,57 +1,57 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($v1, $v2, $v3)">
-      <mi arg="name">𝐫</mi>
-      <mo stretchy="false">(</mo>
-      <mi arg="v1">u</mi>
-      <mo>,</mo>
-      <mi arg="v2">v</mi>
-      <mo>,</mo>
-      <mi arg="v3">w</mi>
-      <mo stretchy="false">)</mo>
+    <mrow>
+        <mrow intent="$name($v1, $v2, $v3)">
+            <mi arg="name">𝐫</mi>
+            <mo stretchy="false">(</mo>
+            <mi arg="v1">u</mi>
+            <mo>,</mo>
+            <mi arg="v2">v</mi>
+            <mo>,</mo>
+            <mi arg="v3">w</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow intent="$name($v1, $v2, $v3)" arg="arg1">
+                <mi arg="name">X</mi>
+                <mo stretchy="false">(</mo>
+                <mi arg="v1">u</mi>
+                <mo>,</mo>
+                <mi arg="v2">v</mi>
+                <mo>,</mo>
+                <mi arg="v3">w</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mi arg="arg2">𝐢</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow intent="$name($v1, $v2, $v3)" arg="arg1">
+                <mi arg="name">Y</mi>
+                <mo stretchy="false">(</mo>
+                <mi arg="v1">u</mi>
+                <mo>,</mo>
+                <mi arg="v2">v</mi>
+                <mo>,</mo>
+                <mi arg="v3">w</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mi arg="arg2">𝐣</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow intent="$name($v1, $v2, $v3)" arg="arg1">
+                <mi arg="name">Z</mi>
+                <mo stretchy="false">(</mo>
+                <mi arg="v1">u</mi>
+                <mo>,</mo>
+                <mi arg="v2">v</mi>
+                <mo>,</mo>
+                <mi arg="v3">w</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mi arg="arg2">𝐤</mi>
+        </mrow>
+        <mo>,</mo>
     </mrow>
-    <mo>=</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mrow intent="$name($v1, $v2, $v3)" arg="arg1">
-        <mi arg="name">X</mi>
-        <mo stretchy="false">(</mo>
-        <mi arg="v1">u</mi>
-        <mo>,</mo>
-        <mi arg="v2">v</mi>
-        <mo>,</mo>
-        <mi arg="v3">w</mi>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <mi arg="arg2">𝐢</mi>
-    </mrow>
-    <mo>+</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mrow intent="$name($v1, $v2, $v3)" arg="arg1">
-        <mi arg="name">Y</mi>
-        <mo stretchy="false">(</mo>
-        <mi arg="v1">u</mi>
-        <mo>,</mo>
-        <mi arg="v2">v</mi>
-        <mo>,</mo>
-        <mi arg="v3">w</mi>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <mi arg="arg2">𝐣</mi>
-    </mrow>
-    <mo>+</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mrow intent="$name($v1, $v2, $v3)" arg="arg1">
-        <mi arg="name">Z</mi>
-        <mo stretchy="false">(</mo>
-        <mi arg="v1">u</mi>
-        <mo>,</mo>
-        <mi arg="v2">v</mi>
-        <mo>,</mo>
-        <mi arg="v3">w</mi>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <mi arg="arg2">𝐤</mi>
-    </mrow>
-    <mo>,</mo>
-  </mrow>
 </math>

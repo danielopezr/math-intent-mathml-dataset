@@ -1,72 +1,72 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($v1, $v2)">
-      <mi arg="name">s</mi>
-      <mo stretchy="false">[</mo>
-      <mrow arg="v1" intent="$name($v1, $v2)">
-        <mi arg="name">X</mi>
-        <mo stretchy="false">(</mo>
-        <mi arg="v1">u</mi>
-        <mo>,</mo>
-        <mi arg="v2">v</mi>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <mo>,</mo>
-      <mrow arg="v2" intent="$name($v1, $v2)">
-        <mi arg="name">Y</mi>
-        <mo stretchy="false">(</mo>
-        <mi arg="v1">u</mi>
-        <mo>,</mo>
-        <mi arg="v2">v</mi>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <mo stretchy="false">]</mo>
+    <mrow>
+        <mrow intent="$name($v1, $v2)">
+            <mi arg="name">s</mi>
+            <mo stretchy="false">[</mo>
+            <mrow arg="v1" intent="$name($v1, $v2)">
+                <mi arg="name">X</mi>
+                <mo stretchy="false">(</mo>
+                <mi arg="v1">u</mi>
+                <mo>,</mo>
+                <mi arg="v2">v</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mo>,</mo>
+            <mrow arg="v2" intent="$name($v1, $v2)">
+                <mi arg="name">Y</mi>
+                <mo stretchy="false">(</mo>
+                <mi arg="v1">u</mi>
+                <mo>,</mo>
+                <mi arg="v2">v</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mo stretchy="false">]</mo>
+        </mrow>
+        <mo>≤</mo>
+        <mrow intent="$name($v1, $v2)">
+            <mi arg="name">f</mi>
+            <mo stretchy="false">[</mo>
+            <mrow arg="v1" intent="$name($v1, $v2)">
+                <mi arg="name">X</mi>
+                <mo stretchy="false">(</mo>
+                <mi arg="v1">u</mi>
+                <mo>,</mo>
+                <mi arg="v2">v</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mo>,</mo>
+            <mrow arg="v2" intent="$name($v1, $v2)">
+                <mi arg="name">Y</mi>
+                <mo stretchy="false">(</mo>
+                <mi arg="v1">u</mi>
+                <mo>,</mo>
+                <mi arg="v2">v</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mo stretchy="false">]</mo>
+        </mrow>
+        <mo>≤</mo>
+        <mrow intent="$name($v1, $v2)">
+            <mi arg="name">t</mi>
+            <mo stretchy="false">[</mo>
+            <mrow arg="v1" intent="$name($v1, $v2)">
+                <mi arg="name">X</mi>
+                <mo stretchy="false">(</mo>
+                <mi arg="v1">u</mi>
+                <mo>,</mo>
+                <mi arg="v2">v</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mo>,</mo>
+            <mrow arg="v2" intent="$name($v1, $v2)">
+                <mi arg="name">Y</mi>
+                <mo stretchy="false">(</mo>
+                <mi arg="v1">u</mi>
+                <mo>,</mo>
+                <mi arg="v2">v</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mo stretchy="false">]</mo>
+        </mrow>
     </mrow>
-    <mo>≤</mo>
-    <mrow intent="$name($v1, $v2)">
-      <mi arg="name">f</mi>
-      <mo stretchy="false">[</mo>
-      <mrow arg="v1" intent="$name($v1, $v2)">
-        <mi arg="name">X</mi>
-        <mo stretchy="false">(</mo>
-        <mi arg="v1">u</mi>
-        <mo>,</mo>
-        <mi arg="v2">v</mi>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <mo>,</mo>
-      <mrow arg="v2" intent="$name($v1, $v2)">
-        <mi arg="name">Y</mi>
-        <mo stretchy="false">(</mo>
-        <mi arg="v1">u</mi>
-        <mo>,</mo>
-        <mi arg="v2">v</mi>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <mo stretchy="false">]</mo>
-    </mrow>
-    <mo>≤</mo>
-    <mrow intent="$name($v1, $v2)">
-      <mi arg="name">t</mi>
-      <mo stretchy="false">[</mo>
-      <mrow arg="v1" intent="$name($v1, $v2)">
-        <mi arg="name">X</mi>
-        <mo stretchy="false">(</mo>
-        <mi arg="v1">u</mi>
-        <mo>,</mo>
-        <mi arg="v2">v</mi>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <mo>,</mo>
-      <mrow arg="v2" intent="$name($v1, $v2)">
-        <mi arg="name">Y</mi>
-        <mo stretchy="false">(</mo>
-        <mi arg="v1">u</mi>
-        <mo>,</mo>
-        <mi arg="v2">v</mi>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <mo stretchy="false">]</mo>
-    </mrow>
-  </mrow>
 </math>

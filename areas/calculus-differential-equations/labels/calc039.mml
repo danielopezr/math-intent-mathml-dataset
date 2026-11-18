@@ -1,24 +1,26 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-    <mrow intent="gamma-function($var)">
-        <mi>&#x1D6E4;</mi>
-        <mo>(</mo>>
-        <mi arg="var">s</mi>
-        <mo>)</mo>
-    </mrow>
-    <mo>=</mo>
-    <mfrac>
+    <mrow>
         <mrow intent="gamma-function($var)">
             <mi>&#x1D6E4;</mi>
-            <mrow arg="var">
-                <mo>(</mo>
-                <mi>s</mi>
-                <mo>+</mo>
-                <mn>1</mn>
-                <mo>)</mo>
-            </mrow>
+            <mo>(</mo>
+            <mi arg="var">s</mi>
+            <mo>)</mo>
         </mrow>
-        <mi>s</mi>
-    </mfrac>
-</mrow>    
+        <mo>=</mo>
+        <mfrac>
+            <mrow intent="gamma-function($var)">
+                <mi>&#x1D6E4;</mi>
+                <mrow>
+                    <mo>(</mo>
+                    <mrow arg="var">
+                        <mi>s</mi>
+                        <mo>+</mo>
+                        <mn>1</mn>
+                    </mrow>
+                    <mo>)</mo>
+                </mrow>
+            </mrow>
+            <mi>s</mi>
+        </mfrac>
+    </mrow>
 </math>

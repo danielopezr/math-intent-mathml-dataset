@@ -1,40 +1,37 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-        <mrow>
-           <mrow intent="$name($vec)">
-                <mi arg="name">T</mi>
-                <mo>(</mo>
-                <mrow arg="vec">
-                    <msub>
-                        <mi>e</mi>
-                        <mrow>
-                            <mi>k</mi>
-                            <mo>+</mo>
-                            <mn>1</mn>
-                        </mrow>
-                    </msub>
-                </mrow>
-                <mo>)</mo>
-           </mrow>
-
-           <mo>,</mo>
-           <mo intent="ellipsis">&#x2026;</mo>
-           <mo>,</mo>
-
-           <mrow intent="$name($vec)">
-                <mi arg="name">T</mi>
-                <mo>(</mo>
-                <mrow arg="vec">
-                    <msub>
-                        <mi>e</mi>
-                        <mrow>
-                            <mi>k</mi>
-                            <mo>+</mo>
-                            <mi>r</mi>
-                        </mrow>
-                    </msub>
-                </mrow>
-                <mo>)</mo>
-           </mrow>
-
+    <mrow>
+        <mrow intent="$name($vec)">
+            <mi arg="name">T</mi>
+            <mo>(</mo>
+            <mrow arg="vec">
+                <msub>
+                    <mi>e</mi>
+                    <mrow>
+                        <mi>k</mi>
+                        <mo>+</mo>
+                        <mn>1</mn>
+                    </mrow>
+                </msub>
+            </mrow>
+            <mo>)</mo>
         </mrow>
+        <mo>,</mo>
+        <mo intent="ellipsis">&#x2026;</mo>
+        <mo>,</mo>
+        <mrow intent="$name($vec)">
+            <mi arg="name">T</mi>
+            <mo>(</mo>
+            <mrow arg="vec">
+                <msub>
+                    <mi>e</mi>
+                    <mrow>
+                        <mi>k</mi>
+                        <mo>+</mo>
+                        <mi>r</mi>
+                    </mrow>
+                </msub>
+            </mrow>
+            <mo>)</mo>
+        </mrow>
+    </mrow>
 </math>

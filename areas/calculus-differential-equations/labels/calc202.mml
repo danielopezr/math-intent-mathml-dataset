@@ -1,190 +1,190 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="times($arg1,$arg2)">
-      <msup arg="arg1" intent="power($base,$exp)">
-        <mrow intent="norm($a)" arg="base">
-          <mo fence="false" stretchy="false">‖</mo>
-          <mi arg="a">𝐲</mi>
-          <mo fence="false" stretchy="false">‖</mo>
+    <mrow>
+        <mrow intent="times($arg1,$arg2)">
+            <msup arg="arg1" intent="power($base,$exp)">
+                <mrow intent="norm($a)" arg="base">
+                    <mo fence="false" stretchy="false">‖</mo>
+                    <mi arg="a">𝐲</mi>
+                    <mo fence="false" stretchy="false">‖</mo>
+                </mrow>
+                <mn arg="exp">2</mn>
+            </msup>
+            <mrow intent="absolute-value($a)" arg="arg2">
+                <mo stretchy="false">|</mo>
+                <mrow arg="a" intent="$name($v1, $v2)">
+                    <msub arg="name">
+                        <mi>E</mi>
+                        <mn>2</mn>
+                    </msub>
+                    <mo stretchy="false">(</mo>
+                    <mi arg="v1">𝐚</mi>
+                    <mo>,</mo>
+                    <mi arg="v2">𝐲</mi>
+                    <mo stretchy="false">)</mo>
+                </mrow>
+                <mo stretchy="false">|</mo>
+            </mrow>
         </mrow>
-        <mn arg="exp">2</mn>
-      </msup>
-      <mrow intent="absolute-value($a)" arg="arg2">
-        <mo stretchy="false">|</mo>
-        <mrow arg="a" intent="$name($v1, $v2)">
-          <msub arg="name">
-            <mi>E</mi>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac arg="arg1">
+                <mn>1</mn>
+                <mn>2</mn>
+            </mfrac>
+            <mrow intent="absolute-value($a)" arg="arg2">
+                <mo stretchy="true" fence="true" form="prefix">|</mo>
+                <mrow arg="a">
+                    <msubsup>
+                        <mo>∑</mo>
+                        <mrow>
+                            <mi>i</mi>
+                            <mo>=</mo>
+                            <mn>1</mn>
+                        </mrow>
+                        <mi>n</mi>
+                    </msubsup>
+                    <msubsup>
+                        <mo>∑</mo>
+                        <mrow>
+                            <mi>j</mi>
+                            <mo>=</mo>
+                            <mn>1</mn>
+                        </mrow>
+                        <mi>n</mi>
+                    </msubsup>
+                    <mrow intent="times($arg1,$arg2,$arg3)">
+                        <mrow arg="arg1">
+                            <mo stretchy="false">{</mo>
+                            <mrow intent="$name($var)">
+                                <mrow arg="name">
+                                    <msub>
+                                        <mi>D</mi>
+                                        <mrow>
+                                            <mi>i</mi>
+                                            <mi>j</mi>
+                                        </mrow>
+                                    </msub>
+                                    <mi>f</mi>
+                                </mrow>
+                                <mo stretchy="false">(</mo>
+                                <mrow arg="var">
+                                    <mi>𝐚</mi>
+                                    <mo>+</mo>
+                                    <mrow intent="times($arg1,$arg2)">
+                                        <mi arg="arg1">c</mi>
+                                        <mi arg="arg2">𝐲</mi>
+                                    </mrow>
+                                </mrow>
+                                <mo stretchy="false">)</mo>
+                            </mrow>
+                            <mo>−</mo>
+                            <mrow intent="$name($var)">
+                                <mrow arg="name">
+                                    <msub>
+                                        <mi>D</mi>
+                                        <mrow>
+                                            <mi>i</mi>
+                                            <mi>j</mi>
+                                        </mrow>
+                                    </msub>
+                                    <mi>f</mi>
+                                </mrow>
+                                <mo stretchy="false">(</mo>
+                                <mi arg="var">𝐚</mi>
+                                <mo stretchy="false">)</mo>
+                            </mrow>
+                            <mo stretchy="false">}</mo>
+                        </mrow>
+                        <msub arg="arg2">
+                            <mi>y</mi>
+                            <mi>i</mi>
+                        </msub>
+                        <msub arg="arg3">
+                            <mi>y</mi>
+                            <mi>j</mi>
+                        </msub>
+                    </mrow>
+                </mrow>
+                <mo stretchy="true" fence="true" form="postfix">|</mo>
+            </mrow>
+        </mrow>
+        <mo>≤</mo>
+        <mfrac>
+            <mn>1</mn>
             <mn>2</mn>
-          </msub>
-          <mo stretchy="false">(</mo>
-          <mi arg="v1">𝐚</mi>
-          <mo>,</mo>
-          <mi arg="v2">𝐲</mi>
-          <mo stretchy="false">)</mo>
-        </mrow>
-        <mo stretchy="false">|</mo>
-      </mrow>
-    </mrow>
-    <mo>=</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mfrac arg="arg1">
-        <mn>1</mn>
-        <mn>2</mn>
-      </mfrac>
-      <mrow intent="absolute-value($a)" arg="arg2">
-        <mo stretchy="true" fence="true" form="prefix">|</mo>
-        <mrow arg="a">
-          <msubsup>
+        </mfrac>
+        <msubsup>
             <mo>∑</mo>
             <mrow>
-              <mi>i</mi>
-              <mo>=</mo>
-              <mn>1</mn>
+                <mi>i</mi>
+                <mo>=</mo>
+                <mn>1</mn>
             </mrow>
             <mi>n</mi>
-          </msubsup>
-          <msubsup>
+        </msubsup>
+        <msubsup>
             <mo>∑</mo>
             <mrow>
-              <mi>j</mi>
-              <mo>=</mo>
-              <mn>1</mn>
+                <mi>j</mi>
+                <mo>=</mo>
+                <mn>1</mn>
             </mrow>
             <mi>n</mi>
-          </msubsup>
-          <mrow intent="times($arg1,$arg2,$arg3)">
-            <mrow arg="arg1">
-              <mo stretchy="false">{</mo>
-              <mrow intent="$name($var)">
-                <mrow arg="name">
-                  <msub>
-                    <mi>D</mi>
-                    <mrow>
-                      <mi>i</mi>
-                      <mi>j</mi>
+        </msubsup>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow intent="absolute-value($a)" arg="arg1">
+                <mo stretchy="false">|</mo>
+                <mrow arg="a">
+                    <mrow intent="$name($var)">
+                        <mrow arg="name">
+                            <msub>
+                                <mi>D</mi>
+                                <mrow>
+                                    <mi>i</mi>
+                                    <mi>j</mi>
+                                </mrow>
+                            </msub>
+                            <mi>f</mi>
+                        </mrow>
+                        <mo stretchy="false">(</mo>
+                        <mrow arg="var">
+                            <mi>𝐚</mi>
+                            <mo>+</mo>
+                            <mrow intent="times($arg1,$arg2)">
+                                <mi arg="arg1">c</mi>
+                                <mi arg="arg2">𝐲</mi>
+                            </mrow>
+                        </mrow>
+                        <mo stretchy="false">)</mo>
                     </mrow>
-                  </msub>
-                  <mi>f</mi>
-                </mrow>
-                <mo stretchy="false">(</mo>
-                <mrow arg="var">
-                  <mi>𝐚</mi>
-                  <mo>+</mo>
-                  <mrow intent="times($arg1,$arg2)">
-                    <mi arg="arg1">c</mi>
-                    <mi arg="arg2">𝐲</mi>
-                  </mrow>
-                </mrow>
-                <mo stretchy="false">)</mo>
-              </mrow>
-              <mo>−</mo>
-              <mrow intent="$name($var)">
-                <mrow arg="name">
-                  <msub>
-                    <mi>D</mi>
-                    <mrow>
-                      <mi>i</mi>
-                      <mi>j</mi>
+                    <mo>−</mo>
+                    <mrow intent="$name($var)">
+                        <mrow arg="name">
+                            <msub>
+                                <mi>D</mi>
+                                <mrow>
+                                    <mi>i</mi>
+                                    <mi>j</mi>
+                                </mrow>
+                            </msub>
+                            <mi>f</mi>
+                        </mrow>
+                        <mo stretchy="false">(</mo>
+                        <mi arg="var">𝐚</mi>
+                        <mo stretchy="false">)</mo>
                     </mrow>
-                  </msub>
-                  <mi>f</mi>
                 </mrow>
-                <mo stretchy="false">(</mo>
-                <mi arg="var">𝐚</mi>
-                <mo stretchy="false">)</mo>
-              </mrow>
-              <mo stretchy="false">}</mo>
+                <mo stretchy="false">|</mo>
             </mrow>
-            <msub arg="arg2">
-              <mi>y</mi>
-              <mi>i</mi>
-            </msub>
-            <msub arg="arg3">
-              <mi>y</mi>
-              <mi>j</mi>
-            </msub>
-          </mrow>
+            <msup arg="arg2" intent="power($base,$exp)">
+                <mrow intent="norm($a)" arg="base">
+                    <mo fence="false" stretchy="false">‖</mo>
+                    <mi arg="a">𝐲</mi>
+                    <mo fence="false" stretchy="false">‖</mo>
+                </mrow>
+                <mn arg="exp">2</mn>
+            </msup>
         </mrow>
-        <mo stretchy="true" fence="true" form="postfix">|</mo>
-      </mrow>
+        <mo>.</mo>
     </mrow>
-    <mo>≤</mo>
-    <mfrac>
-      <mn>1</mn>
-      <mn>2</mn>
-    </mfrac>
-    <msubsup>
-      <mo>∑</mo>
-      <mrow>
-        <mi>i</mi>
-        <mo>=</mo>
-        <mn>1</mn>
-      </mrow>
-      <mi>n</mi>
-    </msubsup>
-    <msubsup>
-      <mo>∑</mo>
-      <mrow>
-        <mi>j</mi>
-        <mo>=</mo>
-        <mn>1</mn>
-      </mrow>
-      <mi>n</mi>
-    </msubsup>
-    <mrow intent="times($arg1,$arg2)">
-      <mrow intent="absolute-value($a)" arg="arg1">
-        <mo stretchy="false">|</mo>
-        <mrow arg="a">
-          <mrow intent="$name($var)">
-            <mrow arg="name">
-              <msub>
-                <mi>D</mi>
-                <mrow>
-                  <mi>i</mi>
-                  <mi>j</mi>
-                </mrow>
-              </msub>
-              <mi>f</mi>
-            </mrow>
-            <mo stretchy="false">(</mo>
-            <mrow arg="var">
-              <mi>𝐚</mi>
-              <mo>+</mo>
-              <mrow intent="times($arg1,$arg2)">
-                <mi arg="arg1">c</mi>
-                <mi arg="arg2">𝐲</mi>
-              </mrow>
-            </mrow>
-            <mo stretchy="false">)</mo>
-          </mrow>
-          <mo>−</mo>
-          <mrow intent="$name($var)">
-            <mrow arg="name">
-              <msub>
-                <mi>D</mi>
-                <mrow>
-                  <mi>i</mi>
-                  <mi>j</mi>
-                </mrow>
-              </msub>
-              <mi>f</mi>
-            </mrow>
-            <mo stretchy="false">(</mo>
-            <mi arg="var">𝐚</mi>
-            <mo stretchy="false">)</mo>
-          </mrow>
-        </mrow>
-        <mo stretchy="false">|</mo>
-      </mrow>
-      <msup arg="arg2" intent="power($base,$exp)">
-        <mrow intent="norm($a)" arg="base">
-          <mo fence="false" stretchy="false">‖</mo>
-          <mi arg="a">𝐲</mi>
-          <mo fence="false" stretchy="false">‖</mo>
-        </mrow>
-        <mn arg="exp">2</mn>
-      </msup>
-    </mrow>
-    <mo>.</mo>
-  </mrow>
 </math>

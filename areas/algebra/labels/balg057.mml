@@ -1,41 +1,41 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-    <mo>=</mo>
-    <mfrac>
-      <mrow>
-        <mn>4</mn>
-        <mo>&#xD7;</mo>
-        <msup intent="power($base, $exp)">
-          <mrow>
-            <mo>(</mo>
-            <mfrac arg="base">
-              <mn>1</mn>
-              <mn>2</mn>
-            </mfrac>
-            <mo>)</mo>
-          </mrow>
-          <mn arg="exp">2</mn>
-        </msup>
-        <mo>&#xD7;</mo>
-        <msup intent="power($base, $exp)">
-          <mrow>
-            <mo>(</mo>
-            <mfrac arg="base">
-              <mn>1</mn>
-              <mn>3</mn>
-            </mfrac>
-            <mo>)</mo>
-          </mrow>
-          <mn arg="exp">3</mn>
-        </msup>
-      </mrow>
-      <mrow>
-        <mn>5</mn>
-        <mo>&#xD7;</mo>
-        <mn>2</mn>
-        <mo>&#xD7;</mo>
-        <mn>3</mn>
-      </mrow>
-    </mfrac>
-</mrow>
+    <mrow>
+        <mo>=</mo>
+        <mfrac>
+            <mrow>
+                <mn>4</mn>
+                <mo>&#xD7;</mo>
+                <msup intent="power($base, $exp)">
+                    <mrow arg="base">
+                        <mo>(</mo>
+                        <mfrac>
+                            <mn>1</mn>
+                            <mn>2</mn>
+                        </mfrac>
+                        <mo>)</mo>
+                    </mrow>
+                    <mn arg="exp">2</mn>
+                </msup>
+                <mo>&#xD7;</mo>
+                <msup intent="power($base, $exp)">
+                    <mrow arg="base">
+                        <mo>(</mo>
+                        <mfrac>
+                            <mn>1</mn>
+                            <mn>3</mn>
+                        </mfrac>
+                        <mo>)</mo>
+                    </mrow>
+                    <mn arg="exp">3</mn>
+                </msup>
+            </mrow>
+            <mrow>
+                <mn>5</mn>
+                <mo>&#xD7;</mo>
+                <mn>2</mn>
+                <mo>&#xD7;</mo>
+                <mn>3</mn>
+            </mrow>
+        </mfrac>
+    </mrow>
 </math>

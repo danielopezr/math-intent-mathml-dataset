@@ -1,18 +1,18 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-<msup intent="power($base, $exp)">
-    <mrow arg="base" intent="norm($vec)">
-        <mo>&#x2016;</mo>
-        <mrow arg="vec">
-            <mi>s</mi>
-            <mo>-</mo>
-            <mi>t</mi>
-        </mrow>
-        <mo>&#x2016;</mo>
+    <mrow>
+        <msup intent="power($base, $exp)">
+            <mrow arg="base" intent="norm($vec)">
+                <mo>&#x2016;</mo>
+                <mrow arg="vec">
+                    <mi>s</mi>
+                    <mo>−</mo>
+                    <mi>t</mi>
+                </mrow>
+                <mo>&#x2016;</mo>
+            </mrow>
+            <mn arg="exp">2</mn>
+        </msup>
+        <mo>&#x2265;</mo>
+        <mn>0</mn>
     </mrow>
-    <mn arg="exp">2</mn>
-</msup>
-<mo>&#x2265;</mo>
-<mn>0</mn>
-</mrow>
 </math>

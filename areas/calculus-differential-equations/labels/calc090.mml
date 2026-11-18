@@ -1,35 +1,35 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($var)">
-      <mi arg="name">Y</mi>
-      <mo stretchy="false">(</mo>
-      <mi arg="var">t</mi>
-      <mo stretchy="false">)</mo>
+    <mrow>
+        <mrow intent="$name($var)">
+            <mi arg="name">Y</mi>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">t</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <mrow intent="$name($var)">
+            <msub arg="name">
+                <mi>y</mi>
+                <mn>1</mn>
+            </msub>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">t</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>,</mo>
+        <mo intent="ellipsis">…</mo>
+        <mo>,</mo>
+        <mrow intent="$name($var)">
+            <msub arg="name">
+                <mi>y</mi>
+                <mi>n</mi>
+            </msub>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">t</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo stretchy="false">)</mo>
+        <mo>,</mo>
     </mrow>
-    <mo>=</mo>
-    <mo stretchy="false">(</mo>
-    <mrow intent="$name($var)">
-      <msub arg="name">
-        <mi>y</mi>
-        <mn>1</mn>
-      </msub>
-      <mo stretchy="false">(</mo>
-      <mi arg="var">t</mi>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mo>,</mo>
-    <mo intent="ellipsis">…</mo>
-    <mo>,</mo>
-    <mrow intent="$name($var)">
-      <msub arg="name">
-        <mi>y</mi>
-        <mi>n</mi>
-      </msub>
-      <mo stretchy="false">(</mo>
-      <mi arg="var">t</mi>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mo stretchy="false">)</mo>
-    <mo>,</mo>
-  </mrow>
 </math>

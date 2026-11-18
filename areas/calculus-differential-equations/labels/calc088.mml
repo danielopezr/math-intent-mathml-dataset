@@ -1,19 +1,19 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mi>Y</mi>
-    <mo>=</mo>
-    <mo stretchy="false">(</mo>
-    <msub>
-      <mi>y</mi>
-      <mn>1</mn>
-    </msub>
-    <mo>,</mo>
-    <mo intent="ellipsis">…</mo>
-    <mo>,</mo>
-    <msub>
-      <mi>y</mi>
-      <mi>n</mi>
-    </msub>
-    <mo stretchy="false">)</mo>
-  </mrow>
+    <mrow>
+        <mi>Y</mi>
+        <mo>=</mo>
+        <mo stretchy="false">(</mo>
+        <msub>
+            <mi>y</mi>
+            <mn>1</mn>
+        </msub>
+        <mo>,</mo>
+        <mo intent="ellipsis">…</mo>
+        <mo>,</mo>
+        <msub>
+            <mi>y</mi>
+            <mi>n</mi>
+        </msub>
+        <mo stretchy="false">)</mo>
+    </mrow>
 </math>

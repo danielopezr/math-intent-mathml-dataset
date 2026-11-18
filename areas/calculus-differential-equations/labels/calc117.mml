@@ -1,67 +1,67 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($v1, $v2)">
-      <mrow intent="gradient($f)" arg="name">
-        <mo>∇</mo>
-        <mi arg="f">f</mi>
-      </mrow>
-      <mo stretchy="false">(</mo>
-      <mi arg="v1">x</mi>
-      <mo>,</mo>
-      <mi arg="v2">y</mi>
-      <mo stretchy="false">)</mo>
-    </mrow>
-    <mo>=</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="f">f</mi>
+    <mrow>
+        <mrow intent="$name($v1, $v2)">
+            <mrow intent="gradient($f)" arg="name">
+                <mo>∇</mo>
+                <mi arg="f">f</mi>
+            </mrow>
+            <mo stretchy="false">(</mo>
+            <mi arg="v1">x</mi>
+            <mo>,</mo>
+            <mi arg="v2">y</mi>
+            <mo stretchy="false">)</mo>
         </mrow>
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="v1">x</mi>
-        </mrow>
-      </mfrac>
-      <mi arg="arg2">𝐢</mi>
-    </mrow>
-    <mo>+</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="f">f</mi>
-        </mrow>
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="v1">y</mi>
-        </mrow>
-      </mfrac>
-      <mi arg="arg2">𝐣</mi>
-    </mrow>
-    <mo>=</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mrow arg="arg1">
-        <mo stretchy="false">(</mo>
+        <mo>=</mo>
         <mrow intent="times($arg1,$arg2)">
-          <mn arg="arg1">2</mn>
-          <mi arg="arg2">x</mi>
+            <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="f">f</mi>
+                </mrow>
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="v1">x</mi>
+                </mrow>
+            </mfrac>
+            <mi arg="arg2">𝐢</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="f">f</mi>
+                </mrow>
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="v1">y</mi>
+                </mrow>
+            </mfrac>
+            <mi arg="arg2">𝐣</mi>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow arg="arg1">
+                <mo stretchy="false">(</mo>
+                <mrow intent="times($arg1,$arg2)">
+                    <mn arg="arg1">2</mn>
+                    <mi arg="arg2">x</mi>
+                </mrow>
+                <mo>−</mo>
+                <mrow intent="times($arg1,$arg2)">
+                    <mn arg="arg1">3</mn>
+                    <mi arg="arg2">y</mi>
+                </mrow>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mi arg="arg2">𝐢</mi>
         </mrow>
         <mo>−</mo>
-        <mrow intent="times($arg1,$arg2)">
-          <mn arg="arg1">3</mn>
-          <mi arg="arg2">y</mi>
+        <mrow intent="times($arg1,$arg2,$arg3)">
+            <mn arg="arg1">3</mn>
+            <mi arg="arg2">x</mi>
+            <mi arg="arg3">𝐣</mi>
         </mrow>
-        <mo stretchy="false">)</mo>
-      </mrow>
-      <mi arg="arg2">𝐢</mi>
+        <mo>.</mo>
     </mrow>
-    <mo>−</mo>
-    <mrow intent="times($arg1,$arg2,$arg3)">
-      <mn arg="arg1">3</mn>
-      <mi arg="arg2">x</mi>
-      <mi arg="arg3">𝐣</mi>
-    </mrow>
-    <mo>.</mo>
-  </mrow>
 </math>

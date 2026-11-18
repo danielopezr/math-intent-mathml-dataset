@@ -1,5 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
+    <mrow>
         <mrow>
             <mrow intent="$name($var)">
                 <msub arg="name">
@@ -10,23 +10,19 @@
                 <mi arg="var">x</mi>
                 <mo>)</mo>
             </mrow>
-
             <mo>=</mo>
-
             <mfrac>
                 <mn>1</mn>
                 <msqrt>
-                        <mrow intent="times($a, $b)">
-                            <mn arg="a">2</mn>
-                            <mi arg="b">&#x1D70B;</mi>
-                        </mrow>
-                    </msqrt>
+                    <mrow intent="times($a, $b)">
+                        <mn arg="a">2</mn>
+                        <mi arg="b">&#x1D70B;</mi>
+                    </mrow>
+                </msqrt>
             </mfrac>
         </mrow>
-
         <mo>,</mo>
         <mspace width="1em"/>
-
         <mrow>
             <mrow intent="$name($var)">
                 <msub arg="name">
@@ -36,7 +32,7 @@
                             <mn arg="a">2</mn>
                             <mi arg="b">k</mi>
                         </mrow>
-                        <mo>-</mo>
+                        <mo>−</mo>
                         <mn>1</mn>
                     </mrow>
                 </msub>
@@ -44,9 +40,7 @@
                 <mi arg="var">x</mi>
                 <mo>)</mo>
             </mrow>
-
             <mo>=</mo>
-
             <mfrac>
                 <mrow intent="cosine($var)">
                     <mi>cos</mi>
@@ -56,14 +50,12 @@
                     </mrow>
                 </mrow>
                 <msqrt>
-                        <mi>&#x1D70B;</mi>
-                    </msqrt>
+                    <mi>&#x1D70B;</mi>
+                </msqrt>
             </mfrac>
         </mrow>
-
         <mo>,</mo>
         <mspace width="1em"/>
-
         <mrow>
             <mrow intent="$name($var)">
                 <msub arg="name">
@@ -77,9 +69,7 @@
                 <mi arg="var">x</mi>
                 <mo>)</mo>
             </mrow>
-
             <mo>=</mo>
-
             <mfrac>
                 <mrow intent="sine($var)">
                     <mi>sen</mi>
@@ -89,20 +79,18 @@
                     </mrow>
                 </mrow>
                 <msqrt>
-                        <mi>&#x1D70B;</mi>
-                    </msqrt>
+                    <mi>&#x1D70B;</mi>
+                </msqrt>
             </mfrac>
         </mrow>
-
         <mo>,</mo>
         <mspace width="1em"/>
-        
         <mrow>
-        	<mtext>para</mtext>
-		<mspace width="0.5em"/>
-		<mi>k</mi>
-		<mo>&#x2265;</mo>
-		<mn>1</mn>
+            <mtext>para</mtext>
+            <mspace width="0.5em"/>
+            <mi>k</mi>
+            <mo>&#x2265;</mo>
+            <mn>1</mn>
         </mrow>
-</mrow>
+    </mrow>
 </math>

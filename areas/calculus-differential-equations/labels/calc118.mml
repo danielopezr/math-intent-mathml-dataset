@@ -1,27 +1,27 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($v1, $v2)">
-      <mrow intent="gradient($f)" arg="name">
-        <mo>∇</mo>
-        <mi arg="f">f</mi>
-      </mrow>
-      <mo stretchy="false">(</mo>
-      <mn arg="v1">1</mn>
-      <mo>,</mo>
-      <mn arg="v2">2</mn>
-      <mo stretchy="false">)</mo>
+    <mrow>
+        <mrow intent="$name($v1, $v2)">
+            <mrow intent="gradient($f)" arg="name">
+                <mo>∇</mo>
+                <mi arg="f">f</mi>
+            </mrow>
+            <mo stretchy="false">(</mo>
+            <mn arg="v1">1</mn>
+            <mo>,</mo>
+            <mn arg="v2">2</mn>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">4</mn>
+            <mi arg="arg2">𝐢</mi>
+        </mrow>
+        <mo>−</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">3</mn>
+            <mi arg="arg2">𝐣</mi>
+        </mrow>
+        <mo>.</mo>
     </mrow>
-    <mo>=</mo>
-    <mo>−</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mn arg="arg1">4</mn>
-      <mi arg="arg2">𝐢</mi>
-    </mrow>
-    <mo>−</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mn arg="arg1">3</mn>
-      <mi arg="arg2">𝐣</mi>
-    </mrow>
-    <mo>.</mo>
-  </mrow>
 </math>

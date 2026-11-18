@@ -1,5 +1,5 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
+    <mrow>
         <mrow>
             <munderover>
                 <mo>&#x2211;</mo>
@@ -34,5 +34,5 @@
         </mrow>
         <mo>=</mo>
         <mn>0</mn>
-</mrow>
+    </mrow>
 </math>

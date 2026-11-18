@@ -1,17 +1,23 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
+    <mrow>
         <mrow>
             <msub>
                 <mi>f</mi>
                 <mi>n</mi>
             </msub>
-
             <mo>=</mo>
             <mrow>
                 <munderover>
                     <mo>&#x2211;</mo>
-                    <mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow>
-                    <mrow intent="times($a, $b)"><mn arg="a">2</mn><mi arg="b">n</mi></mrow>
+                    <mrow>
+                        <mi>k</mi>
+                        <mo>=</mo>
+                        <mn>0</mn>
+                    </mrow>
+                    <mrow intent="times($a, $b)">
+                        <mn arg="a">2</mn>
+                        <mi arg="b">n</mi>
+                    </mrow>
                 </munderover>
                 <mrow intent="times($a, $b)">
                     <mrow arg="a" intent="inner-product($vec1, $vec2)">
@@ -31,10 +37,8 @@
                 </mrow>
             </mrow>
         </mrow>
-
         <mo>,</mo>
         <mspace width="1em"/>
-
         <mrow>
             <mtext>donde</mtext>
             <mspace width="1em"/>
@@ -48,9 +52,7 @@
                 </msub>
                 <mo>)</mo>
             </mrow>
-
             <mo>=</mo>
-
             <mrow>
                 <msubsup>
                     <mo>&#x222B;</mo>
@@ -83,5 +85,5 @@
                 </mrow>
             </mrow>
         </mrow>
-</mrow>     
+    </mrow>
 </math>

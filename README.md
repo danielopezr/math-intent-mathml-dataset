@@ -82,12 +82,15 @@ equivalent for evaluation.
 
 ## Status
 
+- **Reviewed and approved:** the calculus labels `calc001`–`calc170` were
+  checked one by one against their images (2026-11-18). `calc171`–`calc220`
+  and the labels of the other areas have not been reviewed yet.
 - Mathematical logic and probability have no labels yet; discrete mathematics
-  has 10 of 60 and linear algebra 80 of 101.
+  has 10 of 60, algebra 77 of 310 and linear algebra 80 of 240.
 - 39 labelled samples have no topic.
-- Open conventions (not decided in the guide yet): annotating definite
-  integrals, products written with a visible `×` or `·`, and operators applied
-  to an expression such as `T(e_k)` or `D(1 + x)`.
+- `calc026`, `calc031`, `calc044` and `calc058` are parts of other calculus
+  expressions (`calc030`, `calc028`, `calc043` and `calc057`); their images
+  are slightly rotated and rescaled so they are not identical crops.
 
 ## History
 

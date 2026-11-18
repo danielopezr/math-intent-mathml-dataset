@@ -1,51 +1,51 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="gradient($f)">
-      <mo>∇</mo>
-      <mi arg="f">φ</mi>
+    <mrow>
+        <mrow intent="gradient($f)">
+            <mo>∇</mo>
+            <mi arg="f">φ</mi>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="f">φ</mi>
+                </mrow>
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="v1">x</mi>
+                </mrow>
+            </mfrac>
+            <mi arg="arg2">𝐢</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="f">φ</mi>
+                </mrow>
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="v1">y</mi>
+                </mrow>
+            </mfrac>
+            <mi arg="arg2">𝐣</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="f">φ</mi>
+                </mrow>
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="v1">z</mi>
+                </mrow>
+            </mfrac>
+            <mi arg="arg2">𝐤</mi>
+        </mrow>
+        <mo>.</mo>
     </mrow>
-    <mo>=</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="f">φ</mi>
-        </mrow>
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="v1">x</mi>
-        </mrow>
-      </mfrac>
-      <mi arg="arg2">𝐢</mi>
-    </mrow>
-    <mo>+</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="f">φ</mi>
-        </mrow>
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="v1">y</mi>
-        </mrow>
-      </mfrac>
-      <mi arg="arg2">𝐣</mi>
-    </mrow>
-    <mo>+</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg1">
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="f">φ</mi>
-        </mrow>
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="v1">z</mi>
-        </mrow>
-      </mfrac>
-      <mi arg="arg2">𝐤</mi>
-    </mrow>
-    <mo>.</mo>
-  </mrow>
 </math>

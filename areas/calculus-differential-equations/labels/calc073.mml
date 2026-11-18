@@ -1,24 +1,24 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow intent="times($arg1,$arg2)">
-    <mrow arg="arg1">
-      <mo stretchy="false">(</mo>
-      <msub>
-        <mi>c</mi>
-        <mn>4</mn>
-      </msub>
-      <mo>+</mo>
-      <mrow intent="times($arg1,$arg2)">
-        <msub arg="arg1">
-          <mi>c</mi>
-          <mn>5</mn>
-        </msub>
-        <mi arg="arg2">x</mi>
-      </mrow>
-      <mo stretchy="false">)</mo>
+    <mrow intent="times($arg1,$arg2)">
+        <mrow arg="arg1">
+            <mo stretchy="false">(</mo>
+            <msub>
+                <mi>c</mi>
+                <mn>4</mn>
+            </msub>
+            <mo>+</mo>
+            <mrow intent="times($arg1,$arg2)">
+                <msub arg="arg1">
+                    <mi>c</mi>
+                    <mn>5</mn>
+                </msub>
+                <mi arg="arg2">x</mi>
+            </mrow>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mrow intent="sine($arg)" arg="arg2">
+            <mi>sen</mi>
+            <mi arg="arg">x</mi>
+        </mrow>
     </mrow>
-    <mrow intent="sine($arg)" arg="arg2">
-      <mi>sen</mi>
-      <mi arg="arg">x</mi>
-    </mrow>
-  </mrow>
 </math>

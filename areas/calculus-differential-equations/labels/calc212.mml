@@ -1,48 +1,48 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <msub>
-      <mo>∫</mo>
-      <mi>Γ</mi>
-    </msub>
-    <mrow intent="times($arg1,$arg2)">
-      <mi arg="arg1">p</mi>
-      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg2">
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="f">X</mi>
+    <mrow>
+        <msub>
+            <mo>∫</mo>
+            <mi>Γ</mi>
+        </msub>
+        <mrow intent="times($arg1,$arg2)">
+            <mi arg="arg1">p</mi>
+            <mfrac intent="partial-derivative($f,1,$v1)" arg="arg2">
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="f">X</mi>
+                </mrow>
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="v1">u</mi>
+                </mrow>
+            </mfrac>
         </mrow>
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="v1">u</mi>
+        <mi>d</mi>
+        <mi>u</mi>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mi arg="arg1">p</mi>
+            <mfrac intent="partial-derivative($f,1,$v1)" arg="arg2">
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="f">X</mi>
+                </mrow>
+                <mrow>
+                    <mo>∂</mo>
+                    <mi arg="v1">v</mi>
+                </mrow>
+            </mfrac>
         </mrow>
-      </mfrac>
+        <mi>d</mi>
+        <mi>v</mi>
+        <mo>=</mo>
+        <msub>
+            <mo>∫</mo>
+            <mi>C</mi>
+        </msub>
+        <mi>P</mi>
+        <mi>d</mi>
+        <mi>x</mi>
+        <mo>,</mo>
     </mrow>
-    <mi>d</mi>
-    <mi>u</mi>
-    <mo>+</mo>
-    <mrow intent="times($arg1,$arg2)">
-      <mi arg="arg1">p</mi>
-      <mfrac intent="partial-derivative($f,1,$v1)" arg="arg2">
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="f">X</mi>
-        </mrow>
-        <mrow>
-          <mo>∂</mo>
-          <mi arg="v1">v</mi>
-        </mrow>
-      </mfrac>
-    </mrow>
-    <mi>d</mi>
-    <mi>v</mi>
-    <mo>=</mo>
-    <msub>
-      <mo>∫</mo>
-      <mi>C</mi>
-    </msub>
-    <mi>P</mi>
-    <mi>d</mi>
-    <mi>x</mi>
-    <mo>,</mo>
-  </mrow>
 </math>

@@ -1,6 +1,6 @@
 id,image,label,area,topic,complexity
 calc001,images/calc001.jpeg,labels/calc001.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
-calc002,images/calc002.jpeg,labels/calc002.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
+calc002,images/calc002.jpeg,labels/calc002.mml,Calculus and differential equations,partial derivatives; vector fields; exercises,very simple
 calc003,images/calc003.jpeg,labels/calc003.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple
 calc004,images/calc004.jpeg,labels/calc004.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,very simple
 calc005,images/calc005.jpeg,labels/calc005.mml,Calculus and differential equations,higher-order differential equations with constant coefficients,simple

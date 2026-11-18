@@ -1,141 +1,141 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-  <mrow>
-    <mrow intent="$name($var)">
-      <mrow arg="name">
-        <mi>D</mi>
-        <mi>𝐗</mi>
-      </mrow>
-      <mo stretchy="false">(</mo>
-      <mi arg="var">𝐮</mi>
-      <mo stretchy="false">)</mo>
+    <mrow>
+        <mrow intent="$name($var)">
+            <mrow arg="name">
+                <mi>D</mi>
+                <mi>𝐗</mi>
+            </mrow>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">𝐮</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mo>[</mo>
+        <mtable intent=":matrix">
+            <mtr>
+                <mtd>
+                    <mrow intent="$name($var)">
+                        <mrow arg="name">
+                            <msub>
+                                <mi>D</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <msub>
+                                <mi>X</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </mrow>
+                        <mo stretchy="false">(</mo>
+                        <mi arg="var">𝐮</mi>
+                        <mo stretchy="false">)</mo>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mrow intent="$name($var)">
+                        <mrow arg="name">
+                            <msub>
+                                <mi>D</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <msub>
+                                <mi>X</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </mrow>
+                        <mo stretchy="false">(</mo>
+                        <mi arg="var">𝐮</mi>
+                        <mo stretchy="false">)</mo>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mo intent="ellipsis">⋯</mo>
+                </mtd>
+                <mtd>
+                    <mrow intent="$name($var)">
+                        <mrow arg="name">
+                            <msub>
+                                <mi>D</mi>
+                                <mi>n</mi>
+                            </msub>
+                            <msub>
+                                <mi>X</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </mrow>
+                        <mo stretchy="false">(</mo>
+                        <mi arg="var">𝐮</mi>
+                        <mo stretchy="false">)</mo>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mo>⋮</mo>
+                </mtd>
+                <mtd/>
+                <mtd/>
+                <mtd>
+                    <mo>⋮</mo>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mrow intent="$name($var)">
+                        <mrow arg="name">
+                            <msub>
+                                <mi>D</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <msub>
+                                <mi>X</mi>
+                                <mi>n</mi>
+                            </msub>
+                        </mrow>
+                        <mo stretchy="false">(</mo>
+                        <mi arg="var">𝐮</mi>
+                        <mo stretchy="false">)</mo>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mrow intent="$name($var)">
+                        <mrow arg="name">
+                            <msub>
+                                <mi>D</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <msub>
+                                <mi>X</mi>
+                                <mi>n</mi>
+                            </msub>
+                        </mrow>
+                        <mo stretchy="false">(</mo>
+                        <mi arg="var">𝐮</mi>
+                        <mo stretchy="false">)</mo>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mo intent="ellipsis">⋯</mo>
+                </mtd>
+                <mtd>
+                    <mrow intent="$name($var)">
+                        <mrow arg="name">
+                            <msub>
+                                <mi>D</mi>
+                                <mi>n</mi>
+                            </msub>
+                            <msub>
+                                <mi>X</mi>
+                                <mi>n</mi>
+                            </msub>
+                        </mrow>
+                        <mo stretchy="false">(</mo>
+                        <mi arg="var">𝐮</mi>
+                        <mo stretchy="false">)</mo>
+                    </mrow>
+                </mtd>
+            </mtr>
+        </mtable>
+        <mo>]</mo>
+        <mo>.</mo>
     </mrow>
-    <mo>=</mo>
-    <mo>[</mo>
-    <mtable intent=":matrix">
-      <mtr>
-        <mtd>
-          <mrow intent="$name($var)">
-            <mrow arg="name">
-              <msub>
-                <mi>D</mi>
-                <mn>1</mn>
-              </msub>
-              <msub>
-                <mi>X</mi>
-                <mn>1</mn>
-              </msub>
-            </mrow>
-            <mo stretchy="false">(</mo>
-            <mi arg="var">𝐮</mi>
-            <mo stretchy="false">)</mo>
-          </mrow>
-        </mtd>
-        <mtd>
-          <mrow intent="$name($var)">
-            <mrow arg="name">
-              <msub>
-                <mi>D</mi>
-                <mn>2</mn>
-              </msub>
-              <msub>
-                <mi>X</mi>
-                <mn>1</mn>
-              </msub>
-            </mrow>
-            <mo stretchy="false">(</mo>
-            <mi arg="var">𝐮</mi>
-            <mo stretchy="false">)</mo>
-          </mrow>
-        </mtd>
-        <mtd>
-          <mo intent="ellipsis">⋯</mo>
-        </mtd>
-        <mtd>
-          <mrow intent="$name($var)">
-            <mrow arg="name">
-              <msub>
-                <mi>D</mi>
-                <mi>n</mi>
-              </msub>
-              <msub>
-                <mi>X</mi>
-                <mn>1</mn>
-              </msub>
-            </mrow>
-            <mo stretchy="false">(</mo>
-            <mi arg="var">𝐮</mi>
-            <mo stretchy="false">)</mo>
-          </mrow>
-        </mtd>
-      </mtr>
-      <mtr>
-        <mtd>
-          <mo>⋮</mo>
-        </mtd>
-        <mtd/>
-        <mtd/>
-        <mtd>
-          <mo>⋮</mo>
-        </mtd>
-      </mtr>
-      <mtr>
-        <mtd>
-          <mrow intent="$name($var)">
-            <mrow arg="name">
-              <msub>
-                <mi>D</mi>
-                <mn>1</mn>
-              </msub>
-              <msub>
-                <mi>X</mi>
-                <mi>n</mi>
-              </msub>
-            </mrow>
-            <mo stretchy="false">(</mo>
-            <mi arg="var">𝐮</mi>
-            <mo stretchy="false">)</mo>
-          </mrow>
-        </mtd>
-        <mtd>
-          <mrow intent="$name($var)">
-            <mrow arg="name">
-              <msub>
-                <mi>D</mi>
-                <mn>2</mn>
-              </msub>
-              <msub>
-                <mi>X</mi>
-                <mi>n</mi>
-              </msub>
-            </mrow>
-            <mo stretchy="false">(</mo>
-            <mi arg="var">𝐮</mi>
-            <mo stretchy="false">)</mo>
-          </mrow>
-        </mtd>
-        <mtd>
-          <mo intent="ellipsis">⋯</mo>
-        </mtd>
-        <mtd>
-          <mrow intent="$name($var)">
-            <mrow arg="name">
-              <msub>
-                <mi>D</mi>
-                <mi>n</mi>
-              </msub>
-              <msub>
-                <mi>X</mi>
-                <mi>n</mi>
-              </msub>
-            </mrow>
-            <mo stretchy="false">(</mo>
-            <mi arg="var">𝐮</mi>
-            <mo stretchy="false">)</mo>
-          </mrow>
-        </mtd>
-      </mtr>
-    </mtable>
-    <mo>]</mo>
-    <mo>.</mo>
-  </mrow>
 </math>

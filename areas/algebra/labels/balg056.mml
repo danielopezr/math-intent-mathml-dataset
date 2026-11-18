@@ -1,89 +1,89 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-<mrow>
-    <mfrac>
-      <mrow intent="times($arg1,$arg2,$arg3)">
-        <mn arg="arg1">4</mn>
-        <msup intent="power($base, $exp)" arg="arg2">
-          <mi arg="base">a</mi>
-          <mn arg="exp">2</mn>
-        </msup>
-        <msup intent="power($base, $exp)" arg="arg3">
-          <mi arg="base">b</mi>
-          <mn arg="exp">3</mn>
-        </msup>
-      </mrow>
-      <mrow intent="times($arg1,$arg2,$arg3)">
-        <mn arg="arg1">5</mn>
-        <mi arg="arg2">c</mi>
-        <mi arg="arg3">d</mi>
-      </mrow>
-    </mfrac>
-    <mo>=</mo>
-    <mfrac>
-      <mrow>
-        <mn>4</mn>
-        <mo>&#xD7;</mo>
-        <msup intent="power($base, $exp)">
-          <mrow>
-            <mo>(</mo>
-            <mfrac arg="base">
-              <mn>1</mn>
-              <mn>2</mn>
-            </mfrac>
-            <mo>)</mo>
-          </mrow>
-          <mn arg="exp">2</mn>
-        </msup>
-        <mo>&#xD7;</mo>
-        <msup intent="power($base, $exp)">
-          <mrow>
-            <mo>(</mo>
-            <mfrac arg="base">
-              <mn>1</mn>
-              <mn>3</mn>
-            </mfrac>
-            <mo>)</mo>
-          </mrow>
-          <mn arg="exp">3</mn>
-        </msup>
-      </mrow>
-      <mrow>
-        <mn>5</mn>
-        <mo>&#xD7;</mo>
-        <mn>2</mn>
-        <mo>&#xD7;</mo>
-        <mn>3</mn>
-      </mrow>
-    </mfrac>
-    <mo>=</mo>
-    <mfrac>
-      <mrow>
-        <mn>4</mn>
-        <mo>&#xD7;</mo>
+    <mrow>
         <mfrac>
-          <mn>1</mn>
-          <mn>4</mn>
+            <mrow intent="times($arg1,$arg2,$arg3)">
+                <mn arg="arg1">4</mn>
+                <msup intent="power($base, $exp)" arg="arg2">
+                    <mi arg="base">a</mi>
+                    <mn arg="exp">2</mn>
+                </msup>
+                <msup intent="power($base, $exp)" arg="arg3">
+                    <mi arg="base">b</mi>
+                    <mn arg="exp">3</mn>
+                </msup>
+            </mrow>
+            <mrow intent="times($arg1,$arg2,$arg3)">
+                <mn arg="arg1">5</mn>
+                <mi arg="arg2">c</mi>
+                <mi arg="arg3">d</mi>
+            </mrow>
         </mfrac>
-        <mo>&#xD7;</mo>
+        <mo>=</mo>
         <mfrac>
-          <mn>1</mn>
-          <mn>27</mn>
+            <mrow>
+                <mn>4</mn>
+                <mo>&#xD7;</mo>
+                <msup intent="power($base, $exp)">
+                    <mrow arg="base">
+                        <mo>(</mo>
+                        <mfrac>
+                            <mn>1</mn>
+                            <mn>2</mn>
+                        </mfrac>
+                        <mo>)</mo>
+                    </mrow>
+                    <mn arg="exp">2</mn>
+                </msup>
+                <mo>&#xD7;</mo>
+                <msup intent="power($base, $exp)">
+                    <mrow arg="base">
+                        <mo>(</mo>
+                        <mfrac>
+                            <mn>1</mn>
+                            <mn>3</mn>
+                        </mfrac>
+                        <mo>)</mo>
+                    </mrow>
+                    <mn arg="exp">3</mn>
+                </msup>
+            </mrow>
+            <mrow>
+                <mn>5</mn>
+                <mo>&#xD7;</mo>
+                <mn>2</mn>
+                <mo>&#xD7;</mo>
+                <mn>3</mn>
+            </mrow>
         </mfrac>
-      </mrow>
-      <mn>30</mn>
-    </mfrac>
-    <mo>=</mo>
-    <mfrac>
-      <mfrac>
-        <mn>1</mn>
-        <mn>27</mn>
-      </mfrac>
-      <mn>30</mn>
-    </mfrac>
-    <mo>=</mo>
-    <mfrac>
-      <mn>1</mn>
-      <mn>810</mn>
-    </mfrac>
-</mrow>
+        <mo>=</mo>
+        <mfrac>
+            <mrow>
+                <mn>4</mn>
+                <mo>&#xD7;</mo>
+                <mfrac>
+                    <mn>1</mn>
+                    <mn>4</mn>
+                </mfrac>
+                <mo>&#xD7;</mo>
+                <mfrac>
+                    <mn>1</mn>
+                    <mn>27</mn>
+                </mfrac>
+            </mrow>
+            <mn>30</mn>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+            <mfrac>
+                <mn>1</mn>
+                <mn>27</mn>
+            </mfrac>
+            <mn>30</mn>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+            <mn>1</mn>
+            <mn>810</mn>
+        </mfrac>
+    </mrow>
 </math>
