@@ -13,13 +13,13 @@ used on their own.
 
 | Area | Folder | ID prefix | Images | Labelled | Pages |
 |---|---|---|---|---|---|
-| Algebra | `areas/algebra` | `balg` | 77 | 77 | 31 |
+| Algebra | `areas/algebra` | `balg` | 77 | 77 | 29 |
 | Calculus and differential equations | `areas/calculus-differential-equations` | `calc` | 220 | 220 | 22 |
 | Linear algebra | `areas/linear-algebra` | `alg` | 101 | 80 | 46 |
 | Discrete mathematics | `areas/discrete-math` | `dic` | 60 | 10 | 39 |
-| Mathematical logic | `areas/mathematical-logic` | `log` | 67 | 0 | 33 |
+| Mathematical logic | `areas/mathematical-logic` | `log` | 67 | 0 | 32 |
 | Probability | `areas/probability` | `prob` | 61 | 0 | 34 |
-| **Total** | | | **586** | **387** | **205** |
+| **Total** | | | **586** | **387** | **202** |
 
 The textbooks are in Spanish, so some expressions contain Spanish function
 names and words (`sen` for sine, `y` for "and").
@@ -30,13 +30,16 @@ names and words (`sen` for sine, `y` for "and").
 areas/<area>/
   images/   one cropped expression per file: <id>.jpeg
   labels/   its annotated MathML: <id>.mml (only for labelled images)
-  pages/    the full textbook pages the expressions were cropped from
+  pages/    the full textbook pages: <prefix>-page-NN.jpeg
 metadata/<area>.csv   one row per image
+metadata/pages.csv    each page with its area and the original photo number
 ANNOTATION_GUIDE.md   how the labels are annotated
 ```
 
-`areas/linear-algebra/pages/processed/` holds 15 pages that were already
-cropped into expressions.
+The pages are photographs of the books: they have been straightened and
+cropped to the paper (without the table, fingers or the facing page), and
+duplicate photos were removed. Some linear-algebra pages are close-ups of part
+of a page.
 
 ### Metadata
 
