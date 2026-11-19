@@ -61,6 +61,9 @@ does mark one (`a_{2n}`).
   not a product and not a pair.
 - Named functions use their concept: `sin x` / `sen x` → `sine($var)`,
   `ln x` → `natural-logarithm($var)`, `Γ(x)` → `gamma-function($var)`.
+- `log x` without a base is `logarithm($var)`, except in calculus and
+  differential equations, where it means the natural logarithm:
+  `natural-logarithm($var)`. `log_b x` is always `logarithm($var, $base)`.
 - Without parentheses a named function takes the whole implicit product that
   follows it: `cos kx` → `cosine($var)` with `kx` as the argument; `sin θ cos θ`
   is `times(sin θ, cos θ)`. A power of the function goes on the application:
