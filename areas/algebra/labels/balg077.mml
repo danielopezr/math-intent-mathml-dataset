@@ -3,12 +3,12 @@
         <mi>A</mi>
         <mo>=</mo>
         <mi>b</mi>
-        <mo>&#xD7;</mo>
+        <mo>×</mo>
         <mi>h</mi>
         <mo>=</mo>
         <mn>8</mn>
         <mi intent=":unit">m.</mi>
-        <mo>&#xD7;</mo>
+        <mo>×</mo>
         <mrow intent="mixed-fraction($int, $frac)">
             <mn arg="int">3</mn>
             <mfrac arg="frac">
@@ -23,5 +23,6 @@
             <mi arg="base" intent=":unit">m.</mi>
             <mn arg="exp">2</mn>
         </msup>
+        <mo>.</mo>
     </mrow>
 </math>

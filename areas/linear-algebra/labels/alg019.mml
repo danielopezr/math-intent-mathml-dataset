@@ -2,7 +2,7 @@
     <mrow>
         <mrow intent="$name($var)">
             <msub arg="name">
-                <mi>&#x1D711;</mi>
+                <mi>𝜑</mi>
                 <mn>5</mn>
             </msub>
             <mo>(</mo>
@@ -46,5 +46,6 @@
                 <mo>)</mo>
             </mrow>
         </mrow>
+        <mo>.</mo>
     </mrow>
 </math>

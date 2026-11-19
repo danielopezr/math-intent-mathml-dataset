@@ -3,7 +3,7 @@
         <mrow>
             <mrow intent="$name($var)">
                 <msub arg="name">
-                    <mi>&#x1D711;</mi>
+                    <mi>𝜑</mi>
                     <mn>0</mn>
                 </msub>
                 <mo>(</mo>
@@ -16,7 +16,7 @@
                 <msqrt>
                     <mrow intent="times($a, $b)">
                         <mn arg="a">2</mn>
-                        <mi arg="b">&#x1D70B;</mi>
+                        <mi arg="b">𝜋</mi>
                     </mrow>
                 </msqrt>
             </mfrac>
@@ -26,7 +26,7 @@
         <mrow>
             <mrow intent="$name($var)">
                 <msub arg="name">
-                    <mi>&#x1D711;</mi>
+                    <mi>𝜑</mi>
                     <mrow>
                         <mrow intent="times($a, $b)">
                             <mn arg="a">2</mn>
@@ -50,7 +50,7 @@
                     </mrow>
                 </mrow>
                 <msqrt>
-                    <mi>&#x1D70B;</mi>
+                    <mi>𝜋</mi>
                 </msqrt>
             </mfrac>
         </mrow>
@@ -59,7 +59,7 @@
         <mrow>
             <mrow intent="$name($var)">
                 <msub arg="name">
-                    <mi>&#x1D711;</mi>
+                    <mi>𝜑</mi>
                     <mrow intent="times($a, $b)">
                         <mn arg="a">2</mn>
                         <mi arg="b">k</mi>
@@ -79,7 +79,7 @@
                     </mrow>
                 </mrow>
                 <msqrt>
-                    <mi>&#x1D70B;</mi>
+                    <mi>𝜋</mi>
                 </msqrt>
             </mfrac>
         </mrow>
@@ -89,8 +89,9 @@
             <mtext>para</mtext>
             <mspace width="0.5em"/>
             <mi>k</mi>
-            <mo>&#x2265;</mo>
+            <mo>≥</mo>
             <mn>1</mn>
         </mrow>
+        <mo>.</mo>
     </mrow>
 </math>

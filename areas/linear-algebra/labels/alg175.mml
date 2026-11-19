@@ -1,0 +1,33 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <msup intent="inverse($base)">
+            <mrow arg="base">
+                <mo stretchy="false">(</mo>
+                <msup intent="transpose($base)">
+                    <mi arg="base">B</mi>
+                    <mi>T</mi>
+                </msup>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+            </mrow>
+        </msup>
+        <mo>=</mo>
+        <msup intent="transpose($base)">
+            <mrow arg="base">
+                <mo stretchy="false">(</mo>
+                <msup intent="inverse($base)">
+                    <mi arg="base">B</mi>
+                    <mrow>
+                        <mo>−</mo>
+                        <mn>1</mn>
+                    </mrow>
+                </msup>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mi>T</mi>
+        </msup>
+    </mrow>
+</math>

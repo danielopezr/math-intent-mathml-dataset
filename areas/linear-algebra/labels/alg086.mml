@@ -1,0 +1,45 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mrow intent="norm($a)">
+            <mo fence="false" stretchy="false">‖</mo>
+            <mi arg="a">𝐟</mi>
+            <mo fence="false" stretchy="false">‖</mo>
+        </mrow>
+        <mo>=</mo>
+        <msup intent="power($base,$exp)">
+            <mrow intent="inner-product($arg1,$arg2)" arg="base">
+                <mi>⟨</mi>
+                <mi arg="arg1">𝐟</mi>
+                <mo>,</mo>
+                <mi arg="arg2">𝐟</mi>
+                <mi>⟩</mi>
+            </mrow>
+            <mrow intent="fraction($num,$den)" arg="exp">
+                <mn arg="num">1</mn>
+                <mo>/</mo>
+                <mn arg="den">2</mn>
+            </mrow>
+        </msup>
+        <mo>=</mo>
+        <msqrt>
+            <mrow>
+                <msubsup>
+                    <mo>∫</mo>
+                    <mi>a</mi>
+                    <mi>b</mi>
+                </msubsup>
+                <mrow intent="$name($var)">
+                    <msup arg="name" intent="power($base,$exp)">
+                        <mi arg="base">f</mi>
+                        <mn arg="exp">2</mn>
+                    </msup>
+                    <mo stretchy="false">(</mo>
+                    <mi arg="var">x</mi>
+                    <mo stretchy="false">)</mo>
+                </mrow>
+                <mi>d</mi>
+                <mi>x</mi>
+            </mrow>
+        </msqrt>
+    </mrow>
+</math>

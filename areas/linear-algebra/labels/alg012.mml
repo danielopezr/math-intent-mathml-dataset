@@ -1,12 +1,12 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mtable columnalign="center" intent="list($e0, $e1, $e2, $e3, $e4, $e5)">
+        <mtable columnalign="center">
             <mtr>
                 <mtd>
-                    <mrow arg="e0">
+                    <mrow>
                         <mrow intent="$name($var)">
                             <msub arg="name">
-                                <mi>&#x1D711;</mi>
+                                <mi>𝜑</mi>
                                 <mn>0</mn>
                             </msub>
                             <mo>(</mo>
@@ -23,10 +23,10 @@
                     </mrow>
                     <mo>,</mo>
                     <mspace width="1em"/>
-                    <mrow arg="e1">
+                    <mrow>
                         <mrow intent="$name($var)">
                             <msub arg="name">
-                                <mi>&#x1D711;</mi>
+                                <mi>𝜑</mi>
                                 <mn>1</mn>
                             </msub>
                             <mo>(</mo>
@@ -46,10 +46,10 @@
                     </mrow>
                     <mo>,</mo>
                     <mspace width="1em"/>
-                    <mrow arg="e2">
+                    <mrow>
                         <mrow intent="$name($var)">
                             <msub arg="name">
-                                <mi>&#x1D711;</mi>
+                                <mi>𝜑</mi>
                                 <mn>2</mn>
                             </msub>
                             <mo>(</mo>
@@ -85,10 +85,10 @@
                     </mrow>
                     <mo>,</mo>
                     <mspace width="1em"/>
-                    <mrow arg="e3">
+                    <mrow>
                         <mrow intent="$name($var)">
                             <msub arg="name">
-                                <mi>&#x1D711;</mi>
+                                <mi>𝜑</mi>
                                 <mn>3</mn>
                             </msub>
                             <mo>(</mo>
@@ -130,10 +130,10 @@
             </mtr>
             <mtr>
                 <mtd>
-                    <mrow arg="e4">
+                    <mrow>
                         <mrow intent="$name($var)">
                             <msub arg="name">
-                                <mi>&#x1D711;</mi>
+                                <mi>𝜑</mi>
                                 <mn>4</mn>
                             </msub>
                             <mo>(</mo>
@@ -177,10 +177,10 @@
                     </mrow>
                     <mo>,</mo>
                     <mspace width="1em"/>
-                    <mrow arg="e5">
+                    <mrow>
                         <mrow intent="$name($var)">
                             <msub arg="name">
-                                <mi>&#x1D711;</mi>
+                                <mi>𝜑</mi>
                                 <mn>5</mn>
                             </msub>
                             <mo>(</mo>
@@ -228,5 +228,6 @@
                 </mtd>
             </mtr>
         </mtable>
+        <mo>.</mo>
     </mrow>
 </math>

@@ -1,0 +1,35 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mrow>
+            <mo stretchy="true" fence="true" form="prefix">{</mo>
+            <mtable>
+                <mtr>
+                    <mtd columnalign="left">
+                        <mn>1</mn>
+                    </mtd>
+                    <mtd columnalign="left">
+                        <mrow>
+                            <mtext>si</mtext>
+                            <mi>i</mi>
+                            <mo>=</mo>
+                            <mi>j</mi>
+                        </mrow>
+                    </mtd>
+                </mtr>
+                <mtr>
+                    <mtd columnalign="left">
+                        <mn>0</mn>
+                    </mtd>
+                    <mtd columnalign="left">
+                        <mrow>
+                            <mtext>si</mtext>
+                            <mi>i</mi>
+                            <mo>≠</mo>
+                            <mi>j</mi>
+                        </mrow>
+                    </mtd>
+                </mtr>
+            </mtable>
+        </mrow>
+    </mrow>
+</math>

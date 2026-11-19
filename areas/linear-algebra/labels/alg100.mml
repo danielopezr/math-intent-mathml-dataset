@@ -1,0 +1,59 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mi>A</mi>
+        <mo>=</mo>
+        <mo>[</mo>
+        <mtable intent=":matrix">
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mrow intent="fraction($num,$den)">
+                            <mn arg="num">1</mn>
+                            <mo>/</mo>
+                            <msqrt arg="den">
+                                <mn>2</mn>
+                            </msqrt>
+                        </mrow>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mrow intent="fraction($num,$den)">
+                            <mn arg="num">1</mn>
+                            <mo>/</mo>
+                            <msqrt arg="den">
+                                <mn>2</mn>
+                            </msqrt>
+                        </mrow>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mrow intent="fraction($num,$den)">
+                        <mn arg="num">1</mn>
+                        <mo>/</mo>
+                        <msqrt arg="den">
+                            <mn>2</mn>
+                        </msqrt>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mrow intent="fraction($num,$den)">
+                            <mn arg="num">1</mn>
+                            <mo>/</mo>
+                            <msqrt arg="den">
+                                <mn>2</mn>
+                            </msqrt>
+                        </mrow>
+                    </mrow>
+                </mtd>
+            </mtr>
+        </mtable>
+        <mo>]</mo>
+    </mrow>
+</math>

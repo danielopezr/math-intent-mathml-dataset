@@ -1,0 +1,16 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mtext>a)</mtext>
+        <msub>
+            <mi>a</mi>
+            <mrow>
+                <mi>i</mi>
+                <mi>j</mi>
+            </mrow>
+        </msub>
+        <mo>=</mo>
+        <mi>i</mi>
+        <mo>+</mo>
+        <mi>j</mi>
+    </mrow>
+</math>

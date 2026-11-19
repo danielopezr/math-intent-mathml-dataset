@@ -1,0 +1,28 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mi>A</mi>
+        <mrow>
+            <mo stretchy="true" fence="true" form="prefix">[</mo>
+            <mrow intent="times($arg1,$arg2)">
+                <mfrac arg="arg1">
+                    <mn>1</mn>
+                    <mrow intent="determinant($arg)">
+                        <mi>det</mi>
+                        <mo stretchy="false">(</mo>
+                        <mi arg="arg">A</mi>
+                        <mo stretchy="false">)</mo>
+                    </mrow>
+                </mfrac>
+                <mrow intent="$name($var)" arg="arg2">
+                    <mi arg="name">adj</mi>
+                    <mo stretchy="false">(</mo>
+                    <mi arg="var">A</mi>
+                    <mo stretchy="false">)</mo>
+                </mrow>
+            </mrow>
+            <mo stretchy="true" fence="true" form="postfix">]</mo>
+        </mrow>
+        <mo>=</mo>
+        <mi>I</mi>
+    </mrow>
+</math>

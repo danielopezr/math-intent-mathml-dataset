@@ -13,13 +13,13 @@ used on their own.
 
 | Area | Folder | ID prefix | Images | Labelled | Pages |
 |---|---|---|---|---|---|
-| Algebra | `areas/algebra` | `balg` | 310 | 77 | 29 |
+| Algebra | `areas/algebra` | `balg` | 310 | 220 | 29 |
 | Calculus and differential equations | `areas/calculus-differential-equations` | `calc` | 220 | 220 | 22 |
-| Linear algebra | `areas/linear-algebra` | `alg` | 240 | 80 | 46 |
+| Linear algebra | `areas/linear-algebra` | `alg` | 240 | 220 | 46 |
 | Discrete mathematics | `areas/discrete-math` | `dic` | 60 | 10 | 39 |
 | Mathematical logic | `areas/mathematical-logic` | `log` | 67 | 0 | 32 |
 | Probability | `areas/probability` | `prob` | 61 | 0 | 34 |
-| **Total** | | | **958** | **387** | **202** |
+| **Total** | | | **958** | **670** | **202** |
 
 The textbooks are in Spanish, so some expressions contain Spanish function
 names and words (`sen` for sine, `y` for "and").
@@ -86,11 +86,8 @@ equivalent for evaluation.
   checked one by one against their images (2026-11-18). `calc171`–`calc220`
   and the labels of the other areas have not been reviewed yet.
 - Mathematical logic and probability have no labels yet; discrete mathematics
-  has 10 of 60, algebra 77 of 310 and linear algebra 80 of 240.
+  has 10 of 60, algebra 220 of 310 and linear algebra 220 of 240.
 - 39 labelled samples have no topic.
-- `calc026`, `calc031`, `calc044` and `calc058` are parts of other calculus
-  expressions (`calc030`, `calc028`, `calc043` and `calc057`); their images
-  are slightly rotated and rescaled so they are not identical crops.
 
 ## History
 

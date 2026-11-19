@@ -1,0 +1,67 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <msup intent="power($base,$exp)">
+            <mrow intent="norm($a)" arg="base">
+                <mo fence="false" stretchy="false">‖</mo>
+                <mrow arg="a">
+                    <mi>𝐯</mi>
+                    <mo>−</mo>
+                    <mi>𝐮</mi>
+                </mrow>
+                <mo fence="false" stretchy="false">‖</mo>
+            </mrow>
+            <mn arg="exp">2</mn>
+        </msup>
+        <mo>=</mo>
+        <msup intent="power($base,$exp)">
+            <mrow arg="base">
+                <mo stretchy="false">(</mo>
+                <msub>
+                    <mi>v</mi>
+                    <mn>1</mn>
+                </msub>
+                <mo>−</mo>
+                <msub>
+                    <mi>u</mi>
+                    <mn>1</mn>
+                </msub>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mn arg="exp">2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup intent="power($base,$exp)">
+            <mrow arg="base">
+                <mo stretchy="false">(</mo>
+                <msub>
+                    <mi>v</mi>
+                    <mn>2</mn>
+                </msub>
+                <mo>−</mo>
+                <msub>
+                    <mi>u</mi>
+                    <mn>2</mn>
+                </msub>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mn arg="exp">2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup intent="power($base,$exp)">
+            <mrow arg="base">
+                <mo stretchy="false">(</mo>
+                <msub>
+                    <mi>v</mi>
+                    <mn>3</mn>
+                </msub>
+                <mo>−</mo>
+                <msub>
+                    <mi>u</mi>
+                    <mn>3</mn>
+                </msub>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mn arg="exp">2</mn>
+        </msup>
+    </mrow>
+</math>

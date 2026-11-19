@@ -2,72 +2,65 @@
     <mrow>
         <mi>c</mi>
         <mo>=</mo>
-        <mrow intent="times($a, $b)">
-            <mi arg="a">i</mi>
-            <mrow arg="b">
-                <mo>(</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mi arg="arg1">i</mi>
+            <mrow arg="arg2">
+                <mo stretchy="false">(</mo>
                 <mn>1</mn>
                 <mo>+</mo>
                 <mi>r</mi>
-                <mo>)</mo>
-            </mrow>
-        </mrow>
-        <mo intent="ellipsis">&#x2026;</mo>
-        <mo intent="ellipsis">&#x2026;</mo>
-        <mo>+</mo>
-        <mrow intent="times($a, $b)">
-            <mi arg="a">i</mi>
-            <mrow arg="b" intent="power($base, $exp)">
-                <msup>
-                    <mrow arg="base">
-                        <mo>(</mo>
-                        <mrow>
-                            <mn>1</mn>
-                            <mo>+</mo>
-                            <mi>r</mi>
-                        </mrow>
-                        <mo>)</mo>
-                    </mrow>
-                    <mrow arg="exp">
-                        <mi>t</mi>
-                        <mo>−</mo>
-                        <mn>2</mn>
-                    </mrow>
-                </msup>
+                <mo stretchy="false">)</mo>
             </mrow>
         </mrow>
         <mo>+</mo>
-        <mrow intent="times($a, $b)">
-            <mi arg="a">i</mi>
-            <mrow arg="b" intent="power($base, $exp)">
-                <msup>
-                    <mrow arg="base">
-                        <mo>(</mo>
-                        <mrow>
-                            <mn>1</mn>
-                            <mo>+</mo>
-                            <mi>r</mi>
-                        </mrow>
-                        <mo>)</mo>
-                    </mrow>
-                    <mrow arg="exp">
-                        <mi>t</mi>
-                        <mo>−</mo>
-                        <mn>1</mn>
-                    </mrow>
-                </msup>
-            </mrow>
+        <mo intent="ellipsis">…</mo>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mi arg="arg1">i</mi>
+            <msup arg="arg2" intent="power($base,$exp)">
+                <mrow arg="base">
+                    <mo stretchy="false">(</mo>
+                    <mn>1</mn>
+                    <mo>+</mo>
+                    <mi>r</mi>
+                    <mo stretchy="false">)</mo>
+                </mrow>
+                <mrow arg="exp">
+                    <mi>t</mi>
+                    <mo>−</mo>
+                    <mn>2</mn>
+                </mrow>
+            </msup>
         </mrow>
         <mo>+</mo>
-        <mrow intent="times($a, $b)">
-            <mi arg="a">i</mi>
-            <mrow arg="b" intent="plus($x, $y)">
-                <mo>(</mo>
-                <mn arg="x">1</mn>
+        <mrow intent="times($arg1,$arg2)">
+            <mi arg="arg1">i</mi>
+            <msup arg="arg2" intent="power($base,$exp)">
+                <mrow arg="base">
+                    <mo stretchy="false">(</mo>
+                    <mn>1</mn>
+                    <mo>+</mo>
+                    <mi>r</mi>
+                    <mo stretchy="false">)</mo>
+                </mrow>
+                <mrow arg="exp">
+                    <mi>t</mi>
+                    <mo>−</mo>
+                    <mn>1</mn>
+                </mrow>
+            </msup>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mi arg="arg1">i</mi>
+            <mrow arg="arg2">
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
                 <mo>+</mo>
-                <mi arg="y">r</mi>
-                <mo>)</mo>
+                <mi>r</mi>
+                <mo stretchy="false">)</mo>
             </mrow>
         </mrow>
+        <mo>.</mo>
     </mrow>
 </math>

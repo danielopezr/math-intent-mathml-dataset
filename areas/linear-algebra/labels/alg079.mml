@@ -2,14 +2,14 @@
     <mrow>
         <mi>T</mi>
         <mo>:</mo>
-        <mrow intent="maps-to($a, $b)">
-            <msup arg="a">
-                <mi>&#x211D;</mi>
+        <mrow>
+            <msup>
+                <mi>R</mi>
                 <mn>2</mn>
             </msup>
-            <mo>&#x2192;</mo>
-            <msup arg="b">
-                <mi>&#x211D;</mi>
+            <mo>→</mo>
+            <msup>
+                <mi>R</mi>
                 <mn>2</mn>
             </msup>
         </mrow>

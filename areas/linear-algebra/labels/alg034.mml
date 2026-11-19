@@ -5,7 +5,7 @@
             <mn>1</mn>
         </msub>
         <mo>,</mo>
-        <mo intent="ellipsis">&#x2026;</mo>
+        <mo intent="ellipsis">…</mo>
         <mo>,</mo>
         <msub>
             <mi>e</mi>
@@ -21,7 +21,7 @@
             </mrow>
         </msub>
         <mo>,</mo>
-        <mo intent="ellipsis">&#x2026;</mo>
+        <mo intent="ellipsis">…</mo>
         <mo>,</mo>
         <msub>
             <mi>e</mi>
@@ -31,5 +31,6 @@
                 <mi>r</mi>
             </mrow>
         </msub>
+        <mo>,</mo>
     </mrow>
 </math>

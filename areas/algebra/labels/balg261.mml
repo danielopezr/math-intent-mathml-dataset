@@ -1,0 +1,22 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mi>a</mi>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac arg="arg1">
+                <mn>1</mn>
+                <mn>2</mn>
+            </mfrac>
+            <mi arg="arg2">a</mi>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac arg="arg1">
+                <mn>2</mn>
+                <mn>3</mn>
+            </mfrac>
+            <mi arg="arg2">a</mi>
+        </mrow>
+        <mo>.</mo>
+    </mrow>
+</math>

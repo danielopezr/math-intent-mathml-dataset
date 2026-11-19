@@ -1,0 +1,64 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mrow intent="$name($var)">
+            <msub arg="name">
+                <mi>f</mi>
+                <mi>n</mi>
+            </msub>
+            <mo stretchy="false">(</mo>
+            <mi arg="var">x</mi>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mfrac arg="arg1">
+                <mn>1</mn>
+                <mn>2</mn>
+            </mfrac>
+            <msub arg="arg2">
+                <mi>a</mi>
+                <mn>0</mn>
+            </msub>
+        </mrow>
+        <mo>+</mo>
+        <msubsup>
+            <mo>∑</mo>
+            <mrow>
+                <mi>k</mi>
+                <mo>=</mo>
+                <mn>1</mn>
+            </mrow>
+            <mi>n</mi>
+        </msubsup>
+        <mo stretchy="false">(</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <msub arg="arg1">
+                <mi>a</mi>
+                <mi>k</mi>
+            </msub>
+            <mrow intent="cosine($arg)" arg="arg2">
+                <mi>cos</mi>
+                <mrow arg="arg" intent="times($arg1,$arg2)">
+                    <mi arg="arg1">k</mi>
+                    <mi arg="arg2">x</mi>
+                </mrow>
+            </mrow>
+        </mrow>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <msub arg="arg1">
+                <mi>b</mi>
+                <mi>k</mi>
+            </msub>
+            <mrow intent="sine($arg)" arg="arg2">
+                <mi>sen</mi>
+                <mrow arg="arg" intent="times($arg1,$arg2)">
+                    <mi arg="arg1">k</mi>
+                    <mi arg="arg2">x</mi>
+                </mrow>
+            </mrow>
+        </mrow>
+        <mo stretchy="false">)</mo>
+        <mo>,</mo>
+    </mrow>
+</math>

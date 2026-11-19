@@ -27,7 +27,7 @@
             </mrow>
             <mn arg="e">2</mn>
         </msup>
-        <mo>&#xD7;</mo>
+        <mo>×</mo>
         <msup intent="power($base, $exp)">
             <mrow arg="base">
                 <mo>(</mo>
@@ -48,7 +48,7 @@
             <mn>1</mn>
             <mo>)</mo>
         </mrow>
-        <mo>&#xD7;</mo>
+        <mo>×</mo>
         <mrow>
             <mo>(</mo>
             <mo>−</mo>
@@ -57,5 +57,6 @@
         </mrow>
         <mo>=</mo>
         <mn>1</mn>
+        <mo>.</mo>
     </mrow>
 </math>

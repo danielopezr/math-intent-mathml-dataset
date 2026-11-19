@@ -1,0 +1,31 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mrow intent="norm($a)">
+            <mo fence="false" stretchy="false">‖</mo>
+            <mrow arg="a">
+                <msub>
+                    <mi>proy</mi>
+                    <mi>𝐚</mi>
+                </msub>
+                <mi>𝐮</mi>
+            </mrow>
+            <mo fence="false" stretchy="false">‖</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow intent="norm($a)" arg="arg1">
+                <mo fence="false" stretchy="false">‖</mo>
+                <mi arg="a">𝐮</mi>
+                <mo fence="false" stretchy="false">‖</mo>
+            </mrow>
+            <mrow intent="absolute-value($a)" arg="arg2">
+                <mo stretchy="false">|</mo>
+                <mrow arg="a" intent="cosine($arg)">
+                    <mi>cos</mi>
+                    <mi arg="arg">θ</mi>
+                </mrow>
+                <mo stretchy="false">|</mo>
+            </mrow>
+        </mrow>
+    </mrow>
+</math>

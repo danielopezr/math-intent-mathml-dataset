@@ -10,7 +10,7 @@
         <mo>=</mo>
         <mrow>
             <msubsup>
-                <mo>&#x222B;</mo>
+                <mo>∫</mo>
                 <mrow>
                     <mo>−</mo>
                     <mn>1</mn>
@@ -36,5 +36,6 @@
                 <mi>x</mi>
             </mrow>
         </mrow>
+        <mo>.</mo>
     </mrow>
 </math>

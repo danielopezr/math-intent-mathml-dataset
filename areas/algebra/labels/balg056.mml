@@ -22,7 +22,7 @@
         <mfrac>
             <mrow>
                 <mn>4</mn>
-                <mo>&#xD7;</mo>
+                <mo>×</mo>
                 <msup intent="power($base, $exp)">
                     <mrow arg="base">
                         <mo>(</mo>
@@ -34,7 +34,7 @@
                     </mrow>
                     <mn arg="exp">2</mn>
                 </msup>
-                <mo>&#xD7;</mo>
+                <mo>×</mo>
                 <msup intent="power($base, $exp)">
                     <mrow arg="base">
                         <mo>(</mo>
@@ -49,9 +49,9 @@
             </mrow>
             <mrow>
                 <mn>5</mn>
-                <mo>&#xD7;</mo>
+                <mo>×</mo>
                 <mn>2</mn>
-                <mo>&#xD7;</mo>
+                <mo>×</mo>
                 <mn>3</mn>
             </mrow>
         </mfrac>
@@ -59,12 +59,12 @@
         <mfrac>
             <mrow>
                 <mn>4</mn>
-                <mo>&#xD7;</mo>
+                <mo>×</mo>
                 <mfrac>
                     <mn>1</mn>
                     <mn>4</mn>
                 </mfrac>
-                <mo>&#xD7;</mo>
+                <mo>×</mo>
                 <mfrac>
                     <mn>1</mn>
                     <mn>27</mn>
@@ -85,5 +85,6 @@
             <mn>1</mn>
             <mn>810</mn>
         </mfrac>
+        <mo>.</mo>
     </mrow>
 </math>

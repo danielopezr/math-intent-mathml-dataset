@@ -1,0 +1,45 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mrow intent="cosine($arg)">
+            <mi>cos</mi>
+            <mi arg="arg">θ</mi>
+        </mrow>
+        <mo>=</mo>
+        <mfrac>
+            <mrow>
+                <mi>𝐮</mi>
+                <mo>·</mo>
+                <mi>𝐯</mi>
+            </mrow>
+            <mrow intent="times($arg1,$arg2)">
+                <mrow intent="norm($a)" arg="arg1">
+                    <mo fence="false" stretchy="false">‖</mo>
+                    <mi arg="a">𝐮</mi>
+                    <mo fence="false" stretchy="false">‖</mo>
+                </mrow>
+                <mrow intent="norm($a)" arg="arg2">
+                    <mo fence="false" stretchy="false">‖</mo>
+                    <mi arg="a">𝐯</mi>
+                    <mo fence="false" stretchy="false">‖</mo>
+                </mrow>
+            </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+            <mn>3</mn>
+            <mrow intent="times($arg1,$arg2)">
+                <msqrt arg="arg1">
+                    <mn>6</mn>
+                </msqrt>
+                <msqrt arg="arg2">
+                    <mn>6</mn>
+                </msqrt>
+            </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+        </mfrac>
+    </mrow>
+</math>

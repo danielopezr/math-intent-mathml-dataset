@@ -1,0 +1,27 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mo stretchy="false">(</mo>
+        <mo>−</mo>
+        <mn>3</mn>
+        <mo>,</mo>
+        <mn>0</mn>
+        <mo>,</mo>
+        <mn>2</mn>
+        <mo stretchy="false">)</mo>
+        <mo>;</mo>
+        <mo>−</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">3</mn>
+            <mi arg="arg2">x</mi>
+        </mrow>
+        <mo>+</mo>
+        <mi>y</mi>
+        <mo>+</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mn arg="arg1">5</mn>
+            <mi arg="arg2">z</mi>
+        </mrow>
+        <mo>=</mo>
+        <mn>0</mn>
+    </mrow>
+</math>

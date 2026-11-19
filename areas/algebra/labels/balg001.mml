@@ -1,35 +1,29 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow intent="power($base, $exp)">
-            <msup>
-                <mrow>
-                    <mo>(</mo>
-                    <mrow arg="base">
-                        <mn>1</mn>
-                        <mo>+</mo>
-                        <mi>r</mi>
-                    </mrow>
-                    <mo>)</mo>
-                </mrow>
-                <mrow arg="exp">
-                    <mi>t</mi>
-                    <mo>−</mo>
-                    <mn>2</mn>
-                </mrow>
-            </msup>
-        </mrow>
+        <msup intent="power($base,$exp)">
+            <mrow arg="base">
+                <mo stretchy="false">(</mo>
+                <mn>1</mn>
+                <mo>+</mo>
+                <mi>r</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow arg="exp">
+                <mi>t</mi>
+                <mo>−</mo>
+                <mn>2</mn>
+            </mrow>
+        </msup>
         <mo>,</mo>
-        <mspace width="1em"/>
-        <mrow intent="power($base, $exp)">
-            <msup>
-                <mrow>
-                    <mo>(</mo>
-                    <mrow arg="base">
-                        <mn>1</mn>
-                        <mo>+</mo>
-                        <mi>r</mi>
-                    </mrow>
-                    <mo>)</mo>
+        <mrow intent="times($arg1,$arg2)">
+            <mi arg="arg1">i</mi>
+            <msup arg="arg2" intent="power($base,$exp)">
+                <mrow arg="base">
+                    <mo stretchy="false">(</mo>
+                    <mn>1</mn>
+                    <mo>+</mo>
+                    <mi>r</mi>
+                    <mo stretchy="false">)</mo>
                 </mrow>
                 <mrow arg="exp">
                     <mi>t</mi>
@@ -38,6 +32,8 @@
                 </mrow>
             </msup>
         </mrow>
-        <mo intent="ellipsis">&#x2026;</mo>
+        <mo>,</mo>
+        <mo intent="ellipsis">…</mo>
+        <mo>,</mo>
     </mrow>
 </math>

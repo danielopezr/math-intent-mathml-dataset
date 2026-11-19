@@ -57,8 +57,8 @@ does mark one (`a_{2n}`).
   `D`, `P_n`, `y_n`…) is also applied to a parenthesised **expression**:
   `T(e_k)`, `D(1 + x)`, `f(x + h)` → `$name($var)`. A coefficient before a
   parenthesis is still a product: `a(b+c)`, `n(n+1)` → `times`.
-- A parenthesis with commas, `T(x, y)`, is an argument list: it is not a
-  product and is not annotated as a pair.
+- A parenthesis with commas, `T(x, y)`, is an argument list: `$name($v1, $v2)`,
+  not a product and not a pair.
 - Named functions use their concept: `sin x` / `sen x` → `sine($var)`,
   `ln x` → `natural-logarithm($var)`, `Γ(x)` → `gamma-function($var)`.
 - Without parentheses a named function takes the whole implicit product that
@@ -137,6 +137,10 @@ base or as a superscript: the metrics treat both forms as equal.
 - A product written with `⋯` between factors is one `times` with all the
   factors: `(1-α)(2-α)⋯(n-α)` → `times((1-α), (2-α), (n-α))`.
 
+- For matrices and linear maps, `A^{-1}` is `inverse($a)` and `A^T` is
+  `transpose($a)` on the `msup`; numbers keep `power` (`3^{-2}`).
+- A tuple or basis written with parentheses, `(1, 1 + x, 1 + x + x^2)`, and
+  a list of definitions separated by commas or semicolons carry no intent.
 - A table between brackets or parentheses is a matrix: `:matrix` on the
   `mtable`. With a single column it is a column vector: `vector($vec)` on the
   bracketed group, with `arg="vec"` on the `mtable`. Between bars it is a

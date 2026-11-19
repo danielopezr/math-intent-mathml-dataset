@@ -2,7 +2,7 @@
     <mrow>
         <mrow>
             <munderover>
-                <mo>&#x2211;</mo>
+                <mo>∑</mo>
                 <mrow>
                     <mi>i</mi>
                     <mo>=</mo>
@@ -34,5 +34,6 @@
         </mrow>
         <mo>=</mo>
         <mn>0</mn>
+        <mo>.</mo>
     </mrow>
 </math>

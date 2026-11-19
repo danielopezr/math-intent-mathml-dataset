@@ -1,0 +1,35 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <msup intent="power($base,$exp)">
+            <mi arg="base">x</mi>
+            <mn arg="exp">2</mn>
+        </msup>
+        <mo>+</mo>
+        <mi>y</mi>
+        <mo>=</mo>
+        <msup intent="power($base,$exp)">
+            <mn arg="base">4</mn>
+            <mn arg="exp">2</mn>
+        </msup>
+        <mo>+</mo>
+        <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+        </mfrac>
+        <mo>=</mo>
+        <mn>16</mn>
+        <mo>+</mo>
+        <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+        </mfrac>
+        <mo>=</mo>
+        <mrow intent="mixed-fraction($int,$frac)">
+            <mn arg="int">16</mn>
+            <mfrac arg="frac">
+                <mn>1</mn>
+                <mn>2</mn>
+            </mfrac>
+        </mrow>
+    </mrow>
+</math>

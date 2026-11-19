@@ -1,0 +1,17 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow arg="arg1">
+                <mo stretchy="false">(</mo>
+                <mi>a</mi>
+                <mo>+</mo>
+                <mi>b</mi>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mi arg="arg2">c</mi>
+        </mrow>
+        <mo>−</mo>
+        <mi>d</mi>
+        <mo>.</mo>
+    </mrow>
+</math>

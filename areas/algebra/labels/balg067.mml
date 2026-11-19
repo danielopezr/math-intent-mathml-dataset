@@ -1,21 +1,21 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
-        <mrow intent="times($a, $b)">
-            <mrow arg="a">
-                <mo>−</mo>
-                <mfrac>
+        <mrow>
+            <mo>−</mo>
+            <mrow intent="times($a, $b)">
+                <mfrac arg="a">
                     <mn>5</mn>
                     <mn>6</mn>
                 </mfrac>
+                <msup arg="b" intent="power($base, $exp)">
+                    <mi arg="base">a</mi>
+                    <mrow arg="exp">
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mn>1</mn>
+                    </mrow>
+                </msup>
             </mrow>
-            <msup arg="b" intent="power($base, $exp)">
-                <mi arg="base">a</mi>
-                <mrow arg="exp">
-                    <mi>x</mi>
-                    <mo>+</mo>
-                    <mn>1</mn>
-                </mrow>
-            </msup>
         </mrow>
         <mo>+</mo>
         <mrow intent="times($a, $b)">
@@ -33,22 +33,23 @@
             </msup>
         </mrow>
         <mo>=</mo>
-        <mrow intent="times($a, $b)">
-            <mrow arg="a">
-                <mo>−</mo>
-                <mfrac>
+        <mrow>
+            <mo>−</mo>
+            <mrow intent="times($a, $b)">
+                <mfrac arg="a">
                     <mn>1</mn>
                     <mn>12</mn>
                 </mfrac>
+                <msup arg="b" intent="power($base, $exp)">
+                    <mi arg="base">a</mi>
+                    <mrow arg="exp">
+                        <mi>x</mi>
+                        <mo>+</mo>
+                        <mn>1</mn>
+                    </mrow>
+                </msup>
             </mrow>
-            <msup arg="b" intent="power($base, $exp)">
-                <mi arg="base">a</mi>
-                <mrow arg="exp">
-                    <mi>x</mi>
-                    <mo>+</mo>
-                    <mn>1</mn>
-                </mrow>
-            </msup>
         </mrow>
+        <mo>.</mo>
     </mrow>
 </math>

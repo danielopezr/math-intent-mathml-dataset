@@ -1,7 +1,7 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
     <mrow>
         <mo>=</mo>
-        <mo>&#xB1;</mo>
+        <mo>±</mo>
         <msqrt>
             <mfrac>
                 <msup intent="power($base, $exp)">
@@ -13,5 +13,6 @@
             <mo>−</mo>
             <mi>n</mi>
         </msqrt>
+        <mo>.</mo>
     </mrow>
 </math>

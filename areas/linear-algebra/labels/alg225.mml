@@ -1,0 +1,98 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mtable>
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">2</mn>
+                            <msub arg="arg2">
+                                <mi>x</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </mrow>
+                        <mo>−</mo>
+                        <msub>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msub>
+                        <mo>=</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mi arg="arg1">λ</mi>
+                            <msub arg="arg2">
+                                <mi>x</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </mrow>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">2</mn>
+                            <msub arg="arg2">
+                                <mi>x</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </mrow>
+                        <mo>−</mo>
+                        <msub>
+                            <mi>x</mi>
+                            <mn>2</mn>
+                        </msub>
+                        <mo>+</mo>
+                        <msub>
+                            <mi>x</mi>
+                            <mn>3</mn>
+                        </msub>
+                        <mo>=</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mi arg="arg1">λ</mi>
+                            <msub arg="arg2">
+                                <mi>x</mi>
+                                <mn>2</mn>
+                            </msub>
+                        </mrow>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">2</mn>
+                            <msub arg="arg2">
+                                <mi>x</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </mrow>
+                        <mo>+</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">2</mn>
+                            <msub arg="arg2">
+                                <mi>x</mi>
+                                <mn>2</mn>
+                            </msub>
+                        </mrow>
+                        <mo>+</mo>
+                        <msub>
+                            <mi>x</mi>
+                            <mn>3</mn>
+                        </msub>
+                        <mo>=</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mi arg="arg1">λ</mi>
+                            <msub arg="arg2">
+                                <mi>x</mi>
+                                <mn>3</mn>
+                            </msub>
+                        </mrow>
+                    </mrow>
+                </mtd>
+            </mtr>
+        </mtable>
+    </mrow>
+</math>

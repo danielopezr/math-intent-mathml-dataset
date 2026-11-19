@@ -13,7 +13,7 @@
             </mrow>
             <mi>a</mi>
         </mfrac>
-        <mo>&#xF7;</mo>
+        <mo>÷</mo>
         <mfrac>
             <mrow>
                 <msup intent="power($base, $exp)">
@@ -31,5 +31,6 @@
                 <mn arg="exp">2</mn>
             </msup>
         </mfrac>
+        <mo>.</mo>
     </mrow>
 </math>

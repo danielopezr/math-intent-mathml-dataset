@@ -2,17 +2,18 @@
     <mrow>
         <msup intent="power($base, $exp)">
             <mrow arg="base" intent="norm($vec)">
-                <mo>&#x2016;</mo>
+                <mo>‖</mo>
                 <mrow arg="vec">
                     <mi>s</mi>
                     <mo>−</mo>
                     <mi>t</mi>
                 </mrow>
-                <mo>&#x2016;</mo>
+                <mo>‖</mo>
             </mrow>
             <mn arg="exp">2</mn>
         </msup>
-        <mo>&#x2265;</mo>
+        <mo>≥</mo>
         <mn>0</mn>
+        <mo>,</mo>
     </mrow>
 </math>

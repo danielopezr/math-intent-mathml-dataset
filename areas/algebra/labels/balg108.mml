@@ -1,0 +1,27 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mrow intent="times($arg1,$arg2)">
+            <mrow arg="arg1">
+                <mo stretchy="false">(</mo>
+                <msup intent="power($base,$exp)">
+                    <mi arg="base">a</mi>
+                    <mn arg="exp">4</mn>
+                </msup>
+                <mo>+</mo>
+                <mn>8</mn>
+                <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow arg="arg2">
+                <mo stretchy="false">(</mo>
+                <msup intent="power($base,$exp)">
+                    <mi arg="base">a</mi>
+                    <mn arg="exp">4</mn>
+                </msup>
+                <mo>−</mo>
+                <mn>1</mn>
+                <mo stretchy="false">)</mo>
+            </mrow>
+        </mrow>
+        <mo>.</mo>
+    </mrow>
+</math>

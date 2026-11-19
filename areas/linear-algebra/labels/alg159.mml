@@ -1,0 +1,25 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mrow intent="norm($a)">
+            <mo fence="false" stretchy="false">‖</mo>
+            <mi arg="a">𝐮</mi>
+            <mo fence="false" stretchy="false">‖</mo>
+        </mrow>
+        <mo>=</mo>
+        <msqrt>
+            <mrow>
+                <msubsup intent="power(indexed-by($base,$sub),$exp)">
+                    <mi arg="base">u</mi>
+                    <mn arg="sub">1</mn>
+                    <mn arg="exp">2</mn>
+                </msubsup>
+                <mo>+</mo>
+                <msubsup intent="power(indexed-by($base,$sub),$exp)">
+                    <mi arg="base">u</mi>
+                    <mn arg="sub">2</mn>
+                    <mn arg="exp">2</mn>
+                </msubsup>
+            </mrow>
+        </msqrt>
+    </mrow>
+</math>

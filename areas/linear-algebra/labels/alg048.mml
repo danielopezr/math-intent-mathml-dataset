@@ -1,7 +1,7 @@
 <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <mrow intent="set($members)">
+    <mrow>
         <mo>(</mo>
-        <mrow arg="members">
+        <mrow>
             <mn>1</mn>
             <mo>,</mo>
             <mspace width="0.5em"/>

@@ -8,7 +8,7 @@
                         <mo>(</mo>
                         <mrow arg="mat">
                             <mrow intent="times($a, $b)">
-                                <mi arg="a">&#x1D706;</mi>
+                                <mi arg="a">𝜆</mi>
                                 <mi arg="b" intent="identity-matrix">I</mi>
                             </mrow>
                             <mo>−</mo>
@@ -22,7 +22,7 @@
                         <mtable arg="mat" intent=":matrix" columnspacing="0.5em">
                             <mtr>
                                 <mtd>
-                                    <mi>&#x1D706;</mi>
+                                    <mi>𝜆</mi>
                                     <mo>−</mo>
                                     <msub>
                                         <mi>a</mi>
@@ -55,7 +55,7 @@
                                     </msub>
                                 </mtd>
                                 <mtd>
-                                    <mi>&#x1D706;</mi>
+                                    <mi>𝜆</mi>
                                     <mo>−</mo>
                                     <msub>
                                         <mi>a</mi>
@@ -77,7 +77,7 @@
                     <mrow intent="times($a, $b)">
                         <mrow arg="a">
                             <mo>(</mo>
-                            <mi>&#x1D706;</mi>
+                            <mi>𝜆</mi>
                             <mo>−</mo>
                             <msub>
                                 <mi>a</mi>
@@ -90,7 +90,7 @@
                         </mrow>
                         <mrow arg="b">
                             <mo>(</mo>
-                            <mi>&#x1D706;</mi>
+                            <mi>𝜆</mi>
                             <mo>−</mo>
                             <msub>
                                 <mi>a</mi>
@@ -128,7 +128,7 @@
                 </mtd>
                 <mtd>
                     <msup intent="power($base, $exp)">
-                        <mi arg="base">&#x1D706;</mi>
+                        <mi arg="base">𝜆</mi>
                         <mn arg="exp">2</mn>
                     </msup>
                     <mo>−</mo>
@@ -152,7 +152,7 @@
                             </msub>
                             <mo>)</mo>
                         </mrow>
-                        <mi arg="b">&#x1D706;</mi>
+                        <mi arg="b">𝜆</mi>
                     </mrow>
                     <mo>+</mo>
                     <mrow intent="minus($x, $y)">
@@ -195,5 +195,6 @@
                 </mtd>
             </mtr>
         </mtable>
+        <mo>,</mo>
     </mrow>
 </math>

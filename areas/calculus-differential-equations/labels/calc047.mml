@@ -47,7 +47,7 @@
             </msup>
             <mrow arg="c">
                 <munderover>
-                    <mo>&#x2211;</mo>
+                    <mo>∑</mo>
                     <mrow>
                         <mi>n</mi>
                         <mo>=</mo>
@@ -114,19 +114,19 @@
             </msup>
             <mrow arg="c">
                 <munderover>
-                    <mo>&#x2211;</mo>
+                    <mo>∑</mo>
                     <mrow>
                         <mi>n</mi>
                         <mo>=</mo>
                         <mn>0</mn>
                     </mrow>
-                    <mi>&#x221E;</mi>
+                    <mi>∞</mi>
                 </munderover>
                 <mrow intent="times($x, $y, $z)">
                     <msup arg="x" intent="power($base, $exp)">
                         <mrow arg="base">
                             <mo>(</mo>
-                            <mrow arg="base">
+                            <mrow>
                                 <mo>−</mo>
                                 <mn>1</mn>
                             </mrow>

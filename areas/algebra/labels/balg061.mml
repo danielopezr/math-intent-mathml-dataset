@@ -28,15 +28,13 @@
             </msup>
         </mrow>
         <mo>−</mo>
-        <mrow intent="times($a, $b)">
-            <mfrac arg="a">
+        <mrow intent="times($arg1,$arg2,$arg3)">
+            <mfrac arg="arg1">
                 <mn>1</mn>
                 <mn>3</mn>
             </mfrac>
-            <mrow arg="b" intent="times($arg1,$arg2)">
-                <mi arg="arg1">m</mi>
-                <mi arg="arg2">n</mi>
-            </mrow>
+            <mi arg="arg2">m</mi>
+            <mi arg="arg3">n</mi>
         </mrow>
         <mo>+</mo>
         <mrow intent="times($arg1,$arg2,$arg3)">
@@ -52,5 +50,6 @@
                 <mn arg="exp">2</mn>
             </msup>
         </mrow>
+        <mo>.</mo>
     </mrow>
 </math>

@@ -1,0 +1,64 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mo stretchy="false">[</mo>
+        <msup intent="inverse($base)">
+            <mi arg="base">T</mi>
+            <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+            </mrow>
+        </msup>
+        <mo stretchy="false">]</mo>
+        <mo>=</mo>
+        <msup intent="inverse($base)">
+            <mrow arg="base">
+                <mo stretchy="false">[</mo>
+                <mi>T</mi>
+                <mo stretchy="false">]</mo>
+            </mrow>
+            <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+            </mrow>
+        </msup>
+        <mo>=</mo>
+        <mo>[</mo>
+        <mtable intent=":matrix">
+            <mtr>
+                <mtd>
+                    <mfrac>
+                        <mn>4</mn>
+                        <mn>5</mn>
+                    </mfrac>
+                </mtd>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mfrac>
+                            <mn>1</mn>
+                            <mn>5</mn>
+                        </mfrac>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mo>−</mo>
+                        <mfrac>
+                            <mn>3</mn>
+                            <mn>5</mn>
+                        </mfrac>
+                    </mrow>
+                </mtd>
+                <mtd>
+                    <mfrac>
+                        <mn>2</mn>
+                        <mn>5</mn>
+                    </mfrac>
+                </mtd>
+            </mtr>
+        </mtable>
+        <mo>]</mo>
+    </mrow>
+</math>

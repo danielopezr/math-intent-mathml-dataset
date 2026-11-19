@@ -1,0 +1,42 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mtable>
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">2</mn>
+                            <mi arg="arg2">y</mi>
+                        </mrow>
+                        <mo>−</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">7</mn>
+                            <mi arg="arg2">z</mi>
+                        </mrow>
+                        <mo>=</mo>
+                        <mo>−</mo>
+                        <mn>17</mn>
+                    </mrow>
+                </mtd>
+            </mtr>
+            <mtr>
+                <mtd>
+                    <mrow>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">3</mn>
+                            <mi arg="arg2">y</mi>
+                        </mrow>
+                        <mo>−</mo>
+                        <mrow intent="times($arg1,$arg2)">
+                            <mn arg="arg1">11</mn>
+                            <mi arg="arg2">z</mi>
+                        </mrow>
+                        <mo>=</mo>
+                        <mo>−</mo>
+                        <mn>27</mn>
+                    </mrow>
+                </mtd>
+            </mtr>
+        </mtable>
+    </mrow>
+</math>

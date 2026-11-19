@@ -6,7 +6,7 @@
                 <mo>(</mo>
                 <mrow arg="var">
                     <mi>A</mi>
-                    <mo>&#xD7;</mo>
+                    <mo>×</mo>
                     <mi>B</mi>
                 </mrow>
                 <mo>)</mo>
@@ -22,5 +22,6 @@
             <mi>log</mi>
             <mi arg="var">B</mi>
         </mrow>
+        <mo>.</mo>
     </mrow>
 </math>

@@ -1,0 +1,14 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mi>𝐮</mi>
+        <mo>·</mo>
+        <mo stretchy="false">(</mo>
+        <mi>𝐯</mi>
+        <mo>×</mo>
+        <mi>𝐰</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <mn>0</mn>
+        <mo>.</mo>
+    </mrow>
+</math>

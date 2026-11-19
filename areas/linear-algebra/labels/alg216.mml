@@ -1,0 +1,26 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mtext>d)</mtext>
+        <mi>x</mi>
+        <mo>=</mo>
+        <mrow intent="vector($vec)">
+            <mo>(</mo>
+            <mtable arg="vec">
+                <mtr>
+                    <mtd>
+                        <mn>2</mn>
+                    </mtd>
+                </mtr>
+                <mtr>
+                    <mtd>
+                        <mrow>
+                            <mo>−</mo>
+                            <mn>2</mn>
+                        </mrow>
+                    </mtd>
+                </mtr>
+            </mtable>
+            <mo>)</mo>
+        </mrow>
+    </mrow>
+</math>

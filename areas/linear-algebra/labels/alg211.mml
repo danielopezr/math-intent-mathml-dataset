@@ -1,0 +1,63 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mtext>c)</mtext>
+        <msub>
+            <mi>a</mi>
+            <mrow>
+                <mi>i</mi>
+                <mi>j</mi>
+            </mrow>
+        </msub>
+        <mo>=</mo>
+        <mrow>
+            <mo stretchy="true" fence="true" form="prefix">{</mo>
+            <mtable>
+                <mtr>
+                    <mtd columnalign="left">
+                        <mn>1</mn>
+                    </mtd>
+                    <mtd columnalign="left">
+                        <mrow>
+                            <mtext>si</mtext>
+                            <mrow intent="absolute-value($a)">
+                                <mo stretchy="false">|</mo>
+                                <mrow arg="a">
+                                    <mi>i</mi>
+                                    <mo>−</mo>
+                                    <mi>j</mi>
+                                </mrow>
+                                <mo stretchy="false">|</mo>
+                            </mrow>
+                            <mo>&gt;</mo>
+                            <mn>1</mn>
+                        </mrow>
+                    </mtd>
+                </mtr>
+                <mtr>
+                    <mtd columnalign="left">
+                        <mrow>
+                            <mo>−</mo>
+                            <mn>1</mn>
+                        </mrow>
+                    </mtd>
+                    <mtd columnalign="left">
+                        <mrow>
+                            <mtext>si</mtext>
+                            <mrow intent="absolute-value($a)">
+                                <mo stretchy="false">|</mo>
+                                <mrow arg="a">
+                                    <mi>i</mi>
+                                    <mo>−</mo>
+                                    <mi>j</mi>
+                                </mrow>
+                                <mo stretchy="false">|</mo>
+                            </mrow>
+                            <mo>≤</mo>
+                            <mn>1</mn>
+                        </mrow>
+                    </mtd>
+                </mtr>
+            </mtable>
+        </mrow>
+    </mrow>
+</math>

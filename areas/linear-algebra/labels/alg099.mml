@@ -1,0 +1,73 @@
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+    <mrow>
+        <mrow intent="$name($v1, $v2)">
+            <msup arg="name">
+                <mi>T</mi>
+                <mrow>
+                    <mo>−</mo>
+                    <mn>1</mn>
+                </mrow>
+            </msup>
+            <mo stretchy="false">(</mo>
+            <msub arg="v1">
+                <mi>w</mi>
+                <mn>1</mn>
+            </msub>
+            <mo>,</mo>
+            <msub arg="v2">
+                <mi>w</mi>
+                <mn>2</mn>
+            </msub>
+            <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mrow>
+            <mo stretchy="true" fence="true" form="prefix">(</mo>
+            <mrow intent="times($arg1,$arg2)">
+                <mfrac arg="arg1">
+                    <mn>4</mn>
+                    <mn>5</mn>
+                </mfrac>
+                <msub arg="arg2">
+                    <mi>w</mi>
+                    <mn>1</mn>
+                </msub>
+            </mrow>
+            <mo>−</mo>
+            <mrow intent="times($arg1,$arg2)">
+                <mfrac arg="arg1">
+                    <mn>1</mn>
+                    <mn>5</mn>
+                </mfrac>
+                <msub arg="arg2">
+                    <mi>w</mi>
+                    <mn>2</mn>
+                </msub>
+            </mrow>
+            <mo>,</mo>
+            <mo>−</mo>
+            <mrow intent="times($arg1,$arg2)">
+                <mfrac arg="arg1">
+                    <mn>3</mn>
+                    <mn>5</mn>
+                </mfrac>
+                <msub arg="arg2">
+                    <mi>w</mi>
+                    <mn>1</mn>
+                </msub>
+            </mrow>
+            <mo>+</mo>
+            <mrow intent="times($arg1,$arg2)">
+                <mfrac arg="arg1">
+                    <mn>2</mn>
+                    <mn>5</mn>
+                </mfrac>
+                <msub arg="arg2">
+                    <mi>w</mi>
+                    <mn>2</mn>
+                </msub>
+            </mrow>
+            <mo stretchy="true" fence="true" form="postfix">)</mo>
+        </mrow>
+    </mrow>
+</math>
