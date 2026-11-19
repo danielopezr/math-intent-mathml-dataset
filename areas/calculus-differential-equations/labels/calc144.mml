@@ -35,8 +35,10 @@
                     <mo>∂</mo>
                     <mrow arg="f">
                         <mo stretchy="false">(</mo>
-                        <mi>sen</mi>
-                        <mi>θ</mi>
+                        <mrow intent="sine($arg)">
+                            <mi>sen</mi>
+                            <mi arg="arg">θ</mi>
+                        </mrow>
                         <mo stretchy="false">)</mo>
                     </mrow>
                 </mrow>
@@ -95,8 +97,10 @@
                     <mo>∂</mo>
                     <mrow arg="f">
                         <mo stretchy="false">(</mo>
-                        <mi>cos</mi>
-                        <mi>θ</mi>
+                        <mrow intent="cosine($arg)">
+                            <mi>cos</mi>
+                            <mi arg="arg">θ</mi>
+                        </mrow>
                         <mo stretchy="false">)</mo>
                     </mrow>
                 </mrow>

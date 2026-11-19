@@ -110,9 +110,13 @@
             <mrow arg="arg2">
                 <mo stretchy="false">(</mo>
                 <mo>−</mo>
-                <mi>r</mi>
-                <mi>sen</mi>
-                <mi>θ</mi>
+                <mrow intent="times($arg1,$arg2)">
+                    <mi arg="arg1">r</mi>
+                    <mrow intent="sine($arg)" arg="arg2">
+                        <mi>sen</mi>
+                        <mi arg="arg">θ</mi>
+                    </mrow>
+                </mrow>
                 <mo stretchy="false">)</mo>
             </mrow>
         </mrow>
@@ -135,9 +139,13 @@
             </mfrac>
             <mrow arg="arg2">
                 <mo stretchy="false">(</mo>
-                <mi>r</mi>
-                <mi>cos</mi>
-                <mi>θ</mi>
+                <mrow intent="times($arg1,$arg2)">
+                    <mi arg="arg1">r</mi>
+                    <mrow intent="cosine($arg)" arg="arg2">
+                        <mi>cos</mi>
+                        <mi arg="arg">θ</mi>
+                    </mrow>
+                </mrow>
                 <mo stretchy="false">)</mo>
             </mrow>
         </mrow>
